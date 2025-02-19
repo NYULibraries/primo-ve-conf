@@ -437,6 +437,9 @@
           "items" : "description",
           "displayInViewer" : true
         }, {
+          "items" : "language",
+          "displayInViewer" : true
+        }, {
           "items" : "unititle",
           "displayInViewer" : true
         }, {
@@ -516,6 +519,9 @@
           "displayInViewer" : true
         }, {
           "items" : "description",
+          "displayInViewer" : true
+        }, {
+          "items" : "language",
           "displayInViewer" : true
         }, {
           "items" : "unititle",

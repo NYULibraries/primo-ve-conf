@@ -425,6 +425,9 @@
           "items" : "contents",
           "displayInViewer" : true
         }, {
+          "items" : "language",
+          "displayInViewer" : true
+        }, {
           "items" : "addtitle",
           "displayInViewer" : true
         }, {
@@ -504,6 +507,9 @@
           "displayInViewer" : true
         }, {
           "items" : "contents",
+          "displayInViewer" : true
+        }, {
+          "items" : "language",
           "displayInViewer" : true
         }, {
           "items" : "addtitle",
