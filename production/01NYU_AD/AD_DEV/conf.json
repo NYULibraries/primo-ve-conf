@@ -1496,10 +1496,6 @@
       "source1" : "01NYU_AD:AD_NP",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_AD:AD_NP",
-      "source2" : "enable_saveEshelf_message"
-    }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD_NP",
       "source2" : "enable_recent_scopes"
@@ -1511,6 +1507,10 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD_NP",
       "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_NP",
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD_NP",

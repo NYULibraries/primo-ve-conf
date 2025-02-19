@@ -4087,10 +4087,6 @@
       "source2" : "rush_request"
     } ],
     "Location Item content" : [ {
-      "target" : "5",
-      "source1" : "default",
-      "source2" : "item.brief.number_of_items"
-    }, {
       "target" : "callnumber2",
       "source1" : "default",
       "source2" : "item.global.dataitem.1"
@@ -4102,6 +4098,10 @@
       "target" : "itemmaterial",
       "source1" : "default",
       "source2" : "item.global.dataitem.3"
+    }, {
+      "target" : "5",
+      "source1" : "default",
+      "source2" : "item.brief.number_of_items"
     }, {
       "target" : "mainlocationname secondarylocationname callnumber",
       "source1" : "default",
