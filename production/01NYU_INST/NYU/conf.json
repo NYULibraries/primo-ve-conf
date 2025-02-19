@@ -19,8 +19,8 @@
     },
     "pc-availability-tab-scopes-map" : {
       "Unified_Slot" : {
-        "CI_NYU_CONSORTIA" : "AVAILABLE_ONLY",
-        "ARTICLES" : "AVAILABLE_ONLY"
+        "ARTICLES" : "AVAILABLE_ONLY",
+        "DN_and_CI" : "AVAILABLE_ONLY"
       }
     },
     "view-org-level" : {
@@ -50,12 +50,12 @@
       "citationTrailsEnabled" : true,
       "citationTrailsFilterByAvailability" : true,
       "selectedFacetLocation" : "left",
-      "personalizationEnabled" : false,
+      "personalizationEnabled" : true,
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
       "collectionDiscoveryEnabled" : true,
-      "displayNewspapersLink" : false,
-      "displayFeaturedNewspapers" : false,
+      "displayNewspapersLink" : true,
+      "displayFeaturedNewspapers" : true,
       "refEntryActive" : true,
       "relatedItemsActive" : true,
       "legantoURLTemplate" : "",
@@ -69,23 +69,23 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
-      "CI_NYU_CONSORTIA" : true,
       "NYUBAFC" : true,
       "jsearch_scope" : false,
+      "DiscoveryNetwork" : true,
       "ARTICLES" : true,
       "NYUSC" : true,
       "NYU_Reserves" : true,
-      "NYU_CONSORTIA" : true
+      "DN_and_CI" : true
     },
     "scopes" : [ {
-      "scope-id" : "CI_NYU_CONSORTIA",
-      "locations" : "primo_central_multiple_fe,Local",
-      "types" : "adaptor,local",
+      "scope-id" : "DN_and_CI",
+      "locations" : "Local,primo_central_multiple_fe",
+      "types" : "local,adaptor",
       "tab" : "Unified_Slot",
       "tab-id-for-scope-matching" : "Unified_Slot",
       "contains-central-index-scope" : true
     }, {
-      "scope-id" : "NYU_CONSORTIA",
+      "scope-id" : "DiscoveryNetwork",
       "locations" : "Local",
       "types" : "local",
       "tab" : "Unified_Slot",
@@ -122,8 +122,8 @@
     } ],
     "cdi-ft-search-tab-scopes-map" : {
       "Unified_Slot" : {
-        "CI_NYU_CONSORTIA" : "no-always",
-        "ARTICLES" : "no-enduser-selection"
+        "ARTICLES" : "no-enduser-selection",
+        "DN_and_CI" : "no-always"
       }
     },
     "timeout" : {
@@ -474,9 +474,6 @@
         }, {
           "items" : "boundwith",
           "displayInViewer" : true
-        }, {
-          "items" : "lds62",
-          "displayInViewer" : true
         } ],
         "id" : "01NYU_INST:NYU.ResultFullTileInterface.Unified_Slot"
       },
@@ -545,9 +542,6 @@
           "displayInViewer" : true
         }, {
           "items" : "boundwith",
-          "displayInViewer" : true
-        }, {
-          "items" : "lds62",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_INST:NYU.ResultFullTileInterface.jsearch_slot"
@@ -1604,42 +1598,6 @@
     } ],
     "View Properties" : [ {
       "target" : "true",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_recent_scopes"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_qr"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "use_classic_email_template"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "display_CDI_secondary_RT"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_INST:NYULIBTEST",
       "source2" : "enable_qr"
     }, {
@@ -1705,6 +1663,46 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_GEN",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
@@ -2098,50 +2096,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:TESTWS01",
       "source2" : "display_CDI_secondary_RT"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "enable_qr"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "enable_recent_scopes"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "use_classic_email_template"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "display_CDI_secondary_RT"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_highlight_the_record_you_came_from"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -3089,20 +3043,19 @@
       "source3" : "0"
     }, {
       "target" : "default",
-      "source1" : "Permalink",
+      "source1" : "BibTeXPushTo",
       "source2" : "1"
     }, {
       "target" : "default",
-      "source1" : "Print",
+      "source1" : "RISPushTo",
       "source2" : "2"
     }, {
       "target" : "default",
-      "source1" : "E-mail",
-      "source2" : "3",
-      "source3" : "3"
+      "source1" : "EasyBib",
+      "source2" : "3"
     }, {
       "target" : "default",
-      "source1" : "Citation",
+      "source1" : "RefWorks",
       "source2" : "4"
     }, {
       "target" : "default",
@@ -3110,19 +3063,20 @@
       "source2" : "5"
     }, {
       "target" : "default",
-      "source1" : "RefWorks",
-      "source2" : "6"
+      "source1" : "E-mail",
+      "source2" : "6",
+      "source3" : "6"
     }, {
       "target" : "default",
-      "source1" : "RISPushTo",
+      "source1" : "Print",
       "source2" : "7"
     }, {
       "target" : "default",
-      "source1" : "BibTeXPushTo",
+      "source1" : "Citation",
       "source2" : "8"
     }, {
       "target" : "default",
-      "source1" : "Excel",
+      "source1" : "Permalink",
       "source2" : "9"
     } ],
     "Recent Searches Configuration" : [ {
@@ -4454,13 +4408,13 @@
     "silent-login-enabled" : "false"
   } ],
   "scopes-context-map" : {
-    "CI_NYU_CONSORTIA" : "B",
     "NYUBAFC" : "L",
     "jsearch_scope" : "L",
+    "DiscoveryNetwork" : "L",
     "ARTICLES" : "C",
     "NYUSC" : "L",
     "NYU_Reserves" : "L",
-    "NYU_CONSORTIA" : "L"
+    "DN_and_CI" : "B"
   },
   "backend_system" : "suprima",
   "customization" : {
@@ -4640,7 +4594,7 @@
   },
   "searchWithinJournalConfig" : {
     "tab" : "Unified_Slot",
-    "scope" : "CI_NYU_CONSORTIA"
+    "scope" : "DN_and_CI"
   },
   "journal_tab" : "jsearch_slot",
   "institution-base-url" : "ALMA_OPENURL",

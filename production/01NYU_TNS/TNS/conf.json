@@ -2386,7 +2386,7 @@
       "source4" : "9",
       "source5" : "No"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "both",
       "source2" : "oclcNumber",
       "source3" : "book",
@@ -2552,7 +2552,7 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "fulnet",
       "source2" : "preferredLocalPickupLocation",
       "source3" : "delivery",
@@ -2560,7 +2560,7 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "both",
       "source2" : "notNeedAfter",
       "source3" : "delivery",
@@ -2615,14 +2615,14 @@
       "source4" : "10",
       "source5" : "No"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "both",
       "source2" : "pmid",
       "source3" : "article",
       "source4" : "11",
       "source5" : "No"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "both",
       "source2" : "pmidAutoFill",
       "source3" : "article",
@@ -2712,7 +2712,7 @@
       "source3" : "delivery",
       "source4" : "1",
       "source5" : "No",
-      "source6" : "Null"
+      "source6" : "DIGITAL"
     } ],
     "Featured newspapers" : [ {
       "target" : "0362-4331;2574-9579;0734-7456;0458-3035;2641-9599",
@@ -2729,25 +2729,11 @@
       "source4" : "2",
       "source5" : "1"
     }, {
-      "target" : "0017-789X",
+      "target" : "0028-6583",
       "source1" : "default",
-      "source2" : "FASH",
-      "source3" : "Harper's Magazine",
+      "source2" : "POL",
+      "source3" : "New Republic",
       "source4" : "3",
-      "source5" : "1"
-    }, {
-      "target" : "1059-1028;1099-274X;0016-3317;",
-      "source1" : "default",
-      "source2" : "TECH",
-      "source3" : "Wired, MIT Technology Review,Futurist",
-      "source4" : "4",
-      "source5" : "1"
-    }, {
-      "target" : "0004-3273;1745-9303;1086-7058;0049-3910;0142-6702",
-      "source1" : "default",
-      "source2" : "ART",
-      "source3" : "Artnews, ArtReview, Artforum, Time Out, Art Monthly",
-      "source4" : "5",
       "source5" : "1"
     } ],
     "Controlled Digital Lending Request Detailed Display" : [ {
@@ -3071,9 +3057,6 @@
       "target" : "WhatsApp",
       "source1" : "1"
     }, {
-      "target" : "Twitter",
-      "source1" : "3"
-    }, {
       "target" : "LinkedIn",
       "source1" : "4"
     } ],
@@ -3196,8 +3179,7 @@
     }, {
       "target" : "default",
       "source1" : "Permalink",
-      "source2" : "2",
-      "source3" : "2"
+      "source2" : "2"
     }, {
       "target" : "default",
       "source1" : "RefWorks",
@@ -3205,12 +3187,24 @@
       "source3" : "3"
     }, {
       "target" : "default",
-      "source1" : "Citation",
+      "source1" : "Leganto",
       "source2" : "4"
     }, {
       "target" : "default",
-      "source1" : "Excel",
+      "source1" : "Citation",
       "source2" : "5"
+    }, {
+      "target" : "default",
+      "source1" : "QR",
+      "source2" : "6"
+    }, {
+      "target" : "default",
+      "source1" : "Share",
+      "source2" : "7"
+    }, {
+      "target" : "default",
+      "source1" : "EndNote",
+      "source2" : "8"
     } ],
     "Recent Searches Configuration" : [ {
       "target" : "01NYU_TNS",
@@ -4534,7 +4528,7 @@
   "authentication" : [ {
     "profile-name" : "SAML",
     "authentication-system" : "SAML",
-    "silent-login-enabled" : "false"
+    "silent-login-enabled" : "true"
   }, {
     "profile-name" : "Alma",
     "authentication-system" : "ALMA",
