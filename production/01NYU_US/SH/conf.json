@@ -19,6 +19,7 @@
     },
     "pc-availability-tab-scopes-map" : {
       "default_slot" : {
+        "CI_articles" : "AVAILABLE_ONLY",
         "CI_NYUSH_NYU" : "AVAILABLE_ONLY"
       }
     },
@@ -69,6 +70,7 @@
     },
     "auto-complete-enabled-map" : {
       "NYUSH_NYU" : true,
+      "CI_articles" : true,
       "jsearch_scope" : false,
       "NYUSH" : true,
       "CI_NYUSH_NYU" : true
@@ -77,6 +79,13 @@
       "scope-id" : "CI_NYUSH_NYU",
       "locations" : "primo_central_multiple_fe,Local",
       "types" : "adaptor,local",
+      "tab" : "default_slot",
+      "tab-id-for-scope-matching" : "default_slot",
+      "contains-central-index-scope" : true
+    }, {
+      "scope-id" : "CI_articles",
+      "locations" : "primo_central_multiple_fe",
+      "types" : "adaptor",
       "tab" : "default_slot",
       "tab-id-for-scope-matching" : "default_slot",
       "contains-central-index-scope" : true
@@ -97,6 +106,7 @@
     } ],
     "cdi-ft-search-tab-scopes-map" : {
       "default_slot" : {
+        "CI_articles" : "no-always",
         "CI_NYUSH_NYU" : "no-always"
       }
     },
@@ -3908,6 +3918,7 @@
   } ],
   "scopes-context-map" : {
     "NYUSH_NYU" : "L",
+    "CI_articles" : "C",
     "jsearch_scope" : "L",
     "NYUSH" : "L",
     "CI_NYUSH_NYU" : "B"

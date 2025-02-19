@@ -79,8 +79,8 @@
     },
     "scopes" : [ {
       "scope-id" : "DN_and_CI",
-      "locations" : "Local,primo_central_multiple_fe",
-      "types" : "local,adaptor",
+      "locations" : "primo_central_multiple_fe,Local",
+      "types" : "adaptor,local",
       "tab" : "Unified_Slot",
       "tab-id-for-scope-matching" : "Unified_Slot",
       "contains-central-index-scope" : true

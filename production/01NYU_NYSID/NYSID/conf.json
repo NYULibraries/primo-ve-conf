@@ -2438,6 +2438,50 @@
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_NYSID:01NYU_NYSID",
       "source2" : "focus_on_search_input"
     }, {
@@ -4775,7 +4819,9 @@
   "customization" : {
     "viewCss" : "custom/01NYU_NYSID-NYSID/css/custom1.css",
     "viewJs" : "custom/01NYU_NYSID-NYSID/js/custom.js",
+    "favIcon" : "custom/01NYU_NYSID-NYSID/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_NYSID-NYSID.png",
+    "libraryLogoClickableURL" : "http://library.nysid.edu/library",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
     "staticHtml" : {
