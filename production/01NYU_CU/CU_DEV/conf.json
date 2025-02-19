@@ -4485,7 +4485,7 @@
     } ]
   },
   "authentication" : [ {
-    "profile-name" : "Azure",
+    "profile-name" : "Azure_Primo",
     "authentication-system" : "SAML",
     "silent-login-enabled" : "false"
   }, {

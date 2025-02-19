@@ -418,9 +418,6 @@
           "items" : "format",
           "displayInViewer" : true
         }, {
-          "items" : "ispartof",
-          "displayInViewer" : true
-        }, {
           "items" : "dissertation",
           "displayInViewer" : true
         }, {
@@ -491,9 +488,6 @@
           "displayInViewer" : true
         }, {
           "items" : "format",
-          "displayInViewer" : true
-        }, {
-          "items" : "ispartof",
           "displayInViewer" : true
         }, {
           "items" : "dissertation",
