@@ -1546,14 +1546,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
-      "source2" : "enable_qr"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
-      "source2" : "enable_recent_scopes"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
@@ -1583,6 +1575,14 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
+      "source2" : "enable_qr"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
