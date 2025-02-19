@@ -1276,17 +1276,6 @@ prm-snippet, .item-detail.reduce-lines-display {
   color: #e42a1d;
 }
 
-#ill-request-link {
-  color: #191919;
-  border-bottom: 1px solid #191919;
-}
-
-#ill-request-link:hover, #ill-request-link:focus {
-  background-color: transparent;
-  color: #e42a1d;
-  border-bottom: 1px solid #e42a1d;
-}
-
 /* ITEM RECORD */
 
 .word-break a.arrow-link:hover span {
@@ -1401,17 +1390,8 @@ opacity-and-scale.md-no-proxy._md.pointer:hover {
 }
 
 .md-button.button-link.link-alt-color {
-  color: #ffffff;
-  border: 2px solid #767676;
-  background-color: #767676;
-  border-radius: 0;
-  font-family: "neue", "Arial", Helvetica, sans-serif;
-  font-size: 13px;
-  transition: border-color .18s ease-in-out, background-color .18s ease-in-out;
-}
-
-.md-button.button-link.link-alt-color span.bold-text {
-  font-weight: 900 !important;
+  color: #191919;
+  border: 1px solid #f3f3f3;
 }
 
 md-dialog.light-on-dark-dialog a {
@@ -1431,9 +1411,7 @@ md-dialog.light-on-dark-dialog a {
 
 .md-button.button-link.link-alt-color:hover:not([disabled]) {
   background-color: #191919;
-  border: 2px solid #191919;
-  color:#ffffff;
-  transition: border-color .18s ease-in-out, background-color .18s ease-in-out;
+  transition: color .18s ease-in-out, background-color .18s ease-in-out;
 }
 
 prm-service-details .arrow-link.md-primoExplore-theme {
@@ -1472,12 +1450,6 @@ md-list-item.md-3-line.in-element-dialog-parent.animate-opacity-and-scale.md-no-
   -webkit-box-ordinal-group: 9 !important;
           order: 8 !important; 
           display:none;}
-
-prm-rapido-no-offer-message .main_tile {
-  background-color: #f2f2f2;
-  font-family: "neue", "Arial", Helvetica, sans-serif;
-  box-shadow: none;
-}
 
 /* JOURNAL SEARCH */
 
@@ -1748,4 +1720,15 @@ md-list-item.md-no-proxy._md:has([aria-label="EZBorrow"]) {
   display:none;
 }
 
-.md-button:has([aria-label="EZBorrow"]) {display:none;}
+[aria-label='EZBorrow'] {display:none;}
+
+.offer_detail {visibility: hidden;}
+
+.delivered_in {display:none;}
+
+div.request-form-message > prm-icon {display:none;}
+
+.notice {
+    background-color: #E82E21 !important;
+    color:white !important
+}
