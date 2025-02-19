@@ -64,11 +64,11 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
-      "jsearch_scope" : false,
-      "MyInstitution" : true
+      "NYHS_MAIN" : true,
+      "jsearch_scope" : false
     },
     "scopes" : [ {
-      "scope-id" : "MyInstitution",
+      "scope-id" : "NYHS_MAIN",
       "locations" : "Local",
       "types" : "local",
       "tab" : "unified_slot",
@@ -3817,8 +3817,8 @@
     "silent-login-enabled" : "false"
   } ],
   "scopes-context-map" : {
-    "jsearch_scope" : "L",
-    "MyInstitution" : "L"
+    "NYHS_MAIN" : "L",
+    "jsearch_scope" : "L"
   },
   "backend_system" : "suprima",
   "customization" : {
