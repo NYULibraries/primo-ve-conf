@@ -49,13 +49,13 @@
       "citationTrailsEnabled" : true,
       "citationTrailsFilterByAvailability" : true,
       "selectedFacetLocation" : "left",
-      "personalizationEnabled" : true,
+      "personalizationEnabled" : false,
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
       "collectionDiscoveryEnabled" : true,
-      "displayNewspapersLink" : true,
-      "displayFeaturedNewspapers" : true,
-      "refEntryActive" : false,
+      "displayNewspapersLink" : false,
+      "displayFeaturedNewspapers" : false,
+      "refEntryActive" : true,
       "relatedItemsActive" : true,
       "legantoURLTemplate" : "",
       "multilingualConfigurationEnabled" : false,
@@ -68,10 +68,10 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
-      "NYUSH_NYU" : false,
+      "NYUSH_NYU" : true,
       "jsearch_scope" : false,
-      "NYUSH" : false,
-      "CI_NYUSH_NYU" : false
+      "NYUSH" : true,
+      "CI_NYUSH_NYU" : true
     },
     "scopes" : [ {
       "scope-id" : "CI_NYUSH_NYU",
@@ -284,19 +284,23 @@
           "label" : "LibrarySearch",
           "target" : "_self"
         }, {
-          "url" : "http://guides.nyu.edu/arch",
-          "label" : "Articles&Databases"
+          "url" : "citationlinker",
+          "label" : "citationlinker",
+          "target" : "_self"
         }, {
-          "url" : "https://ares.library.nyu.edu",
-          "label" : "CourseReserves"
-        }, {
-          "url" : "/discovery/npsearch?vid=01NYU_US:SH_DEV",
-          "label" : "NewspaperSearch",
+          "url" : "jsearch",
+          "label" : "JournalSearch",
           "target" : "_self"
         }, {
           "url" : "bsearch",
           "label" : "BrowseSearch",
           "target" : "_self"
+        }, {
+          "url" : "http://guides.nyu.edu/arch",
+          "label" : "Articles&Databases"
+        }, {
+          "url" : "https://ares.library.nyu.edu",
+          "label" : "CourseReserves"
         } ],
         "id" : "01NYU_US:SH_DEV.MainMenuTileInterface"
       }
@@ -636,7 +640,7 @@
     "Session Timeout" : "30",
     "Auto_Complete_Server_URL" : "https://primo-instant-na.hosted.exlibrisgroup.com",
     "FE UI - Scrolling Threshold" : "10",
-    "Auto_Complete_Feature_Enabled" : "false",
+    "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
     "manualAlternativeEmailRS" : false,
     "showICPLicenseFooter" : "false",
@@ -1527,11 +1531,11 @@
       "source1" : "01NYU_US:SH",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
-      "source2" : "enable_highlight_the_record_you_came_from"
+      "source2" : "display_CDI_secondary_RT"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "enable_barcode_search"
     }, {
@@ -1545,6 +1549,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
       "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
@@ -1555,17 +1563,13 @@
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_US:SH_DEV",
-      "source2" : "display_CDI_secondary_RT"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
@@ -3886,6 +3890,7 @@
     "viewJs" : "custom/01NYU_US-SH_DEV/js/custom.js",
     "favIcon" : "custom/01NYU_US-SH_DEV/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_US-SH_DEV.png",
+    "libraryLogoClickableURL" : "https://library.shanghai.nyu.edu/",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
     "staticHtml" : {

@@ -1649,6 +1649,42 @@
       "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "enable_recent_scopes"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_viewTest",
+      "source2" : "use_classic_email_template"
+    }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "allow_direct_login_from_other_institutions"
@@ -1669,10 +1705,6 @@
       "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "enable_resource_type_filter_bar"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_viewTest",
-      "source2" : "use_classic_email_template"
-    }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "enable_saveEshelf_message"
@@ -1680,6 +1712,14 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_backup_Delete",
+      "source2" : "enable_recent_scopes"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
@@ -4005,10 +4045,22 @@
   },
   "backend_system" : "suprima",
   "customization" : {
+    "viewCss" : "custom/01NYU_HS-HSL/css/custom1.css",
+    "viewJs" : "custom/01NYU_HS-HSL/js/custom.js",
+    "favIcon" : "custom/01NYU_HS-HSL/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_HS-HSL.png",
+    "libraryLogoClickableURL" : "https://hsl.med.nyu.edu/",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
-    "staticHtml" : { }
+    "staticHtml" : {
+      "email" : {
+        "en.tmpl" : "custom/01NYU_HS-HSL/html/email/email_en.tmpl.html"
+      },
+      "homepage" : {
+        "en" : "custom/01NYU_HS-HSL/html/homepage/homepage_en.html"
+      }
+    },
+    "viewSvg" : "custom/01NYU_HS-HSL/img/custom-ui.svg"
   },
   "UIComponents" : {
     "45136775UI" : {
