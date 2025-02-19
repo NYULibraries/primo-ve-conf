@@ -50,12 +50,12 @@
       "citationTrailsEnabled" : true,
       "citationTrailsFilterByAvailability" : true,
       "selectedFacetLocation" : "left",
-      "personalizationEnabled" : true,
+      "personalizationEnabled" : false,
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
       "collectionDiscoveryEnabled" : true,
-      "displayNewspapersLink" : true,
-      "displayFeaturedNewspapers" : true,
+      "displayNewspapersLink" : false,
+      "displayFeaturedNewspapers" : false,
       "refEntryActive" : true,
       "relatedItemsActive" : true,
       "legantoURLTemplate" : "",
@@ -334,27 +334,23 @@
           "label" : "LibrarySearch",
           "target" : "_self"
         }, {
-          "url" : "bsearch",
-          "label" : "BrowseSearch",
+          "url" : "citationlinker",
+          "label" : "citationlinker",
           "target" : "_self"
-        }, {
-          "url" : "https://ares.library.nyu.edu",
-          "label" : "CourseReserves"
-        }, {
-          "url" : "http://guides.nyu.edu/arch",
-          "label" : "Articles&Databases"
         }, {
           "url" : "jsearch",
           "label" : "JournalSearch",
           "target" : "_self"
         }, {
-          "url" : "citationlinker",
-          "label" : "citationlinker",
+          "url" : "bsearch",
+          "label" : "BrowseSearch",
           "target" : "_self"
         }, {
-          "url" : "PurchaseRequest",
-          "label" : "PurchaseRequest",
-          "target" : "_self"
+          "url" : "http://guides.nyu.edu/arch",
+          "label" : "Articles&Databases"
+        }, {
+          "url" : "https://ares.library.nyu.edu",
+          "label" : "CourseReserves"
         } ],
         "id" : "01NYU_INST:DAITEST01.MainMenuTileInterface"
       }
@@ -478,9 +474,6 @@
         }, {
           "items" : "boundwith",
           "displayInViewer" : true
-        }, {
-          "items" : "dedupmemberids",
-          "displayInViewer" : true
         } ],
         "id" : "01NYU_INST:DAITEST01.ResultFullTileInterface.Unified_Slot"
       },
@@ -549,9 +542,6 @@
           "displayInViewer" : true
         }, {
           "items" : "boundwith",
-          "displayInViewer" : true
-        }, {
-          "items" : "dedupmemberids",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_INST:DAITEST01.ResultFullTileInterface.jsearch_slot"
@@ -1727,6 +1717,42 @@
       "source1" : "01NYU_INST:UXTEST01",
       "source2" : "enable_barcode_search"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:DAITEST01",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEF",
       "source2" : "enable_qr"
@@ -1781,6 +1807,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:UXTEST01",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:DAITEST01",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
@@ -4390,7 +4420,9 @@
   "customization" : {
     "viewCss" : "custom/01NYU_INST-DAITEST01/css/custom1.css",
     "viewJs" : "custom/01NYU_INST-DAITEST01/js/custom.js",
+    "favIcon" : "custom/01NYU_INST-DAITEST01/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_INST-DAITEST01.svg",
+    "libraryLogoClickableURL" : "https://library.nyu.edu",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
     "staticHtml" : {
