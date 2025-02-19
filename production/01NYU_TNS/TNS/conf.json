@@ -2097,6 +2097,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:NSJD",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NSJD",
       "source2" : "enable_qr"
     }, {
       "target" : "false",
@@ -2106,10 +2110,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:NSJD",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:NSJD",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:NSJD",
