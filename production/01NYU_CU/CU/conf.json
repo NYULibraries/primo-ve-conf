@@ -475,6 +475,10 @@
           "url" : "jsearch",
           "label" : "JournalSearch",
           "target" : "_self"
+        }, {
+          "url" : "citationlinker",
+          "label" : "citationlinker",
+          "target" : "_self"
         } ],
         "id" : "01NYU_CU:CU.MainMenuTileInterface"
       }
