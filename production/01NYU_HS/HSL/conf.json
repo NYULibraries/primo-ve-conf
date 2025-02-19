@@ -519,6 +519,9 @@
         }, {
           "items" : "lds01",
           "displayInViewer" : true
+        }, {
+          "items" : "dedupmemberids",
+          "displayInViewer" : true
         } ],
         "id" : "01NYU_HS:HSL.ResultFullTileInterface.jsearch_slot"
       },
@@ -587,6 +590,9 @@
           "displayInViewer" : true
         }, {
           "items" : "lds01",
+          "displayInViewer" : true
+        }, {
+          "items" : "dedupmemberids",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_HS:HSL.ResultFullTileInterface.Main_Slot"
@@ -1605,7 +1611,7 @@
       "source1" : "01NYU_HS:HSL",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_recent_scopes"
     }, {
@@ -1648,6 +1654,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_backup_Delete",

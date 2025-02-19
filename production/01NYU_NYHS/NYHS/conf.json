@@ -17,7 +17,11 @@
       "updated-by" : "exl_impl",
       "newspapers-search" : true
     },
-    "pc-availability-tab-scopes-map" : { },
+    "pc-availability-tab-scopes-map" : {
+      "unified_slot" : {
+        "CentralIndex" : "AVAILABLE_ONLY"
+      }
+    },
     "view-org-level" : {
       "customer-code" : "01NYU_NYHS",
       "customer-id" : 7870,
@@ -64,6 +68,7 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
+      "CentralIndex" : true,
       "NYHS_MAIN" : true,
       "jsearch_scope" : false
     },
@@ -74,8 +79,19 @@
       "tab" : "unified_slot",
       "tab-id-for-scope-matching" : "unified_slot",
       "contains-central-index-scope" : false
+    }, {
+      "scope-id" : "CentralIndex",
+      "locations" : "primo_central_multiple_fe",
+      "types" : "adaptor",
+      "tab" : "unified_slot",
+      "tab-id-for-scope-matching" : "unified_slot",
+      "contains-central-index-scope" : true
     } ],
-    "cdi-ft-search-tab-scopes-map" : { },
+    "cdi-ft-search-tab-scopes-map" : {
+      "unified_slot" : {
+        "CentralIndex" : "no-always"
+      }
+    },
     "timeout" : {
       "guest-ui-timeout" : "0"
     },
@@ -3817,6 +3833,7 @@
     "silent-login-enabled" : "false"
   } ],
   "scopes-context-map" : {
+    "CentralIndex" : "C",
     "NYHS_MAIN" : "L",
     "jsearch_scope" : "L"
   },
@@ -3995,7 +4012,10 @@
     "jsearch_slot" : [ "01NYU_NYHS:NYHS.FacetTileInterface.jsearch_slot", "01NYU_NYHS:NYHS.KeepingItemTileInterface.jsearch_slot", "01NYU_NYHS:NYHS.SearchTileInterface-Advanced.jsearch_slot", "01NYU_NYHS:NYHS.ResultFullTileInterface.jsearch_slot", "01NYU_NYHS:NYHS.ResultTileInterface.jsearch_slot", "01NYU_NYHS:NYHS.LocationsTileInterface.jsearch_slot", "01NYU_NYHS:NYHS.SearchTileInterface-Simple.jsearch_slot" ],
     "unified_slot" : [ "01NYU_NYHS:NYHS.FacetTileInterface.unified_slot", "01NYU_NYHS:NYHS.KeepingItemTileInterface.unified_slot", "01NYU_NYHS:NYHS.SearchTileInterface-Advanced.unified_slot", "01NYU_NYHS:NYHS.ResultFullTileInterface.unified_slot", "01NYU_NYHS:NYHS.ResultTileInterface.unified_slot", "01NYU_NYHS:NYHS.LocationsTileInterface.unified_slot", "01NYU_NYHS:NYHS.SearchTileInterface-Simple.unified_slot" ]
   },
-  "searchWithinJournalConfig" : { },
+  "searchWithinJournalConfig" : {
+    "tab" : "unified_slot",
+    "scope" : "CentralIndex"
+  },
   "journal_tab" : "jsearch_slot",
   "institution-base-url" : "ALMA_OPENURL",
   "fieldsWithUseTranslation" : [ ],
