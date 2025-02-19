@@ -52,7 +52,7 @@
       "personalizationEnabled" : false,
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
-      "collectionDiscoveryEnabled" : true,
+      "collectionDiscoveryEnabled" : false,
       "displayNewspapersLink" : false,
       "displayFeaturedNewspapers" : false,
       "refEntryActive" : true,
@@ -112,7 +112,7 @@
       "guest-ui-timeout" : "0"
     },
     "is-union-catalog-view" : false,
-    "display-unpaywall-links" : false,
+    "display-unpaywall-links" : true,
     "display_quick_links" : "true"
   },
   "tiles" : {

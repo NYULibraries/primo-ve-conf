@@ -1519,7 +1519,7 @@
       "source1" : "01NYU_US:SH",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_US:SH",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
