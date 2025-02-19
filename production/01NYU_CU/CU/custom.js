@@ -9,4 +9,10 @@ var app = angular.module('viewCustom', ['angularLoad']);
 
 "use strict";
 'use strict';
+
+"use strict";
+'use strict';
+
+"use strict";
+'use strict';
 })();

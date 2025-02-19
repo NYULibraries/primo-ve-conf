@@ -2435,7 +2435,7 @@
       "source1" : "01NYU_INST:DAITEST01",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_INST:HIDVL",
       "source2" : "enable_qr"
     }, {
@@ -2507,7 +2507,7 @@
       "source1" : "01NYU_INST:HIDVL",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_INST:HIDVL",
       "source2" : "display_CDI_secondary_RT"
     }, {
