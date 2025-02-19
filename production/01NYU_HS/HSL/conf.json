@@ -1721,6 +1721,10 @@
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
       "source2" : "display_CDI_secondary_RT"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "allow_direct_login_from_other_institutions"

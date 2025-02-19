@@ -755,7 +755,7 @@
     "async_brief_result_delivery" : true,
     "display_holdings_without_waiting" : false,
     "enable_direct_linking_in_record_full_view" : false,
-    "hide_rapido_offers_tiles" : false,
+    "hide_rapido_offers_tiles" : true,
     "rapido_hide_section_when_user_not_logged_in" : false,
     "rapido_hide_get_it_user_groups" : { },
     "default_user_search_history_off" : false,
