@@ -535,6 +535,10 @@
           "url" : "https://archives.cooper.edu/search?",
           "label" : "archives_link",
           "target" : "_blank"
+        }, {
+          "url" : "bsearch",
+          "label" : "BrowseSearch",
+          "target" : "_self"
         } ],
         "id" : "01NYU_CU:CU_DEV.MainMenuTileInterface"
       }

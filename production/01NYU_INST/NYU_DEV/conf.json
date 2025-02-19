@@ -1947,6 +1947,26 @@
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_show_times_cited"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_INST:TEST",
       "source2" : "focus_on_search_input"
     }, {
@@ -5179,7 +5199,7 @@
     } ]
   },
   "authentication" : [ {
-    "profile-name" : "SAML",
+    "profile-name" : "NYUSHIBBOLETH",
     "authentication-system" : "SAML",
     "silent-login-enabled" : "false"
   }, {

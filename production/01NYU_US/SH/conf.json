@@ -1750,6 +1750,26 @@
       "source1" : "01NYU_US:SH",
       "source2" : "nde_actions_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_show_times_cited"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
       "target" : "true",
       "source1" : "01NYU_US:SH",
       "source2" : "export_all_records"
