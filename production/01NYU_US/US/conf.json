@@ -287,12 +287,12 @@
           "url" : "http://guides.nyu.edu/arch",
           "label" : "Articles&Databases"
         }, {
+          "url" : "https://ares.library.nyu.edu",
+          "label" : "CourseReserves"
+        }, {
           "url" : "/discovery/npsearch?vid=01NYU_US:US",
           "label" : "NewspaperSearch",
           "target" : "_self"
-        }, {
-          "url" : "https://ares.library.nyu.edu",
-          "label" : "CourseReserves"
         }, {
           "url" : "bsearch",
           "label" : "BrowseSearch",
