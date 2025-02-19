@@ -478,6 +478,9 @@
         }, {
           "items" : "lds63",
           "displayInViewer" : true
+        }, {
+          "items" : "dedupmemberids",
+          "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
           "items" : "heading",
@@ -595,6 +598,9 @@
           "displayInViewer" : true
         }, {
           "items" : "lds63",
+          "displayInViewer" : true
+        }, {
+          "items" : "dedupmemberids",
           "displayInViewer" : true
         } ],
         "authorityitemview" : [ {

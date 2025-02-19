@@ -430,6 +430,9 @@
         }, {
           "items" : "rights",
           "displayInViewer" : true
+        }, {
+          "items" : "dedupmemberids",
+          "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
           "items" : "heading",
@@ -536,6 +539,9 @@
           "displayInViewer" : true
         }, {
           "items" : "rights",
+          "displayInViewer" : true
+        }, {
+          "items" : "dedupmemberids",
           "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
