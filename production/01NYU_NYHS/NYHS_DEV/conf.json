@@ -365,6 +365,24 @@
         }, {
           "items" : "lds57",
           "displayInViewer" : true
+        }, {
+          "items" : "lds66",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds67",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds68",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds69",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds70",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds71",
+          "displayInViewer" : true
         } ],
         "id" : "01NYU_NYHS:NYHS_DEV.ResultFullTileInterface.jsearch_slot"
       },
@@ -436,6 +454,24 @@
           "displayInViewer" : true
         }, {
           "items" : "lds57",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds66",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds67",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds68",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds69",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds70",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds71",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_NYHS:NYHS_DEV.ResultFullTileInterface.unified_slot"

@@ -2602,7 +2602,7 @@
       "source2" : "notNeededAfter",
       "source5" : "false"
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "default",
       "source2" : "copyrightDeclaration",
       "source5" : "false"
