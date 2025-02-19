@@ -4485,6 +4485,10 @@
     "profile-name" : "SAML",
     "authentication-system" : "SAML",
     "silent-login-enabled" : "false"
+  }, {
+    "profile-name" : "Alma",
+    "authentication-system" : "ALMA",
+    "silent-login-enabled" : "false"
   } ],
   "scopes-context-map" : {
     "MyInst_and_CI" : "B",
