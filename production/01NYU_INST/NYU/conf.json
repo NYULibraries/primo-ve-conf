@@ -474,6 +474,9 @@
         }, {
           "items" : "boundwith",
           "displayInViewer" : true
+        }, {
+          "items" : "lds62",
+          "displayInViewer" : true
         } ],
         "id" : "01NYU_INST:NYU.ResultFullTileInterface.Unified_Slot"
       },
@@ -542,6 +545,9 @@
           "displayInViewer" : true
         }, {
           "items" : "boundwith",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds62",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_INST:NYU.ResultFullTileInterface.jsearch_slot"
