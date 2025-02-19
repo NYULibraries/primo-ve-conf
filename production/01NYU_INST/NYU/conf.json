@@ -1760,6 +1760,34 @@
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
+      "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "nde_display_summary_field"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "nde_show_times_cited"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_INST:NYU_NODEDUP",
       "source2" : "nde_share_actions_table_is_customized"
     }, {
@@ -4176,7 +4204,8 @@
       "source2" : "requester_name"
     } ],
     "User Login Links" : [ {
-      "source1" : "login.link1"
+      "source1" : "login.link1",
+      "source2" : "https://library.answers.nyu.edu/faq/406013"
     } ],
     "Acquisition Request Detailed Display" : [ {
       "target" : "request_type",
