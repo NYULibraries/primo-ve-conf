@@ -68,9 +68,9 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
+      "CONSORTLIB" : false,
       "MyInst_and_CI" : false,
       "jsearch_scope" : false,
-      "NYUDiscoveryNetwork" : false,
       "CourseReserves" : false
     },
     "scopes" : [ {
@@ -81,7 +81,7 @@
       "tab-id-for-scope-matching" : "CentralIndex",
       "contains-central-index-scope" : true
     }, {
-      "scope-id" : "NYUDiscoveryNetwork",
+      "scope-id" : "CONSORTLIB",
       "locations" : "Local",
       "types" : "local",
       "tab" : "NYUDiscoveryNetwork",
@@ -241,6 +241,42 @@
             "_int" : 1
           },
           "id" : "facet_institution",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_crsinstrc",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_crsid_name",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_crsdept",
           "useTranslations" : false
         } ],
         "relatedfacetview" : { },
@@ -402,6 +438,42 @@
           },
           "id" : "facet_institution",
           "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_crsinstrc",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_crsid_name",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_crsdept",
+          "useTranslations" : false
         } ],
         "relatedfacetview" : { },
         "id" : "01NYU_CU:CU.FacetTileInterface.CentralIndex"
@@ -474,10 +546,6 @@
         }, {
           "url" : "https://archives.cooper.edu/search?",
           "label" : "archives_link",
-          "target" : "_blank"
-        }, {
-          "url" : "search?&tab=CourseReserves&search_scope=CourseReserves&vid=01NYU_CU:CU&lang=en&offset=0&mode=advanced",
-          "label" : "Reservess",
           "target" : "_blank"
         } ],
         "id" : "01NYU_CU:CU.MainMenuTileInterface"
@@ -2127,10 +2195,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "true",
@@ -2140,6 +2204,10 @@
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_RESTEST",
+      "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
@@ -2183,10 +2251,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU",
-      "source2" : "use_classic_email_template"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
@@ -2196,6 +2260,10 @@
       "target" : "true",
       "source1" : "01NYU_CU:CU",
       "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU",
+      "source2" : "use_classic_email_template"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU",
@@ -4494,9 +4562,9 @@
     "silent-login-enabled" : "false"
   } ],
   "scopes-context-map" : {
+    "CONSORTLIB" : "L",
     "MyInst_and_CI" : "B",
     "jsearch_scope" : "L",
-    "NYUDiscoveryNetwork" : "L",
     "CourseReserves" : "L"
   },
   "backend_system" : "suprima",

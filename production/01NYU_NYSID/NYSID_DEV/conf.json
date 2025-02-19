@@ -2295,27 +2295,7 @@
       "source2" : "myaccount4",
       "source3" : "blocks"
     } ],
-    "Report a Problem" : [ {
-      "target" : "true",
-      "source1" : "01NYU_NYSID:All",
-      "source2" : "Activate widget"
-    }, {
-      "target" : "4",
-      "source1" : "01NYU_NYSID:All",
-      "source2" : "Number of categories"
-    }, {
-      "target" : "",
-      "source1" : "01NYU_NYSID:All",
-      "source2" : "Email address"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYSID:All",
-      "source2" : "Form email address mandatory"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYSID:All",
-      "source2" : "Form description mandatory"
-    } ],
+    "Report a Problem" : [ ],
     "Resource Recommender Config" : [ {
       "target" : "priority",
       "source1" : "0",
