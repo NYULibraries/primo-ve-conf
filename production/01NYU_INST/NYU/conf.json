@@ -19,8 +19,8 @@
     },
     "pc-availability-tab-scopes-map" : {
       "Unified_Slot" : {
-        "ARTICLES" : "AVAILABLE_ONLY",
-        "DN_and_CI" : "AVAILABLE_ONLY"
+        "CI_NYU_CONSORTIA" : "AVAILABLE_ONLY",
+        "ARTICLES" : "AVAILABLE_ONLY"
       }
     },
     "view-org-level" : {
@@ -69,23 +69,23 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
+      "CI_NYU_CONSORTIA" : true,
       "NYUBAFC" : true,
       "jsearch_scope" : false,
-      "DiscoveryNetwork" : true,
       "ARTICLES" : true,
       "NYUSC" : true,
       "NYU_Reserves" : true,
-      "DN_and_CI" : true
+      "NYU_CONSORTIA" : true
     },
     "scopes" : [ {
-      "scope-id" : "DN_and_CI",
-      "locations" : "Local,primo_central_multiple_fe",
-      "types" : "local,adaptor",
+      "scope-id" : "CI_NYU_CONSORTIA",
+      "locations" : "primo_central_multiple_fe,Local",
+      "types" : "adaptor,local",
       "tab" : "Unified_Slot",
       "tab-id-for-scope-matching" : "Unified_Slot",
       "contains-central-index-scope" : true
     }, {
-      "scope-id" : "DiscoveryNetwork",
+      "scope-id" : "NYU_CONSORTIA",
       "locations" : "Local",
       "types" : "local",
       "tab" : "Unified_Slot",
@@ -122,8 +122,8 @@
     } ],
     "cdi-ft-search-tab-scopes-map" : {
       "Unified_Slot" : {
-        "ARTICLES" : "no-enduser-selection",
-        "DN_and_CI" : "no-always"
+        "CI_NYU_CONSORTIA" : "no-always",
+        "ARTICLES" : "no-enduser-selection"
       }
     },
     "timeout" : {
@@ -4408,13 +4408,13 @@
     "silent-login-enabled" : "false"
   } ],
   "scopes-context-map" : {
+    "CI_NYU_CONSORTIA" : "B",
     "NYUBAFC" : "L",
     "jsearch_scope" : "L",
-    "DiscoveryNetwork" : "L",
     "ARTICLES" : "C",
     "NYUSC" : "L",
     "NYU_Reserves" : "L",
-    "DN_and_CI" : "B"
+    "NYU_CONSORTIA" : "L"
   },
   "backend_system" : "suprima",
   "customization" : {
@@ -4594,7 +4594,7 @@
   },
   "searchWithinJournalConfig" : {
     "tab" : "Unified_Slot",
-    "scope" : "DN_and_CI"
+    "scope" : "CI_NYU_CONSORTIA"
   },
   "journal_tab" : "jsearch_slot",
   "institution-base-url" : "ALMA_OPENURL",
