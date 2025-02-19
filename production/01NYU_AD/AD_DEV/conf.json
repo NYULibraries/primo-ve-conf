@@ -1458,7 +1458,7 @@
       "source1" : "expanded_db_search"
     } ],
     "View Properties" : [ {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_AD:AD",
       "source2" : "focus_on_search_input"
     }, {
@@ -1478,7 +1478,7 @@
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_saveEshelf_message"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_barcode_search"
     }, {
@@ -1568,6 +1568,22 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
       "source2" : "enable_highlight_the_record_you_came_from"
     } ],
     "Resource Sharing Request Parameters" : [ {

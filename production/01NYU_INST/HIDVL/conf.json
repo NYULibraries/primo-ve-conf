@@ -1532,7 +1532,7 @@
       "source1" : "01NYU_INST:NYU",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_INST:NYU",
       "source2" : "display_CDI_secondary_RT"
     }, {
@@ -2016,10 +2016,6 @@
       "source1" : "01NYU_INST:DAI_DEF_00",
       "source2" : "enable_resource_type_filter_bar"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:DAI_DEF_00",
-      "source2" : "display_CDI_secondary_RT"
-    }, {
       "target" : "false",
       "source1" : "01NYU_INST:DAI_DEF_00",
       "source2" : "use_classic_email_template"
@@ -2031,6 +2027,10 @@
       "target" : "false",
       "source1" : "01NYU_INST:DAI_DEF_00",
       "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:DAI_DEF_00",
+      "source2" : "display_CDI_secondary_RT"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:DAI_DEF_00",

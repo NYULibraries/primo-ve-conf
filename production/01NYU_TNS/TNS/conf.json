@@ -13,7 +13,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_TNS",
       "institution-name" : "The New School",
-      "last-modified-time-stamp" : "Jan 03, 2023 20:26:32 PM",
+      "last-modified-time-stamp" : "Oct 23, 2023 23:11:26 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : true
     },
@@ -711,6 +711,9 @@
           "items" : "description",
           "displayInViewer" : true
         }, {
+          "items" : "lds60",
+          "displayInViewer" : true
+        }, {
           "items" : "contents",
           "displayInViewer" : true
         }, {
@@ -781,6 +784,9 @@
           "displayInViewer" : true
         }, {
           "items" : "description",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds60",
           "displayInViewer" : true
         }, {
           "items" : "contents",
@@ -855,6 +861,9 @@
           "items" : "description",
           "displayInViewer" : true
         }, {
+          "items" : "lds60",
+          "displayInViewer" : true
+        }, {
           "items" : "contents",
           "displayInViewer" : true
         }, {
@@ -925,6 +934,9 @@
           "displayInViewer" : true
         }, {
           "items" : "description",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds60",
           "displayInViewer" : true
         }, {
           "items" : "contents",

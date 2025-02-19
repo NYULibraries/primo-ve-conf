@@ -49,13 +49,13 @@
       "citationTrailsEnabled" : true,
       "citationTrailsFilterByAvailability" : true,
       "selectedFacetLocation" : "left",
-      "personalizationEnabled" : true,
+      "personalizationEnabled" : false,
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
       "collectionDiscoveryEnabled" : true,
-      "displayNewspapersLink" : true,
-      "displayFeaturedNewspapers" : true,
-      "refEntryActive" : false,
+      "displayNewspapersLink" : false,
+      "displayFeaturedNewspapers" : false,
+      "refEntryActive" : true,
       "relatedItemsActive" : true,
       "legantoURLTemplate" : "",
       "multilingualConfigurationEnabled" : false,
@@ -268,16 +268,20 @@
           "label" : "LibrarySearch",
           "target" : "_self"
         }, {
-          "url" : "http://guides.nyu.edu/arch",
-          "label" : "Articles&Databases"
+          "url" : "citationlinker",
+          "label" : "citationlinker",
+          "target" : "_self"
         }, {
-          "url" : "/discovery/npsearch?vid=01NYU_AD:AD",
-          "label" : "NewspaperSearch",
+          "url" : "jsearch",
+          "label" : "JournalSearch",
           "target" : "_self"
         }, {
           "url" : "bsearch",
           "label" : "BrowseSearch",
           "target" : "_self"
+        }, {
+          "url" : "http://guides.nyu.edu/arch",
+          "label" : "Articles&Databases"
         } ],
         "id" : "01NYU_AD:AD.MainMenuTileInterface"
       }
@@ -1464,7 +1468,7 @@
       "source1" : "expanded_db_search"
     } ],
     "View Properties" : [ {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_AD:AD",
       "source2" : "focus_on_search_input"
     }, {
@@ -1484,7 +1488,7 @@
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_saveEshelf_message"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_barcode_search"
     }, {
@@ -1511,10 +1515,6 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_AD:AD_NP",
-      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
@@ -1543,6 +1543,10 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD_NP",
       "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_NP",
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD_NP",
@@ -1575,6 +1579,22 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "display_CDI_secondary_RT"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
@@ -3895,6 +3915,7 @@
     "viewCss" : "custom/01NYU_AD-AD/css/custom1.css",
     "viewJs" : "custom/01NYU_AD-AD/js/custom.js",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_AD-AD.png",
+    "libraryLogoClickableURL" : "https://nyuad.nyu.edu/en/library.html",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
     "staticHtml" : {
