@@ -51,7 +51,7 @@
       "selectedFacetLocation" : "left",
       "personalizationEnabled" : false,
       "moreLikeCourse" : true,
-      "moreLikeCollection" : true,
+      "moreLikeCollection" : false,
       "collectionDiscoveryEnabled" : false,
       "displayNewspapersLink" : false,
       "displayFeaturedNewspapers" : false,
@@ -451,7 +451,13 @@
           "items" : "boundwith",
           "displayInViewer" : true
         }, {
+          "items" : "identifier",
+          "displayInViewer" : true
+        }, {
           "items" : "lds62",
+          "displayInViewer" : true
+        }, {
+          "items" : "crsinfo",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_AD:AD.ResultFullTileInterface.jsearch_slot"
@@ -520,7 +526,13 @@
           "items" : "boundwith",
           "displayInViewer" : true
         }, {
+          "items" : "identifier",
+          "displayInViewer" : true
+        }, {
           "items" : "lds62",
+          "displayInViewer" : true
+        }, {
+          "items" : "crsinfo",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_AD:AD.ResultFullTileInterface.default_slot"
@@ -1592,6 +1604,10 @@
       "source1" : "01NYU_AD:AD",
       "source2" : "use_normalized_cdi_subjects"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "use_classic_email_template"
+    }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "focus_on_search_input"
@@ -1603,10 +1619,6 @@
       "target" : "true",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "enable_qr"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "use_classic_email_template"
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD_DEV",
@@ -1634,6 +1646,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
       "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
@@ -1643,10 +1659,6 @@
       "target" : "true",
       "source1" : "01NYU_AD:AD",
       "source2" : "display_CDI_secondary_RT"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:AD",
-      "source2" : "enable_highlight_the_record_you_came_from"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",

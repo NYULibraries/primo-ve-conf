@@ -2225,6 +2225,14 @@
       "source1" : "01NYU_CU:CU",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU",
       "source2" : "focus_on_search_input"
@@ -4558,6 +4566,7 @@
   "customization" : {
     "viewCss" : "custom/01NYU_CU-CU_DEV/css/custom1.css",
     "viewJs" : "custom/01NYU_CU-CU_DEV/js/custom.js",
+    "favIcon" : "custom/01NYU_CU-CU_DEV/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_CU-CU_DEV.png",
     "libraryLogoClickableURL" : "http://library.cooper.edu/",
     "resourceIcons" : { },
