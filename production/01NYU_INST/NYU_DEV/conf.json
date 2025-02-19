@@ -4177,12 +4177,6 @@
     } ],
     "User Login Links" : [ {
       "source1" : "login.link1"
-    }, {
-      "source1" : "login.link2"
-    }, {
-      "source1" : "login.link3"
-    }, {
-      "source1" : "login.link4"
     } ],
     "Acquisition Request Detailed Display" : [ {
       "target" : "request_type",

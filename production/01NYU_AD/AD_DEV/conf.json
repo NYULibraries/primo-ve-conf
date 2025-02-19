@@ -3283,15 +3283,7 @@
       "source1" : "default",
       "source2" : "requester_name"
     } ],
-    "User Login Links" : [ {
-      "source1" : "login.link1"
-    }, {
-      "source1" : "login.link2"
-    }, {
-      "source1" : "login.link3"
-    }, {
-      "source1" : "login.link4"
-    } ],
+    "User Login Links" : [ ],
     "Acquisition Request Detailed Display" : [ {
       "target" : "request_type",
       "source1" : "request_type",
