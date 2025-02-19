@@ -1749,6 +1749,18 @@
       "source1" : "01NYU_INST:UXTEST01",
       "source2" : "enable_barcode_search"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:TESTWS01",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
       "target" : "false",
       "source1" : "01NYU_INST:DAITEST01",
       "source2" : "enable_resource_type_filter_bar"

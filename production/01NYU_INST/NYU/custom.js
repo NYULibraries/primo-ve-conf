@@ -2,33 +2,32 @@
 "use strict";
 'use strict';
 
+/* global angular */
+
+// eslint-disable-next-line no-unused-vars
 var app = angular.module('viewCustom', ['angularLoad']);
 
 // ****************************************
-// 01-config.js
+// 01-config-helpers.js
 // ****************************************
 
-var searchParams = new URLSearchParams(window.location.search);
-var vid = searchParams.get('vid');
-var cdnUrl = getCdnUrl(vid);
+/* global window */
 
-console.log('[DEBUG] cdnUrl = ' + cdnUrl);
-
-// This is necessary to allow the `templateURL` method to fetch cross-domain
-// from the CDN.
-app.config(function ($sceDelegateProvider) {
-    $sceDelegateProvider.trustedResourceUrlList(['self',
-    // Keeping this here commented out as a reminder that "*" can
-    // be used in domain name for wildcarding.
-    // 'https://cdn*.library.nyu.edu/primo-customization/01NYU_INST-TESTWS01/**',
-    cdnUrl + '/**']);
-});
-
+// eslint-disable-next-line no-unused-vars
 function getCdnUrl(vid) {
-    var cdnUrls = {
-        '01NYU_INST:NYU': 'https://cdn.library.nyu.edu/primo-customization',
-        '01NYU_INST:NYU_DEV': 'https://cdn-dev.library.nyu.edu/primo-customization',
-        '01NYU_INST:TESTWS01': 'https://cdn-dev.library.nyu.edu/primo-customization'
+    // Normalize the vid, even though it's theoretically impossible for the vid to
+    // not be all uppercase already, given that Primo VE is apparently case-sensitive
+    // and will not consider a vid like "01nyu_inst:nyu_dev" to be valid.
+    vid = vid.toLocaleUpperCase();
+
+    var CDN_DEV = 'https://cdn-dev.library.nyu.edu/primo-customization';
+    var CDN_PROD = 'https://cdn.library.nyu.edu/primo-customization';
+
+    var VID_DEV_SUFFIX = '_DEV';
+
+    // Special CDN assignments based on exact vid name, not vid name pattern.
+    var vidToCdnUrlMap = {
+        '01NYU_INST:TESTWS01': CDN_DEV
     };
 
     var hostname = window.location.hostname;
@@ -42,8 +41,13 @@ function getCdnUrl(vid) {
     } else if (hostname === 'primo-explore-devenv') {
         // Running in the headless browser in the Docker Compose `e2e` service.
         baseUrl = 'http://cdn-server:3000/primo-customization';
+    } else if (vid.endsWith(VID_DEV_SUFFIX)) {
+        baseUrl = CDN_DEV;
     } else {
-        baseUrl = cdnUrls[vid] || cdnUrls['01NYU_INST:NYU'];
+        // Couldn't assign CDN based on hostname or vid name pattern.
+        // Check vid -> CDN map, and if that doesn't return anything, default to
+        // prod CDN.
+        baseUrl = vidToCdnUrlMap[vid] || CDN_PROD;
     }
 
     return baseUrl + '/' + view;
@@ -54,8 +58,45 @@ function parseViewDirectoryName(vid) {
 }
 
 // ****************************************
+// 01-config.js
+// ****************************************
+
+/* global app, console, getCdnUrl, URLSearchParams, window */
+
+var searchParams = new URLSearchParams(window.location.search);
+var vid = searchParams.get('vid');
+var cdnUrl = getCdnUrl(vid);
+
+console.log('[DEBUG] cdnUrl = ' + cdnUrl);
+
+// All the code in our customization package is run inside an IIFE (Immediately
+// Invoked Function Expression), which means any variables defined here are not
+// accessible to the CDN JS code.  The only way for the CDN JS code to know the
+// CDN URL without duplicating `getCdnUrl()` there is to attach it to an object
+// it has access to, or to inject it in a <script> or DOM element on the page.
+// We choose to attach it to the global `window` object since we are already
+// allowing the Third Iron code to attach the `browzine` object to `window` for
+// LibKey functionality, and it seems safe enough using the `nyulibraries`
+// namespace.
+window.nyulibraries = {
+    cdnUrl: cdnUrl
+};
+
+// This is necessary to allow the `templateURL` method to fetch cross-domain
+// from the CDN.
+app.config(function ($sceDelegateProvider) {
+    $sceDelegateProvider.trustedResourceUrlList(['self',
+    // Keeping this here commented out as a reminder that "*" can
+    // be used in domain name for wildcarding.
+    // 'https://cdn*.library.nyu.edu/primo-customization/01NYU_INST-TESTWS01/**',
+    cdnUrl + '/**']);
+});
+
+// ****************************************
 // 02-filters.js
 // ****************************************
+
+/* global app */
 
 app.filter('encodeURIComponent', ['$window', function ($window) {
     return $window.encodeURIComponent;
@@ -65,19 +106,37 @@ app.filter('encodeURIComponent', ['$window', function ($window) {
 // 03-inject.js
 // ****************************************
 
+/* global cdnUrl, document */
+
+// eslint-disable-next-line no-unused-vars
 function injectCDNResourceTags() {
     injectLinkTagsForCDNCustomCSS();
     injectScriptTagForCDNCustomJS();
 }
 
 function injectScriptTagForCDNCustomJS() {
-    var script = document.createElement('script');
-    script.setAttribute('src', cdnUrl + '/js/custom.js');
-    document.body.appendChild(script);
+    // We have decided to rename CDN custom.{css,js} files to external.{css,js}.
+    // We may not be able to deploy the package and CDN code simultaneously, so
+    // we are setting up a transition phase where we inject script tags for
+    // both custom.js and external.js.  After the CDN has been updated with
+    // new filenames, we will delete the custom.js <script> tag.s
+    var scriptCustom = document.createElement('script');
+    scriptCustom.setAttribute('src', cdnUrl + '/js/custom.js');
+    document.body.appendChild(scriptCustom);
+
+    var scriptExternal = document.createElement('script');
+    scriptExternal.setAttribute('src', cdnUrl + '/js/external.js');
+    document.body.appendChild(scriptExternal);
 }
 
 function injectLinkTagsForCDNCustomCSS() {
-    ['app-colors.css', 'custom.css'].forEach(function (file) {
+    ['app-colors.css',
+    // We have decided to rename CDN custom.{css,js} files to external.{css,js}.
+    // We may not be able to deploy the package and CDN code simultaneously, so
+    // we are setting up a transition phase where we inject link tags for
+    // both custom.css and external.css.  After the CDN has been updated with
+    // new filenames, we will delete the custom.css <link> tag.
+    'custom.css', 'external.css'].forEach(function (file) {
         var link = document.createElement('link');
         link.type = 'text/css';
         link.rel = 'stylesheet';
@@ -91,6 +150,8 @@ function injectLinkTagsForCDNCustomCSS() {
 // ****************************************
 // 04-libkey.js
 // ****************************************
+
+/* global app, cdnUrl, console, window */
 
 // Option 2 from:
 //     https://thirdiron.atlassian.net/wiki/spaces/BrowZineAPIDocs/pages/79200260/Ex+Libris+Primo+Integration
@@ -151,12 +212,10 @@ app.controller('prmSearchResultAvailabilityLineAfterController', function ($scop
     // Note that we can't use underscore numeric separators (e.g. 5_000 for 5,000) because
     // `primo-explore-devenv`'s `gulp-babel` flags it as a syntax error:
     // "Identifier directly after number"
-    var TIMEOUT = 15000;
+    var TIMEOUT = 30000;
 
-    var start = void 0,
-        previousTimeStamp = void 0;
+    var start = void 0;
     var numTries = 0;
-    var success = false;
     function tryBrowzinePrimoSearchResult(timeStamp) {
         numTries++;
 
@@ -167,9 +226,7 @@ app.controller('prmSearchResultAvailabilityLineAfterController', function ($scop
         if (elapsed < TIMEOUT) {
             try {
                 window.browzine.primo.searchResult($scope);
-                success = true;
             } catch (error) {
-                previousTimeStamp = timeStamp;
                 window.requestAnimationFrame(tryBrowzinePrimoSearchResult);
             }
         } else {
@@ -193,6 +250,8 @@ app.component('prmSearchResultAvailabilityLineAfter', {
 //
 // THIS IS AN AUTOGENERATED FILE. DO NOT EDIT THIS FILE DIRECTLY.
 // SEE README.MD FOR INSTRUCTIONS ON HOW TO REGENERATE THIS FILE.
+
+/* global app, cdnUrl, console */
 
 function generateAllPossibleCustomDirectives() {
     // ALMA-HOWOVP-AFTER
@@ -5943,6 +6002,8 @@ generateAllPossibleCustomDirectives();
 // ****************************************
 // 06-run.js
 // ****************************************
+
+/* global app, injectCDNResourceTags */
 
 app.run(function () {
     injectCDNResourceTags();

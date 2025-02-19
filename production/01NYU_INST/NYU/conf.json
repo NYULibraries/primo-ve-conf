@@ -409,6 +409,15 @@
           "items" : "creator,contributor",
           "displayInViewer" : true
         }, {
+          "items" : "creationdate",
+          "displayInViewer" : true
+        }, {
+          "items" : "edition",
+          "displayInViewer" : true
+        }, {
+          "items" : "format",
+          "displayInViewer" : true
+        }, {
           "items" : "ispartof",
           "displayInViewer" : true
         }, {
@@ -421,13 +430,16 @@
           "items" : "mesh",
           "displayInViewer" : true
         }, {
+          "items" : "contents",
+          "displayInViewer" : true
+        }, {
           "items" : "genre",
           "displayInViewer" : true
         }, {
           "items" : "description",
           "displayInViewer" : true
         }, {
-          "items" : "contents",
+          "items" : "unititle",
           "displayInViewer" : true
         }, {
           "items" : "addtitle",
@@ -436,19 +448,10 @@
           "items" : "relation",
           "displayInViewer" : true
         }, {
-          "items" : "series",
-          "displayInViewer" : true
-        }, {
           "items" : "publisher",
           "displayInViewer" : true
         }, {
-          "items" : "creationdate",
-          "displayInViewer" : true
-        }, {
-          "items" : "edition",
-          "displayInViewer" : true
-        }, {
-          "items" : "format",
+          "items" : "series",
           "displayInViewer" : true
         }, {
           "items" : "frequency",
@@ -457,13 +460,13 @@
           "items" : "identifier",
           "displayInViewer" : true
         }, {
-          "items" : "source",
-          "displayInViewer" : true
-        }, {
           "items" : "boundwith",
           "displayInViewer" : true
         }, {
           "items" : "lds62",
+          "displayInViewer" : true
+        }, {
+          "items" : "source",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_INST:NYU.ResultFullTileInterface.Unified_Slot"
@@ -481,6 +484,15 @@
           "items" : "creator,contributor",
           "displayInViewer" : true
         }, {
+          "items" : "creationdate",
+          "displayInViewer" : true
+        }, {
+          "items" : "edition",
+          "displayInViewer" : true
+        }, {
+          "items" : "format",
+          "displayInViewer" : true
+        }, {
           "items" : "ispartof",
           "displayInViewer" : true
         }, {
@@ -493,13 +505,16 @@
           "items" : "mesh",
           "displayInViewer" : true
         }, {
+          "items" : "contents",
+          "displayInViewer" : true
+        }, {
           "items" : "genre",
           "displayInViewer" : true
         }, {
           "items" : "description",
           "displayInViewer" : true
         }, {
-          "items" : "contents",
+          "items" : "unititle",
           "displayInViewer" : true
         }, {
           "items" : "addtitle",
@@ -508,19 +523,10 @@
           "items" : "relation",
           "displayInViewer" : true
         }, {
-          "items" : "series",
-          "displayInViewer" : true
-        }, {
           "items" : "publisher",
           "displayInViewer" : true
         }, {
-          "items" : "creationdate",
-          "displayInViewer" : true
-        }, {
-          "items" : "edition",
-          "displayInViewer" : true
-        }, {
-          "items" : "format",
+          "items" : "series",
           "displayInViewer" : true
         }, {
           "items" : "frequency",
@@ -529,13 +535,13 @@
           "items" : "identifier",
           "displayInViewer" : true
         }, {
-          "items" : "source",
-          "displayInViewer" : true
-        }, {
           "items" : "boundwith",
           "displayInViewer" : true
         }, {
           "items" : "lds62",
+          "displayInViewer" : true
+        }, {
+          "items" : "source",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_INST:NYU.ResultFullTileInterface.jsearch_slot"
@@ -1764,6 +1770,18 @@
       "target" : "false",
       "source1" : "01NYU_INST:UXTEST01",
       "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:TESTWS01",
+      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:DAITEST01",
@@ -4744,22 +4762,22 @@
       "options" : [ "end_day", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" ]
     },
     "286125493UI" : {
-      "indexFields" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
+      "indexFields" : [ "any", "title", "creator", "sub", "isbn", "issn" ],
       "type" : {
         "_string" : "scope"
       },
       "defaultOption" : "any",
-      "displayOptions" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
-      "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
+      "displayOptions" : [ "any", "title", "creator", "sub", "isbn", "issn" ],
+      "options" : [ "any", "title", "creator", "sub", "isbn", "issn" ]
     },
     "109067531UI" : {
-      "indexFields" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
+      "indexFields" : [ "any", "title", "creator", "sub", "isbn", "issn" ],
       "type" : {
         "_string" : "scope"
       },
       "defaultOption" : "any",
-      "displayOptions" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
-      "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
+      "displayOptions" : [ "any", "title", "creator", "sub", "isbn", "issn" ],
+      "options" : [ "any", "title", "creator", "sub", "isbn", "issn" ]
     }
   },
   "queryTerms" : {

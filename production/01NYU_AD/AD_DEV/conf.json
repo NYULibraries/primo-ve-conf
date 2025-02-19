@@ -1498,6 +1498,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",

@@ -1468,6 +1468,14 @@
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "focus_on_search_input"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_NYHS:NYHS",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NYHS:NYHS_DEV",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "enable_recent_scopes"
@@ -1494,10 +1502,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
-      "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS",
       "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
@@ -1507,6 +1511,10 @@
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS",
+      "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",

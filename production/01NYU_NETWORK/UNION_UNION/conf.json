@@ -412,6 +412,9 @@
         }, {
           "items" : "boundwith",
           "displayInViewer" : true
+        }, {
+          "items" : "lds56",
+          "displayInViewer" : true
         } ],
         "id" : "01NYU_NETWORK:UNION_UNION.ResultFullTileInterface.jsearch_slot"
       },
@@ -478,6 +481,9 @@
           "displayInViewer" : true
         }, {
           "items" : "boundwith",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds56",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_NETWORK:UNION_UNION.ResultFullTileInterface.DiscoveryNetwork"
