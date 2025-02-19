@@ -2470,6 +2470,13 @@
       "source4" : "1",
       "source5" : "Yes"
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "oclcNumber",
+      "source3" : "article",
+      "source4" : "8",
+      "source5" : "No"
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "willingToPay",
@@ -2491,13 +2498,6 @@
       "source2" : "lccn",
       "source3" : "article",
       "source4" : "7",
-      "source5" : "No"
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "oclcNumber",
-      "source3" : "article",
-      "source4" : "8",
       "source5" : "No"
     }, {
       "target" : "Yes",
