@@ -468,9 +468,6 @@
         }, {
           "items" : "crsinfo",
           "displayInViewer" : true
-        }, {
-          "items" : "lds62",
-          "displayInViewer" : true
         } ],
         "id" : "01NYU_AD:AD.ResultFullTileInterface.jsearch_slot"
       },
@@ -557,9 +554,6 @@
           "displayInViewer" : true
         }, {
           "items" : "crsinfo",
-          "displayInViewer" : true
-        }, {
-          "items" : "lds62",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_AD:AD.ResultFullTileInterface.default_slot"
