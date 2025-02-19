@@ -47,7 +47,7 @@
       "mobileCss" : "mobile.css",
       "ownerInstituionCode" : "VOLCANO",
       "citationTrailsEnabled" : true,
-      "citationTrailsFilterByAvailability" : true,
+      "citationTrailsFilterByAvailability" : false,
       "selectedFacetLocation" : "left",
       "personalizationEnabled" : false,
       "moreLikeCourse" : true,
@@ -1067,7 +1067,7 @@
       "SpecColl" : false,
       "LibraryCatalog" : false
     },
-    "subjects_alphabetical_sort_fullDisplay" : false,
+    "subjects_alphabetical_sort_fullDisplay" : true,
     "Activate Captcha [Y/N]" : "N",
     "Public Captcha Key" : "",
     "async_brief_result_delivery" : true,
@@ -1081,10 +1081,10 @@
     "equals_search_operator_hypertext_linking_enabled_title_field" : true,
     "equals_search_operator_hypertext_linking_enabled_author_field" : true,
     "equals_search_operator_hypertext_linking_enabled_subject_field" : true,
-    "allow_start_with_for_call_number" : false,
+    "allow_start_with_for_call_number" : true,
     "allow_activity_on_transferred_finesfees" : false,
-    "display_person_info_card" : false,
-    "enable_person_entity_autocomplete" : false,
+    "display_person_info_card" : true,
+    "enable_person_entity_autocomplete" : true,
     "person_entity_autocomplete_server_url" : "https://api.summon.serialssolutions.com/eautocomplete/person",
     "primoVE_remove_duplicate_records_in_virtual_browse" : false,
     "rapido_show_physical_journal_offer" : false,
@@ -4408,13 +4408,13 @@
   },
   "UIComponents" : {
     "1793618669UI" : {
-      "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
+      "indexFields" : [ "contains", "begins_with", "exact", "equals" ],
       "type" : {
         "_string" : "precisionOperator"
       },
       "defaultOption" : "contains",
-      "displayOptions" : [ "contains", "exact", "startswith", "equalsPhrase" ],
-      "options" : [ "contains", "exact", "begins_with", "equals" ]
+      "displayOptions" : [ "contains", "startswith", "exact", "equalsPhrase" ],
+      "options" : [ "contains", "begins_with", "exact", "equals" ]
     },
     "1575588255UI" : {
       "indexFields" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
@@ -4426,13 +4426,13 @@
       "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
     },
     "560862633UI" : {
-      "indexFields" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
+      "indexFields" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ],
       "type" : {
         "_string" : "scope"
       },
       "defaultOption" : "any",
-      "displayOptions" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
-      "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
+      "displayOptions" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ],
+      "options" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ]
     },
     "1475877229UI" : {
       "indexFields" : [ "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang" ],
@@ -4507,22 +4507,22 @@
       "options" : [ "start_day", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" ]
     },
     "391419965UI" : {
-      "indexFields" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
+      "indexFields" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ],
       "type" : {
         "_string" : "scope"
       },
       "defaultOption" : "any",
-      "displayOptions" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
-      "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
+      "displayOptions" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ],
+      "options" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ]
     },
     "173389551UI" : {
-      "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
+      "indexFields" : [ "contains", "begins_with", "exact", "equals" ],
       "type" : {
         "_string" : "precisionOperator"
       },
       "defaultOption" : "contains",
-      "displayOptions" : [ "contains", "exact", "startswith", "equalsPhrase" ],
-      "options" : [ "contains", "exact", "begins_with", "equals" ]
+      "displayOptions" : [ "contains", "startswith", "exact", "equalsPhrase" ],
+      "options" : [ "contains", "begins_with", "exact", "equals" ]
     },
     "drEndMonth" : {
       "indexFields" : [ "cdate" ],
@@ -4568,13 +4568,13 @@
       "options" : [ "any", "journals", "books", "articles", "images", "audios", "videos", "dissertations" ]
     },
     "1963061337UI" : {
-      "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
+      "indexFields" : [ "contains", "begins_with", "exact", "equals" ],
       "type" : {
         "_string" : "precisionOperator"
       },
       "defaultOption" : "contains",
-      "displayOptions" : [ "contains", "exact", "startswith", "equalsPhrase" ],
-      "options" : [ "contains", "exact", "begins_with", "equals" ]
+      "displayOptions" : [ "contains", "startswith", "exact", "equalsPhrase" ],
+      "options" : [ "contains", "begins_with", "exact", "equals" ]
     },
     "765520359UI" : {
       "indexFields" : [ "rtype", "rtype", "rtype", "rtype", "rtype", "rtype", "rtype", "rtype" ],
