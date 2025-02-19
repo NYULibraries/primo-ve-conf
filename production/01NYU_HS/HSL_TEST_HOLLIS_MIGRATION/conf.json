@@ -1,4 +1,4 @@
-{"beaconO22":"1030",
+{"beaconO22":"779",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -4862,7 +4862,7 @@
     } ]
   },
   "authentication" : [ {
-    "profile-name" : "NYUMC_SSO",
+    "profile-name" : "NYUMC_ENTRA",
     "authentication-system" : "SAML",
     "silent-login-enabled" : "false"
   }, {

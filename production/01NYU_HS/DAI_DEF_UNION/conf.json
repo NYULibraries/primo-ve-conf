@@ -1,4 +1,4 @@
-{"beaconO22":"991",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -4805,7 +4805,7 @@
     } ]
   },
   "authentication" : [ {
-    "profile-name" : "NYUMC_SSO",
+    "profile-name" : "NYUMC_ENTRA",
     "authentication-system" : "SAML",
     "silent-login-enabled" : "false"
   }, {

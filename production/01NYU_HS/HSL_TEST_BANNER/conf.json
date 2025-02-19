@@ -1,4 +1,4 @@
-{"beaconO22":"840",
+{"beaconO22":"1419",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -1935,6 +1935,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
@@ -1944,10 +1948,6 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_qr"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL",
-      "source2" : "use_classic_email_template"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
@@ -4870,7 +4870,7 @@
     } ]
   },
   "authentication" : [ {
-    "profile-name" : "NYUMC_SSO",
+    "profile-name" : "NYUMC_ENTRA",
     "authentication-system" : "SAML",
     "silent-login-enabled" : "false"
   }, {
