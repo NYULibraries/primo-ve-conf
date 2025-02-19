@@ -35,6 +35,9 @@ function getCdnUrl(vid) {
         baseUrl = 'http://localhost:3000/primo-customization';
     } else if (hostname === 'sandbox02-na.primo.exlibrisgroup.com') {
         baseUrl = 'https://d290kawcj1dea9.cloudfront.net/primo-customization';
+    } else if (hostname === 'primo-explore-devenv') {
+        // Running in the headless browser in the Docker Compose `e2e` service.
+        baseUrl = 'http://cdn-server:3000/primo-customization';
     } else {
         baseUrl = cdnUrls[vid] || cdnUrls['01NYU_INST:NYU'];
     }

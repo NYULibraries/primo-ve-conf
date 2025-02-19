@@ -4384,6 +4384,7 @@
   "customization" : {
     "viewCss" : "custom/01NYU_INST-NYU_DEV/css/custom1.css",
     "viewJs" : "custom/01NYU_INST-NYU_DEV/js/custom.js",
+    "favIcon" : "custom/01NYU_INST-NYU_DEV/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_INST-NYU_DEV.svg",
     "libraryLogoClickableURL" : "https://library.nyu.edu",
     "resourceIcons" : { },
