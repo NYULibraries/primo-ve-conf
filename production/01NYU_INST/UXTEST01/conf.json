@@ -1065,7 +1065,7 @@
       "source4" : "15577292270007876"
     }, {
       "source1" : "01NYU_AD",
-      "source2" : "https://nyuad.primo.exlibrisgroup.com",
+      "source2" : "https://search.abudhabi.library.nyu.edu",
       "source3" : "AD",
       "source4" : "15577290760007876"
     } ],
@@ -2127,6 +2127,14 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_OIL",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_LR",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_GEN",
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
