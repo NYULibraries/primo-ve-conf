@@ -597,7 +597,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -625,7 +625,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -659,7 +659,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -693,7 +693,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1628,6 +1628,46 @@
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "false",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSLTEST02",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_HS:HS",
       "source2" : "focus_on_search_input"
     }, {
@@ -1653,10 +1693,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL",
-      "source2" : "use_classic_email_template"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
@@ -1666,6 +1702,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "use_classic_email_template"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL",
