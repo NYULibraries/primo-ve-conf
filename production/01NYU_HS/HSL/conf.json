@@ -1683,6 +1683,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_viewTest",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "false",
@@ -1700,10 +1704,6 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_viewTest",
       "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_viewTest",
-      "source2" : "use_classic_email_template"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_viewTest",

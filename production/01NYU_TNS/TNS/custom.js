@@ -31,7 +31,7 @@ app.component('prmSearchResultAvailabilityLineAfter', {
   controller: 'prmSearchResultAvailabilityLineAfterController'
 });
 // ... End BrowZine - Primo Integration
-app.value('customNoSearchResultsTemplateUrl', 'custom/01NYU_TNS-TNS/html/customNoSearchResults.html');
+app.value('customNoSearchResultsTemplateUrl', 'custom/01NYU_TNS:TNS/html/customNoSearchResults.html');
 app.component('prmUserAreaExpandableAfter', {
   bindings: {},
   template: '<button id="userSnap" class="user-button sign-in-btn-ctm md-button md-primoExplore-theme md-ink-ripple"><a ng-href="https://collector.usersnap.com/a801f2b8-e10c-4646-a60b-a48cf51331cc" target="_blank">Feedback</a><div class="md-ripple-container" style=""></div></button>'
