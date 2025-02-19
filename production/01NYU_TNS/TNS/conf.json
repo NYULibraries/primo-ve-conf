@@ -2914,7 +2914,7 @@
       "target" : "Yes",
       "source1" : "default",
       "source2" : "copyrightDeclaration",
-      "source5" : "true"
+      "source5" : "false"
     }, {
       "target" : "No",
       "source1" : "default",

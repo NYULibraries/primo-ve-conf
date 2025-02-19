@@ -2497,33 +2497,41 @@
       "source3" : "0"
     }, {
       "target" : "default",
-      "source1" : "E-mail",
-      "source2" : "1",
-      "source3" : "1"
+      "source1" : "Permalink",
+      "source2" : "1"
     }, {
       "target" : "default",
-      "source1" : "Permalink",
-      "source2" : "2"
+      "source1" : "E-mail",
+      "source2" : "2",
+      "source3" : "2"
     }, {
       "target" : "default",
       "source1" : "Print",
       "source2" : "3"
     }, {
       "target" : "default",
-      "source1" : "EndNote",
+      "source1" : "Citation",
       "source2" : "4"
     }, {
       "target" : "default",
-      "source1" : "RefWorks",
+      "source1" : "EndNote",
       "source2" : "5"
     }, {
       "target" : "default",
-      "source1" : "RISPushTo",
+      "source1" : "RefWorks",
       "source2" : "6"
     }, {
       "target" : "default",
-      "source1" : "BibTeXPushTo",
+      "source1" : "RISPushTo",
       "source2" : "7"
+    }, {
+      "target" : "default",
+      "source1" : "BibTeXPushTo",
+      "source2" : "8"
+    }, {
+      "target" : "default",
+      "source1" : "Excel",
+      "source2" : "9"
     } ],
     "Recent Searches Configuration" : [ {
       "target" : "01NYU_AD",
