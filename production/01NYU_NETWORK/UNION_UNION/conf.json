@@ -4002,13 +4002,13 @@
       "options" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
     },
     "635420879UI" : {
-      "indexFields" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
+      "indexFields" : [ "lds52", "any", "title", "creator", "sub", "issn", "user_tags" ],
       "type" : {
         "_string" : "scope"
       },
-      "defaultOption" : "any",
-      "displayOptions" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
-      "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
+      "defaultOption" : "lds52",
+      "displayOptions" : [ "lds52", "any", "title", "creator", "sub", "issn", "user_tags" ],
+      "options" : [ "lds52", "any", "title", "creator", "sub", "issn", "user_tags" ]
     },
     "1994446970UI" : {
       "indexFields" : [ "rtype", "rtype", "rtype", "rtype", "rtype", "rtype", "rtype", "rtype" ],
