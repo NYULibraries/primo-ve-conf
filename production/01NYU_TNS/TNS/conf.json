@@ -2019,7 +2019,27 @@
       "source2" : "myaccount1",
       "source3" : "loans"
     } ],
-    "Report a Problem" : [ ],
+    "Report a Problem" : [ {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "Activate widget"
+    }, {
+      "target" : "1",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "Number of categories"
+    }, {
+      "target" : "",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "Email address"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "Form email address mandatory"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "Form description mandatory"
+    } ],
     "Resource Recommender Config" : [ {
       "target" : "priority",
       "source1" : "0",
