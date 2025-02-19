@@ -1043,6 +1043,9 @@
       "source1" : "default",
       "source2" : "arts_humanities"
     }, {
+      "target" : "business_economics",
+      "source1" : "default"
+    }, {
       "target" : "anthropology",
       "source1" : "default",
       "source2" : "social_sciences"
@@ -1053,9 +1056,6 @@
       "target" : "biology",
       "source1" : "default",
       "source2" : "sciences"
-    }, {
-      "target" : "business_economics",
-      "source1" : "default"
     }, {
       "target" : "chemistry",
       "source1" : "default",
@@ -1760,6 +1760,10 @@
       "source1" : "01NYU_INST:DAITEST01",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL",
+      "source2" : "enable_barcode_search"
+    }, {
       "target" : "true",
       "source1" : "01NYU_INST:HIDVL",
       "source2" : "enable_qr"
@@ -1771,10 +1775,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:HIDVL",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:HIDVL",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:HIDVL",
@@ -1840,6 +1840,10 @@
       "source1" : "01NYU_INST:HIDVL",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "enable_barcode_search"
+    }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
       "source2" : "enable_qr"
@@ -1851,10 +1855,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_DEV",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEV",
@@ -2198,6 +2198,13 @@
     }, {
       "target" : "No",
       "source1" : "both",
+      "source2" : "placeOfPublication",
+      "source3" : "book",
+      "source4" : "13",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
       "source2" : "oclcNumber",
       "source3" : "book",
       "source4" : "10",
@@ -2215,13 +2222,6 @@
       "source2" : "publicationDate",
       "source3" : "book",
       "source4" : "12",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "placeOfPublication",
-      "source3" : "book",
-      "source4" : "13",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -3721,6 +3721,11 @@
       "source2" : "5",
       "source3" : "default"
     }, {
+      "target" : "request_add_data_1",
+      "source1" : "request_add_data_1",
+      "source2" : "9",
+      "source3" : "default"
+    }, {
       "target" : "media",
       "source1" : "media",
       "source2" : "6",
@@ -3734,11 +3739,6 @@
       "target" : "request_author",
       "source1" : "request_author",
       "source2" : "8",
-      "source3" : "default"
-    }, {
-      "target" : "request_add_data_1",
-      "source1" : "request_add_data_1",
-      "source2" : "9",
       "source3" : "default"
     }, {
       "target" : "request_add_data_2",
@@ -4516,7 +4516,7 @@
     "cm_override_winpop" : true,
     "primo_ve_handle_autocomplete_request_punctuation" : true
   },
-  "country-codes" : [ "ABW", "AFG", "AGO", "AIA", "ALA", "ALB", "AND", "ARE", "ARG", "ARM", "ASM", "ATA", "ATG", "AUS", "AUT", "AZE", "BDI", "BEL", "BEN", "BFA", "BGD", "BGR", "BHR", "BHS", "BIH", "BLM", "BLR", "BLZ", "BMU", "BOL", "BRA", "BRB", "BRN", "BTN", "BWA", "CAF", "CAN", "CHE", "CHL", "CHN", "CIV", "CMR", "COD", "COG", "COK", "COL", "COM", "CPV", "CRI", "CUB", "CUW", "CYM", "CYP", "CZE", "DEU", "DJI", "DMA", "DNK", "DOM", "DZA", "ECU", "EGY", "ERI", "ESH", "ESP", "EST", "ETH", "FIN", "FJI", "FLK", "FRA", "FRO", "FSM", "GAB", "GBR", "GEO", "GGY", "GHA", "GIB", "GIN", "GLP", "GMB", "GNB", "GNQ", "GRC", "GRD", "GRL", "GTM", "GUF", "GUM", "GUY", "HKG", "HND", "HRV", "HTI", "HUN", "IDN", "IND", "IRL", "IRN", "IRQ", "ISL", "ISR", "ITA", "JAM", "JOR", "JPN", "KAZ", "KEN", "KGZ", "KHM", "KIR", "KOR", "KWT", "LAO", "LBN", "LBR", "LBY", "LIE", "LKA", "LSO", "LTU", "LUX", "LVA", "MAC", "MAR", "MCO", "MDA", "MDG", "MDV", "MEX", "MHL", "MKD", "MLI", "MLT", "MMR", "MNE", "MNG", "MOZ", "MRT", "MSR", "MTQ", "MUS", "MWI", "MYS", "NAM", "NCL", "NER", "NFK", "NGA", "NIC", "NIU", "NLD", "NOR", "NPL", "NRU", "NZL", "OMN", "PAK", "PAN", "PCN", "PER", "PHL", "PLW", "PNG", "POL", "PRI", "PRK", "PRT", "PRY", "PYF", "QAT", "ROU", "RUS", "RWA", "SAU", "SDN", "SEN", "SGP", "SLB", "SLE", "SLV", "SMR", "SOM", "SRB", "SUR", "SVK", "SVN", "SWE", "SWZ", "SYC", "SYR", "TCD", "TGO", "THA", "TJK", "TKL", "TKM", "TLS", "TON", "TTO", "TUN", "TUR", "TUV", "TWN", "TZA", "UGA", "UKR", "URY", "USA", "UZB", "VAT", "VCT", "VEN", "VGB", "VIR", "VNM", "VUT", "WLF", "WSM", "YEM", "ZAF", "ZMB", "ZWE" ],
+  "country-codes" : [ "AFG", "ALA", "ALB", "DZA", "ASM", "AND", "AGO", "VUT", "VAT", "VEN", "VNM", "VGB", "VIR", "WLF", "ESH", "YEM", "ZMB", "ZWE", "UZB", "AIA", "ATA", "ATG", "ARG", "ARM", "ABW", "AUS", "AUT", "AZE", "BHS", "BHR", "BGD", "BRB", "BLR", "BEL", "BLZ", "BEN", "BMU", "BTN", "BOL", "BIH", "BWA", "BRA", "BRN", "BGR", "BFA", "BDI", "KHM", "CMR", "CAN", "CPV", "CYM", "CAF", "TCD", "CHL", "CHN", "COL", "COM", "COG", "COD", "COK", "CRI", "HRV", "CUB", "CUW", "CYP", "CZE", "DNK", "DJI", "DMA", "DOM", "ECU", "EGY", "SLV", "GNQ", "ERI", "EST", "ETH", "MDG", "FLK", "FRO", "FJI", "FIN", "FRA", "GUF", "PYF", "GAB", "GMB", "GEO", "DEU", "GHA", "GIB", "GRC", "GRL", "GRD", "GLP", "GUM", "GTM", "GGY", "GIN", "GNB", "GUY", "HTI", "HND", "HKG", "HUN", "ISL", "IND", "IDN", "IRN", "IRQ", "IRL", "ISR", "ITA", "CIV", "JAM", "JPN", "JOR", "KAZ", "KEN", "KIR", "KWT", "KGZ", "LAO", "LVA", "LBN", "LSO", "LBR", "LBY", "LIE", "LTU", "LUX", "MAC", "MKD", "MWI", "MYS", "MDV", "MLI", "MLT", "MHL", "MTQ", "MRT", "MUS", "MEX", "FSM", "MDA", "MCO", "MNG", "MNE", "MSR", "MAR", "MOZ", "MMR", "NAM", "NRU", "NPL", "NLD", "NCL", "NZL", "NIC", "NER", "NGA", "NIU", "NFK", "PRK", "NOR", "OMN", "PAK", "PLW", "PAN", "PNG", "PRY", "PER", "PHL", "PCN", "POL", "PRT", "PRI", "QAT", "ROU", "RUS", "RWA", "BLM", "VCT", "WSM", "SMR", "SAU", "SEN", "SRB", "SYC", "SLE", "SGP", "SVK", "SVN", "SLB", "SOM", "ZAF", "KOR", "ESP", "LKA", "SDN", "SUR", "SWZ", "SWE", "CHE", "SYR", "TWN", "TJK", "TZA", "THA", "TLS", "TGO", "TKL", "TON", "TTO", "TUN", "TUR", "TKM", "TUV", "UGA", "UKR", "ARE", "GBR", "USA", "URY" ],
   "discovery_services_page" : false,
   "discovery_local_no_login" : false,
   "discovery_with_external_no_login" : false
