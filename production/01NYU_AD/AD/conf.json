@@ -1978,13 +1978,6 @@
       "source4" : "3",
       "source5" : "No"
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "additionalAuthor",
-      "source3" : "book",
-      "source4" : "5",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "publisher",
@@ -2004,6 +1997,13 @@
       "source2" : "publicationDate",
       "source3" : "article",
       "source4" : "15",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "additionalAuthor",
+      "source3" : "book",
+      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",
