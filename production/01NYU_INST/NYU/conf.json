@@ -334,27 +334,23 @@
           "label" : "LibrarySearch",
           "target" : "_self"
         }, {
-          "url" : "bsearch",
-          "label" : "BrowseSearch",
+          "url" : "citationlinker",
+          "label" : "citationlinker",
           "target" : "_self"
-        }, {
-          "url" : "https://ares.library.nyu.edu",
-          "label" : "CourseReserves"
-        }, {
-          "url" : "http://guides.nyu.edu/arch",
-          "label" : "Articles&Databases"
         }, {
           "url" : "jsearch",
           "label" : "JournalSearch",
           "target" : "_self"
         }, {
-          "url" : "citationlinker",
-          "label" : "citationlinker",
+          "url" : "bsearch",
+          "label" : "BrowseSearch",
           "target" : "_self"
         }, {
-          "url" : "PurchaseRequest",
-          "label" : "PurchaseRequest",
-          "target" : "_self"
+          "url" : "http://guides.nyu.edu/arch",
+          "label" : "Articles&Databases"
+        }, {
+          "url" : "https://ares.library.nyu.edu",
+          "label" : "CourseReserves"
         } ],
         "id" : "01NYU_INST:NYU.MainMenuTileInterface"
       }
