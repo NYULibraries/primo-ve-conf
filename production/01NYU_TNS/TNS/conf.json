@@ -4434,10 +4434,15 @@
   "customization" : {
     "viewCss" : "custom/01NYU_TNS-TNS/css/custom1.css",
     "viewJs" : "custom/01NYU_TNS-TNS/js/custom.js",
+    "libraryLogo" : "custom/01NYU_TNS-TNS/img/library-logo.png",
     "libraryLogoClickableURL" : "https://library.newschool.edu",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
-    "staticHtml" : { }
+    "staticHtml" : {
+      "email" : {
+        "en.tmpl" : "custom/01NYU_TNS-TNS/html/email/email_en.tmpl.html"
+      }
+    }
   },
   "UIComponents" : {
     "399616556UI" : {

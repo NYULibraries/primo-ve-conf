@@ -21,27 +21,23 @@ app.config(function ($sceDelegateProvider) {
 });
 
 function getCdnUrl(vid) {
-    var view = parseViewDirectoryName(vid);
-
     var cdnUrls = {
-        'localhost': {
-            '01NYU_INST:NYU': 'http://localhost:3000/primo-customization',
-            '01NYU_INST:NYU_DEV': 'http://localhost:3000/primo-customization',
-            '01NYU_INST:TESTWS01': 'http://localhost:3000/primo-customization'
-        },
-        'nyu.primo.exlibrisgroup.com': {
-            '01NYU_INST:NYU': 'https://cdn.library.nyu.edu/primo-customization',
-            '01NYU_INST:NYU_DEV': 'https://cdn-dev.library.nyu.edu/primo-customization',
-            '01NYU_INST:TESTWS01': 'https://cdn-dev.library.nyu.edu/primo-customization'
-        },
-        'sandbox02-na.primo.exlibrisgroup.com': {
-            '01NYU_INST:NYU': 'https://d290kawcj1dea9.cloudfront.net/primo-customization',
-            '01NYU_INST:NYU_DEV': 'https://d290kawcj1dea9.cloudfront.net/primo-customization',
-            '01NYU_INST:TESTWS01': 'https://d290kawcj1dea9.cloudfront.net/primo-customization'
-        }
+        '01NYU_INST:NYU': 'https://cdn.library.nyu.edu/primo-customization',
+        '01NYU_INST:NYU_DEV': 'https://cdn-dev.library.nyu.edu/primo-customization',
+        '01NYU_INST:TESTWS01': 'https://cdn-dev.library.nyu.edu/primo-customization'
     };
 
-    var baseUrl = cdnUrls[window.location.hostname][vid] || cdnUrls['localhost']['01NYU_INST:NYU_DEV'];
+    var hostname = window.location.hostname;
+    var view = parseViewDirectoryName(vid);
+
+    var baseUrl = void 0;
+    if (hostname === 'localhost') {
+        baseUrl = 'http://localhost:3000/primo-customization';
+    } else if (hostname === 'sandbox02-na.primo.exlibrisgroup.com') {
+        baseUrl = 'https://d290kawcj1dea9.cloudfront.net/primo-customization';
+    } else {
+        baseUrl = cdnUrls[vid] || cdnUrls['01NYU_INST:NYU'];
+    }
 
     return baseUrl + '/' + view;
 }
