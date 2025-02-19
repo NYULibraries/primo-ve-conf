@@ -68,10 +68,10 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
-      "LC_HSL" : false,
+      "LC_HSL" : true,
       "jsearch_scope" : false,
-      "LC_HSL_AND_NYU" : false,
-      "CI_HSL_NYU" : false
+      "LC_HSL_AND_NYU" : true,
+      "CI_HSL_NYU" : true
     },
     "scopes" : [ {
       "scope-id" : "CI_HSL_NYU",
@@ -735,7 +735,7 @@
     "Session Timeout" : "30",
     "Auto_Complete_Server_URL" : "https://primo-instant-na.hosted.exlibrisgroup.com",
     "FE UI - Scrolling Threshold" : "10",
-    "Auto_Complete_Feature_Enabled" : "false",
+    "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
     "manualAlternativeEmailRS" : false,
     "showICPLicenseFooter" : "false",
@@ -1599,7 +1599,7 @@
       "source1" : "01NYU_HS:HSL",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_recent_scopes"
     }, {
@@ -2610,6 +2610,14 @@
       "target" : "default",
       "source1" : "BibTeXPushTo",
       "source2" : "8"
+    }, {
+      "target" : "default",
+      "source1" : "Mendeley",
+      "source2" : "9"
+    }, {
+      "target" : "default",
+      "source1" : "QR",
+      "source2" : "10"
     } ],
     "Recent Searches Configuration" : [ {
       "target" : "01NYU_HS",
