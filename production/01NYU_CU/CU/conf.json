@@ -767,6 +767,9 @@
         }, {
           "items" : "boundwith",
           "displayInViewer" : true
+        }, {
+          "items" : "crsinfo",
+          "displayInViewer" : true
         } ],
         "id" : "01NYU_CU:CU.ResultFullTileInterface.CentralIndex"
       },
@@ -832,6 +835,9 @@
           "displayInViewer" : true
         }, {
           "items" : "boundwith",
+          "displayInViewer" : true
+        }, {
+          "items" : "crsinfo",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_CU:CU.ResultFullTileInterface.NYUDiscoveryNetwork"
@@ -899,6 +905,9 @@
         }, {
           "items" : "boundwith",
           "displayInViewer" : true
+        }, {
+          "items" : "crsinfo",
+          "displayInViewer" : true
         } ],
         "id" : "01NYU_CU:CU.ResultFullTileInterface.jsearch_slot"
       },
@@ -964,6 +973,9 @@
           "displayInViewer" : true
         }, {
           "items" : "boundwith",
+          "displayInViewer" : true
+        }, {
+          "items" : "crsinfo",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_CU:CU.ResultFullTileInterface.LibraryCatalog"

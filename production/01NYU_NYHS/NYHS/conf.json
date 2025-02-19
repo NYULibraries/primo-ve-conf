@@ -374,9 +374,6 @@
           "items" : "frequency",
           "displayInViewer" : true
         }, {
-          "items" : "source",
-          "displayInViewer" : true
-        }, {
           "items" : "boundwith",
           "displayInViewer" : true
         } ],
@@ -440,9 +437,6 @@
           "items" : "frequency",
           "displayInViewer" : true
         }, {
-          "items" : "source",
-          "displayInViewer" : true
-        }, {
           "items" : "boundwith",
           "displayInViewer" : true
         } ],
@@ -468,7 +462,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,details,getit_link1,links,moreFromTheSame,recommendations,tags,browseshelf,,mayAlsoBeFoundAt,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -496,7 +490,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,details,getit_link1,links,moreFromTheSame,recommendations,tags,browseshelf,,mayAlsoBeFoundAt,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -530,7 +524,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,details,getit_link1,links,moreFromTheSame,recommendations,tags,browseshelf,,mayAlsoBeFoundAt,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -564,7 +558,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,details,getit_link1,links,moreFromTheSame,recommendations,tags,browseshelf,,mayAlsoBeFoundAt,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
