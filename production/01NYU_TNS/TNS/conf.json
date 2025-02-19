@@ -49,12 +49,12 @@
       "citationTrailsEnabled" : true,
       "citationTrailsFilterByAvailability" : true,
       "selectedFacetLocation" : "left",
-      "personalizationEnabled" : false,
+      "personalizationEnabled" : true,
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
       "collectionDiscoveryEnabled" : true,
-      "displayNewspapersLink" : false,
-      "displayFeaturedNewspapers" : false,
+      "displayNewspapersLink" : true,
+      "displayFeaturedNewspapers" : true,
       "refEntryActive" : true,
       "relatedItemsActive" : true,
       "legantoURLTemplate" : "",
@@ -2714,7 +2714,42 @@
       "source5" : "No",
       "source6" : "Null"
     } ],
-    "Featured newspapers" : [ ],
+    "Featured newspapers" : [ {
+      "target" : "0362-4331;2574-9579;0734-7456;0458-3035;2641-9599",
+      "source1" : "default",
+      "source2" : "LRGST",
+      "source3" : "Wall Street Journal, New York Times, USA Today,  Washington Post,  Los Angeles Times",
+      "source4" : "1",
+      "source5" : "1"
+    }, {
+      "target" : "2574-9579;0013-0613;0307-1766;1557-7902",
+      "source1" : "default",
+      "source2" : "FIN",
+      "source3" : "Wall Street Journal, The Economist, Financial Times, Crain's Chicago Business",
+      "source4" : "2",
+      "source5" : "1"
+    }, {
+      "target" : "0017-789X",
+      "source1" : "default",
+      "source2" : "FASH",
+      "source3" : "Harper's Magazine",
+      "source4" : "3",
+      "source5" : "1"
+    }, {
+      "target" : "1059-1028;1099-274X;0016-3317;",
+      "source1" : "default",
+      "source2" : "TECH",
+      "source3" : "Wired, MIT Technology Review,Futurist",
+      "source4" : "4",
+      "source5" : "1"
+    }, {
+      "target" : "0004-3273;1745-9303;1086-7058;0049-3910;0142-6702",
+      "source1" : "default",
+      "source2" : "ART",
+      "source3" : "Artnews, ArtReview, Artforum, Time Out, Art Monthly",
+      "source4" : "5",
+      "source5" : "1"
+    } ],
     "Controlled Digital Lending Request Detailed Display" : [ {
       "target" : "request_type",
       "source1" : "request_type",
