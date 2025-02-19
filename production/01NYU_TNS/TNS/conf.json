@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -617,6 +617,12 @@
           "items" : "format",
           "displayInViewer" : true
         }, {
+          "items" : "language",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds74",
+          "displayInViewer" : true
+        }, {
           "items" : "frequency",
           "displayInViewer" : true
         }, {
@@ -769,6 +775,12 @@
           "displayInViewer" : true
         }, {
           "items" : "format",
+          "displayInViewer" : true
+        }, {
+          "items" : "language",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds74",
           "displayInViewer" : true
         }, {
           "items" : "frequency",
@@ -925,6 +937,12 @@
           "items" : "format",
           "displayInViewer" : true
         }, {
+          "items" : "language",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds74",
+          "displayInViewer" : true
+        }, {
           "items" : "frequency",
           "displayInViewer" : true
         }, {
@@ -1077,6 +1095,12 @@
           "displayInViewer" : true
         }, {
           "items" : "format",
+          "displayInViewer" : true
+        }, {
+          "items" : "language",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds74",
           "displayInViewer" : true
         }, {
           "items" : "frequency",
