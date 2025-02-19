@@ -1767,11 +1767,11 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "nde_share_actions_table_is_customized"
+      "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "nde_export_actions_table_is_customized"
+      "source2" : "nde_share_actions_table_is_customized"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -2080,6 +2080,13 @@
       "source4" : "3",
       "source5" : "No"
     }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "additionalAuthor",
+      "source3" : "book",
+      "source4" : "5",
+      "source5" : "No"
+    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "publisher",
@@ -2099,13 +2106,6 @@
       "source2" : "publicationDate",
       "source3" : "article",
       "source4" : "15",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "additionalAuthor",
-      "source3" : "book",
-      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",

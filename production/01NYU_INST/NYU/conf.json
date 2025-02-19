@@ -2162,6 +2162,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEF",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEF",
       "source2" : "enable_recent_scopes"
     }, {
       "target" : "true",
@@ -2171,10 +2175,6 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEF",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_DEF",
-      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEF",
