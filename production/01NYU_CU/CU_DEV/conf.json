@@ -13,7 +13,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_CU",
       "institution-name" : "Cooper Union",
-      "last-modified-time-stamp" : "Aug 17, 2023 13:41:59 PM",
+      "last-modified-time-stamp" : "Nov 02, 2023 20:20:47 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : true
     },
@@ -2187,6 +2187,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
@@ -2196,10 +2200,6 @@
       "target" : "true",
       "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_RESTEST",
-      "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_RESTEST",
