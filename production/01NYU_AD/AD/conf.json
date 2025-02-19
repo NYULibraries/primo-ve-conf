@@ -1507,6 +1507,18 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_AD:AD_NP",
       "source2" : "focus_on_search_input"
     }, {
@@ -1553,6 +1565,10 @@
       "target" : "true",
       "source1" : "01NYU_AD:AD_BKUP",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_highlight_the_record_you_came_from"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",

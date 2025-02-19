@@ -1468,10 +1468,6 @@
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_NYHS:NYHS_DEV",
-      "source2" : "enable_barcode_search"
-    }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "enable_recent_scopes"
@@ -1488,15 +1484,15 @@
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "enable_saveEshelf_message"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_NYHS:NYHS_DEV",
+      "source2" : "enable_barcode_search"
+    }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS_DEV",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "enable_resource_type_filter_bar"
     }, {
@@ -1523,6 +1519,10 @@
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS_DEV",
+      "source2" : "enable_resource_type_filter_bar"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",

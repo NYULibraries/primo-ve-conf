@@ -1507,6 +1507,18 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_AD:AD_NP",
       "source2" : "focus_on_search_input"
     }, {
@@ -1553,6 +1565,10 @@
       "target" : "true",
       "source1" : "01NYU_AD:AD_BKUP",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_highlight_the_record_you_came_from"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
@@ -2497,33 +2513,41 @@
       "source3" : "0"
     }, {
       "target" : "default",
-      "source1" : "E-mail",
-      "source2" : "1",
-      "source3" : "1"
+      "source1" : "Permalink",
+      "source2" : "1"
     }, {
       "target" : "default",
-      "source1" : "Permalink",
-      "source2" : "2"
+      "source1" : "E-mail",
+      "source2" : "2",
+      "source3" : "2"
     }, {
       "target" : "default",
       "source1" : "Print",
       "source2" : "3"
     }, {
       "target" : "default",
-      "source1" : "EndNote",
+      "source1" : "Citation",
       "source2" : "4"
     }, {
       "target" : "default",
-      "source1" : "RefWorks",
+      "source1" : "EndNote",
       "source2" : "5"
     }, {
       "target" : "default",
-      "source1" : "RISPushTo",
+      "source1" : "RefWorks",
       "source2" : "6"
     }, {
       "target" : "default",
-      "source1" : "BibTeXPushTo",
+      "source1" : "RISPushTo",
       "source2" : "7"
+    }, {
+      "target" : "default",
+      "source1" : "BibTeXPushTo",
+      "source2" : "8"
+    }, {
+      "target" : "default",
+      "source1" : "Excel",
+      "source2" : "9"
     } ],
     "Recent Searches Configuration" : [ {
       "target" : "01NYU_AD",
@@ -3864,6 +3888,7 @@
   "customization" : {
     "viewCss" : "custom/01NYU_AD-AD_DEV/css/custom1.css",
     "viewJs" : "custom/01NYU_AD-AD_DEV/js/custom.js",
+    "favIcon" : "custom/01NYU_AD-AD_DEV/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_AD-AD_DEV.png",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },

@@ -329,16 +329,25 @@
           "items" : "creator,contributor",
           "displayInViewer" : true
         }, {
-          "items" : "ispartof",
+          "items" : "publisher",
           "displayInViewer" : true
         }, {
-          "items" : "dissertation",
+          "items" : "creationdate",
+          "displayInViewer" : true
+        }, {
+          "items" : "edition",
           "displayInViewer" : true
         }, {
           "items" : "subject",
           "displayInViewer" : true
         }, {
-          "items" : "mesh",
+          "items" : "identifier",
+          "displayInViewer" : true
+        }, {
+          "items" : "ispartof",
+          "displayInViewer" : true
+        }, {
+          "items" : "dissertation",
           "displayInViewer" : true
         }, {
           "items" : "genre",
@@ -359,15 +368,6 @@
           "items" : "series",
           "displayInViewer" : true
         }, {
-          "items" : "publisher",
-          "displayInViewer" : true
-        }, {
-          "items" : "creationdate",
-          "displayInViewer" : true
-        }, {
-          "items" : "edition",
-          "displayInViewer" : true
-        }, {
           "items" : "format",
           "displayInViewer" : true
         }, {
@@ -375,6 +375,12 @@
           "displayInViewer" : true
         }, {
           "items" : "boundwith",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds60",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds61",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_NYHS:NYHS_DEV.ResultFullTileInterface.jsearch_slot"
@@ -392,16 +398,25 @@
           "items" : "creator,contributor",
           "displayInViewer" : true
         }, {
-          "items" : "ispartof",
+          "items" : "publisher",
           "displayInViewer" : true
         }, {
-          "items" : "dissertation",
+          "items" : "creationdate",
+          "displayInViewer" : true
+        }, {
+          "items" : "edition",
           "displayInViewer" : true
         }, {
           "items" : "subject",
           "displayInViewer" : true
         }, {
-          "items" : "mesh",
+          "items" : "identifier",
+          "displayInViewer" : true
+        }, {
+          "items" : "ispartof",
+          "displayInViewer" : true
+        }, {
+          "items" : "dissertation",
           "displayInViewer" : true
         }, {
           "items" : "genre",
@@ -422,15 +437,6 @@
           "items" : "series",
           "displayInViewer" : true
         }, {
-          "items" : "publisher",
-          "displayInViewer" : true
-        }, {
-          "items" : "creationdate",
-          "displayInViewer" : true
-        }, {
-          "items" : "edition",
-          "displayInViewer" : true
-        }, {
           "items" : "format",
           "displayInViewer" : true
         }, {
@@ -438,6 +444,12 @@
           "displayInViewer" : true
         }, {
           "items" : "boundwith",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds60",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds61",
           "displayInViewer" : true
         } ],
         "id" : "01NYU_NYHS:NYHS_DEV.ResultFullTileInterface.unified_slot"
@@ -1456,10 +1468,6 @@
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_NYHS:NYHS_DEV",
-      "source2" : "enable_barcode_search"
-    }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "enable_recent_scopes"
@@ -1476,15 +1484,15 @@
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "enable_saveEshelf_message"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_NYHS:NYHS_DEV",
+      "source2" : "enable_barcode_search"
+    }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS_DEV",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "enable_resource_type_filter_bar"
     }, {
@@ -1511,6 +1519,10 @@
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS_DEV",
+      "source2" : "enable_resource_type_filter_bar"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
@@ -3812,6 +3824,7 @@
   "customization" : {
     "viewCss" : "custom/01NYU_NYHS-NYHS_DEV/css/custom1.css",
     "viewJs" : "custom/01NYU_NYHS-NYHS_DEV/js/custom.js",
+    "favIcon" : "custom/01NYU_NYHS-NYHS_DEV/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_NYHS-NYHS_DEV.png",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
