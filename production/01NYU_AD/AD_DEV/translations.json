@@ -1,4 +1,4 @@
-{"beaconO22":"1042",
+{"beaconO22":"1298",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
   "search-advanced.mediaType.option.acceptedmanuscript" : "Accepted Manuscripts",
   "search-advanced.mediaType.option.activity" : "Activity",
@@ -8344,6 +8344,7 @@
   "facets.facet.facet_rtype.tempdatabase" : "Databases",
   "7879–NYUAD" : "KARMS New York (NYUAD)",
   "7876–NREI" : "NYU Jack Brause",
+  "facets.facet.facet_location_code.7876–163053680007876–markers" : "Dry Erase Markers",
   "facets.facet.facet_location_code.7879–112350240007879–adr3d" : "Reserves Collection - 3 Hour Loan",
   "facets.facet.facet_location_code.7875–124368010007875–unassigned" : "UNASSIGNED location",
   "facets.facet.facet_location_code.7875–124368750007875–unassigned" : "UNASSIGNED location",
