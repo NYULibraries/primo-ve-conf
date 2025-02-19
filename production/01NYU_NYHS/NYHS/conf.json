@@ -64,18 +64,10 @@
     },
     "auto-complete-enabled-map" : {
       "jsearch_scope" : false,
-      "DiscoveryNetwork" : true,
       "MyInstitution" : true
     },
     "scopes" : [ {
       "scope-id" : "MyInstitution",
-      "locations" : "Local",
-      "types" : "local",
-      "tab" : "unified_slot",
-      "tab-id-for-scope-matching" : "unified_slot",
-      "contains-central-index-scope" : false
-    }, {
-      "scope-id" : "DiscoveryNetwork",
       "locations" : "Local",
       "types" : "local",
       "tab" : "unified_slot",
@@ -1410,10 +1402,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
-      "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS",
       "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
@@ -1423,6 +1411,10 @@
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS",
+      "source2" : "enable_highlight_the_record_you_came_from"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -3725,7 +3717,6 @@
   } ],
   "scopes-context-map" : {
     "jsearch_scope" : "L",
-    "DiscoveryNetwork" : "L",
     "MyInstitution" : "L"
   },
   "backend_system" : "suprima",

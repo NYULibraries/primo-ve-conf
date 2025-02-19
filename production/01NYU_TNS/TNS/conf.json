@@ -19,7 +19,7 @@
     },
     "pc-availability-tab-scopes-map" : {
       "Everything" : {
-        "MyInst_and_CI" : "AVAILABLE_ONLY"
+        "MyInst_and_CI" : "INCLUDE_NO_FULL_TEXT"
       }
     },
     "view-org-level" : {
@@ -51,7 +51,7 @@
       "personalizationEnabled" : false,
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
-      "collectionDiscoveryEnabled" : false,
+      "collectionDiscoveryEnabled" : true,
       "displayNewspapersLink" : false,
       "displayFeaturedNewspapers" : false,
       "refEntryActive" : true,
@@ -74,8 +74,8 @@
     },
     "scopes" : [ {
       "scope-id" : "MyInst_and_CI",
-      "locations" : "Local,primo_central_multiple_fe",
-      "types" : "local,adaptor",
+      "locations" : "primo_central_multiple_fe,Local",
+      "types" : "adaptor,local",
       "tab" : "Everything",
       "tab-id-for-scope-matching" : "Everything",
       "contains-central-index-scope" : true
@@ -533,6 +533,10 @@
         }, {
           "url" : "/discovery/npsearch?vid=01NYU_TNS:TNS",
           "label" : "NewspaperSearch",
+          "target" : "_self"
+        }, {
+          "url" : "/discovery/collectionDiscovery?vid=01NYU_TNS:TNS",
+          "label" : "CollectionDiscovery",
           "target" : "_self"
         }, {
           "url" : "BlankIll",
@@ -1314,7 +1318,7 @@
     "rapido_hide_section_when_user_not_logged_in" : false,
     "rapido_hide_get_it_user_groups" : { },
     "default_user_search_history_off" : false,
-    "equals_search_operator_hypertext_linking_enabled" : false,
+    "equals_search_operator_hypertext_linking_enabled" : true,
     "allow_start_with_for_call_number" : false,
     "allow_activity_on_transferred_finesfees" : false,
     "display_person_info_card" : false,
@@ -2087,7 +2091,7 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "display_CDI_secondary_RT"
     }, {
@@ -4518,13 +4522,13 @@
       "options" : [ ]
     },
     "1002582148UI" : {
-      "indexFields" : [ "contains", "exact", "begins_with" ],
+      "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
       "type" : {
         "_string" : "precisionOperator"
       },
       "defaultOption" : "contains",
-      "displayOptions" : [ "contains", "exact", "startswith" ],
-      "options" : [ "contains", "exact", "begins_with" ]
+      "displayOptions" : [ "contains", "exact", "startswith", "equalsPhrase" ],
+      "options" : [ "contains", "exact", "begins_with", "equals" ]
     },
     "934963027UI" : {
       "indexFields" : [ "rtype", "rtype", "rtype", "rtype", "rtype", "rtype", "rtype", "rtype" ],
@@ -4572,13 +4576,13 @@
       "options" : [ "any", "journals", "books", "articles", "images", "audios", "videos", "dissertations" ]
     },
     "173389551UI" : {
-      "indexFields" : [ "contains", "exact", "begins_with" ],
+      "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
       "type" : {
         "_string" : "precisionOperator"
       },
       "defaultOption" : "contains",
-      "displayOptions" : [ "contains", "exact", "startswith" ],
-      "options" : [ "contains", "exact", "begins_with" ]
+      "displayOptions" : [ "contains", "exact", "startswith", "equalsPhrase" ],
+      "options" : [ "contains", "exact", "begins_with", "equals" ]
     },
     "drEndMonth" : {
       "indexFields" : [ "cdate" ],
@@ -4590,13 +4594,13 @@
       "options" : [ "end_month", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" ]
     },
     "1413992429UI" : {
-      "indexFields" : [ "contains", "exact", "begins_with" ],
+      "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
       "type" : {
         "_string" : "precisionOperator"
       },
       "defaultOption" : "contains",
-      "displayOptions" : [ "contains", "exact", "startswith" ],
-      "options" : [ "contains", "exact", "begins_with" ]
+      "displayOptions" : [ "contains", "exact", "startswith", "equalsPhrase" ],
+      "options" : [ "contains", "exact", "begins_with", "equals" ]
     },
     "660573659UI" : {
       "indexFields" : [ "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang" ],
@@ -4642,13 +4646,13 @@
       "options" : [ "any", "journals", "books", "articles", "images", "audios", "videos", "dissertations" ]
     },
     "1963061337UI" : {
-      "indexFields" : [ "contains", "exact", "begins_with" ],
+      "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
       "type" : {
         "_string" : "precisionOperator"
       },
       "defaultOption" : "contains",
-      "displayOptions" : [ "contains", "exact", "startswith" ],
-      "options" : [ "contains", "exact", "begins_with" ]
+      "displayOptions" : [ "contains", "exact", "startswith", "equalsPhrase" ],
+      "options" : [ "contains", "exact", "begins_with", "equals" ]
     }
   },
   "queryTerms" : {
