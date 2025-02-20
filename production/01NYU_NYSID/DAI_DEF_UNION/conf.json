@@ -1,4 +1,4 @@
-{"beaconO22":"1113",
+{"beaconO22":"936",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1876,6 +1876,10 @@
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "export_all_records"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
+      "source2" : "nde_display_snippet"
+    }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
@@ -1895,10 +1899,6 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "nde_display_summary_field"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
-      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",

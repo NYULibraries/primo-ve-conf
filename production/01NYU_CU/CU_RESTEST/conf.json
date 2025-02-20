@@ -1,4 +1,4 @@
-{"beaconO22":"763",
+{"beaconO22":"1248",
   "primo-view" : {
     "available-tabs" : [ "CourseReserves" ],
     "institution" : {
@@ -1749,6 +1749,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV_BK",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV_BK",
       "source2" : "enable_recent_scopes"
     }, {
       "target" : "true",
@@ -1783,14 +1787,6 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_barcode_search"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_DEV_BK",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_DEV_BK",
-      "source2" : "enable_saveEshelf_message"
-    }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_DEV_BK",
       "source2" : "display_CDI_secondary_RT"
@@ -1807,6 +1803,10 @@
       "source1" : "01NYU_CU:CU_DEV_BK",
       "source2" : "enable_resource_type_filter_bar"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV_BK",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_DEV_BK",
       "source2" : "use_normalized_cdi_subjects"
@@ -1829,10 +1829,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "true",
@@ -1842,6 +1838,10 @@
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_RESTEST",
+      "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
@@ -4152,14 +4152,14 @@
       "target" : "chicago-fullnote-bibliography",
       "source1" : "1"
     }, {
-      "target" : "chicago-author-date",
-      "source1" : "2"
-    }, {
       "target" : "apa",
       "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"
+    }, {
+      "target" : "chicago-author-date",
+      "source1" : "2"
     } ],
     "Export RIS encodings" : [ {
       "target" : "UTF-8",
