@@ -1,4 +1,4 @@
-{"beaconO22":"1214",
+{"beaconO22":"810",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -281,6 +281,18 @@
           "valid" : true,
           "count" : 0,
           "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_genre",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
             "_string" : "alpha_numeric",
             "_int" : 1
           },
@@ -506,6 +518,18 @@
           },
           "id" : "facet_newrecords",
           "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_genre",
+          "useTranslations" : false
         } ],
         "relatedfacetview" : { },
         "id" : "01NYU_INST:NYU_DEF.FacetTileInterface.LibraryCatalog"
@@ -670,6 +694,18 @@
           },
           "id" : "facet_newrecords",
           "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_genre",
+          "useTranslations" : false
         } ],
         "relatedfacetview" : { },
         "id" : "01NYU_INST:NYU_DEF.FacetTileInterface.CentralIndex"
@@ -833,6 +869,18 @@
             "_int" : 1
           },
           "id" : "facet_newrecords",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_genre",
           "useTranslations" : false
         } ],
         "relatedfacetview" : { },

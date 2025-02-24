@@ -1,4 +1,4 @@
-{"beaconO22":"887",
+{"beaconO22":"1604",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1894,6 +1894,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
@@ -1906,19 +1910,11 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU",
-      "source2" : "use_classic_email_template"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU",
       "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_DEV_BK",
-      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV_BK",
@@ -2043,6 +2039,10 @@
       "target" : "true",
       "source1" : "01NYU_CU:CU",
       "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV_BK",
+      "source2" : "enable_saveEshelf_message"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
