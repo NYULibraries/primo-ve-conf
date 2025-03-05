@@ -1,4 +1,4 @@
-{"beaconO22":"777",
+{"beaconO22":"1656",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -857,9 +857,9 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
+    "showICPLicenseFooter" : "false",
     "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
-    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -1240,6 +1240,11 @@
     }, {
       "target" : "No",
       "source1" : "default",
+      "source2" : "stateProvince",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
       "source2" : "addressLine3",
       "source5" : "false"
     }, {
@@ -1251,11 +1256,6 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "city",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
-      "source2" : "stateProvince",
       "source5" : "false"
     }, {
       "target" : "No",
