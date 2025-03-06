@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"3",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -5573,13 +5573,13 @@
       "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
     },
     "560862633UI" : {
-      "indexFields" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ],
+      "indexFields" : [ "any", "title", "creator", "sub", "holding_call_number", "isbn", "issn", "user_tags" ],
       "type" : {
         "_string" : "scope"
       },
       "defaultOption" : "any",
-      "displayOptions" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ],
-      "options" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ]
+      "displayOptions" : [ "any", "title", "creator", "sub", "holding_call_number", "isbn", "issn", "user_tags" ],
+      "options" : [ "any", "title", "creator", "sub", "holding_call_number", "isbn", "issn", "user_tags" ]
     },
     "1475877229UI" : {
       "indexFields" : [ "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang" ],
@@ -5681,13 +5681,13 @@
       "options" : [ "start_day", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" ]
     },
     "391419965UI" : {
-      "indexFields" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ],
+      "indexFields" : [ "any", "title", "creator", "sub", "holding_call_number", "isbn", "issn", "user_tags" ],
       "type" : {
         "_string" : "scope"
       },
       "defaultOption" : "any",
-      "displayOptions" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ],
-      "options" : [ "any", "title", "creator", "sub", "holding_call_number", "issn", "user_tags" ]
+      "displayOptions" : [ "any", "title", "creator", "sub", "holding_call_number", "isbn", "issn", "user_tags" ],
+      "options" : [ "any", "title", "creator", "sub", "holding_call_number", "isbn", "issn", "user_tags" ]
     },
     "173389551UI" : {
       "indexFields" : [ "contains", "begins_with", "exact", "equals" ],
