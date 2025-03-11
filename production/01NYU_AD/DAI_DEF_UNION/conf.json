@@ -1,4 +1,4 @@
-{"beaconO22":"1085",
+{"beaconO22":"1791",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -13,7 +13,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_AD",
       "institution-name" : "New York University Abu Dhabi",
-      "last-modified-time-stamp" : "Aug 20, 2024 14:31:31 PM",
+      "last-modified-time-stamp" : "Mar 10, 2025 20:24:07 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : false
     },
@@ -2394,6 +2394,14 @@
       "source5" : "No"
     }, {
       "target" : "Yes",
+      "source1" : "both",
+      "source2" : "comment",
+      "source3" : "delivery",
+      "source4" : "15",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
       "source1" : "fulnet",
       "source2" : "preferredLocalPickupLocation",
       "source3" : "delivery",
@@ -2406,14 +2414,6 @@
       "source2" : "notNeedAfter",
       "source3" : "delivery",
       "source4" : "14",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "comment",
-      "source3" : "delivery",
-      "source4" : "15",
       "source5" : "No",
       "source6" : " "
     }, {
