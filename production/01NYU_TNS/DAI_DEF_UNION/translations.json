@@ -1,4 +1,4 @@
-{"beaconO22":"2493",
+{"beaconO22":"2075",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
   "search-advanced.mediaType.option.acceptedmanuscript" : "Accepted Manuscripts",
   "search-advanced.mediaType.option.activity" : "Activity",
@@ -2801,6 +2801,7 @@
   "lang.y98" : "Kuku Waldja / Wulpura",
   "lang.y99" : "Kuku Yalunyu",
   "fulldisplay.datasource.Alma" : "Library Catalog",
+  "fulldisplay.datasource.LIBGUIDES" : "LibGuides A-Z List",
   "dbcategories.databases" : "Search for databases",
   "dbcategories.description" : "To search for databases you can do the following:",
   "dbcategories.option1" : "Enter keywords in the search box.",
