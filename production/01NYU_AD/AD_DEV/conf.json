@@ -1,4 +1,4 @@
-{"beaconO22":"1151",
+{"beaconO22":"1331",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -2419,14 +2419,6 @@
       "source5" : "No"
     }, {
       "target" : "Yes",
-      "source1" : "both",
-      "source2" : "comment",
-      "source3" : "delivery",
-      "source4" : "15",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
       "source1" : "fulnet",
       "source2" : "preferredLocalPickupLocation",
       "source3" : "delivery",
@@ -2439,6 +2431,14 @@
       "source2" : "notNeedAfter",
       "source3" : "delivery",
       "source4" : "14",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "comment",
+      "source3" : "delivery",
+      "source4" : "15",
       "source5" : "No",
       "source6" : " "
     }, {
