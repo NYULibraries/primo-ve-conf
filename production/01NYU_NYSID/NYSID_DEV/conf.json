@@ -1,4 +1,4 @@
-{"beaconO22":"1144",
+{"beaconO22":"920",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "consortia" ],
     "institution" : {
@@ -1540,9 +1540,9 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "showICPLicenseFooter" : "false",
     "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -2564,10 +2564,6 @@
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "export_all_records"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
-      "source2" : "nde_display_snippet"
-    }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
@@ -2587,6 +2583,10 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "nde_display_summary_field"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
+      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",

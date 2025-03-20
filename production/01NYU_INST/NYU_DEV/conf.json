@@ -470,10 +470,10 @@
           "items" : "lds62",
           "displayInViewer" : true
         }, {
-          "items" : "source",
+          "items" : "lds65",
           "displayInViewer" : true
         }, {
-          "items" : "lds65",
+          "items" : "lds71",
           "displayInViewer" : true
         }, {
           "items" : "lds64",
@@ -483,6 +483,9 @@
           "displayInViewer" : true
         }, {
           "items" : "dedupmemberids",
+          "displayInViewer" : true
+        }, {
+          "items" : "source",
           "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
@@ -633,10 +636,10 @@
           "items" : "lds62",
           "displayInViewer" : true
         }, {
-          "items" : "source",
+          "items" : "lds65",
           "displayInViewer" : true
         }, {
-          "items" : "lds65",
+          "items" : "lds71",
           "displayInViewer" : true
         }, {
           "items" : "lds64",
@@ -646,6 +649,9 @@
           "displayInViewer" : true
         }, {
           "items" : "dedupmemberids",
+          "displayInViewer" : true
+        }, {
+          "items" : "source",
           "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
