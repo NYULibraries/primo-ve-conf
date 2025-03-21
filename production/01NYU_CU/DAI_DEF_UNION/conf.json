@@ -1,4 +1,4 @@
-{"beaconO22":"1127",
+{"beaconO22":"1061",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -858,9 +858,9 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "showICPLicenseFooter" : "false",
     "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -1778,6 +1778,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_CU:DAI_DEF_UNION",
+      "source2" : "nde_display_snippet"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:DAI_DEF_UNION",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
       "target" : "false",
@@ -1787,10 +1791,6 @@
       "target" : "true",
       "source1" : "01NYU_CU:DAI_DEF_UNION",
       "source2" : "nde_display_summary_field"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_CU:DAI_DEF_UNION",
-      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:DAI_DEF_UNION",
@@ -4452,14 +4452,14 @@
       "target" : "chicago-fullnote-bibliography",
       "source1" : "1"
     }, {
+      "target" : "chicago-author-date",
+      "source1" : "2"
+    }, {
       "target" : "apa",
       "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"
-    }, {
-      "target" : "chicago-author-date",
-      "source1" : "2"
     } ],
     "Export RIS encodings" : [ {
       "target" : "UTF-8",
