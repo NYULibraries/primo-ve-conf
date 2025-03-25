@@ -1,4 +1,4 @@
-{"beaconO22":"745",
+{"beaconO22":"650",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -4213,15 +4213,15 @@
       "source3" : "false",
       "source5" : "TRUE"
     }, {
-      "target" : "01NYU_NYSID",
-      "source1" : "https://na07-psb.alma.exlibrisgroup.com",
-      "source2" : "New York School of Interior Design",
-      "source3" : "false",
-      "source5" : "TRUE"
-    }, {
       "target" : "01NYU_HS",
       "source1" : "https://na07-psb.alma.exlibrisgroup.com",
       "source2" : "New York University Health Sciences",
+      "source3" : "false",
+      "source5" : "TRUE"
+    }, {
+      "target" : "01NYU_NYSID",
+      "source1" : "https://na07-psb.alma.exlibrisgroup.com",
+      "source2" : "New York School of Interior Design",
       "source3" : "false",
       "source5" : "TRUE"
     }, {
