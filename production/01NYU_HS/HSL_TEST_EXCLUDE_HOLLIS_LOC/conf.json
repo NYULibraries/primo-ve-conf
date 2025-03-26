@@ -1,4 +1,4 @@
-{"beaconO22":"2009",
+{"beaconO22":"1133",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -2147,10 +2147,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:DAI_DEF_UNION",
-      "source2" : "nde_display_fields_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:DAI_DEF_UNION",
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
@@ -2160,6 +2156,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:DAI_DEF_UNION",
       "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:DAI_DEF_UNION",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:DAI_DEF_UNION",

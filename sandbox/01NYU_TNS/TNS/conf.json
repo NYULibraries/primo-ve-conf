@@ -1,4 +1,4 @@
-{"beaconO22":"3",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -19,7 +19,7 @@
     },
     "pc-availability-tab-scopes-map" : {
       "Everything" : {
-        "DN_and_CI" : "INCLUDE_NO_FULL_TEXT"
+        "DN_and_CI" : "AVAILABLE_ONLY"
       }
     },
     "view-org-level" : {
