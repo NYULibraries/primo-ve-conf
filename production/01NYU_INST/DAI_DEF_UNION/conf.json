@@ -1,4 +1,4 @@
-{"beaconO22":"1022",
+{"beaconO22":"1171",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2317,6 +2317,10 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_NP_TEST",
       "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DAI",
+      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
