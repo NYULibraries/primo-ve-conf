@@ -1915,11 +1915,11 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
-      "source2" : "focus_on_search_input"
+      "source2" : "enable_barcode_search"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
-      "source2" : "enable_saveEshelf_message"
+      "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
@@ -1933,9 +1933,9 @@
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
-      "source2" : "enable_barcode_search"
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
@@ -2410,6 +2410,10 @@
       "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
+      "source1" : "01NYU_HS:HSL_TEST_FACETS_2",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
@@ -2423,19 +2427,15 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_FACETS_2",
-      "source2" : "display_CDI_secondary_RT"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_HS:HSL_TEST_FACETS_2",
       "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_FACETS_2",
       "source2" : "enable_resource_type_filter_bar"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_FACETS_2",
-      "source2" : "allow_direct_login_from_other_institutions"
+      "source2" : "display_CDI_secondary_RT"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_FACETS_2",
