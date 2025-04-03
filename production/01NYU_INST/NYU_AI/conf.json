@@ -1,4 +1,4 @@
-{"beaconO22":"1297",
+{"beaconO22":"1381",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -5175,7 +5175,6 @@
   "customization" : {
     "viewCss" : "custom/01NYU_INST-NYU_AI/css/custom1.css",
     "viewJs" : "custom/01NYU_INST-NYU_AI/js/custom.js",
-    "favIcon" : "custom/01NYU_INST-NYU_AI/img/favicon.ico",
     "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_INST-NYU_AI.svg",
     "libraryLogoClickableURL" : "https://library.nyu.edu",
     "resourceIcons" : { },
