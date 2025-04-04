@@ -1,4 +1,4 @@
-{"beaconO22":"1300",
+{"beaconO22":"1620",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -909,9 +909,9 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
-    "showICPLicenseFooter" : "false",
     "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -1985,7 +1985,7 @@
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_barcode_search"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_resource_type_filter_bar"
     }, {
@@ -2332,6 +2332,10 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_FACETS_2",

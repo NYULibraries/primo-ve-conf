@@ -1,4 +1,4 @@
-{"beaconO22":"1290",
+{"beaconO22":"886",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1924,7 +1924,7 @@
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_barcode_search"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_resource_type_filter_bar"
     }, {
@@ -2271,6 +2271,10 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_FACETS_2",
