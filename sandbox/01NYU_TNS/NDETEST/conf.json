@@ -1,4 +1,4 @@
-{"beaconO22":"1485",
+{"beaconO22":"965",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "CourseReserves" ],
     "institution" : {
@@ -3544,6 +3544,10 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_barcode_search"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:NDETEST",
       "source2" : "enableDidYouMean"
@@ -3632,14 +3636,6 @@
       "source1" : "01NYU_TNS:NDETEST",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNSPSBNDE",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSPSBNDE",
       "source2" : "enableDidYouMean"
@@ -3655,6 +3651,10 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSPSBNDE",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSPSBNDE",
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSPSBNDE",
@@ -3726,6 +3726,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
@@ -3780,14 +3784,6 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "use_normalized_cdi_subjects"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "nde_export_actions_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enableDidYouMean"
-    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_display_summary_field"
@@ -3803,6 +3799,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
