@@ -1,4 +1,4 @@
-{"beaconO22":"1178",
+{"beaconO22":"1243",
   "primo-view" : {
     "available-tabs" : [ "default" ],
     "institution" : {
@@ -2672,6 +2672,14 @@
     }, {
       "target" : "No",
       "source1" : "fulnet",
+      "source2" : "preferredPickupInstitution",
+      "source3" : "delivery",
+      "source4" : "10",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
       "source2" : "preferredPickupLocation",
       "source3" : "delivery",
       "source4" : "11",
@@ -2680,18 +2688,10 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "formDescription",
-      "source3" : "owner",
+      "source2" : "citationType",
+      "source3" : "type",
       "source4" : "1",
       "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredPickupInstitution",
-      "source3" : "delivery",
-      "source4" : "10",
-      "source5" : "No",
-      "source6" : " "
     }, {
       "target" : "No",
       "source1" : "both",
@@ -2716,8 +2716,8 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "citationType",
-      "source3" : "type",
+      "source2" : "formDescription",
+      "source3" : "owner",
       "source4" : "1",
       "source5" : "No"
     }, {
@@ -2772,14 +2772,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "language",
-      "source3" : "delivery",
-      "source4" : "19",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -2799,6 +2791,14 @@
       "source2" : "copyrights",
       "source3" : "delivery",
       "source4" : "18",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "language",
+      "source3" : "delivery",
+      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {
