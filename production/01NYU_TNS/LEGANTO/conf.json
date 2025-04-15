@@ -1,4 +1,4 @@
-{"beaconO22":"1362",
+{"beaconO22":"1664",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -5914,11 +5914,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinking",
-      "source1" : "NO"
-    }, {
       "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
       "source1" : "true"
+    }, {
+      "target" : "enableDirectLinking",
+      "source1" : "NO"
     } ],
     "Citation styles" : [ {
       "target" : "modern-language-association-7th-edition",

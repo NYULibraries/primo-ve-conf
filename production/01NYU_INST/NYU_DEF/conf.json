@@ -1,4 +1,4 @@
-{"beaconO22":"1740",
+{"beaconO22":"1536",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -2437,11 +2437,6 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
-      "target" : "Yes",
-      "source1" : "default",
-      "source2" : "chapterArticleTitle",
-      "source5" : "false"
-    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
@@ -2455,6 +2450,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "calculateQueueButton",
+      "source5" : "false"
+    }, {
+      "target" : "Yes",
+      "source1" : "default",
+      "source2" : "chapterArticleTitle",
       "source5" : "false"
     }, {
       "target" : "Yes",
@@ -2524,11 +2524,6 @@
     }, {
       "target" : "No",
       "source1" : "default",
-      "source2" : "postalCode",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
       "source2" : "addressLine4",
       "source5" : "false"
     }, {
@@ -2540,6 +2535,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "stateProvince",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
+      "source2" : "postalCode",
       "source5" : "false"
     } ],
     "Prima Direct Login To Other Institutions" : [ {
