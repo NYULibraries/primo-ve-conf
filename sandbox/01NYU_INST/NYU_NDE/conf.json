@@ -1,4 +1,4 @@
-{"beaconO22":"853",
+{"beaconO22":"739",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -1208,7 +1208,7 @@
       "source2" : "publicationDate",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "manualDescription",
       "source5" : "false"
@@ -1223,37 +1223,37 @@
       "source2" : "formDescription",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "addressLine1",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "addressLine2",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "addressLine3",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "addressLine4",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "city",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "stateProvince",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "postalCode",
       "source5" : "false"
