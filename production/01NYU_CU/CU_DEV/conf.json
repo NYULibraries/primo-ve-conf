@@ -1,4 +1,4 @@
-{"beaconO22":"1323",
+{"beaconO22":"2007",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -2952,6 +2952,13 @@
       "source4" : "19",
       "source5" : "No"
     }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "authorInitials",
+      "source3" : "article",
+      "source4" : "4",
+      "source5" : "No"
+    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "articleTitle",
@@ -2971,13 +2978,6 @@
       "source2" : "articleAuthor",
       "source3" : "article",
       "source4" : "3",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "authorInitials",
-      "source3" : "article",
-      "source4" : "4",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -5126,14 +5126,14 @@
       "target" : "chicago-fullnote-bibliography",
       "source1" : "1"
     }, {
-      "target" : "chicago-author-date",
-      "source1" : "2"
-    }, {
       "target" : "apa",
       "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"
+    }, {
+      "target" : "chicago-author-date",
+      "source1" : "2"
     } ],
     "Export RIS encodings" : [ {
       "target" : "UTF-8",
