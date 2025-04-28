@@ -1,4 +1,4 @@
-{"beaconO22":"11",
+{"beaconO22":"10",
   "search-advanced.mediaType.option.assignment" : "Assignment",
   "search-advanced.mediaType.option.workbook" : "Workbook",
   "search-advanced.mediaType.option.flashcards" : "Flashcards",
@@ -7809,6 +7809,7 @@
   "facets.facet.facet_location_code.7875–124368010007875–nres" : "Reserves Collection",
   "facets.facet.facet_location_code.7875–124368290007875–wd" : "Withdrawn Materials",
   "facets.facet.facet_location_code.7876–163048640007876–rf6" : "Main Collection",
+  "facets.facet.facet_location_code.7877–125467120007877–textbook" : "Textbook Collection",
   "facets.facet.facet_location_code.7876–163051130007876–dresp" : "Permanent Reserves",
   "facets.facet.facet_location_code.7876–163053680007876–mfref" : "Microform - LL2 Reference",
   "facets.facet.facet_location_code.7876–163049100007876–afc cas" : "Cassette Collection",

@@ -1,4 +1,4 @@
-{"beaconO22":"999",
+{"beaconO22":"1244",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -1564,8 +1564,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "manualAlternativeEmailRS" : false,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -3038,14 +3038,6 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "email",
-      "source3" : "delivery",
-      "source4" : "9",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
       "source2" : "doi",
       "source3" : "article",
       "source4" : "9",
@@ -3064,6 +3056,14 @@
       "source2" : "alternativeLocationEmail",
       "source3" : "delivery",
       "source4" : "8",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "email",
+      "source3" : "delivery",
+      "source4" : "9",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -3162,14 +3162,6 @@
       "source5" : "No"
     }, {
       "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredLocalPickupLocation",
-      "source3" : "delivery",
-      "source4" : "13",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
       "source3" : "article",
@@ -3189,6 +3181,14 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredLocalPickupLocation",
+      "source3" : "delivery",
+      "source4" : "13",
+      "source5" : "No",
+      "source6" : " "
     }, {
       "target" : "No",
       "source1" : "both",
