@@ -1,4 +1,4 @@
-{"beaconO22":"643",
+{"beaconO22":"814",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -1738,10 +1738,6 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
-      "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
-      "source2" : "enable_qr"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "enable_qr"
     }, {
@@ -1770,6 +1766,14 @@
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
@@ -1792,10 +1796,6 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
@@ -1857,13 +1857,13 @@
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "enable_barcode_search"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
-      "source2" : "enable_qr"
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
-      "source2" : "enable_saveEshelf_message"
+      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
@@ -1877,9 +1877,9 @@
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "enable_recent_scopes"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
-      "source2" : "enable_barcode_search"
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
