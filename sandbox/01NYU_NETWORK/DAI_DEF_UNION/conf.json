@@ -1,4 +1,4 @@
-{"beaconO22":"517",
+{"beaconO22":"570",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -1798,6 +1798,14 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
+      "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "enable_qr"
     }, {
@@ -1811,10 +1819,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
@@ -1824,14 +1828,6 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
-      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
@@ -1859,6 +1855,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
@@ -1912,14 +1912,6 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DEF_UNION",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
@@ -1940,6 +1932,10 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DEF_UNION",
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
@@ -1962,10 +1958,6 @@
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
-      "source1" : "01NYU_NETWORK:UCTEST01_UNION",
-      "source2" : "export_all_records"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "export_all_records"
     }, {
@@ -1978,12 +1970,20 @@
       "source2" : "export_all_records"
     }, {
       "target" : "true",
+      "source1" : "01NYU_NETWORK:UCTEST01_UNION",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "export_all_records"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
+      "source2" : "enable_barcode_search"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
@@ -4215,6 +4215,12 @@
       "source3" : "false",
       "source5" : "TRUE"
     }, {
+      "target" : "01NYU_NYSID",
+      "source1" : "https://na07-psb.alma.exlibrisgroup.com",
+      "source2" : "New York School of Interior Design",
+      "source3" : "false",
+      "source5" : "TRUE"
+    }, {
       "target" : "01NYU_HS",
       "source1" : "https://na07-psb.alma.exlibrisgroup.com",
       "source2" : "New York University Health Sciences",
@@ -4224,12 +4230,6 @@
       "target" : "01NYU_INST",
       "source1" : "https://na07-psb.alma.exlibrisgroup.com",
       "source2" : "New York University - New York",
-      "source3" : "false",
-      "source5" : "TRUE"
-    }, {
-      "target" : "01NYU_NYSID",
-      "source1" : "https://na07-psb.alma.exlibrisgroup.com",
-      "source2" : "New York School of Interior Design",
       "source3" : "false",
       "source5" : "TRUE"
     } ],
