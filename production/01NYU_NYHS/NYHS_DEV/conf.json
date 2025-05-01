@@ -1,4 +1,4 @@
-{"beaconO22":"1601",
+{"beaconO22":"1752",
   "primo-view" : {
     "available-tabs" : [ "unified_slot" ],
     "institution" : {
@@ -1877,15 +1877,15 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "nde_display_all_requests_in_expand_mode"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS_DEV",
-      "source2" : "nde_full_record_services_table_is_customized"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
