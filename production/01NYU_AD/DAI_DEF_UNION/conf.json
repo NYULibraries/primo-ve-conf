@@ -1,4 +1,4 @@
-{"beaconO22":"1505",
+{"beaconO22":"1452",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -13,7 +13,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_AD",
       "institution-name" : "New York University Abu Dhabi",
-      "last-modified-time-stamp" : "Mar 10, 2025 20:24:07 PM",
+      "last-modified-time-stamp" : "May 01, 2025 20:39:17 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : false
     },

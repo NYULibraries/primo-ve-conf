@@ -1,4 +1,4 @@
-{"beaconO22":"1745",
+{"beaconO22":"1106",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -13,7 +13,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_AD",
       "institution-name" : "New York University Abu Dhabi",
-      "last-modified-time-stamp" : "Mar 10, 2025 20:24:07 PM",
+      "last-modified-time-stamp" : "May 01, 2025 20:39:17 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : false
     },
@@ -872,8 +872,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
-    "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "manualAlternativeEmailRS" : false,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
