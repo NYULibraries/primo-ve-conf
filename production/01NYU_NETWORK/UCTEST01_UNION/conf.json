@@ -1,4 +1,4 @@
-{"beaconO22":"993",
+{"beaconO22":"1738",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -1798,6 +1798,14 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
+      "source1" : "01NYU_NETWORK:UNION_UNION",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:UNION_UNION",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "enable_qr"
     }, {
@@ -1984,14 +1992,6 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "export_all_records"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:UNION_UNION",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:UNION_UNION",
-      "source2" : "enable_saveEshelf_message"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
