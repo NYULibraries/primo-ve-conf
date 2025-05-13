@@ -1,4 +1,4 @@
-{"beaconO22":"2105",
+{"beaconO22":"1059",
   "primo-view" : {
     "available-tabs" : [ "default" ],
     "institution" : {
@@ -3886,6 +3886,9 @@
     "User Login Links" : [ {
       "source1" : "login.link1",
       "source2" : "https://library.answers.nyu.edu/faq/406013"
+    }, {
+      "source1" : "login.link2",
+      "source2" : "https://nyu.alma.exlibrisgroup.com/view/resetPw?institutionCode=01NYU_INST&backUrl=https%3A%2F%2Fsearch.library.nyu.edu%2Fdiscovery%2Fsearch%3Fvid%3D01NYU_INST%3ANYU"
     } ],
     "Acquisition Request Detailed Display" : [ {
       "target" : "library_note",

@@ -1,4 +1,4 @@
-{"beaconO22":"1649",
+{"beaconO22":"1018",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot", "CentralIndex" ],
     "institution" : {
@@ -315,18 +315,6 @@
           "viewinstsort" : false,
           "instsort" : false,
           "valid" : true,
-          "count" : 50,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "lds98",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
           "count" : 0,
           "sort" : {
             "_string" : "alpha_numeric",
@@ -485,18 +473,6 @@
             "_int" : 1
           },
           "id" : "facet_domain",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 50,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "lds98",
           "useTranslations" : false
         }, {
           "display" : true,
@@ -1326,9 +1302,9 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
-    "showICPLicenseFooter" : "false",
     "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -4544,6 +4520,9 @@
     "User Login Links" : [ {
       "source1" : "login.link1",
       "source2" : "https://library.answers.nyu.edu/faq/406013"
+    }, {
+      "source1" : "login.link2",
+      "source2" : "https://nyu.alma.exlibrisgroup.com/view/resetPw?institutionCode=01NYU_INST&backUrl=https%3A%2F%2Fsearch.library.nyu.edu%2Fdiscovery%2Fsearch%3Fvid%3D01NYU_INST%3ANYU"
     } ],
     "Acquisition Request Detailed Display" : [ {
       "target" : "library_note",
