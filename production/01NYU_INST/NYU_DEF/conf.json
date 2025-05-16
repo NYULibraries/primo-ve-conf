@@ -1,4 +1,4 @@
-{"beaconO22":"820",
+{"beaconO22":"948",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -13,7 +13,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_INST",
       "institution-name" : "New York University - New York",
-      "last-modified-time-stamp" : "Dec 17, 2024 16:15:00 PM",
+      "last-modified-time-stamp" : "May 15, 2025 17:34:49 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : false
     },
@@ -3443,6 +3443,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_display_summary_field"
     }, {
       "target" : "false",
@@ -3452,10 +3456,6 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",

@@ -1,6 +1,6 @@
-{"beaconO22":"562",
+{"beaconO22":"608",
   "primo-view" : {
-    "available-tabs" : [ "DiscoveryNetwork" ],
+    "available-tabs" : [ "DiscoveryNetwork", "NYUTEST" ],
     "institution" : {
       "description" : "Network",
       "id" : 7871,
@@ -81,6 +81,13 @@
       "types" : "local",
       "tab" : "DiscoveryNetwork",
       "tab-id-for-scope-matching" : "DiscoveryNetwork",
+      "contains-central-index-scope" : false
+    }, {
+      "scope-id" : "DiscoveryNetwork",
+      "locations" : "Local",
+      "types" : "local",
+      "tab" : "NYUTEST",
+      "tab-id-for-scope-matching" : "NYUTEST",
       "contains-central-index-scope" : false
     } ],
     "cdi-ft-search-tab-scopes-map" : { },
@@ -270,6 +277,182 @@
         "relatedfacetview" : { },
         "id" : "01NYU_NETWORK:DAI_DEF_UNION.FacetTileInterface.DiscoveryNetwork"
       },
+      "01NYU_NETWORK:DAI_DEF_UNION.FacetTileInterface.NYUTEST" : {
+        "toplevelfacet" : true,
+        "toplevelsidefacet" : false,
+        "generalpageactions" : false,
+        "facetview" : [ {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 50,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "lds98",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 5,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_tlevel",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_topic",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_creator",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_library",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_institution",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_location_code",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_rtype",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_domain",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_creationdate",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_jtitle",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_lang",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "none",
+            "_int" : 1
+          },
+          "id" : "facet_newrecords",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_data_source",
+          "useTranslations" : false
+        } ],
+        "relatedfacetview" : { },
+        "id" : "01NYU_NETWORK:DAI_DEF_UNION.FacetTileInterface.NYUTEST"
+      },
       "01NYU_NETWORK:DAI_DEF_UNION.FacetTileInterface.jsearch_slot" : {
         "toplevelfacet" : true,
         "toplevelsidefacet" : false,
@@ -361,6 +544,23 @@
         "resourcetypePrefiltersenable" : false,
         "alphabeticLanguagesSort" : true
       },
+      "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Advanced.NYUTEST" : {
+        "qtvinstance" : [ {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.searchbox_complex.NYUTEST"
+        }, {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.mediaType.NYUTEST"
+        }, {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.language.NYUTEST"
+        }, {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.date_range.NYUTEST"
+        }, {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.prescisionOperators.NYUTEST"
+        } ],
+        "prefiltersenable" : false,
+        "indexedPrefiltersenable" : false,
+        "resourcetypePrefiltersenable" : false,
+        "alphabeticLanguagesSort" : true
+      },
       "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Simple.DiscoveryNetwork" : {
         "qtvinstance" : [ {
           "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.searchbox_complex.DiscoveryNetwork"
@@ -377,9 +577,181 @@
         "indexedPrefiltersenable" : false,
         "resourcetypePrefiltersenable" : false,
         "alphabeticLanguagesSort" : false
+      },
+      "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Simple.NYUTEST" : {
+        "qtvinstance" : [ {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.searchbox_complex.NYUTEST"
+        }, {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.mediaType.NYUTEST"
+        }, {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.language.NYUTEST"
+        }, {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.date_range.NYUTEST"
+        }, {
+          "qtvid" : "01NYU_NETWORK:DAI_DEF_UNION.prescisionOperators.NYUTEST"
+        } ],
+        "prefiltersenable" : false,
+        "indexedPrefiltersenable" : false,
+        "resourcetypePrefiltersenable" : false,
+        "alphabeticLanguagesSort" : false
       }
     },
     "ResultFullTileInterface" : {
+      "01NYU_NETWORK:DAI_DEF_UNION.ResultFullTileInterface.NYUTEST" : {
+        "eshelf" : false,
+        "delimiter" : ";",
+        "getitbutton" : false,
+        "resultlinks" : [ {
+          "links" : "linktorsrc,addlink,backlink,sourcerecord,"
+        } ],
+        "resultitemview" : [ {
+          "items" : "title,vertitle",
+          "displayInViewer" : true
+        }, {
+          "items" : "creator,contributor",
+          "displayInViewer" : true
+        }, {
+          "items" : "ispartof",
+          "displayInViewer" : true
+        }, {
+          "items" : "dissertation",
+          "displayInViewer" : true
+        }, {
+          "items" : "subject",
+          "displayInViewer" : true
+        }, {
+          "items" : "mesh",
+          "displayInViewer" : true
+        }, {
+          "items" : "genre",
+          "displayInViewer" : true
+        }, {
+          "items" : "description",
+          "displayInViewer" : true
+        }, {
+          "items" : "contents",
+          "displayInViewer" : true
+        }, {
+          "items" : "addtitle",
+          "displayInViewer" : true
+        }, {
+          "items" : "relation",
+          "displayInViewer" : true
+        }, {
+          "items" : "series",
+          "displayInViewer" : true
+        }, {
+          "items" : "publisher",
+          "displayInViewer" : true
+        }, {
+          "items" : "creationdate",
+          "displayInViewer" : true
+        }, {
+          "items" : "edition",
+          "displayInViewer" : true
+        }, {
+          "items" : "format",
+          "displayInViewer" : true
+        }, {
+          "items" : "frequency",
+          "displayInViewer" : true
+        }, {
+          "items" : "source",
+          "displayInViewer" : true
+        }, {
+          "items" : "boundwith",
+          "displayInViewer" : true
+        }, {
+          "items" : "dedupmemberids",
+          "displayInViewer" : true
+        }, {
+          "items" : "boundwith",
+          "displayInViewer" : true
+        }, {
+          "items" : "mms",
+          "displayInViewer" : true
+        }, {
+          "items" : "rights",
+          "displayInViewer" : true
+        }, {
+          "items" : "includes",
+          "displayInViewer" : true
+        } ],
+        "authorityitemview" : [ {
+          "items" : "heading",
+          "displayInViewer" : true
+        }, {
+          "items" : "complex_reference",
+          "displayInViewer" : true
+        }, {
+          "items" : "see_from_tracing",
+          "displayInViewer" : true
+        }, {
+          "items" : "related_terms",
+          "displayInViewer" : true
+        }, {
+          "items" : "source_data_found",
+          "displayInViewer" : true
+        }, {
+          "items" : "source_data_not_found",
+          "displayInViewer" : true
+        }, {
+          "items" : "biographical_or_historical_data",
+          "displayInViewer" : true
+        }, {
+          "items" : "note",
+          "displayInViewer" : true
+        }, {
+          "items" : "heading_linking_entry",
+          "displayInViewer" : true
+        }, {
+          "items" : "other_standard_identifier",
+          "displayInViewer" : true
+        }, {
+          "items" : "field_of_activity",
+          "displayInViewer" : true
+        }, {
+          "items" : "corporate_name_associated_group",
+          "displayInViewer" : true
+        }, {
+          "items" : "subject_occupation",
+          "displayInViewer" : true
+        }, {
+          "items" : "imprint",
+          "displayInViewer" : true
+        }, {
+          "items" : "source_id",
+          "displayInViewer" : true
+        }, {
+          "items" : "special_coded_dates",
+          "displayInViewer" : true
+        }, {
+          "items" : "complex_see_also_reference_subject",
+          "displayInViewer" : true
+        }, {
+          "items" : "other_attributes",
+          "displayInViewer" : true
+        }, {
+          "items" : "associated_place",
+          "displayInViewer" : true
+        }, {
+          "items" : "address",
+          "displayInViewer" : true
+        }, {
+          "items" : "electronic_location_and_access",
+          "displayInViewer" : true
+        }, {
+          "items" : "associated_language",
+          "displayInViewer" : true
+        }, {
+          "items" : "complex_see_also_reference_name",
+          "displayInViewer" : true
+        }, {
+          "items" : "history_reference",
+          "displayInViewer" : true
+        } ],
+        "id" : "01NYU_NETWORK:DAI_DEF_UNION.ResultFullTileInterface.NYUTEST"
+      },
       "01NYU_NETWORK:DAI_DEF_UNION.ResultFullTileInterface.jsearch_slot" : {
         "eshelf" : false,
         "delimiter" : ";",
@@ -692,6 +1064,40 @@
       }
     },
     "ResultTileInterface" : {
+      "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterface.NYUTEST" : {
+        "ilsapi" : false,
+        "bulksize" : 2,
+        "eshelf" : true,
+        "showsnip" : true,
+        "resultview" : [ {
+          "items" : "vertitle,title",
+          "delimiter" : "; "
+        }, {
+          "items" : "creator,contributor",
+          "delimiter" : "; "
+        }, {
+          "items" : "creationdate",
+          "delimiter" : "; "
+        }, {
+          "items" : "ispartof",
+          "delimiter" : "; "
+        } ],
+        "facebookenabled" : false,
+        "linkabletitle" : "2",
+        "sortby" : "rank,date_d,date_a,title,author",
+        "frbrdisplay" : 1,
+        "frbrsortby" : "date_d",
+        "tabsorder" : {
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
+        },
+        "getall" : false,
+        "showsnipifnotfound" : true,
+        "boostinst" : false,
+        "numofresults" : 10,
+        "id" : "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterface.NYUTEST",
+        "displaysigninmsg" : true,
+        "groupmessage" : 0
+      },
       "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterfaceFrbrGeneric.DiscoveryNetwork" : {
         "ilsapi" : false,
         "bulksize" : 2,
@@ -815,6 +1221,34 @@
         "id" : "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterface.DiscoveryNetwork",
         "displaysigninmsg" : true,
         "groupmessage" : 0
+      },
+      "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterfaceFrbrGeneric.NYUTEST" : {
+        "ilsapi" : false,
+        "bulksize" : 2,
+        "eshelf" : true,
+        "showsnip" : true,
+        "resultview" : [ {
+          "items" : "vertitle,title",
+          "delimiter" : ";"
+        }, {
+          "items" : "creator,contributor",
+          "delimiter" : ";"
+        } ],
+        "facebookenabled" : false,
+        "linkabletitle" : "2",
+        "sortby" : "rank,date_d,date_a,title,author",
+        "frbrdisplay" : 1,
+        "frbrsortby" : "date_d",
+        "tabsorder" : {
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
+        },
+        "getall" : false,
+        "showsnipifnotfound" : true,
+        "boostinst" : false,
+        "numofresults" : 10,
+        "id" : "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterfaceFrbrGeneric.NYUTEST",
+        "displaysigninmsg" : true,
+        "groupmessage" : 0
       }
     },
     "LocationsTileInterface" : {
@@ -825,6 +1259,14 @@
         "filtersop" : "all_filters",
         "instsort" : false,
         "id" : "01NYU_NETWORK:DAI_DEF_UNION.LocationsTileInterface.DiscoveryNetwork"
+      },
+      "01NYU_NETWORK:DAI_DEF_UNION.LocationsTileInterface.NYUTEST" : {
+        "viewinstsort" : false,
+        "rta" : "none",
+        "displayholdingsfilters" : true,
+        "filtersop" : "all_filters",
+        "instsort" : false,
+        "id" : "01NYU_NETWORK:DAI_DEF_UNION.LocationsTileInterface.NYUTEST"
       },
       "01NYU_NETWORK:DAI_DEF_UNION.LocationsTileInterface.jsearch_slot" : {
         "viewinstsort" : false,
@@ -887,6 +1329,7 @@
     "use_rapido_functionality" : false,
     "allow_self_registration" : false,
     "hide_rapido_expand_link_map" : {
+      "NYUTEST" : false,
       "DiscoveryNetwork" : false
     },
     "subjects_alphabetical_sort_fullDisplay" : false,
@@ -1749,6 +2192,34 @@
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:UNION_UNION",
       "source2" : "enable_qr"
@@ -1788,10 +2259,6 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:UCTEST01_UNION",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
-      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:UNION_UNION",
@@ -1823,15 +2290,15 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "use_classic_email_template"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
-      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
@@ -1855,6 +2322,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
@@ -1912,10 +2383,6 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DEF_UNION",
-      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
@@ -1944,6 +2411,10 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DEF_UNION",
+      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
@@ -1961,9 +2432,13 @@
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
       "target" : "true",
-      "source1" : "01NYU_NETWORK:UCTEST01_UNION",
-      "source2" : "export_all_records"
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_display_summary_field"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
@@ -1978,11 +2453,71 @@
       "source2" : "export_all_records"
     }, {
       "target" : "true",
+      "source1" : "01NYU_NETWORK:UCTEST01_UNION",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "export_all_records"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_show_times_cited"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "export_all_records"
     } ],
     "Resource Sharing Request Parameters" : [ {
@@ -4830,6 +5365,15 @@
       "displayOptions" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
       "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
     },
+    "72836532UI" : {
+      "indexFields" : [ "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang" ],
+      "type" : {
+        "_string" : "language"
+      },
+      "defaultOption" : "any",
+      "displayOptions" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
+      "options" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
+    },
     "drStartMonth" : {
       "indexFields" : [ "cdate" ],
       "type" : {
@@ -4893,6 +5437,15 @@
       "displayOptions" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
       "options" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
     },
+    "842178064UI" : {
+      "indexFields" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
+      "type" : {
+        "_string" : "scope"
+      },
+      "defaultOption" : "any",
+      "displayOptions" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
+      "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ]
+    },
     "687718306UI" : {
       "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
       "type" : {
@@ -4919,6 +5472,24 @@
       "defaultOption" : "end_month",
       "displayOptions" : [ "end_month", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" ],
       "options" : [ "end_month", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" ]
+    },
+    "468077670UI" : {
+      "indexFields" : [ "rtype", "rtype", "rtype", "rtype", "rtype", "rtype", "rtype", "rtype" ],
+      "type" : {
+        "_string" : "mediaType"
+      },
+      "defaultOption" : "any",
+      "displayOptions" : [ "any", "journals", "books", "articles", "images", "audios", "videos", "dissertations" ],
+      "options" : [ "any", "journals", "books", "articles", "images", "audios", "videos", "dissertations" ]
+    },
+    "560020640UI" : {
+      "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
+      "type" : {
+        "_string" : "precisionOperator"
+      },
+      "defaultOption" : "contains",
+      "displayOptions" : [ "contains", "exact", "startswith", "equalsPhrase" ],
+      "options" : [ "contains", "exact", "begins_with", "equals" ]
     },
     "714480398UI" : {
       "indexFields" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
@@ -4966,19 +5537,25 @@
   },
   "queryTerms" : {
     "01NYU_NETWORK:DAI_DEF_UNION.language.jsearch_slot" : [ "1491533251UI" ],
+    "01NYU_NETWORK:DAI_DEF_UNION.date_range.NYUTEST" : [ "drStartDay", "drStartMonth", "drStartYear", "drEndDay", "drEndMonth", "drEndYear" ],
+    "01NYU_NETWORK:DAI_DEF_UNION.mediaType.DiscoveryNetwork" : [ "340380004UI" ],
+    "01NYU_NETWORK:DAI_DEF_UNION.mediaType.NYUTEST" : [ "468077670UI" ],
+    "01NYU_NETWORK:DAI_DEF_UNION.searchbox_complex.jsearch_slot" : [ "freeText", "boolOperator", "576518655UI", "1978717359UI" ],
+    "01NYU_NETWORK:DAI_DEF_UNION.searchbox_complex.NYUTEST" : [ "freeText", "boolOperator", "842178064UI", "560020640UI" ],
+    "01NYU_NETWORK:DAI_DEF_UNION.prescisionOperators.NYUTEST" : [ "560020640UI" ],
+    "01NYU_NETWORK:DAI_DEF_UNION.searchbox_complex.DiscoveryNetwork" : [ "freeText", "boolOperator", "714480398UI", "687718306UI" ],
     "01NYU_NETWORK:DAI_DEF_UNION.prescisionOperators.DiscoveryNetwork" : [ "687718306UI" ],
     "01NYU_NETWORK:DAI_DEF_UNION.mediaType.jsearch_slot" : [ "950619049UI" ],
-    "01NYU_NETWORK:DAI_DEF_UNION.mediaType.DiscoveryNetwork" : [ "340380004UI" ],
-    "01NYU_NETWORK:DAI_DEF_UNION.searchbox_complex.jsearch_slot" : [ "freeText", "boolOperator", "576518655UI", "1978717359UI" ],
     "01NYU_NETWORK:DAI_DEF_UNION.language.DiscoveryNetwork" : [ "200534198UI" ],
     "01NYU_NETWORK:DAI_DEF_UNION.date_range.jsearch_slot" : [ "drStartDay", "drStartMonth", "drStartYear", "drEndDay", "drEndMonth", "drEndYear" ],
     "01NYU_NETWORK:DAI_DEF_UNION.prescisionOperators.jsearch_slot" : [ "1978717359UI" ],
     "01NYU_NETWORK:DAI_DEF_UNION.date_range.DiscoveryNetwork" : [ "drStartDay", "drStartMonth", "drStartYear", "drEndDay", "drEndMonth", "drEndYear" ],
-    "01NYU_NETWORK:DAI_DEF_UNION.searchbox_complex.DiscoveryNetwork" : [ "freeText", "boolOperator", "714480398UI", "687718306UI" ]
+    "01NYU_NETWORK:DAI_DEF_UNION.language.NYUTEST" : [ "72836532UI" ]
   },
   "bx-enable" : false,
   "tab-to-tiles" : {
     "jsearch_slot" : [ "01NYU_NETWORK:DAI_DEF_UNION.FacetTileInterface.jsearch_slot", "01NYU_NETWORK:DAI_DEF_UNION.KeepingItemTileInterface.jsearch_slot", "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Advanced.jsearch_slot", "01NYU_NETWORK:DAI_DEF_UNION.ResultFullTileInterface.jsearch_slot", "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterface.jsearch_slot", "01NYU_NETWORK:DAI_DEF_UNION.LocationsTileInterface.jsearch_slot", "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Simple.jsearch_slot" ],
+    "NYUTEST" : [ "01NYU_NETWORK:DAI_DEF_UNION.FacetTileInterface.NYUTEST", "01NYU_NETWORK:DAI_DEF_UNION.KeepingItemTileInterface.NYUTEST", "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Advanced.NYUTEST", "01NYU_NETWORK:DAI_DEF_UNION.ResultFullTileInterface.NYUTEST", "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterface.NYUTEST", "01NYU_NETWORK:DAI_DEF_UNION.LocationsTileInterface.NYUTEST", "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Simple.NYUTEST" ],
     "DiscoveryNetwork" : [ "01NYU_NETWORK:DAI_DEF_UNION.FacetTileInterface.DiscoveryNetwork", "01NYU_NETWORK:DAI_DEF_UNION.KeepingItemTileInterface.DiscoveryNetwork", "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Advanced.DiscoveryNetwork", "01NYU_NETWORK:DAI_DEF_UNION.ResultFullTileInterface.DiscoveryNetwork", "01NYU_NETWORK:DAI_DEF_UNION.ResultTileInterface.DiscoveryNetwork", "01NYU_NETWORK:DAI_DEF_UNION.LocationsTileInterface.DiscoveryNetwork", "01NYU_NETWORK:DAI_DEF_UNION.SearchTileInterface-Simple.DiscoveryNetwork" ]
   },
   "searchWithinJournalConfig" : { },

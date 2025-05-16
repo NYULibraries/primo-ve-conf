@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -13,7 +13,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_US",
       "institution-name" : "New York University Shanghai",
-      "last-modified-time-stamp" : "Aug 21, 2024 14:33:01 PM",
+      "last-modified-time-stamp" : "May 13, 2025 21:59:16 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : false
     },
@@ -857,8 +857,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
-    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "manualAlternativeEmailRS" : false,
+    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
