@@ -1,4 +1,4 @@
-{"beaconO22":"917",
+{"beaconO22":"1295",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -3615,6 +3615,18 @@
       "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "nde_display_snippet"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS_TEST",
+      "source2" : "nde_display_snippet"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "focus_on_search_input"
@@ -3627,10 +3639,6 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_qr"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "use_classic_email_template"
-    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_saveEshelf_message"
@@ -3642,14 +3650,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:NDETEST",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "nde_display_snippet"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS_TEST",
-      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",

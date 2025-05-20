@@ -1,4 +1,4 @@
-{"beaconO22":"953",
+{"beaconO22":"2151",
   "primo-view" : {
     "available-tabs" : [ "default" ],
     "institution" : {
@@ -1120,6 +1120,10 @@
       "target" : "arts_humanities",
       "source1" : "default"
     }, {
+      "target" : "computer_science",
+      "source1" : "default",
+      "source2" : "engineering"
+    }, {
       "target" : "biology",
       "source1" : "default",
       "source2" : "sciences"
@@ -1130,10 +1134,6 @@
       "target" : "chemistry",
       "source1" : "default",
       "source2" : "sciences"
-    }, {
-      "target" : "computer_science",
-      "source1" : "default",
-      "source2" : "engineering"
     }, {
       "target" : "geography",
       "source1" : "default",
@@ -1185,6 +1185,9 @@
       "source1" : "default",
       "source2" : "social_sciences"
     }, {
+      "target" : "veterinary_medicine",
+      "source1" : "default"
+    }, {
       "target" : "sciences",
       "source1" : "default"
     }, {
@@ -1195,9 +1198,6 @@
       "source1" : "default",
       "source2" : "social_sciences"
     }, {
-      "target" : "veterinary_medicine",
-      "source1" : "default"
-    }, {
       "target" : "diet_clinical_nutrition",
       "source1" : "default",
       "source2" : "medicine"
@@ -1205,6 +1205,10 @@
       "target" : "history_archaeology",
       "source1" : "default",
       "source2" : "arts_humanities"
+    }, {
+      "target" : "journalism_communications",
+      "source1" : "default",
+      "source2" : "social_sciences"
     }, {
       "target" : "psychology",
       "source1" : "default"
@@ -1219,10 +1223,6 @@
     }, {
       "target" : "statistics",
       "source1" : "default"
-    }, {
-      "target" : "journalism_communications",
-      "source1" : "default",
-      "source2" : "social_sciences"
     } ],
     "Personal Setting Fields" : [ {
       "target" : "address_1",
@@ -3294,14 +3294,14 @@
       "source2" : "18",
       "source3" : "default"
     }, {
-      "target" : "max_renew_date",
-      "source1" : "max_renew_date",
-      "source2" : "19",
-      "source3" : "default"
-    }, {
       "target" : "item_description",
       "source1" : "Description",
       "source2" : "20",
+      "source3" : "default"
+    }, {
+      "target" : "max_renew_date",
+      "source1" : "max_renew_date",
+      "source2" : "19",
       "source3" : "default"
     } ],
     "Actions List" : [ {
@@ -4457,6 +4457,11 @@
       "source2" : "27",
       "source3" : "default"
     }, {
+      "target" : "group_id",
+      "source1" : "group_id",
+      "source2" : "31",
+      "source3" : "default"
+    }, {
       "target" : "item_status_name",
       "source1" : "item_status_name",
       "source2" : "28",
@@ -4470,11 +4475,6 @@
       "target" : "request_id",
       "source1" : "request_id",
       "source2" : "30",
-      "source3" : "default"
-    }, {
-      "target" : "group_id",
-      "source1" : "group_id",
-      "source2" : "31",
       "source3" : "default"
     } ],
     "User Dashboard Configuration" : [ {
@@ -4799,6 +4799,9 @@
       "source1" : "In process by lender",
       "source2" : "IN_PROCESS_BY_LENDER"
     }, {
+      "target" : "LOANED",
+      "source2" : "CHECKED_OUT"
+    }, {
       "target" : "REQUEST_ACCEPTED",
       "source1" : "In process by lender",
       "source2" : "IN_PROCESS_BY_LENDER"
@@ -4818,9 +4821,6 @@
       "target" : "SHIPPED_DIGITALLY",
       "source1" : "Shipped",
       "source2" : "SHIPPED"
-    }, {
-      "target" : "LOANED",
-      "source2" : "CHECKED_OUT"
     }, {
       "target" : "SHIPPED_PHYSICALLY",
       "source1" : "Shipped",
@@ -4866,11 +4866,11 @@
       "target" : "ISO-8859-1",
       "source1" : "ISO-8859-1"
     }, {
-      "target" : "US-ASCII",
-      "source1" : "US-ASCII"
-    }, {
       "target" : "windows-1251",
       "source1" : "windows-1251"
+    }, {
+      "target" : "US-ASCII",
+      "source1" : "US-ASCII"
     } ],
     "Primo VE A-Z Languages" : [ ],
     "Recall Optional Request Parameters" : [ {
@@ -5008,14 +5008,14 @@
       "source2" : "28",
       "source3" : "default"
     }, {
-      "target" : "request_id",
-      "source1" : "request_id",
-      "source2" : "29",
-      "source3" : "default"
-    }, {
       "target" : "group_id",
       "source1" : "group_id",
       "source2" : "30",
+      "source3" : "default"
+    }, {
+      "target" : "request_id",
+      "source1" : "request_id",
+      "source2" : "29",
       "source3" : "default"
     } ],
     "Holdings Record Configuration" : [ {
