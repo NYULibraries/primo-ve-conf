@@ -1,4 +1,4 @@
-{"beaconO22":"764",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork", "NYU_DEF" ],
     "institution" : {
@@ -1704,10 +1704,6 @@
       "target" : "arts_humanities",
       "source1" : "default"
     }, {
-      "target" : "computer_science",
-      "source1" : "default",
-      "source2" : "engineering"
-    }, {
       "target" : "biology",
       "source1" : "default",
       "source2" : "sciences"
@@ -1718,6 +1714,10 @@
       "target" : "chemistry",
       "source1" : "default",
       "source2" : "sciences"
+    }, {
+      "target" : "computer_science",
+      "source1" : "default",
+      "source2" : "engineering"
     }, {
       "target" : "geography",
       "source1" : "default",
@@ -1769,9 +1769,6 @@
       "source1" : "default",
       "source2" : "social_sciences"
     }, {
-      "target" : "veterinary_medicine",
-      "source1" : "default"
-    }, {
       "target" : "sciences",
       "source1" : "default"
     }, {
@@ -1781,6 +1778,9 @@
       "target" : "sociology",
       "source1" : "default",
       "source2" : "social_sciences"
+    }, {
+      "target" : "veterinary_medicine",
+      "source1" : "default"
     }, {
       "target" : "diet_clinical_nutrition",
       "source1" : "default",
@@ -1797,16 +1797,16 @@
       "source1" : "default",
       "source2" : "social_sciences"
     }, {
-      "target" : "journalism_communications",
+      "target" : "materials_science",
       "source1" : "default",
-      "source2" : "social_sciences"
+      "source2" : "engineering"
     }, {
       "target" : "statistics",
       "source1" : "default"
     }, {
-      "target" : "materials_science",
+      "target" : "journalism_communications",
       "source1" : "default",
-      "source2" : "engineering"
+      "source2" : "social_sciences"
     } ],
     "Personal Setting Fields" : [ {
       "target" : "address_1",
@@ -2230,6 +2230,14 @@
       "source2" : "use_classic_email_template"
     }, {
       "target" : "false",
+      "source1" : "01NYU_NETWORK:UNION_UNION",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:UNION_UNION",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_NETWORK:UCTEST01_UNION",
       "source2" : "focus_on_search_input"
     }, {
@@ -2252,18 +2260,6 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:UCTEST01_UNION",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:UNION_UNION",
-      "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:UNION_UNION",
-      "source2" : "enable_recent_scopes"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:UNION_UNION",
@@ -2295,15 +2291,15 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "use_classic_email_template"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
       "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
-      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:UNION_DEF_UNION",
@@ -2327,6 +2323,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
@@ -2364,10 +2364,6 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "display_CDI_secondary_RT"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DEF_UNION",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
@@ -2412,6 +2408,10 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DEF_UNION",
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
@@ -2432,10 +2432,6 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:UCTEST01_UNION",
-      "source2" : "export_all_records"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
@@ -2458,20 +2454,16 @@
       "source2" : "export_all_records"
     }, {
       "target" : "true",
+      "source1" : "01NYU_NETWORK:UCTEST01_UNION",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "export_all_records"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "export_all_records"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
-      "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
-      "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
@@ -2480,6 +2472,10 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
@@ -2493,6 +2489,10 @@
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "nde_export_actions_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_show_times_cited"
+    }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "nde_display_all_requests_in_expand_mode"
@@ -2500,6 +2500,14 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_enable_places_widget"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
@@ -2512,14 +2520,6 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
-      "source2" : "nde_enable_places_widget"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
-      "source2" : "enableDidYouMean"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
@@ -2690,13 +2690,6 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "articleAuthor",
-      "source3" : "article",
-      "source4" : "3",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "findArticleItemsDescriptions",
@@ -2717,6 +2710,13 @@
       "source3" : "article",
       "source4" : "2",
       "source5" : "Yes"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "articleAuthor",
+      "source3" : "article",
+      "source4" : "3",
+      "source5" : "No"
     }, {
       "target" : "No",
       "source1" : "both",
@@ -2930,14 +2930,6 @@
     }, {
       "target" : "Yes",
       "source1" : "fulnet",
-      "source2" : "preferredLocalPickupLocation",
-      "source3" : "delivery",
-      "source4" : "13",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "fulnet",
       "source2" : "preferredPickupInstitution",
       "source3" : "delivery",
       "source4" : "10",
@@ -2957,6 +2949,14 @@
       "source2" : "allowOtherLibrary",
       "source3" : "delivery",
       "source4" : "12",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "fulnet",
+      "source2" : "preferredLocalPickupLocation",
+      "source3" : "delivery",
+      "source4" : "13",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -3498,14 +3498,14 @@
       "source2" : "18",
       "source3" : "default"
     }, {
-      "target" : "item_description",
-      "source1" : "Description",
-      "source2" : "20",
-      "source3" : "default"
-    }, {
       "target" : "max_renew_date",
       "source1" : "max_renew_date",
       "source2" : "19",
+      "source3" : "default"
+    }, {
+      "target" : "item_description",
+      "source1" : "Description",
+      "source2" : "20",
       "source3" : "default"
     } ],
     "Actions List" : [ {
@@ -5271,14 +5271,14 @@
       "source2" : "28",
       "source3" : "default"
     }, {
-      "target" : "group_id",
-      "source1" : "group_id",
-      "source2" : "30",
-      "source3" : "default"
-    }, {
       "target" : "request_id",
       "source1" : "request_id",
       "source2" : "29",
+      "source3" : "default"
+    }, {
+      "target" : "group_id",
+      "source1" : "group_id",
+      "source2" : "30",
       "source3" : "default"
     } ],
     "Holdings Record Configuration" : [ {
