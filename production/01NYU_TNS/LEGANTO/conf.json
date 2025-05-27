@@ -1,4 +1,4 @@
-{"beaconO22":"1077",
+{"beaconO22":"956",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -5929,11 +5929,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinking",
-      "source1" : "NO"
-    }, {
       "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
       "source1" : "true"
+    }, {
+      "target" : "enableDirectLinking",
+      "source1" : "NO"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",
@@ -6294,7 +6294,7 @@
     } ]
   },
   "authentication" : [ {
-    "profile-name" : "SAML",
+    "profile-name" : "SAML_OA",
     "authentication-system" : "SAML",
     "silent-login-enabled" : "true"
   }, {
@@ -6613,8 +6613,8 @@
   "rapido_sa_enabled" : false,
   "syndeticunbound-enable" : true,
   "syndeticunbound-id" : "144",
-  "enableSingleLogout" : false,
-  "enableExtendSession" : false,
+  "enableSingleLogout" : true,
+  "enableExtendSession" : true,
   "enableExtendSessionToMax" : false,
   "enableUserSettingForExtendSession" : false,
   "useEsploroFullAssetPage" : false,
