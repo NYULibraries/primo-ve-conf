@@ -1243,6 +1243,11 @@
     }, {
       "target" : "No",
       "source1" : "default",
+      "source2" : "stateProvince",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
       "source2" : "addressLine3",
       "source5" : "false"
     }, {
@@ -1254,11 +1259,6 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "city",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
-      "source2" : "stateProvince",
       "source5" : "false"
     }, {
       "target" : "No",
