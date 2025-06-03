@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"9",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -2544,10 +2544,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:LEGANTO",
-      "source2" : "nde_show_times_cited"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
@@ -2557,6 +2553,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:LEGANTO",
+      "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:LEGANTO",
@@ -2604,10 +2604,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:NDETEST",
-      "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:NDETEST",
       "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
@@ -2617,6 +2613,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:NDETEST",
       "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDETEST",
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:NDETEST",
@@ -2683,10 +2683,6 @@
       "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
-      "source1" : "01NYU_TNS:TNSPSBNDE",
-      "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_TNS:NDETEST",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
@@ -2705,6 +2701,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNSPSBNDE",
       "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSPSBNDE",
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSPSBNDE",
@@ -3319,13 +3319,6 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "publisher",
-      "source3" : "book",
-      "source4" : "11",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
@@ -3346,6 +3339,13 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "Yes"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "publisher",
+      "source3" : "book",
+      "source4" : "11",
+      "source5" : "No"
     }, {
       "target" : "Yes",
       "source1" : "both",
