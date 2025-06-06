@@ -1,4 +1,4 @@
-{"beaconO22":"1493",
+{"beaconO22":"700",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2701,7 +2701,7 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "both",
       "source2" : "findArticleItemsDescriptions",
       "source3" : "article",
@@ -2973,7 +2973,7 @@
       "source2" : "genericCheckBox",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "formDescription",
       "source5" : "false"
@@ -4668,11 +4668,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
-      "source1" : "true"
-    }, {
       "target" : "enableDirectLinking",
       "source1" : "NO"
+    }, {
+      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
+      "source1" : "true"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",

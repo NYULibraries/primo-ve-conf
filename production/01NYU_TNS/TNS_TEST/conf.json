@@ -1,4 +1,4 @@
-{"beaconO22":"1120",
+{"beaconO22":"964",
   "primo-view" : {
     "available-tabs" : [ "CI_R", "SpecColl", "CourseReserves" ],
     "institution" : {
@@ -3278,7 +3278,7 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "both",
       "source2" : "findArticleItemsDescriptions",
       "source3" : "article",
@@ -3550,7 +3550,7 @@
       "source2" : "genericCheckBox",
       "source5" : "false"
     }, {
-      "target" : "No",
+      "target" : "Yes",
       "source1" : "default",
       "source2" : "formDescription",
       "source5" : "false"
