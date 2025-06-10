@@ -1,4 +1,4 @@
-{"beaconO22":"967",
+{"beaconO22":"1703",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -3434,13 +3434,17 @@
       "source1" : "01NYU_TNS:NSJD",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNS",
-      "source2" : "nde_show_times_cited"
+      "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSPSBNDE",
+      "source2" : "nde_enable_places_widget"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
@@ -3466,9 +3470,9 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_export_actions_table_is_customized"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNS",
-      "source2" : "nde_display_all_requests_in_expand_mode"
+      "source2" : "nde_show_times_cited"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
