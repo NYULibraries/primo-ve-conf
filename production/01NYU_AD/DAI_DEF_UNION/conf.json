@@ -1,4 +1,4 @@
-{"beaconO22":"1420",
+{"beaconO22":"1200",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1921,6 +1921,18 @@
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "nde_share_actions_table_is_customized"
     }, {
@@ -1955,18 +1967,6 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "nde_full_record_services_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "nde_full_record_services_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:AD",
-      "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "export_all_records"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
