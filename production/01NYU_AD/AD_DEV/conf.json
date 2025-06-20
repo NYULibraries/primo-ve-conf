@@ -1,4 +1,4 @@
-{"beaconO22":"877",
+{"beaconO22":"954",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -1947,6 +1947,18 @@
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "nde_share_actions_table_is_customized"
     }, {
@@ -1981,18 +1993,6 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "nde_full_record_services_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "nde_full_record_services_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:AD",
-      "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "export_all_records"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -2428,6 +2428,14 @@
       "source5" : "No"
     }, {
       "target" : "Yes",
+      "source1" : "both",
+      "source2" : "comment",
+      "source3" : "delivery",
+      "source4" : "15",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
       "source1" : "fulnet",
       "source2" : "preferredLocalPickupLocation",
       "source3" : "delivery",
@@ -2440,14 +2448,6 @@
       "source2" : "notNeedAfter",
       "source3" : "delivery",
       "source4" : "14",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "comment",
-      "source3" : "delivery",
-      "source4" : "15",
       "source5" : "No",
       "source6" : " "
     }, {

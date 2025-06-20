@@ -1,4 +1,4 @@
-{"beaconO22":"1025",
+{"beaconO22":"1213",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -858,8 +858,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "manualAlternativeEmailRS" : false,
+    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -1773,12 +1773,12 @@
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "false",
+      "source1" : "01NYU_NYHS:DAI_DEF_UNION",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "nde_export_actions_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NYHS:DAI_DEF_UNION",
-      "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
       "target" : "true",
       "source1" : "01NYU_NYHS:NYHS",
@@ -1808,9 +1808,9 @@
       "source1" : "01NYU_NYHS:DAI_DEF_UNION",
       "source2" : "nde_show_times_cited"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_NYHS:DAI_DEF_UNION",
-      "source2" : "nde_full_record_services_table_is_customized"
+      "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
@@ -1916,6 +1916,10 @@
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "nde_actions_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS",
+      "source2" : "nde_actions_table_is_customized"
+    }, {
       "target" : "true",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "export_all_records"
@@ -1923,10 +1927,6 @@
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "export_all_records"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS",
-      "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_NYHS:NYHS",
