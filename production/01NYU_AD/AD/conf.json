@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -866,8 +866,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
-    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "manualAlternativeEmailRS" : false,
+    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -1941,18 +1941,6 @@
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
-      "source1" : "01NYU_AD:AD",
-      "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "export_all_records"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "nde_full_record_services_table_is_customized"
-    }, {
-      "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "nde_share_actions_table_is_customized"
     }, {
@@ -1987,6 +1975,18 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "export_all_records"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
