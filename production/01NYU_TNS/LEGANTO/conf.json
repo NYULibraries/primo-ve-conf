@@ -1,4 +1,4 @@
-{"beaconO22":"1203",
+{"beaconO22":"1249",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -2156,7 +2156,7 @@
     "rapido_hide_get_it_user_groups" : { },
     "rapido_hide_blank_form_link_when_user_not_logged_in" : false,
     "rapido_hide_blank_form_link_user_groups" : { },
-    "rapido_allow_physical_request_for_eBook_offer" : false,
+    "rapido_allow_physical_request_for_eBook_offer" : true,
     "default_user_search_history_off" : false,
     "save_users_ra_search_history" : true,
     "equals_search_operator_hypertext_linking_enabled" : true,
