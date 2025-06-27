@@ -1,4 +1,4 @@
-{"beaconO22":"964",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -786,8 +786,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "manualAlternativeEmailRS" : false,
+    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -1737,14 +1737,6 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
-      "source1" : "01NYU_NETWORK:UNION_UNION",
-      "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:UNION_UNION",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "enable_qr"
     }, {
@@ -1859,10 +1851,6 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:DEF_UNION",
@@ -2004,14 +1992,6 @@
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "export_all_records"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
-      "source2" : "enableDidYouMean"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
-      "source2" : "nde_enable_places_widget"
-    }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "display_CDI_secondary_RT"
@@ -2023,6 +2003,26 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:UNION_UNION",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:UNION_UNION",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NETWORK:NYU_GEN_UNION",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enableDidYouMean"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
