@@ -1,4 +1,4 @@
-{"beaconO22":"1186",
+{"beaconO22":"860",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -1183,6 +1183,11 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
+      "target" : "Yes",
+      "source1" : "default",
+      "source2" : "chapterArticleTitle",
+      "source5" : "false"
+    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
@@ -1196,11 +1201,6 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "calculateQueueButton",
-      "source5" : "false"
-    }, {
-      "target" : "Yes",
-      "source1" : "default",
-      "source2" : "chapterArticleTitle",
       "source5" : "false"
     }, {
       "target" : "Yes",
@@ -1270,6 +1270,11 @@
     }, {
       "target" : "No",
       "source1" : "default",
+      "source2" : "postalCode",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
       "source2" : "addressLine4",
       "source5" : "false"
     }, {
@@ -1281,11 +1286,6 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "stateProvince",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
-      "source2" : "postalCode",
       "source5" : "false"
     } ],
     "Prima Direct Login To Other Institutions" : [ {
