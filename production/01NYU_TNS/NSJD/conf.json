@@ -1,4 +1,4 @@
-{"beaconO22":"1804",
+{"beaconO22":"891",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -7130,6 +7130,6 @@
   "discovery_with_external_no_login" : false,
   "limited_patrons_in_alma_starter" : false,
   "IsViewNdeEnabled" : false,
-  "enable_mixpanel" : false,
+  "enable_mixpanel" : true,
   "useNewSuggester" : false
 }

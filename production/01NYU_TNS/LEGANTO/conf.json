@@ -1,4 +1,4 @@
-{"beaconO22":"946",
+{"beaconO22":"822",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -2100,8 +2100,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
-    "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "manualAlternativeEmailRS" : false,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -6656,6 +6656,6 @@
   "discovery_with_external_no_login" : false,
   "limited_patrons_in_alma_starter" : false,
   "IsViewNdeEnabled" : false,
-  "enable_mixpanel" : false,
+  "enable_mixpanel" : true,
   "useNewSuggester" : false
 }
