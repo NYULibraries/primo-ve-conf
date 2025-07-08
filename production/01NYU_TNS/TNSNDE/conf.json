@@ -1,4 +1,4 @@
-{"beaconO22":"740",
+{"beaconO22":"1005",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -6497,7 +6497,7 @@
       }
     }
   },
-  "enable_mixpanel" : true,
+  "enable_mixpanel" : false,
   "bx-enable" : true,
   "syndeticunbound-enable" : true,
   "syndeticunbound-id" : "144",
