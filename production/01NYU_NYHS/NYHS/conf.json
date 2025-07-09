@@ -1,4 +1,4 @@
-{"beaconO22":"6",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "unified_slot" ],
     "institution" : {
@@ -1714,10 +1714,6 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
       "source1" : "01NYU_NYHS:DAI_DEF_UNION",
       "source2" : "use_normalized_cdi_subjects"
     }, {
@@ -1728,6 +1724,10 @@
       "target" : "true",
       "source1" : "01NYU_NYHS:DAI_DEF_UNION",
       "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS",
+      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
@@ -1885,10 +1885,6 @@
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "nde_actions_table_is_customized"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS",
-      "source2" : "nde_actions_table_is_customized"
-    }, {
       "target" : "true",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "export_all_records"
@@ -1896,6 +1892,10 @@
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS",
+      "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_NYHS:NYHS",
