@@ -1,4 +1,4 @@
-{"beaconO22":"649",
+{"beaconO22":"709",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -1004,12 +1004,6 @@
     }, {
       "target" : "Yes",
       "source1" : "book",
-      "source2" : "part",
-      "source3" : "default",
-      "source4" : "25"
-    }, {
-      "target" : "Yes",
-      "source1" : "book",
       "source2" : "btitle",
       "source3" : "default",
       "source4" : "22"
@@ -1025,6 +1019,12 @@
       "source2" : "volume",
       "source3" : "default",
       "source4" : "24"
+    }, {
+      "target" : "Yes",
+      "source1" : "book",
+      "source2" : "part",
+      "source3" : "default",
+      "source4" : "25"
     }, {
       "target" : "Yes",
       "source1" : "book",
@@ -1415,11 +1415,6 @@
       "source2" : "16",
       "source3" : "default"
     }, {
-      "target" : "new_password",
-      "source1" : "contact.newPassword",
-      "source2" : "22",
-      "source3" : "default"
-    }, {
       "target" : "mail_attachement",
       "source1" : "contact.mail_attachment",
       "source2" : "18",
@@ -1433,6 +1428,11 @@
       "target" : "old_password",
       "source1" : "contact.oldPassword",
       "source2" : "21",
+      "source3" : "default"
+    }, {
+      "target" : "new_password",
+      "source1" : "contact.newPassword",
+      "source2" : "22",
       "source3" : "default"
     }, {
       "target" : "my_email",
@@ -4270,11 +4270,6 @@
       "source2" : "1",
       "source3" : "default"
     }, {
-      "target" : "call_number_2",
-      "source1" : "call_number_2",
-      "source2" : "25",
-      "source3" : "default"
-    }, {
       "target" : "secondary_location_name",
       "source1" : "secondary_location_name",
       "source2" : "23",
@@ -4283,6 +4278,11 @@
       "target" : "call_number",
       "source1" : "call_number",
       "source2" : "24",
+      "source3" : "default"
+    }, {
+      "target" : "call_number_2",
+      "source1" : "call_number_2",
+      "source2" : "25",
       "source3" : "default"
     }, {
       "target" : "delivery_method",
@@ -4412,12 +4412,6 @@
       "source3" : "false",
       "source5" : "TRUE"
     }, {
-      "target" : "01NYU_NYSID",
-      "source1" : "https://na07-psb.alma.exlibrisgroup.com",
-      "source2" : "New York School of Interior Design",
-      "source3" : "false",
-      "source5" : "TRUE"
-    }, {
       "target" : "01NYU_HS",
       "source1" : "https://na07-psb.alma.exlibrisgroup.com",
       "source2" : "New York University Health Sciences",
@@ -4427,6 +4421,12 @@
       "target" : "01NYU_INST",
       "source1" : "https://na07-psb.alma.exlibrisgroup.com",
       "source2" : "New York University - New York",
+      "source3" : "false",
+      "source5" : "TRUE"
+    }, {
+      "target" : "01NYU_NYSID",
+      "source1" : "https://na07-psb.alma.exlibrisgroup.com",
+      "source2" : "New York School of Interior Design",
       "source3" : "false",
       "source5" : "TRUE"
     } ],
