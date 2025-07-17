@@ -1,4 +1,4 @@
-{"beaconO22":"2989",
+{"beaconO22":"2144",
   "search-advanced.mediaType.option.collections" : "Archival Collections",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
   "search-advanced.mediaType.option.acceptedmanuscript" : "Accepted Manuscripts",
@@ -6929,6 +6929,7 @@
   "SOUND" : "Sound recording",
   "THES" : "Thesis/Dissertation",
   "VIDEO" : "Video recording",
+  "scopes.option.LBLN" : "Lubalin",
   "scopes.option.CONSORTLIB" : "Consortium Libraires",
   "scopes.option.NYUDiscoveryNetwork" : "NYU Discovery Network",
   "scopes.option.MyInst_andCI_ResearchOnlyInventory" : "Search everything",
