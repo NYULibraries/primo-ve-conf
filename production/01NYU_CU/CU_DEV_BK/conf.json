@@ -1,4 +1,4 @@
-{"beaconO22":"993",
+{"beaconO22":"1770",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -2458,6 +2458,10 @@
     "View Properties" : [ {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
@@ -2796,7 +2800,7 @@
       "source1" : "01NYU_CU:CU_DEV_BK",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "focus_on_search_input"
     }, {
@@ -2804,7 +2808,7 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_recent_scopes"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_qr"
     }, {
@@ -2812,11 +2816,11 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_saveEshelf_message"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_barcode_search"
     }, {

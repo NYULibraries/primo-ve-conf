@@ -1,4 +1,4 @@
-{"beaconO22":"1303",
+{"beaconO22":"1043",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -3750,6 +3750,13 @@
     }, {
       "target" : "No",
       "source1" : "both",
+      "source2" : "lccn",
+      "source3" : "article",
+      "source4" : "7",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
       "source2" : "authorInitials",
       "source3" : "article",
       "source4" : "4",
@@ -3767,13 +3774,6 @@
       "source2" : "issn",
       "source3" : "article",
       "source4" : "6",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "lccn",
-      "source3" : "article",
-      "source4" : "7",
       "source5" : "No"
     }, {
       "target" : "Yes",
@@ -3867,6 +3867,13 @@
       "source4" : "19",
       "source5" : "No"
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "publisher",
+      "source3" : "book",
+      "source4" : "11",
+      "source5" : "No"
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
@@ -3887,13 +3894,6 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "Yes"
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "publisher",
-      "source3" : "book",
-      "source4" : "11",
-      "source5" : "No"
     }, {
       "target" : "Yes",
       "source1" : "both",
@@ -5676,6 +5676,10 @@
       "source1" : "default",
       "source2" : "item.global.dataitem.5"
     }, {
+      "target" : "itemmaterial",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.3"
+    }, {
       "target" : "callnumber2",
       "source1" : "default",
       "source2" : "item.global.dataitem.1"
@@ -5683,10 +5687,6 @@
       "target" : "noteopac",
       "source1" : "default",
       "source2" : "item.global.dataitem.2"
-    }, {
-      "target" : "itemmaterial",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.3"
     } ],
     "Short Loan and Booking Request Detailed Display" : [ {
       "target" : "request_type",

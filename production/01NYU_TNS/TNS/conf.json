@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"3",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -623,6 +623,9 @@
           "items" : "lds74",
           "displayInViewer" : true
         }, {
+          "items" : "lds62",
+          "displayInViewer" : true
+        }, {
           "items" : "frequency",
           "displayInViewer" : true
         }, {
@@ -781,6 +784,9 @@
           "displayInViewer" : true
         }, {
           "items" : "lds74",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds62",
           "displayInViewer" : true
         }, {
           "items" : "frequency",
@@ -943,6 +949,9 @@
           "items" : "lds74",
           "displayInViewer" : true
         }, {
+          "items" : "lds62",
+          "displayInViewer" : true
+        }, {
           "items" : "frequency",
           "displayInViewer" : true
         }, {
@@ -1101,6 +1110,9 @@
           "displayInViewer" : true
         }, {
           "items" : "lds74",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds62",
           "displayInViewer" : true
         }, {
           "items" : "frequency",
@@ -5436,11 +5448,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinking",
-      "source1" : "NO"
-    }, {
       "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
       "source1" : "true"
+    }, {
+      "target" : "enableDirectLinking",
+      "source1" : "NO"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",

@@ -1,4 +1,4 @@
-{"beaconO22":"1810",
+{"beaconO22":"1691",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -53,18 +53,18 @@
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
       "collectionDiscoveryEnabled" : true,
-      "displayNewspapersLink" : true,
-      "displayFeaturedNewspapers" : true,
+      "displayNewspapersLink" : false,
+      "displayFeaturedNewspapers" : false,
       "refEntryActive" : false,
       "relatedItemsActive" : true,
       "legantoURLTemplate" : "",
       "multilingualConfigurationEnabled" : false,
       "journalCategoriesTree" : true,
-      "newspaperSearchFilterByAvailability" : true,
-      "displayVoiceSearch" : true,
+      "newspaperSearchFilterByAvailability" : false,
+      "displayVoiceSearch" : false,
       "displayLibraryNameLocationFacet" : false,
       "virtualBrowseType" : "bib",
-      "editMyLibraryCard" : true,
+      "editMyLibraryCard" : false,
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
@@ -75,8 +75,8 @@
     },
     "scopes" : [ {
       "scope-id" : "MyInst_and_CI",
-      "locations" : "Local,primo_central_multiple_fe",
-      "types" : "local,adaptor",
+      "locations" : "primo_central_multiple_fe,Local",
+      "types" : "adaptor,local",
       "tab" : "CentralIndex",
       "tab-id-for-scope-matching" : "CentralIndex",
       "contains-central-index-scope" : true
@@ -135,6 +135,18 @@
           "viewinstsort" : false,
           "instsort" : false,
           "valid" : true,
+          "count" : 5,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_tlevel",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
           "count" : 0,
           "sort" : {
             "_string" : "by_size",
@@ -153,30 +165,6 @@
             "_int" : 1
           },
           "id" : "facet_topic",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_library",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_other_libraries",
           "useTranslations" : false
         }, {
           "display" : true,
@@ -219,18 +207,6 @@
           "viewinstsort" : false,
           "instsort" : false,
           "valid" : true,
-          "count" : 5,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_tlevel",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
           "count" : 0,
           "sort" : {
             "_string" : "alpha_numeric",
@@ -249,18 +225,6 @@
             "_int" : 1
           },
           "id" : "facet_jtitle",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_institution",
           "useTranslations" : false
         }, {
           "display" : true,
@@ -299,6 +263,30 @@
           "viewinstsort" : false,
           "instsort" : false,
           "valid" : true,
+          "count" : 5,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_institution",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 5,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_tlevel",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
           "count" : 0,
           "sort" : {
             "_string" : "by_size",
@@ -317,30 +305,6 @@
             "_int" : 1
           },
           "id" : "facet_topic",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_library",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_other_libraries",
           "useTranslations" : false
         }, {
           "display" : true,
@@ -383,18 +347,6 @@
           "viewinstsort" : false,
           "instsort" : false,
           "valid" : true,
-          "count" : 5,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_tlevel",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
           "count" : 0,
           "sort" : {
             "_string" : "alpha_numeric",
@@ -424,18 +376,6 @@
             "_string" : "alpha_numeric",
             "_int" : 1
           },
-          "id" : "facet_institution",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
           "id" : "facet_crsinstrc",
           "useTranslations" : false
         }, {
@@ -449,6 +389,30 @@
             "_int" : 1
           },
           "id" : "facet_crsdept",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_library",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_other_libraries",
           "useTranslations" : false
         } ],
         "relatedfacetview" : { },
@@ -535,10 +499,6 @@
           "url" : "https://archives.cooper.edu/search?",
           "label" : "archives_link",
           "target" : "_blank"
-        }, {
-          "url" : "bsearch",
-          "label" : "BrowseSearch",
-          "target" : "_self"
         } ],
         "id" : "01NYU_CU:CU_DEV.MainMenuTileInterface"
       }
@@ -1583,6 +1543,7 @@
     "hide_rapido_expand_link_map" : {
       "CentralIndex" : false,
       "Everything" : false,
+      "TEST_DEFAULT" : false,
       "NYUDiscoveryNetwork" : false,
       "CourseReserves" : false,
       "Research" : false,
@@ -2430,6 +2391,10 @@
     "View Properties" : [ {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
@@ -2768,7 +2733,7 @@
       "source1" : "01NYU_CU:CU_DEV_BK",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "focus_on_search_input"
     }, {
@@ -2776,7 +2741,7 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_recent_scopes"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_qr"
     }, {
@@ -2784,11 +2749,11 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_saveEshelf_message"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_barcode_search"
     }, {
@@ -3104,6 +3069,13 @@
       "source4" : "19",
       "source5" : "No"
     }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "authorInitials",
+      "source3" : "article",
+      "source4" : "4",
+      "source5" : "No"
+    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "articleTitle",
@@ -3123,13 +3095,6 @@
       "source2" : "articleAuthor",
       "source3" : "article",
       "source4" : "3",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "authorInitials",
-      "source3" : "article",
-      "source4" : "4",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -5804,10 +5769,14 @@
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
     "staticHtml" : {
+      "email" : {
+        "en.tmpl" : "custom/01NYU_CU-CU_DEV/html/email/email_en.tmpl.html"
+      },
       "homepage" : {
         "en" : "custom/01NYU_CU-CU_DEV/html/homepage/homepage_en.html"
       }
-    }
+    },
+    "viewSvg" : "custom/01NYU_CU-CU_DEV/img/custom-ui.svg"
   },
   "UIComponents" : {
     "1251997195UI" : {

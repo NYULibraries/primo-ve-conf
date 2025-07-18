@@ -1058,3 +1058,51 @@ div#banner.product-logo {
   padding: 4px;
   
 }
+/*below hides all but logo in main menu bar*/
+
+prm-topbar {
+  height: unset;
+  width: unset;
+  justify-items: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+prm-main-menu.hide-xs.flex-50, div.flex-xs-100.flex-50, div.hide-xs.flex-50, prm-search-bookmark-filter.view-switcher.layout-align-end-center.layout-row.flex-noshrink, prm-user-area-expandable.hide-xs, button.mobile-menu-button.zero-margin.md-button.md-primoExplore-theme.md-ink-ripple {
+    display: none;
+}
+
+@media screen and (max-width: 599px) {
+div.layout-full-width {
+    border: solid 0.5px #cc0000;
+  }
+
+  button.md-button.zero-margin.button-confirm.large-icon.md-button.md-primoExplore-theme.md-ink-ripple {
+    bottom: 1.5px;
+  }
+  
+}
+
+div#banner.product-logo {
+    margin-left: unset;
+    width: 100%;
+}
+
+prm-logo .logo-image, prm-logo img, prm-topbar prm-logo {
+  height: calc(100px + 5vw);
+  max-height: unset;
+  max-width: unset;
+  padding: 10px;
+}
+
+prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-authority-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-newspapers-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+  background-color: white;
+}
+
+prm-search-bar {
+  background-color: #cc0000;
+}
+
+md-card.default-card md-card-title:not(#featuredResultTitle)+md-card-content, prm-featured-result-item md-card md-card-title:not(#featuredResultTitle)+md-card-content, md-card.default-card md-card-title:not(#featuredResultTitle) {
+    display: none;
+    }

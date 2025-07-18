@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -75,8 +75,8 @@
     },
     "scopes" : [ {
       "scope-id" : "MyInst_and_CI",
-      "locations" : "Local,primo_central_multiple_fe",
-      "types" : "local,adaptor",
+      "locations" : "primo_central_multiple_fe,Local",
+      "types" : "adaptor,local",
       "tab" : "CentralIndex",
       "tab-id-for-scope-matching" : "CentralIndex",
       "contains-central-index-scope" : true
@@ -2438,6 +2438,10 @@
     "View Properties" : [ {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
@@ -2776,7 +2780,7 @@
       "source1" : "01NYU_CU:CU_DEV_BK",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "focus_on_search_input"
     }, {
@@ -2784,7 +2788,7 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_recent_scopes"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_qr"
     }, {
@@ -2792,11 +2796,11 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_saveEshelf_message"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_barcode_search"
     }, {
@@ -3294,6 +3298,14 @@
       "source5" : "No"
     }, {
       "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredLocalPickupLocation",
+      "source3" : "delivery",
+      "source4" : "13",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
       "source3" : "article",
@@ -3313,14 +3325,6 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredLocalPickupLocation",
-      "source3" : "delivery",
-      "source4" : "13",
-      "source5" : "No",
-      "source6" : " "
     }, {
       "target" : "No",
       "source1" : "both",
