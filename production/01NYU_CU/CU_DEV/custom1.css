@@ -130,9 +130,3 @@ prm-brief-result-container .list-item-primary-content:hover {
   font-weight: bold;
   font-style: normal;
 }
-
-prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message):has(md-icon) {
-
-    background-color: transparent;
-    border: solid 1px black;
-}
