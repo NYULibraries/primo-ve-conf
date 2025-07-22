@@ -1,4 +1,4 @@
-{"beaconO22":"1113",
+{"beaconO22":"1327",
   "primo-view" : {
     "available-tabs" : [ "LUBALIN" ],
     "institution" : {
@@ -52,14 +52,14 @@
       "displayNewspapersLink" : false,
       "displayFeaturedNewspapers" : false,
       "refEntryActive" : false,
-      "relatedItemsActive" : true,
+      "relatedItemsActive" : false,
       "legantoURLTemplate" : "",
       "multilingualConfigurationEnabled" : false,
       "journalCategoriesTree" : true,
       "newspaperSearchFilterByAvailability" : false,
       "displayVoiceSearch" : false,
       "displayLibraryNameLocationFacet" : false,
-      "virtualBrowseType" : "bib",
+      "virtualBrowseType" : "shelf",
       "editMyLibraryCard" : false,
       "mayAlsoBeHeldByEnabled" : true
     },
@@ -656,7 +656,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,links,browseshelf,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -690,7 +690,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,links,browseshelf,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -718,7 +718,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,links,browseshelf,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -752,7 +752,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
+          "items" : "searchWithinJournal,quickAccess,getit_link1,details,recommendations,tags,links,browseshelf,,moreFromTheSame,mayAlsoBeFoundAt,requests,citations,timesCited"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -847,7 +847,7 @@
     "async_brief_result_delivery" : true,
     "display_holdings_without_waiting" : false,
     "enable_direct_linking_in_record_full_view" : false,
-    "hide_rapido_offers_tiles" : true,
+    "hide_rapido_offers_tiles" : false,
     "rapido_hide_section_when_user_not_logged_in" : false,
     "rapido_hide_get_it_user_groups" : { },
     "rapido_hide_blank_form_link_when_user_not_logged_in" : false,
@@ -4464,17 +4464,17 @@
       "target" : "prima.services.quickaccess",
       "source1" : "quickAccess",
       "source2" : "0",
-      "source3" : "false"
+      "source3" : "true"
     }, {
       "target" : "prima.services.getit_link1",
       "source1" : "getit_link1",
       "source2" : "0",
-      "source3" : "false"
+      "source3" : "true"
     }, {
       "target" : "prima.services.details",
       "source1" : "details",
       "source2" : "0",
-      "source3" : "false"
+      "source3" : "true"
     }, {
       "target" : "prima.services.recommendations",
       "source1" : "recommendations",
@@ -4486,15 +4486,15 @@
       "source2" : "0",
       "source3" : "false"
     }, {
-      "target" : "prima.services.browseshelf",
-      "source1" : "browseshelf",
-      "source2" : "0",
-      "source3" : "false"
-    }, {
       "target" : "prima.services.links",
       "source1" : "links",
       "source2" : "0",
       "source3" : "false"
+    }, {
+      "target" : "prima.services.browseshelf",
+      "source1" : "browseshelf",
+      "source2" : "0",
+      "source3" : "true"
     }, {
       "target" : "prima.services.citation_trail_and_times_cited",
       "source1" : "citationTrailAndTimesCited",
@@ -4506,13 +4506,13 @@
       "source2" : "0",
       "source3" : "false"
     }, {
-      "target" : "prima.services.rapidoOffer",
-      "source1" : "rapidoOffer",
+      "target" : "prima.services.mayAlsoBeFoundAt",
+      "source1" : "mayAlsoBeFoundAt",
       "source2" : "0",
       "source3" : "false"
     }, {
-      "target" : "prima.services.mayAlsoBeFoundAt",
-      "source1" : "mayAlsoBeFoundAt",
+      "target" : "prima.services.rapidoOffer",
+      "source1" : "rapidoOffer",
       "source2" : "0",
       "source3" : "false"
     }, {

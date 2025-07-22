@@ -1106,3 +1106,41 @@ prm-search-bar {
 md-card.default-card md-card-title:not(#featuredResultTitle)+md-card-content, prm-featured-result-item md-card md-card-title:not(#featuredResultTitle)+md-card-content, md-card.default-card md-card-title:not(#featuredResultTitle) {
     display: none;
     }
+
+*.available, *.available_in_library {
+  color: #e08303;
+}
+
+*[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"], p[ng-if="$ctrl.currLoc.location.availabilityStatement"]{
+  display: none;
+}
+
+.md-button.button-as-link:hover:not([disabled]) {
+  background-color: #4387bc;
+}
+
+.md-button.button-as-link {
+  border: solid 1px #4387bc;
+}
+
+div.layout-fill.layout-column prm-request-services {
+  display: none;
+}
+span[ng-bind-html="$ctrl.currLoc.location.collectionTranslation"], span[ng-bind-html="$ctrl.currLoc.location.collectionTranslation"]+span {
+  display: none;
+}
+
+*[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"] {
+  display: revert;
+  visibility: hidden;
+}
+
+*[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:before {content: "Herb Lubalin Study Center of Design and Typography";
+visibility: visible;}
+
+
+.md-list-item-text div:nth-of-type(2)
+ > div > div:nth-of-type(2)
+ > p:nth-of-type(1) {
+  display: none;
+}
