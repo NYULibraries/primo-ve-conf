@@ -1,4 +1,4 @@
-{"beaconO22":"1214",
+{"beaconO22":"701",
   "primo-view" : {
     "available-tabs" : [ "CourseReserves" ],
     "institution" : {
@@ -3546,10 +3546,6 @@
       "source1" : "default",
       "source2" : "item.brief.3",
       "source3" : "itemdescription"
-    }, {
-      "target" : "&nbsp;",
-      "source1" : "default",
-      "source2" : "item.brief.4"
     } ],
     "Photocopy Optional Request Parameters" : [ {
       "target" : "No",
@@ -4164,22 +4160,6 @@
       "source2" : "rush_request"
     } ],
     "Location Item content" : [ {
-      "target" : "callnumber2",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.1"
-    }, {
-      "target" : "noteopac",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.2"
-    }, {
-      "target" : "itemmaterial",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.3"
-    }, {
-      "target" : "mainlocationname secondarylocationname callnumber",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.4"
-    }, {
       "target" : "itembarcode",
       "source1" : "default",
       "source2" : "item.global.dataitem.5"
@@ -4187,6 +4167,18 @@
       "target" : "5",
       "source1" : "default",
       "source2" : "item.brief.number_of_items"
+    }, {
+      "target" : "noteopac",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.2"
+    }, {
+      "target" : "callnumber2",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.1"
+    }, {
+      "target" : "secondarylocationname",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.4"
     } ],
     "Short Loan and Booking Request Detailed Display" : [ {
       "target" : "request_type",
