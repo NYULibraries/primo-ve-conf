@@ -282,3 +282,7 @@ h2.sidebar-title {
   text-align: center;
   font-size: 16px;
 }
+
+.tab-content-header.margin-bottom-small.margin-left-medium.layout-row.layout-align-space-between-end p.ng-binding.ng-scope.zero-margin span[ng-if="$ctrl.currLoc.location.callNumber"] {
+    visibility: hidden;
+}

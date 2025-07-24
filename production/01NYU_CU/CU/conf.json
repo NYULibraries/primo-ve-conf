@@ -115,6 +115,18 @@
           "viewinstsort" : false,
           "instsort" : false,
           "valid" : true,
+          "count" : 8,
+          "sort" : {
+            "_string" : "alpha_numeric",
+            "_int" : 1
+          },
+          "id" : "facet_institution",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
           "count" : 0,
           "sort" : {
             "_string" : "by_size",
@@ -229,18 +241,6 @@
             "_int" : 1
           },
           "id" : "facet_jtitle",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_institution",
           "useTranslations" : false
         }, {
           "display" : true,
@@ -413,18 +413,6 @@
             "_int" : 1
           },
           "id" : "facet_jtitle",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_institution",
           "useTranslations" : false
         }, {
           "display" : true,
@@ -1602,7 +1590,7 @@
     "async_brief_result_delivery" : true,
     "display_holdings_without_waiting" : false,
     "enable_direct_linking_in_record_full_view" : false,
-    "hide_rapido_offers_tiles" : false,
+    "hide_rapido_offers_tiles" : true,
     "rapido_hide_section_when_user_not_logged_in" : false,
     "rapido_hide_get_it_user_groups" : { },
     "rapido_hide_blank_form_link_when_user_not_logged_in" : false,
@@ -2603,6 +2591,18 @@
       "target" : "true",
       "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU",
+      "source2" : "enable_ai_insights_links"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
@@ -4394,18 +4394,24 @@
       "target" : "&nbsp;",
       "source1" : "default",
       "source2" : "item.brief.1",
-      "source3" : "itemstatusname",
+      "source3" : "itemcategoryname",
       "source4" : "queue"
     }, {
       "target" : "&nbsp;",
       "source1" : "default",
       "source2" : "item.brief.2",
-      "source3" : "itemcategoryname"
+      "source3" : "itemstatusname"
     }, {
       "target" : "&nbsp;",
       "source1" : "default",
       "source2" : "item.brief.3",
       "source3" : "itemdescription"
+    }, {
+      "target" : " | ",
+      "source1" : "default",
+      "source2" : "item.brief.4",
+      "source3" : "callnumber",
+      "source4" : "callnumber2"
     } ],
     "Photocopy Optional Request Parameters" : [ {
       "target" : "No",
@@ -5016,25 +5022,21 @@
       "source2" : "rush_request"
     } ],
     "Location Item content" : [ {
-      "target" : "itembarcode",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.5"
-    }, {
-      "target" : "5",
-      "source1" : "default",
-      "source2" : "item.brief.number_of_items"
-    }, {
       "target" : "noteopac",
       "source1" : "default",
       "source2" : "item.global.dataitem.2"
     }, {
-      "target" : "callnumber2",
+      "target" : "itembarcode",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.5"
+    }, {
+      "target" : "itemstatusname",
       "source1" : "default",
       "source2" : "item.global.dataitem.1"
     }, {
-      "target" : "secondarylocationname",
+      "target" : "5",
       "source1" : "default",
-      "source2" : "item.global.dataitem.4"
+      "source2" : "item.brief.number_of_items"
     } ],
     "Short Loan and Booking Request Detailed Display" : [ {
       "target" : "request_type",
@@ -5201,7 +5203,10 @@
       "source1" : "Long_Date_Format"
     } ],
     "consortia member codes" : [ ],
-    "get it prefilter locations" : [ ],
+    "get it prefilter locations" : [ {
+      "target" : "01NYU_CU:LUBALIN_DEV",
+      "source1" : "CU"
+    } ],
     "Full Record Services" : [ {
       "target" : "prima.services.searchWithinJournall",
       "source1" : "searchWithinJournal",
@@ -5812,10 +5817,14 @@
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
     "staticHtml" : {
+      "email" : {
+        "en.tmpl" : "custom/01NYU_CU-CU/html/email/email_en.tmpl.html"
+      },
       "homepage" : {
         "en" : "custom/01NYU_CU-CU/html/homepage/homepage_en.html"
       }
-    }
+    },
+    "viewSvg" : "custom/01NYU_CU-CU/img/custom-ui.svg"
   },
   "UIComponents" : {
     "574613760UI" : {
