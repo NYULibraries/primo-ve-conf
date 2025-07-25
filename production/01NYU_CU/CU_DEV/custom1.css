@@ -3,62 +3,57 @@
 
 /* TradeGothicNextLTPro Regular */
 @font-face {
-  font-family: TradeGothicNextLTPro;
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.eot'); /* IE9 Compat Modes */
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.svg') format('svg'), /* Legacy iOS */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.ttf') format('truetype'), /* Safari, Android, iOS */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.woff') format('woff'); /* Modern Browsers */
+  font-family: "TradeGothicNextLTPro";
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.eot"); /* IE9 Compat Modes */
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.svg") format("svg"), /* Legacy iOS */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.ttf") format("truetype"), /* Safari, Android, iOS */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Rg.woff") format("woff"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
 /* TradeGothicNextLTPro Bold */
 @font-face {
-  font-family: TradeGothicNextLTPro;
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.eot'); /* IE9 Compat Modes */
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.svg') format('svg'), /* Legacy iOS */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.ttf') format('truetype'), /* Safari, Android, iOS */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.woff') format('woff'); /* Modern Browsers */
+  font-family: "TradeGothicNextLTPro";
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.eot"); /* IE9 Compat Modes */
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.svg") format("svg"), /* Legacy iOS */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.ttf") format("truetype"), /* Safari, Android, iOS */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-Bd.woff") format("woff"); /* Modern Browsers */
   font-weight: bold;
   font-style: normal;
 }
 
 /* TradeGothicNextLTPro Bold Condensed*/
 @font-face {
-  font-family: TradeGothicLT;
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/Trade_Gothic_LT_Bold_Condensed_No._20.ttf') format('truetype');
+  font-family: "TradeGothicLT";
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/Trade_Gothic_LT_Bold_Condensed_No._20.ttf") format("truetype");
   font-weight: bold;
   font-style: condensed;
 }
 
 /* TradeGothicNextLTPro Italics */
 @font-face {
-  font-family: TradeGothicNextLTPro;
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.eot'); /* IE9 Compat Modes */
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.svg') format('svg'), /* Legacy iOS */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.ttf') format('truetype'), /* Safari, Android, iOS */ url('//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.woff') format('woff'); /* Modern Browsers */
+  font-family: "TradeGothicNextLTPro";
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.eot"); /* IE9 Compat Modes */
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.eot?#iefix") format(“embedded-opentype”), /* IE6-IE8 */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.svg") format("svg"), /* Legacy iOS */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.ttf") format("truetype"), /* Safari, Android, iOS */ url("//libapps.s3.amazonaws.com/sites/11117/include/TradeGothicNextLTPro-It.woff") format("woff"); /* Modern Browsers */
   font-weight: normal;
   font-style: italic;
 }
 
-/* FoundryGridnik -- Regular */
+/* FoundryGridnik — Regular */
 @font-face {
-  font-family: FoundryGridnik;
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.eot');
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.woff') format('woff'), url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.ttf') format('truetype'), url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.svg#FoundryGridnikRegular') format('svg');
+  font-family: "FoundryGridnik";
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.eot");
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.eot?#iefix") format("embedded-opentype"), url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.woff") format("woff"), url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.ttf") format("truetype"), url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-regular-webfont.svg#FoundryGridnikRegular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-/* FoundryGridnik -- Bold */
+/* FoundryGridnik — Bold */
 @font-face {
-  font-family: FoundryGridnik;
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.eot');
-  src: url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.eot?#iefix') format('embedded-opentype'), url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.woff') format('woff'), url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.ttf') format('truetype'), url('//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.svg#FoundryGridnikRegular') format('svg');
+  font-family: "FoundryGridnik";
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.eot");
+  src: url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.eot?#iefix") format("embedded-opentype"), url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.woff") format("woff"), url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.ttf") format("truetype"), url("//libapps.s3.amazonaws.com/sites/11117/include/foundrygridnik-bold-webfont.svg#FoundryGridnikRegular") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 
-prm-topbar {
-  height: 100px;
-}
-
 prm-topbar img#logoImage.logo-image {
  width: 180px;
- 
 }
   
 prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) {
@@ -77,12 +72,11 @@ div#mainMenu.top-nav-bar-links.buttons-group.layout-align-center-center a {
 
 prm-search-bar {
   background-color: #D23A35!important;
-    padding-top: 60px;
 }
 
 prm-search-bar .search-switch-buttons .md-button.switch-to-advanced {
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 10px!important;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -90,35 +84,22 @@ prm-search-bar .search-switch-buttons .md-button.switch-to-advanced {
 prm-brief-result-container .media-content-type {
 background-color: #F6D048; 
   padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 7px;
-    padding-bottom: 5px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 5px;
   margin-bottom: 5px;
   color:black!important;
-  font-family: 'TradeGothicNextLTPro';
-  border-radius: 5px;
+  font-family: "TradeGothicNextLTPro";
+  border-radius: 10px!important;
 }
 
 
 prm-brief-result .item-title span {
   color: black!important;
-  font-family: inter;
 } 
-
- prm-brief-result-container.list-item, prm-search-result-list .pages-separated-with-gaps .results-title:not(.results-title-favorites) {
-  background-color: white;
-}
-
-prm-search-result-list .pages-separated-with-gaps .list-item-wrapper {
- border: none;
-}
 
 md-content.main._md.md-primoExplore-theme.padded-container.facet-to-left.layout-align-center-start.layout-row.flex, div.full-view-inner-container.flex {
   background-color: #F8F8F8;
-}
-
-prm-brief-result-container .list-item-primary-content:hover {
-  cursor: pointer;
 }
 
 .prm-secondary-color.prm-hue3, .result-item-actions .pin-button, prm-search-bookmark-filter .prm-hue3.md-button, prm-topbar .prm-hue3.top-nav-bar, prm-account-overview .institutions-list md-list-item.is-selected .institution-name, prm-account-overview .institutions-list md-list-item.is-selected prm-icon, prm-more-like-this .section-title prm-icon {
@@ -133,37 +114,9 @@ prm-brief-result-container .no_inventory {
   color: #57068c!important;
 }
 
-
-prm-search-result-list .pages-separated-with-gaps .list-item-wrapper {
-  margin-bottom: 8px;
-}
-
-div.list-item-wrapper:hover div.list-item-primary-content::before {
-  border-radius: 10px;
-}
-
-prm-search-result-list .pages-separated-with-gaps .list-item-wrapper {
-  margin-bottom: 8px;
-  box-shadow:  0 2px 4px rgba(0,0,0,15%);
-}
-
-prm-search-result-list .pages-separated-with-gaps .list-item-wrapper:hover
-{
-box-shadow:  0 2px 4px rgba(0,0,0,40%);  
-}
-
-prm-search-result-list .pages-separated-with-gaps .list-item-wrapper , prm-brief-result-container.list-item {
-  border-radius: 10px;
-}
-
-
 div#banner.product-logo {
   align-content: center;
   margin-left: 15px;
-}
-
-prm-search-bar #searchBar {
-  border-radius: 50px 0 0 50px
 }
 
 prm-search-bar .simple-search-wrapper md-autocomplete-wrap, prm-search-bar .simple-search-wrapper .search-actions .md-button {
@@ -178,8 +131,22 @@ prm-search-bar .simple-search-wrapper md-autocomplete-wrap, prm-search-bar .simp
   border-radius: 50px;
 }
 
+
+@media only screen and (min-width: 600px) {
+prm-search-bar #searchBar {
+  border-radius: 50px 0 0 50px
+}
+
 prm-search-bar .search-element-inner {
   border-radius: 50px;
+}
+
+prm-search-bar {
+    padding-top: 60px;
+}
+}
+
+prm-topbar {  height: 100px;
 }
 
 
@@ -187,15 +154,15 @@ prm-resource-type-filter-bar button.resource-type-option.md-button.md-primoExplo
   border: solid 1px black;
 }
 
-
+/*
 @media only screen and (max-width: 1025px) {
   div.search-options {
     display: none!important;
   }
-}
+}*/
 
 prm-search-bookmark-filter a#searchHistory:not(:hover), prm-search-bookmark-filter a#favorites-button:not(:hover) {
-  background-color: white;
+  background-color: white!important;
   border: solid 1px black;
   color: #363639;
 }
@@ -205,7 +172,9 @@ prm-search-bookmark-filter a#searchHistory:not(:hover), prm-search-bookmark-filt
 }
 
 
-[data-facet-group="institution"] md-checkbox {visibility:hidden;  }
+[data-facet-group="institution"] md-checkbox {
+  visibility:hidden; 
+}
 
 .md-chip-content:has(span[title="The New School"]) md-checkbox:before {
 display: inline-block;
@@ -269,7 +238,7 @@ md-content.main._md.md-primoExplore-theme.padded-container.facet-to-left.layout-
 
 prm-facet .primo-scrollbar.is-stuck, prm-facet .primo-scrollbar, md-toolbar {
 box-shadow: 0 2px 4px rgba(0, 0, 0, 20%);
-    border-radius: 10px;
+       border-radius: 10px!important;
 }
 
 h2.sidebar-title {
@@ -286,3 +255,81 @@ h2.sidebar-title {
 .tab-content-header.margin-bottom-small.margin-left-medium.layout-row.layout-align-space-between-end p.ng-binding.ng-scope.zero-margin span[ng-if="$ctrl.currLoc.location.callNumber"] {
     visibility: hidden;
 }
+
+
+div[ng-if="$ctrl.getPnx().display.lds51.length > 0"]:has(a[onclick="findingAidsLinkClickHandler( event )"]) {
+    margin: 10px;
+}
+
+a[onclick="findingAidsLinkClickHandler( event )"] {
+    background-color: #00AEEF;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #363639;
+    border: 1px solid #363639;
+    box-shadow: -1px 4px 8px 0px gray;
+}
+
+a[onclick="findingAidsLinkClickHandler( event )"]:hover {
+    text-decoration: underline;
+}
+
+button.button-as-link.md-button.md-primoExplore-theme.md-ink-ripple.button-external-link {
+    border: 1px solid;
+   border-radius: 10px!important;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+ prm-brief-result-container .list-item-primary-content:before, .prm-hover-list-element-bg, prm-search-result-list .pages-separated-with-gaps .list-item-wrapper, md-list, div.neutralized-button.layout-full-width.layout-display-flex.md-button.md-ink-ripple.layout-row.flex {
+ border: none;
+ background-color: transparent!important;
+color: revert!important;
+cursor: pointer;
+   border-radius: 10px!important;
+}
+
+md-dialog md-list md-list-item .md-button:hover:not([disabled]).neutralized-button, .md-button.neutralized-button:hover, .md-button.neutralized-button:focus {
+ border: none;
+ background-color: white!important;
+ color: revert!important;
+ cursor: pointer;
+   border-radius: 10px!important;
+}
+
+
+md-list, md-list:hover {
+box-shadow: none!important;
+}
+
+
+ .list-item, md-list-item {
+   box-shadow: -4px 3px 5px 0px rgba(0, 0, 0, 15%)!important;
+   border: 1px solid lightgray;
+   border-radius: 10px!important;
+   background-color: white!important;
+   margin-top: 10px!important;
+}
+
+.list-item:hover, md-list-item:hover {
+   box-shadow: -4px 3px 5px 0px rgba(0, 0, 0, 45%)!important;
+   border: 1px solid lightgray;
+   border-radius: 10px!important;
+   background-color: white!important;
+}
+
+prm-alma-other-members md-list-item {
+  width: calc(100% - 10px);
+  left: 10px;
+  
+}
+
+prm-alma-other-members .md-list-item-text p.inst-name {
+  padding-top: 10px;
+  height: calc(100% - 10px)
+}
+
+

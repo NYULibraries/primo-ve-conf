@@ -1,4 +1,4 @@
-{"beaconO22":"1373",
+{"beaconO22":"993",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV", "NYUTEST_UCV" ],
     "institution" : {
@@ -15,7 +15,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_INST",
       "institution-name" : "New York University - New York",
-      "last-modified-time-stamp" : "Dec 17, 2024 16:15:00 PM",
+      "last-modified-time-stamp" : "Jul 24, 2025 22:16:09 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : false
     },
