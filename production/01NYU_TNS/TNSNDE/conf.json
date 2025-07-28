@@ -1,4 +1,4 @@
-{"beaconO22":"1026",
+{"beaconO22":"846",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -6025,11 +6025,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinking",
-      "source1" : "NO"
-    }, {
       "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
       "source1" : "true"
+    }, {
+      "target" : "enableDirectLinking",
+      "source1" : "NO"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",
