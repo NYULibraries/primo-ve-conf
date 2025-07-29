@@ -1,12 +1,12 @@
 
-*[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"], *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"] {
+/*[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"]:contains("Cooper Union Library"), *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:contains("Cooper Union Library") {
     visibility: hidden;
 }
 
-*[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"]:before, *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:before {
+*[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"]:has("Cooper Union Library"):before, *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:has("Cooper Union Library"):before {
     visibility: visible;
     content: "The Cooper Union";
-}
+}*/
 
 
 prm-stack-map[ng-if="$ctrl.isSuprima() && $ctrl.currLoc.location.stackMapUrl"] a {
