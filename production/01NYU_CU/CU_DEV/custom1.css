@@ -176,6 +176,10 @@ prm-search-bookmark-filter a#searchHistory:not(:hover), prm-search-bookmark-filt
   visibility:hidden; 
 }
 
+.md-chip.animate-opacity-and-scale.facet-element-marker-tlevel.wrapping-chip.facet-title-row:has(span[title="Open Access"]), div.md-chip.animate-opacity-and-scale.facet-element-marker-tlevel.wrapping-chip.facet-title-row:has(span[title="Peer-reviewed Journals"]) {
+display: none;
+}
+
 .md-chip-content:has(span[title="The New School"]) md-checkbox:before {
 display: inline-block;
   content: "";

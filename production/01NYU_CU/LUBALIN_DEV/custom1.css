@@ -3219,7 +3219,7 @@ button#reportProblem.report-problem-btn.report-problem-btn-ctm.md-button.md-prim
 prm-stack-map[ng-if="$ctrl.isSuprima() && $ctrl.currLoc.location.stackMapUrl"] a {
   border: solid 1px inherit;
 }
-
+/*
 *[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"], *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"] {
     visibility: hidden;
 }
@@ -3227,7 +3227,7 @@ prm-stack-map[ng-if="$ctrl.isSuprima() && $ctrl.currLoc.location.stackMapUrl"] a
 *[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"]:before, *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:before {
     visibility: visible;
     content: "The Cooper Union";
-}
+}*/
 
 md-list-item {
     box-shadow: 0 1px 3px 6px rgba(0, 0, 0, .03), -8px 8px 9px 3px rgba(0, 0, 0, .08);

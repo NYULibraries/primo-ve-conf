@@ -1,4 +1,4 @@
-{"beaconO22":"1308",
+{"beaconO22":"1388",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -911,7 +911,7 @@
     "async_brief_result_delivery" : true,
     "display_holdings_without_waiting" : false,
     "enable_direct_linking_in_record_full_view" : false,
-    "hide_rapido_offers_tiles" : true,
+    "hide_rapido_offers_tiles" : false,
     "rapido_hide_section_when_user_not_logged_in" : false,
     "rapido_hide_get_it_user_groups" : { },
     "rapido_hide_blank_form_link_when_user_not_logged_in" : false,
