@@ -1,4 +1,4 @@
-{"beaconO22":"2494",
+{"beaconO22":"1028",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -3057,7 +3057,7 @@
       "source4" : "6",
       "source5" : "No"
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "both",
       "source2" : "edition",
       "source3" : "book",
@@ -3085,7 +3085,7 @@
       "source4" : "11",
       "source5" : "No"
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "both",
       "source2" : "publisher",
       "source3" : "book",
@@ -3141,7 +3141,7 @@
       "source4" : "18",
       "source5" : "No"
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "both",
       "source2" : "pagesToPhotocopy",
       "source3" : "book",

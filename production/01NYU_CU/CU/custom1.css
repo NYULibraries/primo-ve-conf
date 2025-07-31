@@ -95,3 +95,14 @@ button.button-as-link.md-button.md-primoExplore-theme.md-ink-ripple.button-exter
     padding-left: 8px;
     padding-right: 8px;
 }
+
+
+div.layout-align-start-stretch.layout-column:has(span.item-not-available) prm-form-field, div:has(span.item-not-available) + div.layout-align-end-stretch.layout-column {
+    display: none;
+}
+
+.bar.alert-bar:has([translate="brief.results.tabs.Get_it_from_other_locations_no_services"]) {
+    background-color: white;
+    border-color: #00ADEF;
+    color: black;
+}
