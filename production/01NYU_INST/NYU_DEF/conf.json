@@ -1,4 +1,4 @@
-{"beaconO22":"2054",
+{"beaconO22":"1044",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -2448,11 +2448,6 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
-      "target" : "Yes",
-      "source1" : "default",
-      "source2" : "chapterArticleTitle",
-      "source5" : "false"
-    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
@@ -2466,6 +2461,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "calculateQueueButton",
+      "source5" : "false"
+    }, {
+      "target" : "Yes",
+      "source1" : "default",
+      "source2" : "chapterArticleTitle",
       "source5" : "false"
     }, {
       "target" : "Yes",
@@ -2535,11 +2535,6 @@
     }, {
       "target" : "No",
       "source1" : "default",
-      "source2" : "postalCode",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
       "source2" : "addressLine4",
       "source5" : "false"
     }, {
@@ -2551,6 +2546,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "stateProvince",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
+      "source2" : "postalCode",
       "source5" : "false"
     } ],
     "Prima Direct Login To Other Institutions" : [ {
@@ -3918,6 +3918,14 @@
       "source5" : "No"
     }, {
       "target" : "No",
+      "source1" : "both",
+      "source2" : "notNeedAfter",
+      "source3" : "delivery",
+      "source4" : "14",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
       "source1" : "fulnet",
       "source2" : "allowOtherLibrary",
       "source3" : "delivery",
@@ -3931,14 +3939,6 @@
       "source3" : "delivery",
       "source4" : "13",
       "source5" : "Yes",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "notNeedAfter",
-      "source3" : "delivery",
-      "source4" : "14",
-      "source5" : "No",
       "source6" : " "
     }, {
       "target" : "No",
@@ -4131,26 +4131,26 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredPickupLocation",
-      "source3" : "delivery",
-      "source4" : "11",
-      "source5" : "No",
-      "source6" : " "
-    }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "formDescription",
-      "source3" : "owner",
-      "source4" : "1",
-      "source5" : "No"
+      "source2" : "title",
+      "source3" : "book",
+      "source4" : "2",
+      "source5" : "Yes"
     }, {
       "target" : "No",
       "source1" : "fulnet",
       "source2" : "preferredPickupInstitution",
       "source3" : "delivery",
       "source4" : "10",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredPickupLocation",
+      "source3" : "delivery",
+      "source4" : "11",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -4184,10 +4184,10 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "title",
-      "source3" : "book",
-      "source4" : "2",
-      "source5" : "Yes"
+      "source2" : "formDescription",
+      "source3" : "owner",
+      "source4" : "1",
+      "source5" : "No"
     }, {
       "target" : "Yes",
       "source1" : "both",

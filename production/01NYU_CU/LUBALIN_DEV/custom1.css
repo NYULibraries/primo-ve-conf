@@ -1251,7 +1251,6 @@ md-toolbar.md-primoExplore-theme.default-toolbar,
 md-toolbar.default-toolbar:not(.md-menu-toolbar) {
     background-color: #f7f7f7;
     border-color: #d5d5d5;
-    background-color: gainsboro;
 }
 
 .prm-background.prm-hue2,
@@ -1914,7 +1913,6 @@ md-grid-tile .tile-content md-divider.prm-hue1,
 .tiles-grid-tile md-list md-divider.prm-hue1,
 .tiles-grid-tile .tile-content md-divider.prm-hue1,
 .research-assistant-sidebar .prm-hue1.ra-search-box {
-    border-color: #f0f0f0;
     border-color: #d5d5d5 !important;
 }
 
@@ -3197,25 +3195,6 @@ div.layout-fill.layout-column prm-request-services {
     display: none;
 }
 
-span[ng-bind-html="$ctrl.currLoc.location.collectionTranslation"],
-span[ng-bind-html="$ctrl.currLoc.location.collectionTranslation"] + span {
-    display: none;
-}
-
-*[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"] {
-    visibility: hidden;
-}
-
-*[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:before {
-    content: "Herb Lubalin Study Center of Design and Typography";
-    visibility: visible;
-}
-
-prm-opac md-list md-list-item:last-of-type {
-    box-shadow: 0 1px 3px 6px rgba(0, 0, 0, .03), -8px 8px 9px 3px rgba(0, 0, 0, .08);
-    border: solid 1px gray;
-}
-
 #virtualBrowse {
     display: none;
 }
@@ -3237,10 +3216,58 @@ button#reportProblem.report-problem-btn.report-problem-btn-ctm.md-button.md-prim
   display:none
 }
 
-div[ng-hide="$ctrl.currLoc.locationNoItems"] {
-  display: none;
-}
-
 prm-stack-map[ng-if="$ctrl.isSuprima() && $ctrl.currLoc.location.stackMapUrl"] a {
   border: solid 1px inherit;
+}
+/*
+*[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"], *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"] {
+    visibility: hidden;
+}
+
+*[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"]:before, *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:before {
+    visibility: visible;
+    content: "The Cooper Union";
+}*/
+
+md-list-item {
+    box-shadow: 0 1px 3px 6px rgba(0, 0, 0, .03), -8px 8px 9px 3px rgba(0, 0, 0, .08);
+    border: solid 1px gray;
+    margin-bottom: 5px;
+}
+
+.separate-list-items md-list-item, prm-opac md-list md-list-item:last-of-type {
+    box-shadow: 0 1px 3px 6px rgba(0, 0, 0, .03), -8px 8px 9px 3px rgba(0, 0, 0, .08);
+    border: solid 1px gray;
+    margin-bottom: 5px;
+}
+
+.tab-content-header.margin-bottom-small.margin-left-medium.layout-row.layout-align-space-between-end p.ng-binding.ng-scope.zero-margin span[ng-if="$ctrl.currLoc.location.callNumber"] {
+    visibility: hidden;
+}
+
+
+div[ng-if="$ctrl.getPnx().display.lds51.length > 0"]:has(a[onclick="findingAidsLinkClickHandler( event )"]) {
+    margin: 10px;
+}
+
+a[onclick="findingAidsLinkClickHandler( event )"] {
+    background-color: #00AEEF;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #363639;
+    border: 1px solid #363639;
+    box-shadow: -1px 4px 8px 0px gray;
+}
+
+a[onclick="findingAidsLinkClickHandler( event )"]:hover {
+    text-decoration: underline;
+}
+
+button.button-as-link.md-button.md-primoExplore-theme.md-ink-ripple.button-external-link {
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
