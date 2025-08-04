@@ -1,0 +1,108 @@
+
+/*[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"]:contains("Cooper Union Library"), *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:contains("Cooper Union Library") {
+    visibility: hidden;
+}
+
+*[ng-if="$ctrl.loc.location && $ctrl.getLibraryName($ctrl.loc.location)"]:has("Cooper Union Library"):before, *[ng-if="$ctrl.currLoc.location && $ctrl.getLibraryName($ctrl.currLoc.location)"]:has("Cooper Union Library"):before {
+    visibility: visible;
+    content: "The Cooper Union";
+}*/
+
+
+prm-stack-map[ng-if="$ctrl.isSuprima() && $ctrl.currLoc.location.stackMapUrl"] a {
+  border: solid 1px inherit;
+}
+
+
+.section-content .md-chips .md-chip.wrapping-chip+.md-chip:has(span[title="New York Historical Society"]), .section-content .md-chips .md-chip.wrapping-chip+.md-chip:has(span[title="New York University Abu Dhabi"]), .section-content .md-chips .md-chip.wrapping-chip+.md-chip:has(span[title="New York University Shanghai"]),.section-content .md-chips .md-chip.wrapping-chip+.md-chip:has(span[title="New York University Health Sciences"]){
+  display: none;
+}
+
+
+[data-facet-group="institution"] md-checkbox {visibility:hidden;  }
+
+.md-chip-content:has(span[title="The New School"]) md-checkbox:before {
+display: inline-block;
+  content: "";
+    background-image: url(https://library.newschool.edu/sites/default/files/favicon_32x32.png);
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    margin-top: 2px;
+}
+
+.md-chip-content:has(span[title="Cooper Union"]) md-checkbox:before {
+display: inline-block;
+  content: "";
+    background-image: url(https://cooper.edu/themes/custom/cooper/favicon.ico);
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    margin-top: 2px;
+}
+
+.md-chip-content:has(span[title="New York University - New York"]) md-checkbox:before {
+display: inline-block;
+  content: "";
+    background-image: url(https://cdn.library.nyu.edu/images/favicon.ico);
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    margin-top: 2px;
+}
+
+
+.md-chip-content:has(span[title="New York School of Interior Design"]) md-checkbox:before {
+display: inline-block;
+  content: "";
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5936fbebcd0f68f67d5916ff/4ad4581b-564c-45bc-a2d0-b72634b05551/favicon.ico?format=100w);
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    margin-top: 2px;
+}
+
+.tab-content-header.margin-bottom-small.margin-left-medium.layout-row.layout-align-space-between-end p.ng-binding.ng-scope.zero-margin span[ng-if="$ctrl.currLoc.location.callNumber"] {
+    visibility: hidden;
+}
+
+div[ng-if="$ctrl.getPnx().display.lds51.length > 0"]:has(a[onclick="findingAidsLinkClickHandler( event )"]) {
+    margin: 10px;
+}
+
+a[onclick="findingAidsLinkClickHandler( event )"] {
+    background-color: #00AEEF;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #363639;
+    border: 1px solid #363639;
+    box-shadow: -1px 4px 8px 0px gray;
+}
+
+a[onclick="findingAidsLinkClickHandler( event )"]:hover {
+    text-decoration: underline;
+}
+
+button.button-as-link.md-button.md-primoExplore-theme.md-ink-ripple.button-external-link {
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+div.layout-align-start-stretch.layout-column:has(span.item-not-available) prm-form-field, div:has(span.item-not-available) + div.layout-align-end-stretch.layout-column {
+    display: none;
+}
+
+.bar.alert-bar:has([translate="brief.results.tabs.Get_it_from_other_locations_no_services"]) {
+    background-color: white;
+    border-color: #00ADEF;
+    color: black;
+}
