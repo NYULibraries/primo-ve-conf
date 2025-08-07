@@ -1,4 +1,4 @@
-{"beaconO22":"1262",
+{"beaconO22":"804",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -3395,6 +3395,16 @@
       "source1" : "sub",
       "source2" : "exact",
       "source3" : "ANY"
+    }, {
+      "target" : "addtitle",
+      "source1" : "any",
+      "source2" : "contains",
+      "source3" : "ANY"
+    }, {
+      "target" : "lds99",
+      "source1" : "any",
+      "source2" : "contains",
+      "source3" : "L"
     } ],
     "Browse Lists" : [ {
       "target" : "Yes",

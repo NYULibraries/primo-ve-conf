@@ -1,4 +1,4 @@
-{"beaconO22":"987",
+{"beaconO22":"1078",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -4063,6 +4063,16 @@
       "source1" : "sub",
       "source2" : "exact",
       "source3" : "ANY"
+    }, {
+      "target" : "addtitle",
+      "source1" : "any",
+      "source2" : "contains",
+      "source3" : "ANY"
+    }, {
+      "target" : "lds99",
+      "source1" : "any",
+      "source2" : "contains",
+      "source3" : "L"
     } ],
     "Browse Lists" : [ {
       "target" : "Yes",
