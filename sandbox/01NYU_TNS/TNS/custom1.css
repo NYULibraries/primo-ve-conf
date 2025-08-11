@@ -1276,6 +1276,17 @@ prm-snippet, .item-detail.reduce-lines-display {
   color: #e42a1d;
 }
 
+#ill-request-link {
+  color: #191919;
+  border-bottom: 1px solid #191919;
+}
+
+#ill-request-link:hover, #ill-request-link:focus {
+  background-color: transparent;
+  color: #e42a1d;
+  border-bottom: 1px solid #e42a1d;
+}
+
 /* ITEM RECORD */
 
 .word-break a.arrow-link:hover span {
@@ -1390,8 +1401,17 @@ opacity-and-scale.md-no-proxy._md.pointer:hover {
 }
 
 .md-button.button-link.link-alt-color {
-  color: #191919;
-  border: 1px solid #f3f3f3;
+  color: #ffffff;
+  border: 2px solid #767676;
+  background-color: #767676;
+  border-radius: 0;
+  font-family: "neue", "Arial", Helvetica, sans-serif;
+  font-size: 13px;
+  transition: border-color .18s ease-in-out, background-color .18s ease-in-out;
+}
+
+.md-button.button-link.link-alt-color span.bold-text {
+  font-weight: 900 !important;
 }
 
 md-dialog.light-on-dark-dialog a {
@@ -1411,7 +1431,9 @@ md-dialog.light-on-dark-dialog a {
 
 .md-button.button-link.link-alt-color:hover:not([disabled]) {
   background-color: #191919;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out;
+  border: 2px solid #191919;
+  color:#ffffff;
+  transition: border-color .18s ease-in-out, background-color .18s ease-in-out;
 }
 
 prm-service-details .arrow-link.md-primoExplore-theme {
@@ -1450,6 +1472,12 @@ md-list-item.md-3-line.in-element-dialog-parent.animate-opacity-and-scale.md-no-
   -webkit-box-ordinal-group: 9 !important;
           order: 8 !important; 
           display:none;}
+
+prm-rapido-no-offer-message .main_tile, prm-rapido-no-offer-message #no_offer_message_out_text_notClickable {
+  background-color: #f2f2f2;
+  font-family: "neue", "Arial", Helvetica, sans-serif;
+  box-shadow: none;
+}
 
 /* JOURNAL SEARCH */
 
@@ -1720,15 +1748,22 @@ md-list-item.md-no-proxy._md:has([aria-label="EZBorrow"]) {
   display:none;
 }
 
+.md-button:has([aria-label="EZBorrow"]) {display:none;}
+
 [aria-label='EZBorrow'] {display:none;}
 
 .offer_detail {visibility: hidden;}
 
 .delivered_in {display:none;}
 
-div.request-form-message > prm-icon {display:none;}
-
-.notice {
-    background-color: #E82E21 !important;
-    color:white !important
-}
+/* LOCAL BANNER */ 
+body::before { 
+content: "We’re making changes to improve how you connect to library ebooks and databases. If you experience any access issues, email us at libhelp@newschool.edu for help. \A \A Thanks for your patience as we work to improve your access."; 
+display: block; 
+background: #ffe000;  
+padding: 25px;
+width: 100%; 
+font-weight: bold;
+white-space: pre-wrap; 
+} 
+/* END local banner */

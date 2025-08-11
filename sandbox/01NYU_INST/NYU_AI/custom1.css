@@ -8,51 +8,51 @@
   .light-on-dark-dialog .md-button {
     color: white; }
     .light-on-dark-dialog .md-button:hover:not([disabled]), .light-on-dark-dialog .md-button:focus:not([disabled]), .light-on-dark-dialog .md-button.hovered:not([disabled]), .light-on-dark-dialog .md-button.md-focused:not([disabled]), .light-on-dark-dialog .md-button._md-focused:not([disabled]) {
-      color: #000000;
+      color: #57068c;
       background-color: white; }
   .light-on-dark-dialog .hoverable-over-dark:not(.disable-hover) .md-button, .light-on-dark-dialog .md-button.button-over-dark:not(.disable-hover) .md-button, .light-on-dark-dialog prm-user-area .md-button.user-menu-button:not(.disable-hover) .md-button, prm-user-area .light-on-dark-dialog .md-button.user-menu-button:not(.disable-hover) .md-button, .light-on-dark-dialog prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button, prm-topbar .light-on-dark-dialog .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover .md-button, prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):hover .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus .md-button, prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):focus .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button.md-focused:not(.disable-hover) .md-button, prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button.md-focused:not(.disable-hover) .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus .md-button, prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button, prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover .md-button, prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):hover .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus .md-button, prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):focus .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item.md-focused:not(.disable-hover) .md-button, prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item.md-focused:not(.disable-hover) .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus .md-button, prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button, prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover .md-button, prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):hover .md-button, .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus .md-button, prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):focus .md-button, .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover) .md-button, prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button, .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover) .md-button, prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button, .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover) .md-button, prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button, .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover) .md-button, prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button {
     color: white; }
     .light-on-dark-dialog .hoverable-over-dark:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog .md-button.button-over-dark:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog prm-user-area .md-button.user-menu-button:not(.disable-hover) .md-button:hover:not([disabled]), prm-user-area .light-on-dark-dialog .md-button.user-menu-button:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button:hover:not([disabled]), prm-topbar .light-on-dark-dialog .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):hover .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):focus .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button.md-focused:not(.disable-hover) .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button.md-focused:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):hover .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):focus .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item.md-focused:not(.disable-hover) .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item.md-focused:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):hover .md-button:hover:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus .md-button:hover:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):focus .md-button:hover:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover) .md-button:hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover) .md-button:hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover) .md-button:hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover) .md-button:hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button:hover:not([disabled]), .light-on-dark-dialog .hoverable-over-dark:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog .md-button.button-over-dark:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog prm-user-area .md-button.user-menu-button:not(.disable-hover) .md-button:focus:not([disabled]), prm-user-area .light-on-dark-dialog .md-button.user-menu-button:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button:focus:not([disabled]), prm-topbar .light-on-dark-dialog .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):hover .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):focus .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button.md-focused:not(.disable-hover) .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button.md-focused:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):hover .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):focus .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item.md-focused:not(.disable-hover) .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item.md-focused:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):hover .md-button:focus:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus .md-button:focus:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):focus .md-button:focus:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover) .md-button:focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover) .md-button:focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover) .md-button:focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover) .md-button:focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button:focus:not([disabled]), .light-on-dark-dialog .hoverable-over-dark:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog .md-button.button-over-dark:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-user-area .md-button.user-menu-button:not(.disable-hover) .md-button.hovered:not([disabled]), prm-user-area .light-on-dark-dialog .md-button.user-menu-button:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button.hovered:not([disabled]), prm-topbar .light-on-dark-dialog .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):hover .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):focus .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button.md-focused:not(.disable-hover) .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button.md-focused:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):hover .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):focus .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item.md-focused:not(.disable-hover) .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item.md-focused:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):hover .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus .md-button.hovered:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):focus .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover) .md-button.hovered:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover) .md-button.hovered:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover) .md-button.hovered:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover) .md-button.hovered:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button.hovered:not([disabled]), .light-on-dark-dialog .hoverable-over-dark:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog .md-button.button-over-dark:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-user-area .md-button.user-menu-button:not(.disable-hover) .md-button.md-focused:not([disabled]), prm-user-area .light-on-dark-dialog .md-button.user-menu-button:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button.md-focused:not([disabled]), prm-topbar .light-on-dark-dialog .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):hover .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):focus .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button.md-focused:not(.disable-hover) .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button.md-focused:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):hover .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):focus .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item.md-focused:not(.disable-hover) .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item.md-focused:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):hover .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus .md-button.md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):focus .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover) .md-button.md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover) .md-button.md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover) .md-button.md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover) .md-button.md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button.md-focused:not([disabled]), .light-on-dark-dialog .hoverable-over-dark:not(.disable-hover) .md-button._md-focused:not([disabled]), .light-on-dark-dialog .md-button.button-over-dark:not(.disable-hover) .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-user-area .md-button.user-menu-button:not(.disable-hover) .md-button._md-focused:not([disabled]), prm-user-area .light-on-dark-dialog .md-button.user-menu-button:not(.disable-hover) .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button._md-focused:not([disabled]), prm-topbar .light-on-dark-dialog .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message) .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):hover .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button:not(.disable-hover):focus .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button.md-focused:not(.disable-hover) .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .md-button.md-focused:not(.disable-hover) .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):hover .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item:not(.disable-hover):focus .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item.md-focused:not(.disable-hover) .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog .overlay-menu-item.md-focused:not(.disable-hover) .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog md-select:not(.disable-hover):focus .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .light-on-dark-dialog .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):hover .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus .md-button._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .light-on-dark-dialog md-button:not(.disable-hover):focus .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover) .md-button._md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover) .md-button._md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog .md-button:not(.disable-hover) .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover) .md-button._md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button._md-focused:not([disabled]), .light-on-dark-dialog prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover) .md-button._md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .light-on-dark-dialog md-input-container:not(.disable-hover) .md-button._md-focused:not([disabled]) {
-      color: #000000;
+      color: #57068c;
       background-color: white; }
   .md-button.md-primary {
-    color: #191919; }
+    color: #05568a; }
     .md-button.md-primary:hover:not([disabled]), .md-button.md-primary:focus:not([disabled]), .md-button.md-primary.hovered:not([disabled]), .md-button.md-primary.md-focused:not([disabled]), .md-button.md-primary._md-focused:not([disabled]) {
       color: white;
-      background-color: #191919; }
+      background-color: #05568a; }
   .md-button.md-secondary {
-    color: #e42a1d; }
+    color: #42056a; }
     .md-button.md-secondary:hover:not([disabled]), .md-button.md-secondary:focus:not([disabled]), .md-button.md-secondary.hovered:not([disabled]), .md-button.md-secondary.md-focused:not([disabled]), .md-button.md-secondary._md-focused:not([disabled]) {
       color: white;
-      background-color: #e42a1d; }
+      background-color: #57068c; }
   .md-button.button-confirm, .service-form-static-panel button.button-confirm prm-icon + span, .service-form-static-panel button.button-confirm prm-icon svg path {
-    color: #e42a1d; }
+    color: #799a05; }
     .md-button.button-confirm:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path:hover:not([disabled]), .md-button.button-confirm:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path:focus:not([disabled]), .md-button.button-confirm.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path.hovered:not([disabled]), .md-button.button-confirm.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path.md-focused:not([disabled]), .md-button.button-confirm._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path._md-focused:not([disabled]) {
       color: white;
-      background-color: #e42a1d; }
+      background-color: #799a05; }
     .light-on-dark-dialog .md-button.button-confirm, .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span, .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span, .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path, .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path {
       color: #33FFFF; }
       .light-on-dark-dialog .md-button.button-confirm:hover:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span:hover:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span:hover:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path:hover:not([disabled]), .light-on-dark-dialog .md-button.button-confirm:focus:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span:focus:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span:focus:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path:focus:not([disabled]), .light-on-dark-dialog .md-button.button-confirm.hovered:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span.hovered:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span.hovered:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path.hovered:not([disabled]), .light-on-dark-dialog .md-button.button-confirm.md-focused:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span.md-focused:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span.md-focused:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path.md-focused:not([disabled]), .light-on-dark-dialog .md-button.button-confirm._md-focused:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span._md-focused:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span._md-focused:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path._md-focused:not([disabled]) {
-        color: #000000;
+        color: #57068c;
         background-color: white; }
   .md-button.button-notice {
-    color: #e42a1d; }
+    color: #b84d00; }
     .md-button.button-notice:hover:not([disabled]), .md-button.button-notice:focus:not([disabled]), .md-button.button-notice.hovered:not([disabled]), .md-button.button-notice.md-focused:not([disabled]), .md-button.button-notice._md-focused:not([disabled]) {
       color: white;
-      background-color: #e42a1d; }
+      background-color: #b84d00; }
   .md-button.button-prompt {
     color: #FFFCC4; }
     .md-button.button-prompt:hover:not([disabled]), .md-button.button-prompt:focus:not([disabled]), .md-button.button-prompt.hovered:not([disabled]), .md-button.button-prompt.md-focused:not([disabled]), .md-button.button-prompt._md-focused:not([disabled]) {
-      color: #000000;
+      color: #57068c;
       background-color: white; }
   .md-button.button-warn {
-    color: #8f7d00; }
+    color: #5d071c; }
     .md-button.button-warn:hover:not([disabled]), .md-button.button-warn:focus:not([disabled]), .md-button.button-warn.hovered:not([disabled]), .md-button.button-warn.md-focused:not([disabled]), .md-button.button-warn._md-focused:not([disabled]) {
       color: white;
-      background-color: #8f7d00; }
+      background-color: #5d071c; }
   .md-button.button-link, md-grid-tile .tile-content > .md-button,
   .tiles-grid-tile .tile-content > .md-button {
-    color: #191919;
+    color: #05568a;
     -webkit-box-shadow: none;
     box-shadow: none; }
     .md-button.button-link:hover:not([disabled]), md-grid-tile .tile-content > .md-button:hover:not([disabled]),
@@ -62,11 +62,11 @@
     .tiles-grid-tile .tile-content > .md-button.md-focused:not([disabled]), .md-button.button-link._md-focused:not([disabled]), md-grid-tile .tile-content > .md-button._md-focused:not([disabled]),
     .tiles-grid-tile .tile-content > .md-button._md-focused:not([disabled]) {
       color: white;
-      background-color: #191919; }
+      background-color: #05568a; }
     .md-button.button-link.link-alt-color, .section-title prm-icon.md-button.button-link, .section-title md-grid-tile .tile-content > prm-icon.md-button, md-grid-tile .section-title .tile-content > prm-icon.md-button,
     .section-title .tiles-grid-tile .tile-content > prm-icon.md-button, .tiles-grid-tile .section-title .tile-content > prm-icon.md-button, md-grid-tile .tile-content > .md-button.link-alt-color,
     .tiles-grid-tile .tile-content > .md-button.link-alt-color {
-      color: #73080c; }
+      color: black; }
       .md-button.button-link.link-alt-color:hover:not([disabled]), .section-title prm-icon.md-button.button-link:hover:not([disabled]), .section-title md-grid-tile .tile-content > prm-icon.md-button:hover:not([disabled]), md-grid-tile .section-title .tile-content > prm-icon.md-button:hover:not([disabled]),
       .section-title .tiles-grid-tile .tile-content > prm-icon.md-button:hover:not([disabled]), .tiles-grid-tile .section-title .tile-content > prm-icon.md-button:hover:not([disabled]), md-grid-tile .tile-content > .md-button.link-alt-color:hover:not([disabled]),
       .tiles-grid-tile .tile-content > .md-button.link-alt-color:hover:not([disabled]), .md-button.button-link.link-alt-color:focus:not([disabled]), .section-title prm-icon.md-button.button-link:focus:not([disabled]), .section-title md-grid-tile .tile-content > prm-icon.md-button:focus:not([disabled]), md-grid-tile .section-title .tile-content > prm-icon.md-button:focus:not([disabled]),
@@ -79,7 +79,7 @@
       .section-title .tiles-grid-tile .tile-content > prm-icon.md-button._md-focused:not([disabled]), .tiles-grid-tile .section-title .tile-content > prm-icon.md-button._md-focused:not([disabled]), md-grid-tile .tile-content > .md-button.link-alt-color._md-focused:not([disabled]),
       .tiles-grid-tile .tile-content > .md-button.link-alt-color._md-focused:not([disabled]) {
         color: white;
-        background-color: #000000; }
+        background-color: black; }
   .md-button.button-large {
     font-size: 1.2em;
     padding: .25em .75em; }
@@ -161,22 +161,22 @@
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     letter-spacing: 0;
-    color: #0d0c0c; }
+    color: #014774; }
     .md-button.button-as-link:hover:not([disabled]), .bar prm-authentication .md-button:hover:not([disabled]), .md-button.button-as-link:focus:not([disabled]), .bar prm-authentication .md-button:focus:not([disabled]), .md-button.button-as-link.hovered:not([disabled]), .bar prm-authentication .md-button.hovered:not([disabled]), .md-button.button-as-link.md-focused:not([disabled]), .bar prm-authentication .md-button.md-focused:not([disabled]), .md-button.button-as-link._md-focused:not([disabled]), .bar prm-authentication .md-button._md-focused:not([disabled]) {
       color: white;
-      background-color: #000000; }
+      background-color: #57068c; }
     .md-button.button-as-link.link-alt-color, .bar prm-authentication .md-button.link-alt-color, .bar prm-authentication .section-title prm-icon.md-button, .section-title .bar prm-authentication prm-icon.md-button, .section-title prm-icon.md-button.button-as-link, prm-gallery-collection .collection-folder .item-actions button, prm-gallery-collection .collection-folder .item-actions .md-button, .is-gallery-view prm-gallery-item .collection-element .item-actions button, .is-gallery-view prm-gallery-item .collection-element .item-actions .md-button, .is-grid-view prm-gallery-item .collection-element .item-actions button, .is-grid-view prm-gallery-item .collection-element .item-actions .md-button {
-      color: #0e0002; }
+      color: black; }
       .md-button.button-as-link.link-alt-color:hover:not([disabled]), .bar prm-authentication .md-button.link-alt-color:hover:not([disabled]), .bar prm-authentication .section-title prm-icon.md-button:hover:not([disabled]), .section-title .bar prm-authentication prm-icon.md-button:hover:not([disabled]), .section-title prm-icon.md-button.button-as-link:hover:not([disabled]), prm-gallery-collection .collection-folder .item-actions button:hover:not([disabled]), prm-gallery-collection .collection-folder .item-actions .md-button:hover:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions button:hover:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions .md-button:hover:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions button:hover:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions .md-button:hover:not([disabled]), .md-button.button-as-link.link-alt-color:focus:not([disabled]), .bar prm-authentication .md-button.link-alt-color:focus:not([disabled]), .bar prm-authentication .section-title prm-icon.md-button:focus:not([disabled]), .section-title .bar prm-authentication prm-icon.md-button:focus:not([disabled]), .section-title prm-icon.md-button.button-as-link:focus:not([disabled]), prm-gallery-collection .collection-folder .item-actions button:focus:not([disabled]), prm-gallery-collection .collection-folder .item-actions .md-button:focus:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions button:focus:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions .md-button:focus:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions button:focus:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions .md-button:focus:not([disabled]), .md-button.button-as-link.link-alt-color.hovered:not([disabled]), .bar prm-authentication .md-button.link-alt-color.hovered:not([disabled]), .bar prm-authentication .section-title prm-icon.md-button.hovered:not([disabled]), .section-title .bar prm-authentication prm-icon.md-button.hovered:not([disabled]), .section-title prm-icon.md-button.button-as-link.hovered:not([disabled]), prm-gallery-collection .collection-folder .item-actions button.hovered:not([disabled]), prm-gallery-collection .collection-folder .item-actions .hovered.md-button:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions button.hovered:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions .hovered.md-button:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions button.hovered:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions .hovered.md-button:not([disabled]), .md-button.button-as-link.link-alt-color.md-focused:not([disabled]), .bar prm-authentication .md-button.link-alt-color.md-focused:not([disabled]), .bar prm-authentication .section-title prm-icon.md-button.md-focused:not([disabled]), .section-title .bar prm-authentication prm-icon.md-button.md-focused:not([disabled]), .section-title prm-icon.md-button.button-as-link.md-focused:not([disabled]), prm-gallery-collection .collection-folder .item-actions button.md-focused:not([disabled]), prm-gallery-collection .collection-folder .item-actions .md-focused.md-button:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions button.md-focused:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions .md-focused.md-button:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions button.md-focused:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions .md-focused.md-button:not([disabled]), .md-button.button-as-link.link-alt-color._md-focused:not([disabled]), .bar prm-authentication .md-button.link-alt-color._md-focused:not([disabled]), .bar prm-authentication .section-title prm-icon.md-button._md-focused:not([disabled]), .section-title .bar prm-authentication prm-icon.md-button._md-focused:not([disabled]), .section-title prm-icon.md-button.button-as-link._md-focused:not([disabled]), prm-gallery-collection .collection-folder .item-actions button._md-focused:not([disabled]), prm-gallery-collection .collection-folder .item-actions ._md-focused.md-button:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions button._md-focused:not([disabled]), .is-gallery-view prm-gallery-item .collection-element .item-actions ._md-focused.md-button:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions button._md-focused:not([disabled]), .is-grid-view prm-gallery-item .collection-element .item-actions ._md-focused.md-button:not([disabled]) {
         color: white;
-        background-color: #0e0002; }
+        background-color: black; }
     .md-button.button-as-link.button-external-link span, .bar prm-authentication .md-button.button-external-link span {
       position: relative;
       top: 1px; }
     .light-on-dark-dialog .md-button.button-as-link, .light-on-dark-dialog .bar prm-authentication .md-button, .bar prm-authentication .light-on-dark-dialog .md-button {
       color: #33FFFF; }
       .light-on-dark-dialog .md-button.button-as-link:hover:not([disabled]), .light-on-dark-dialog .bar prm-authentication .md-button:hover:not([disabled]), .bar prm-authentication .light-on-dark-dialog .md-button:hover:not([disabled]), .light-on-dark-dialog .md-button.button-as-link:focus:not([disabled]), .light-on-dark-dialog .bar prm-authentication .md-button:focus:not([disabled]), .bar prm-authentication .light-on-dark-dialog .md-button:focus:not([disabled]), .light-on-dark-dialog .md-button.button-as-link.hovered:not([disabled]), .light-on-dark-dialog .bar prm-authentication .md-button.hovered:not([disabled]), .bar prm-authentication .light-on-dark-dialog .md-button.hovered:not([disabled]), .light-on-dark-dialog .md-button.button-as-link.md-focused:not([disabled]), .light-on-dark-dialog .bar prm-authentication .md-button.md-focused:not([disabled]), .bar prm-authentication .light-on-dark-dialog .md-button.md-focused:not([disabled]), .light-on-dark-dialog .md-button.button-as-link._md-focused:not([disabled]), .light-on-dark-dialog .bar prm-authentication .md-button._md-focused:not([disabled]), .bar prm-authentication .light-on-dark-dialog .md-button._md-focused:not([disabled]) {
-        color: #000000;
+        color: #57068c;
         background-color: white; }
   .md-button.button-as-link-mobile {
     text-transform: none;
@@ -190,22 +190,22 @@
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     letter-spacing: 0;
-    color: #191919; }
+    color: #05568a; }
     .md-button.button-as-link-mobile:hover:not([disabled]), .md-button.button-as-link-mobile:focus:not([disabled]), .md-button.button-as-link-mobile.hovered:not([disabled]), .md-button.button-as-link-mobile.md-focused:not([disabled]), .md-button.button-as-link-mobile._md-focused:not([disabled]) {
       color: white;
-      background-color: #191919; }
+      background-color: #05568a; }
     .md-button.button-as-link-mobile.link-alt-color, .section-title prm-icon.md-button.button-as-link-mobile {
-      color: #0e0002; }
+      color: black; }
       .md-button.button-as-link-mobile.link-alt-color:hover:not([disabled]), .section-title prm-icon.md-button.button-as-link-mobile:hover:not([disabled]), .md-button.button-as-link-mobile.link-alt-color:focus:not([disabled]), .section-title prm-icon.md-button.button-as-link-mobile:focus:not([disabled]), .md-button.button-as-link-mobile.link-alt-color.hovered:not([disabled]), .section-title prm-icon.md-button.button-as-link-mobile.hovered:not([disabled]), .md-button.button-as-link-mobile.link-alt-color.md-focused:not([disabled]), .section-title prm-icon.md-button.button-as-link-mobile.md-focused:not([disabled]), .md-button.button-as-link-mobile.link-alt-color._md-focused:not([disabled]), .section-title prm-icon.md-button.button-as-link-mobile._md-focused:not([disabled]) {
         color: white;
-        background-color: #0e0002; }
+        background-color: black; }
     .md-button.button-as-link-mobile.button-external-link span {
       position: relative;
       top: 1px; }
     .light-on-dark-dialog .md-button.button-as-link-mobile {
       color: #33FFFF; }
       .light-on-dark-dialog .md-button.button-as-link-mobile:hover:not([disabled]), .light-on-dark-dialog .md-button.button-as-link-mobile:focus:not([disabled]), .light-on-dark-dialog .md-button.button-as-link-mobile.hovered:not([disabled]), .light-on-dark-dialog .md-button.button-as-link-mobile.md-focused:not([disabled]), .light-on-dark-dialog .md-button.button-as-link-mobile._md-focused:not([disabled]) {
-        color: #000000;
+        color: #57068c;
         background-color: white; }
   .md-button.flex-button {
     display: -webkit-box;
@@ -283,51 +283,51 @@
 .request-form md-input-container .md-input-container-dummy > .md-select-dummy .md-select-value.md-select-placeholder,
 .request-form md-input-container md-select ._md-select-value._md-select-placeholder,
 .request-form md-input-container .md-input-container-dummy > .md-select-dummy ._md-select-value._md-select-placeholder, .result-item-actions .more-options-button, prm-add-query-to-saved-searches .custom-button, prm-pre-filters md-input-container.is-active, .md-autocomplete-suggestions .suggestion-scope, md-tab-content .tab-content-header md-input-container md-select-value .md-text, prm-resource-type-filter-bar md-input-container.is-active {
-  color: #000000; }
+  color: #57068c; }
   .prm-primary-color.prm-hue1, .request-form md-input-container label.prm-hue1,
   .request-form md-input-container label.prm-hue1:not(.md-no-float):not(._md-container-ignore),
   .request-form md-input-container md-select .prm-hue1.md-select-value.md-select-placeholder,
   .request-form md-input-container .md-input-container-dummy > .md-select-dummy .prm-hue1.md-select-value.md-select-placeholder,
   .request-form md-input-container md-select .prm-hue1._md-select-value._md-select-placeholder,
   .request-form md-input-container .md-input-container-dummy > .md-select-dummy .prm-hue1._md-select-value._md-select-placeholder, .result-item-actions .prm-hue1.more-options-button, prm-add-query-to-saved-searches .prm-hue1.custom-button, prm-pre-filters md-input-container.prm-hue1.is-active, .md-autocomplete-suggestions .prm-hue1.suggestion-scope, md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:not([disabled]), md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-focused:not([disabled]), md-tab-content .tab-content-header md-input-container md-select-value .prm-hue1.md-text, prm-resource-type-filter-bar md-input-container.prm-hue1.is-active {
-    color: black; }
+    color: #4e057d; }
   .prm-primary-color.prm-hue2, .request-form md-input-container label.prm-hue2,
   .request-form md-input-container label.prm-hue2:not(.md-no-float):not(._md-container-ignore),
   .request-form md-input-container md-select .prm-hue2.md-select-value.md-select-placeholder,
   .request-form md-input-container .md-input-container-dummy > .md-select-dummy .prm-hue2.md-select-value.md-select-placeholder,
   .request-form md-input-container md-select .prm-hue2._md-select-value._md-select-placeholder,
   .request-form md-input-container .md-input-container-dummy > .md-select-dummy .prm-hue2._md-select-value._md-select-placeholder, .result-item-actions .md-icon-button, .result-item-actions .prm-hue2.more-options-button, prm-add-query-to-saved-searches .prm-hue2.custom-button, prm-pre-filters md-input-container.prm-hue2.is-active, .md-autocomplete-suggestions .prm-hue2.suggestion-scope, md-tab-content .tab-content-header md-input-container md-select-value .prm-hue2.md-text, prm-resource-type-filter-bar md-input-container.prm-hue2.is-active {
-    color: black; }
+    color: #480574; }
 
 .prm-primary-bg, prm-spinner.overlay-cover.light-on-dark:after, prm-search-bar, prm-atoz-search-bar, prm-browse-search-bar, prm-tags-search-bar, prm-newspapers-search-bar, prm-collection-gallery-header .collection-header-inner, prm-tree-nav prm-spinner .diamond {
   color: white;
-  background-color: #000000; }
+  background-color: #57068c; }
   .prm-primary-bg.prm-hue1, prm-spinner.prm-hue1.overlay-cover.light-on-dark:after, prm-search-bar.prm-hue1, prm-atoz-search-bar.prm-hue1, prm-browse-search-bar.prm-hue1, prm-tags-search-bar.prm-hue1, prm-newspapers-search-bar.prm-hue1, prm-collection-gallery-header .prm-hue1.collection-header-inner, prm-tree-nav prm-spinner .prm-hue1.diamond, md-dialog-content md-input-container.dark-on-light:after, md-input-container:after {
-    background-color: black; }
+    background-color: #4e057d; }
   .prm-primary-bg.prm-hue2, prm-spinner.prm-hue2.overlay-cover.light-on-dark:after, prm-search-bar.prm-hue2, prm-atoz-search-bar.prm-hue2, prm-browse-search-bar.prm-hue2, prm-tags-search-bar.prm-hue2, prm-newspapers-search-bar.prm-hue2, prm-collection-gallery-header .prm-hue2.collection-header-inner, prm-tree-nav prm-spinner .prm-hue2.diamond, md-backdrop.md-opaque {
-    background-color: black; }
+    background-color: #480574; }
   .prm-primary-bg.prm-hue3, prm-spinner.prm-hue3.overlay-cover.light-on-dark:after, prm-topbar .top-nav-bar, prm-search-bar.prm-hue3, prm-atoz-search-bar.prm-hue3, prm-browse-search-bar.prm-hue3, prm-tags-search-bar.prm-hue3, prm-newspapers-search-bar.prm-hue3, prm-collection-gallery-header .prm-hue3.collection-header-inner, prm-tree-nav prm-spinner .prm-hue3.diamond {
-    background-color: black; }
+    background-color: #42056a; }
     .prm-primary-bg.prm-hue3-important, prm-spinner.prm-hue3-important.overlay-cover.light-on-dark:after, prm-user-area md-fab-toolbar.md-is-open md-fab-trigger .md-fab-toolbar-background, prm-user-area md-fab-toolbar.md-is-open md-fab-trigger ._md-fab-toolbar-background, prm-search-bar.prm-hue3-important, prm-atoz-search-bar.prm-hue3-important, prm-browse-search-bar.prm-hue3-important, prm-tags-search-bar.prm-hue3-important, prm-newspapers-search-bar.prm-hue3-important, prm-collection-gallery-header .prm-hue3-important.collection-header-inner, prm-tree-nav prm-spinner .prm-hue3-important.diamond {
-      background-color: black !important; }
+      background-color: #42056a !important; }
   .prm-primary-bg.prm-hue4, prm-spinner.prm-hue4.overlay-cover.light-on-dark:after, prm-search-bar.prm-hue4, prm-atoz-search-bar.prm-hue4, prm-browse-search-bar.prm-hue4, prm-tags-search-bar.prm-hue4, prm-newspapers-search-bar.prm-hue4, prm-collection-gallery-header .prm-hue4.collection-header-inner, prm-tree-nav prm-spinner .prm-hue4.diamond {
-    background-color: black; }
+    background-color: #39045b; }
 
 .prm-primary-border {
-  border-color: #000000; }
+  border-color: #57068c; }
   .prm-primary-border.prm-hue1 {
-    border-color: #000000; }
+    border-color: #57068c; }
   .prm-primary-border.prm-hue2 {
-    border-color: #000000; }
+    border-color: #57068c; }
 
 .prm-secondary-color, prm-search-bookmark-filter .md-button, prm-topbar .top-nav-bar {
-  color: #e42a1d; }
+  color: #42056a; }
   .prm-secondary-color.prm-hue1, .link-alt-color, .section-title prm-icon, prm-add-query-to-saved-searches .custom-button.pin-button, prm-search-bookmark-filter .prm-hue1.md-button, prm-topbar .prm-hue1.top-nav-bar, prm-pre-filters md-input-container.is-active :focus, prm-recomendation-item .media-on-hover .pin-button {
-    color: #73080c; }
+    color: black; }
   .prm-secondary-color.prm-hue2, prm-search-bookmark-filter .prm-hue2.md-button, prm-topbar .prm-hue2.top-nav-bar {
-    color: #8a1911; }
+    color: #050009; }
   .prm-secondary-color.prm-hue3, .result-item-actions .pin-button, prm-search-bookmark-filter .prm-hue3.md-button, prm-topbar .prm-hue3.top-nav-bar, prm-account-overview .institutions-list md-list-item.is-selected .institution-name, prm-account-overview .institutions-list md-list-item.is-selected prm-icon, prm-more-like-this .section-title prm-icon {
-    color: #0e0002; }
+    color: black; }
   .prm-secondary-color.prm-hue4, prm-search-bookmark-filter .prm-hue4.md-button, prm-topbar .prm-hue4.top-nav-bar, prm-user-area-expandable .md-button.user-button, + prm-account-overview .main-institution-list .md-button:hover ._md-list-item-inner.is-selected .institution-name, + prm-account-overview .main-institution-list .md-button:hover .md-list-item-inner.is-selected .institution-name, prm-account-overview .main-institution-list .md-button:focus ._md-list-item-inner.is-selected .institution-name, prm-account-overview .main-institution-list .md-button:focus .md-list-item-inner.is-selected .institution-name,
   + prm-account-overview .md-list .md-button:hover ._md-list-item-inner.is-selected .institution-name,
   + prm-account-overview .md-list .md-button:hover .md-list-item-inner.is-selected .institution-name,
@@ -337,35 +337,35 @@
   + prm-account-overview .md-list[class$="-line"] .md-button:hover .md-list-item-inner.is-selected .institution-name,
   prm-account-overview .md-list[class$="-line"] .md-button:focus ._md-list-item-inner.is-selected .institution-name,
   prm-account-overview .md-list[class$="-line"] .md-button:focus .md-list-item-inner.is-selected .institution-name {
-    color: #ba000a; }
+    color: #130028; }
   .prm-secondary-color.prm-hue6, prm-search-bookmark-filter .prm-hue6.md-button, prm-topbar .prm-hue6.top-nav-bar, prm-account-overview .institutions-list md-list-item.is-selected .md-button:hover span, prm-account-overview .institutions-list md-list-item.is-selected .md-button:hover prm-icon, prm-account-overview .institutions-list md-list-item.is-selected span.institution-name:focus, prm-account-overview .institutions-list md-list-item.is-selected span.institution-name:hover, prm-more-like-this .section-title:hover prm-icon, prm-more-like-this .section-title:focus prm-icon {
-    color: #f7000d; }
+    color: #310065; }
 
 .prm-secondary-bg, md-progress-linear[md-mode=indeterminate].header-progress-bar .md-bar {
-  background-color: #e42a1d; }
+  background-color: #42056a; }
   .prm-secondary-bg.prm-hue1, .new-result-item .list-item-count, md-progress-linear[md-mode=indeterminate].header-progress-bar .prm-hue1.md-bar, .md-input-color-underline, md-input-container.empty-select-on-init:not(.md-input-focused) md-select md-select-value:after, md-input-container.empty-select-on-init:not(.md-input-focused) .md-input-container-dummy > .md-select-dummy md-select-value:after {
-    background-color: #73080c; }
+    background-color: black; }
   .prm-secondary-bg.prm-hue2, .dark-toolbar prm-pre-filters md-input-container:after, md-progress-linear[md-mode=indeterminate].header-progress-bar .prm-hue2.md-bar, md-option.prm-select-checkbox._md-checkbox-enabled[selected] .md-icon,
   md-option.prm-select-checkbox._md-checkbox-enabled[selected] ._md-icon {
-    background-color: #8a1911; }
+    background-color: #050009; }
   .prm-secondary-bg.prm-hue3, md-progress-linear[md-mode=indeterminate].header-progress-bar .prm-hue3.md-bar, md-checkbox.md-checked.md-focused ._md-container:before, md-checkbox.md-checked .md-icon,
   md-checkbox.md-checked ._md-icon {
-    background-color: #0e0002; }
+    background-color: black; }
   .prm-secondary-bg.prm-hue4, md-progress-linear[md-mode=indeterminate].header-progress-bar .prm-hue4.md-bar, md-dialog-content md-input-container:after, .underline-light-on-dark:after {
-    background-color: #ba000a; }
+    background-color: #130028; }
   .prm-secondary-bg.prm-hue5, md-progress-linear[md-mode=indeterminate].header-progress-bar .prm-hue5.md-bar, md-radio-button.md-checked .md-on, md-radio-button.md-checked ._md-on {
-    background-color: #3d0b07; }
+    background-color: black; }
 
 .prm-secondary-border {
-  border-color: #e42a1d; }
+  border-color: #42056a; }
   .prm-secondary-border.prm-hue1, md-select:focus .md-select-value, .md-input-container-dummy > .md-select-dummy:focus .md-select-value,
   .md-input-focused md-select .md-select-value,
   .md-input-focused .md-input-container-dummy > .md-select-dummy .md-select-value,
   md-select:not([disabled]):focus .md-select-value,
   .md-input-focused md-select:not([disabled]) .md-select-value {
-    border-color: #73080c; }
+    border-color: black; }
   .prm-secondary-border.prm-hue5, md-radio-button.md-checked .md-off, md-radio-button.md-checked ._md-off {
-    border-color: #3d0b07; }
+    border-color: black; }
 
 .prm-background, html, body, prm-search .ui-blocker, prm-featured-results .horizontal-content-container .horizontal-content-control, prm-search-bar .simple-search-wrapper .search-options:after, prm-atoz-search-bar .simple-search-wrapper .search-options:after, prm-browse-search-bar .simple-search-wrapper .search-options:after, prm-tags-search-bar .simple-search-wrapper .search-options:after, prm-newspapers-search-bar .simple-search-wrapper .search-options:after, prm-search-bar .simple-search-wrapper .search-options md-divider, prm-atoz-search-bar .simple-search-wrapper .search-options md-divider, prm-browse-search-bar .simple-search-wrapper .search-options md-divider, prm-tags-search-bar .simple-search-wrapper .search-options md-divider, prm-newspapers-search-bar .simple-search-wrapper .search-options md-divider, .prm-view-overlay-inner, prm-facet.facets-on-iPad-mobile, .sidebar.facets-on-iPad-mobile, .available-facets .section-content .md-chips .md-chip .md-button:before, .multiselect-submit .multiselect-submit-inner, prm-favorites .mobile-toolbar-text, .__sm prm-favorites .sidebar,
 .__xs prm-favorites .sidebar, prm-full-view-cont prm-recomendation-item .media-on-hover .pin-button, prm-full-view-cont .recommendations-title:after, prm-full-view-cont .recommendations-title prm-icon, prm-databases-categorize .sticking-wrapper, prm-orgList-categorize .sticking-wrapper, md-virtual-repeat-container#prm-simple-search .md-autocomplete-suggestions md-divider, md-dialog md-toolbar:not(.md-menu-toolbar), md-card .card-content-block {
@@ -526,7 +526,7 @@
 md-tabs.tabs-as-links md-tab-item:not([disabled]), md-grid-tile .tile-header .header-link .arrow-icon,
 .tiles-grid-tile .tile-header .header-link .arrow-icon, md-grid-tile .tile-header .md-button,
 .tiles-grid-tile .tile-header .md-button, md-input-container.has-fixed-message [ng-message] a, .separate-list-items md-list-item .item-loader-with-text .md-button, md-list-item.list-item-as-link {
-  color: #191919; }
+  color: #05568a; }
   .prm-links.prm-hue1, .md-button.arrow-link-button .prm-hue1[link-arrow], a.prm-hue1, .md-button.arrow-link-button .prm-hue1.button-content, [class*="NFT"] > span.prm-hue1,
   [class*="check_"] > span.prm-hue1,
   [class*="_more"] > span.prm-hue1,
@@ -560,7 +560,7 @@ md-tabs.tabs-as-links md-tab-item:not([disabled]), md-grid-tile .tile-header .he
   .tiles-grid-tile .tile-header .header-link:hover,
   .tiles-grid-tile .tile-header .header-link:focus, md-grid-tile .tile-header .prm-hue1.md-button,
   .tiles-grid-tile .tile-header .prm-hue1.md-button, md-input-container.has-fixed-message [ng-message] a.prm-hue1, .separate-list-items md-list-item .item-loader-with-text .prm-hue1.md-button, md-list-item.prm-hue1.list-item-as-link {
-    color: #0d0c0c; }
+    color: #014774; }
   .prm-links.prm-hue4, .md-button.arrow-link-button .prm-hue4[link-arrow], a.prm-hue4, .md-button.arrow-link-button .prm-hue4.button-content, [class*="NFT"] > span.prm-hue4,
   [class*="check_"] > span.prm-hue4,
   [class*="_more"] > span.prm-hue4,
@@ -592,9 +592,9 @@ md-tabs.tabs-as-links md-tab-item:not([disabled]), md-grid-tile .tile-header .he
   .login-dialog .md-list[class$="-line"] md-list-item > .md-no-style .md-list-item-text .prm-hue4.list-item-title, .login-dialog .collapsable-container md-list md-list-item .prm-hue4.md-list-item-inner, prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container a.prm-hue4.link-to-altmetric-details-tab, prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container .md-button.arrow-link-button .prm-hue4.link-to-altmetric-details-tab.button-content, .md-button.arrow-link-button prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container .prm-hue4.link-to-altmetric-details-tab.button-content, prm-tags-list .md-chips .md-chip .md-chip-content strong.prm-hue4, prm-tags-list .md-chips md-chip .md-chip-content strong.prm-hue4, prm-tags-list md-chips .md-chip .md-chip-content strong.prm-hue4, prm-tags-list md-chips md-chip .md-chip-content strong.prm-hue4, md-tabs.tabs-as-links md-tab-item.prm-hue4, md-grid-tile .tile-header .header-link .prm-hue4.arrow-icon,
   .tiles-grid-tile .tile-header .header-link .prm-hue4.arrow-icon, md-grid-tile .tile-header .prm-hue4.md-button,
   .tiles-grid-tile .tile-header .prm-hue4.md-button, md-input-container.has-fixed-message [ng-message] a.prm-hue4, .separate-list-items md-list-item .item-loader-with-text .prm-hue4.md-button, md-list-item.prm-hue4.list-item-as-link {
-    color: #151313; }
+    color: #015183; }
   .prm-links-important, .text-link {
-    color: #191919 !important; }
+    color: #05568a !important; }
   .prm-links.prm-links-hover, .md-button.arrow-link-button .prm-links-hover[link-arrow], a.prm-links-hover, .md-button.arrow-link-button .prm-links-hover.button-content, [class*="NFT"] > span.prm-links-hover,
   [class*="check_"] > span.prm-links-hover,
   [class*="_more"] > span.prm-links-hover,
@@ -626,7 +626,7 @@ md-tabs.tabs-as-links md-tab-item:not([disabled]), md-grid-tile .tile-header .he
   .login-dialog .md-list[class$="-line"] md-list-item > .md-no-style .md-list-item-text .prm-links-hover.list-item-title, .login-dialog .collapsable-container md-list md-list-item .prm-links-hover.md-list-item-inner, prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container a.prm-links-hover.link-to-altmetric-details-tab, prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container .md-button.arrow-link-button .prm-links-hover.link-to-altmetric-details-tab.button-content, .md-button.arrow-link-button prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container .prm-links-hover.link-to-altmetric-details-tab.button-content, prm-tags-list .md-chips .md-chip .md-chip-content strong.prm-links-hover, prm-tags-list .md-chips md-chip .md-chip-content strong.prm-links-hover, prm-tags-list md-chips .md-chip .md-chip-content strong.prm-links-hover, prm-tags-list md-chips md-chip .md-chip-content strong.prm-links-hover, md-tabs.tabs-as-links md-tab-item.prm-links-hover, md-grid-tile .tile-header .header-link .prm-links-hover.arrow-icon,
   .tiles-grid-tile .tile-header .header-link .prm-links-hover.arrow-icon, md-grid-tile .tile-header .prm-links-hover.md-button,
   .tiles-grid-tile .tile-header .prm-links-hover.md-button, md-input-container.has-fixed-message [ng-message] a.prm-links-hover, .separate-list-items md-list-item .item-loader-with-text .prm-links-hover.md-button, md-list-item.prm-links-hover.list-item-as-link {
-    color: black; }
+    color: #001929; }
   .prm-links.prm-alt-link, .md-button.arrow-link-button .prm-alt-link[link-arrow], a.prm-alt-link, .md-button.arrow-link-button .prm-alt-link.button-content, [class*="NFT"] > span.prm-alt-link,
   [class*="check_"] > span.prm-alt-link,
   [class*="_more"] > span.prm-alt-link,
@@ -658,7 +658,7 @@ md-tabs.tabs-as-links md-tab-item:not([disabled]), md-grid-tile .tile-header .he
   .login-dialog .md-list[class$="-line"] md-list-item > .md-no-style .md-list-item-text .prm-alt-link.list-item-title, .login-dialog .collapsable-container md-list md-list-item .prm-alt-link.md-list-item-inner, prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container a.prm-alt-link.link-to-altmetric-details-tab, prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container .md-button.arrow-link-button .prm-alt-link.link-to-altmetric-details-tab.button-content, .md-button.arrow-link-button prm-usage-metrics div[id^=_altmetric_popover_el].altmetric-embed div#_altmetric_container.altmetric_container .prm-alt-link.link-to-altmetric-details-tab.button-content, prm-tags-list .md-chips .md-chip .md-chip-content strong.prm-alt-link, prm-tags-list .md-chips md-chip .md-chip-content strong.prm-alt-link, prm-tags-list md-chips .md-chip .md-chip-content strong.prm-alt-link, prm-tags-list md-chips md-chip .md-chip-content strong.prm-alt-link, md-tabs.tabs-as-links md-tab-item.prm-alt-link, md-grid-tile .tile-header .header-link .prm-alt-link.arrow-icon,
   .tiles-grid-tile .tile-header .header-link .prm-alt-link.arrow-icon, md-grid-tile .tile-header .prm-alt-link.md-button,
   .tiles-grid-tile .tile-header .prm-alt-link.md-button, md-input-container.has-fixed-message [ng-message] a.prm-alt-link, .separate-list-items md-list-item .item-loader-with-text .prm-alt-link.md-button, md-list-item.prm-alt-link.list-item-as-link {
-    color: #73080c; }
+    color: black; }
     .prm-links.prm-alt-link.prm-hue1, .md-button.arrow-link-button .prm-alt-link.prm-hue1[link-arrow], a.prm-alt-link.prm-hue1, .md-button.arrow-link-button .prm-alt-link.prm-hue1.button-content, [class*="NFT"] > span.prm-alt-link.prm-hue1,
     [class*="check_"] > span.prm-alt-link.prm-hue1,
     [class*="_more"] > span.prm-alt-link.prm-hue1,
@@ -725,24 +725,24 @@ md-tabs.tabs-as-links md-tab-item:not([disabled]), md-grid-tile .tile-header .he
   .tiles-grid-tile .tile-header .prm-hue-2.md-button, md-input-container.has-fixed-message [ng-message] a.prm-hue-2, .separate-list-items md-list-item .item-loader-with-text .prm-hue-2.md-button, md-list-item.prm-hue-2.list-item-as-link {
     color: #33FFFF; }
   .prm-links-bg {
-    color: #191919; }
+    color: #05568a; }
     .prm-links-bg:hover:not([disabled]), .prm-links-bg:focus:not([disabled]), .prm-links-bg.hovered:not([disabled]), .prm-links-bg.md-focused:not([disabled]), .prm-links-bg._md-focused:not([disabled]) {
       color: white;
-      background-color: #191919; }
+      background-color: #05568a; }
     .prm-links-bg.prm-hue-1 {
-      background-color: rgba(46, 4, 4, 0.1); }
+      background-color: rgba(0, 87, 143, 0.1); }
   .prm-links-background.prm-hue-1 {
-    background-color: rgba(25, 25, 25, 0.1); }
+    background-color: rgba(5, 86, 138, 0.1); }
   .prm-links-background.prm-hue-2 {
-    background-color: rgba(25, 25, 25, 0); }
+    background-color: rgba(5, 86, 138, 0); }
   .prm-links-background.prm-hue-3, md-tabs md-ink-bar {
-    background-color: black; }
+    background-color: #033759; }
   .prm-links-hover.prm-hue-1 {
-    color: black; }
+    color: #001929; }
   .prm-links-hover.prm-hue-2 {
-    color: rgba(0, 0, 0, 0.5); }
+    color: rgba(0, 25, 41, 0.5); }
   .prm-links-hover.prm-hue-3 {
-    color: rgba(25, 25, 25, 0); }
+    color: rgba(5, 86, 138, 0); }
 
 .prm-text, body, a.a-tag-as-wrapper, .md-button.arrow-link-button .a-tag-as-wrapper.button-content, a.a-tag-as-wrapper:hover, .recommendations-title:hover > span > span.a-tag-as-wrapper, .recommendations-title.hover > span > span.a-tag-as-wrapper, prm-tags-list .md-chips .md-chip .md-chip-content:hover strong.a-tag-as-wrapper, prm-tags-list .md-chips md-chip .md-chip-content:hover strong.a-tag-as-wrapper, prm-tags-list md-chips .md-chip .md-chip-content:hover strong.a-tag-as-wrapper, prm-tags-list md-chips md-chip .md-chip-content:hover strong.a-tag-as-wrapper, a.a-tag-as-wrapper:focus, .hack-a-tag-unclickable a, .hack-a-tag-unclickable .md-button.arrow-link-button .button-content, .md-button.arrow-link-button .hack-a-tag-unclickable .button-content, prm-search-result-tool-bar .md-toolbar-tools, .prm-user-menu-content .user-menu-header, prm-search-bar, prm-atoz-search-bar, prm-browse-search-bar, prm-tags-search-bar, prm-newspapers-search-bar, prm-virtual-browse-item md-card md-card-title, prm-virtual-browse-item md-card md-card-content, prm-more-like-this-item md-card md-card-title, prm-more-like-this-item md-card md-card-content, md-input-container.static-select.md-input-has-value label,
 md-input-container.static-select.md-input-has-value label:not(.md-no-float), .presentable-disabled-inputs md-input-container label, md-tooltip.bright-tooltip, md-toolbar.transparent-toolbar,
@@ -762,12 +762,12 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
 
 .prm-warn, md-input-container.md-required:before, md-input-container.md-input-invalid:before, .required-starlet, .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked .md-container,
 .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked ._md-container, .md-chip-remove-container button:hover md-icon, .md-chip-remove-container button:focus md-icon, prm-tags-list .md-chips.md-removable .md-chip .md-chip-remove md-icon, prm-tags-list .md-chips.md-removable md-chip .md-chip-remove md-icon, prm-tags-list md-chips.md-removable .md-chip .md-chip-remove md-icon, prm-tags-list md-chips.md-removable md-chip .md-chip-remove md-icon, md-input-container.md-input-invalid, .md-chips .md-chip.toggleable-chip .md-chip-remove-container prm-icon.close-button {
-  color: #ffe000; }
+  color: #c50f3c; }
   .prm-warn-bg, .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked.md-focused ._md-container:before {
-    background-color: #ffe000; }
+    background-color: #c50f3c; }
     .prm-warn-bg.prm-hue1, .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked .md-icon,
     .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked ._md-icon, .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked.md-focused .prm-hue1._md-container:before, md-input-container.md-input-invalid:after {
-      background-color: #998600; }
+      background-color: #66081f; }
 
 .prm-alert, .bar.alert-bar, .classic-input .search-scope {
   color: black; }
@@ -791,7 +791,7 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
 .worldcat,
 .getit,
 .esploro_status\.unknown, prm-search-result-frbr-line a > prm-icon:first-child, prm-search-result-frbr-line .md-button.arrow-link-button .button-content > prm-icon:first-child, .md-button.arrow-link-button prm-search-result-frbr-line .button-content > prm-icon:first-child {
-  color: #e42a1d; }
+  color: #b84d00; }
 
 .prm-positive, .status-available, [class*="available"],
 [class*="FT"],
@@ -805,7 +805,7 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
 .fulltext_linktorsrc_topic,
 .fulltext_topic,
 .esploro_status\.not_restricted {
-  color: #e42a1d; }
+  color: #799a05; }
   .prm-positive.prm-hue1, .md-button.button-confirm, .service-form-static-panel button.button-confirm prm-icon + span, .service-form-static-panel button.button-confirm prm-icon svg path, .prm-hue1.status-available, .prm-hue1[class*="available"],
   .prm-hue1[class*="FT"],
   .prm-hue1.not_restricted,
@@ -818,12 +818,12 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
   .prm-hue1.fulltext_linktorsrc_topic,
   .prm-hue1.fulltext_topic,
   .prm-hue1.esploro_status\.not_restricted {
-    color: #dc271a; }
+    color: #719005; }
   .prm-positive-bg, .multiselect-submit .multiselect-submit-inner .md-button.md-primary:hover, .multiselect-submit .multiselect-submit-inner .md-button.md-primary:focus {
-    background-color: #e42a1d; }
+    background-color: #799a05; }
 
 .prm-negative {
-  color: #191919; }
+  color: #0aa3fc; }
   .prm-negative.prm-hue1, .status-unavailable, [class*="unavailable"],
   [class*="no_"],
   .restricted,
@@ -832,7 +832,7 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
   .duedate,
   .esploro_status\.embargoed,
   .esploro_status\.restricted {
-    color: black; }
+    color: #0085d3; }
 
 .prm-citation-color, prm-chapters-and-reviews .item-type {
   color: tomato; }
@@ -844,11 +844,11 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
     color: #7a1300; }
 
 .prm-warning-color {
-  color: #ffe000; }
+  color: #c50f3c; }
   .prm-warning-color.prm-hue1, prm-advanced-search .warning-message, prm-personal-settings .switch-warning-message {
-    color: #998600; }
+    color: #66081f; }
   .prm-warning-color.prm-hue2, prm-tags-list ._md-chip-remove md-icon {
-    color: #8f7d00; }
+    color: #5d071c; }
 
 .prm-citation-title, prm-citation-trails-item.active-item .item-title, prm-chapters-and-reviews .item-title, prm-opac .related-title .related-title-name, prm-gallery-collection .collection-folder .collection-overlay, prm-gallery-item .collection-element .item-title, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item .item-title, prm-tags-results-list md-list.prm-list.prm-linkable-list-items md-list-item .item-title, md-list.prm-list.prm-linkable-list-items md-list-item .item-title {
   color: #44707b; }
@@ -884,9 +884,9 @@ md-list.prm-list.prm-linkable-list-items .md-button.arrow-link-button md-list-it
     background-color: #7d1538; }
 
 .prm-organization, prm-facet prm-organization-or-facet-toggle .md-button md-switch .md-label, prm-facet prm-organization-or-facet-toggle .md-button md-switch ._md-label {
-  color: #000000; }
+  color: #57068c; }
   .prm-organization-bg, prm-facet prm-organization-or-facet-toggle .md-button md-switch .md-bar, prm-facet prm-organization-or-facet-toggle .md-button md-switch ._md-bar, prm-facet prm-organization-or-facet-toggle .md-button md-switch .md-thumb, prm-facet prm-organization-or-facet-toggle .md-button md-switch ._md-thumb {
-    background-color: #000000; }
+    background-color: #57068c; }
 
 .prm-dark {
   color: #3a3a3a; }
@@ -894,876 +894,69 @@ md-list.prm-list.prm-linkable-list-items .md-button.arrow-link-button md-list-it
     color: black; }
 
 /* primary color hook end*/
-/* Hide out-of-the-box no search results card */
-prm-no-search-result > md-card.default-card {
-  display: none;
-}
-/* FULL SITE */
-
-body {
-  font-family: "neue", "Arial", Helvetica, sans-serif;
-  font-size: 15px;
-  padding-left: 0px;
-  padding-right: 0px;
-  font-weight: 400;
-  color:#191919;
-}
-
-a {
-	transition: border-bottom .18s ease-in-out, color .18s ease-in-out;
-}
-
-a:hover, a:active, a:focus {
-	box-shadow: none;
-	transition: border-bottom .18s ease-in-out, color .18s ease-in-out;
-}
-
-p a, li a {
-	color: #191919;
-	border-bottom: 1px solid #191919;
-}
-
-p a:hover, li a:hover {
-	color: #e42a1d;
-	border-bottom: 1px solid #e42a1d;
-	box-shadow: none;
-}
-
-prm-brief-result-container .list-item-primary-content {
-  background-color: #ffffff;
-}
-
-body,.full-view-inner-container, md-content, md-content.md-primoExplore-theme, prm-databases-categorize .sticking-wrapper {
-    background-color: #fcfcfc;
-}
-
-/* HOMEPAGE CARDS */
-
-.default-card._md.md-primoExplore-theme {
-	background-color: #f2f2f2;
-}
-
-.md-headline {
-	font-weight: 900;
-}
-
-.searching-card-link {
-	color: #e42a1d;
-	box-shadow: none;
-    font-size: 10px;
-    line-height: 15px;
-    font-weight: 900;
-    font-style: normal;
-    letter-spacing: .05rem;
-    border-bottom: 2px solid #e42a1d;
-    text-transform: uppercase;
-    transform: translate3D(0,0,0);
-    transition: border-bottom .18s ease-in-out, color .18s ease-in-out;
-}
-
-.searching-card-link:after {
-    background: #e42a1d;
-    bottom: -6px;
-    content: "";
-    display: inline-block;
-    height: 2px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-}
-
-.searching-card-link:hover {
-	box-shadow: none;
-}
-
-div.searching-card div {
-  margin-bottom: 10px;
-}
-
-.social-div .fa {
-	color: #191919;
-	font-size: 3em;
-	margin-bottom: 10px;
-	margin-right: 25px;
-}
-
-.social-div .fa:hover, .social-div .fa:active {
-	color: #e42a1d;
-}
-
-.card-link-div {
-	display: grid;
-}
-
-.card-link-div a {
-	padding-bottom: 10px;
-	color: #191919;
-	font-weight: 800;
-}
-
-.card-link-div a:hover {
-	color: #e42a1d;
-}
-
-.card-list-links {
-  padding-left: 9px;
-}
-
-.card-list-links li, md-card-content li {
-	margin-bottom: 10px;
-	padding-left: 10px;
-}
-
-.card-list-links li::marker {
-	content: '›';
-	font-size: 24px;
-}
-
-.card-list-links li a.md-primoExplore-theme {
-	color: #191919;
-	transition: color .18s ease-in-out, border-bottom .18s ease-in-out;
-	margin-bottom: 10px;
-}
-
-.card-list-links li a.md-primoExplore-theme:hover, .card-list-links li a.md-primoExplore-theme:active {
-	color: #e42a1d;
-	transition: color .18s ease-in-out, border-bottom .18s ease-in-out;
-}
-
-/* LOGIN POP-UP */
-
-md-dialog.light-on-dark-dialog md-list md-list-item.list-login .md-button {
-  color: #191919;
-}
-
-md-dialog.light-on-dark-dialog md-list md-list-item.list-login .md-button:hover:not([disabled]) {
-  color: #e42a1d;
-}
-
-.light-on-dark-dialog md-input-container label:not(.md-no-float) {
-  color: #191919;
-}
-
-#LoginUserName, #LoginPassword {
-  color: #191919;
-  border-bottom: 1px solid #191919;
-}
-
-.light-on-dark-dialog .md-button.button-as-link {
-  color: #191919;
-}
-
-.light-on-dark-dialog .md-button.button-as-link:hover:not([disabled]) {
-  color: #e42a1d;
-  border-bottom: 1px solid #e42a1d;
-  transition: border-bottom .18s ease-in-out, color .18s ease-in-out;
-}
-
- .light-on-dark-dialog .md-button.button-confirm {
-  color: #ffffff;
- }
-
-/* NAVIGATION & SEARCH BAR */
 
 prm-search-bar {
-  background-color: #191919;
+  background-color: #f5f7fa;
 }
 
-.item-content {
-  font-weight: 800;
+
+
+/* Make side transparent on full display so NYU colors not hidden */
+.md-dialog-is-showing .md-dialog-container.fixed-container{
+  background-color: transparent;
+} 
+
+
+/* Make menu links black on hover for accessibility contrast */
+prm-topbar .md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]){
+  color: #22272d !important;
+} 
+
+
+/* Make Advanced search link black on hover for accessibility contrast 
+.md-button[aria-label="Advanced Search"]:hover {
+  color: #22272d !important;
+}
+*/
+
+
+.md-button[aria-label="Submit search"] {
+  color: #22272d !important;  
+  background-color: white;
+}
+.md-button[aria-label="Submit search"]:hover {
+  color: white !important;  
+  background-color: #22272d !important;
 }
 
-.zero-margin.flex-button.multi-line-button.button-over-dark.md-button.md-primoExplore-theme.md-ink-ripple.layout-align-center-center.layout-column:hover {
-	color: #191919;
-	transition: color .18s ease-in-out, background-color .18s ease-in-out;
-}
 
-.item-content:hover,  {
-  color: #191919;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out;
-}
-
-.search-element-inner.layout-full-width {
+/* Search button */
+.md-button.button-confirm._md-focused:not([disabled]),
+.md-button.button-confirm.hovered:not([disabled]),
+.md-button.button-confirm.md-focused:not([disabled]),
+.md-button.button-confirm:focus:not([disabled]),
+.md-button.button-confirm:hover:not([disabled]) {
+  border: medium none;
   border-radius: 0;
-}
-
-.search-actions prm-icon {
-  color: #e42a1d;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out;
+  min-width: 0;
+  transition: background-color 0.3s ease 0s;
+  background-color: white !important;
+  color: #22272d !important;
 }
 
 .md-button.button-confirm {
-	border-radius: 0;
-}
-
-.md-button.button-confirm:hover:not([disabled]){
-  background-color: #e42a1d;
-  transition: background-color .18s ease-in-out;
-}
-
-.md-button.button-confirm:hover:not([disabled]) prm-icon {
-	color: #ffffff;
-	transition: color .18s ease-in-out;
-}
-
-.switch-to-advanced.zero-margin.button-with-icon.button-over-dark.md-button.md-primoExplore-theme.md-ink-ripple {
-  border: 2px solid;
-  padding: 11px 20px 10px 20px;
-  border-radius: 0;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out, border-color .18s ease-in-out;
-}
-
-.switch-to-advanced.zero-margin.button-with-icon.button-over-dark.md-button.md-primoExplore-theme.md-ink-ripple:hover {
-  color: #191919;
-  background-color: #ffffff;
-  border-color: #ffffff;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out, border-color .18s ease-in-out;
-}
-
-.search-switch-buttons.hide-xs.layout-sm-column.layout-align-sm-start-stretch.facet-to-left-advanced-search {
-  padding-top: 0;
-}
-
-.switch-to-simple.zero-margin.button-with-icon.md-button.md-primoExplore-theme.md-ink-ripple {
-  border: 2px solid #191919;
-  border-radius: 0;
-  color: #191919;
-  padding: 11px 36px 10px 36px;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out, border-color .18s ease-in-out;
-}
-
-.switch-to-simple.zero-margin.button-with-icon.md-button.md-primoExplore-theme.md-ink-ripple:hover {
-  color: #ffffff;
-  border-color: #191919;
-  border-radius: 0;
-  background-color: #191919;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out, border-color .18s ease-in-out;
-}
-
-.date-range-inputs.animate-input.layout-row, #select_value_label_13, #select_value_label_17 {
-  font-size: 12px;
-}
-
-#dayStartListBox, #dayEndListBox, #advancedSearchLanguage, #advancedSearchMaterialType {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-md-select-value.md-select-value span {
-  font-size: 14px;
-}
-
-prm-search-bar .advanced-search-tabs .advanced-drop-downs md-input-container {
-  margin-bottom: 28px;
-}
-
-fieldset legend {
-  font-size: 21px;
-  font-weight: 700;
-}
-
-.overlay-menu-content.layout-full-height._md.md-primoExplore-theme.layout-align-gt-sm-start-center.layout-align-start-start.layout-column {
-  background-color: #191919;
-}
-
-prm-main-menu[menu-type="full"] .md-button .md-headline {
-  color: #ffffff;
-  font-weight: 900;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out, border-color .18s ease-in-out;
-}
-
-prm-main-menu[menu-type="full"] a:hover span {
-  color: #191919 !important;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out, border-color .18s ease-in-out;
-}
-
-.transparent-card.md-button.md-primoExplore-theme.md-ink-ripple.layout-align-center-center.layout-column:hover {
-  border-radius: 0;
-}
-
-prm-topbar .md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]):not(.close-btn-favorits-warning-message), prm-resource-type-filter-bar .selectedResourceTypeOption prm-icon, prm-resource-type-filter-bar .selectedResourceTypeOption {
-  color: #191919 !important;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out;
-}
-
-prm-resource-type-filter-bar .md-button:hover, prm-resource-type-filter-bar .md-button:hover prm-icon {
-  font-weight: 500;
-  background-color: #ffffff !important;
-  color: #191919 !important;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out;
-}
-
-.container.layout-row.flex-xs-100.flex {
-  justify-content: center;
-}
-
-prm-user-area-expandable .button-with-menu-arrow:hover .menu-arrow, prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover:not([disabled]):hover:not([disabled]) {
-  color: #191919;
-}
-
-/* SEARCH RESULTS */
-
-prm-reference-entry-item .item-title {
-  color: #191919;
-  margin-bottom: .1em;
-  font-weight: 800 !important;
-}
-
-prm-brief-result .item-title span {
-  color: #191919;
-  font-weight: 800;
-}
-
-prm-brief-result .item-title:hover span {
-  color: #e42a1d;
-  font-weight: 800;
-  transition: color .18s ease-in-out;
-}
-
-prm-facet-range .section-title:focus span, prm-facet-range .section-title:hover span , prm-facet-exact .section-title:focus span, prm-facet-exact .section-title:hover span, prm-facet-exact .section-title:hover prm-icon, prm-facet-exact .section-title:focus prm-icon{
-  color: #e42a1d;
-  transition: color .18s ease-in-out;
-}
-
-prm-facet-range .section-title prm-icon, prm-facet-exact .section-title prm-icon, prm-quick-link a [link-arrow] {
-  color: #191919;
-}
-
-prm-quick-link a span {
-  color: #191919;
-}
-
-prm-quick-link a span, .not_restricted, .fulltext, .fulltext_multiple, .fulltext, .fulltext_linktorsrc, .browzine-web-link-text {
-  font-weight: 500;
-}
-
-prm-brief-result-container .list-item-primary-content::before {
-  background-color: #f3f3f3;
-}
-
-.md-button.arrow-link-button:hover .button-content, .md-button.arrow-link-button .button-content:hover {
-  box-shadow: none;
-  transition: box-shadow .18s ease-in-out;
-}
-
-prm-snippet, .item-detail.reduce-lines-display {
-  font-size: 14px;
-  color: #4d4d4d;
-}
-
-.badges .badge-item .badge-label {
-  font-size: 11px;
-}
-
-.prm-positive, .status-available, [class*="available"], [class*="FT"], .not_restricted, .ext_not_restricted, .fulltext_multiple, .fulltext, .fulltext_linktorsrc, .fulltext_newspaper, .fulltext_linktorsrc_newspaper, .fulltext_linktorsrc_topic, .fulltext_topic, .esploro_status\.not_restricted {
-  color: #e42a1d;
-}
-
-.availability-status.unavailable {
-  color: #191919;
-  font-weight: 500;
-}
-
-.browzine-direct-to-pdf-link:hover, .browzine-web-link:hover {
-  color: #e42a1d;
-}
-
-.has-checkbox .list-item-count {
-  top: 1.4em;
-}
-
-.multiselect-submit .multiselect-submit-inner .md-button.md-primary {
-  color: #e42a1d;
-}
-
-#ill-request-link {
-  color: #191919;
-  border-bottom: 1px solid #191919;
-}
-
-#ill-request-link:hover, #ill-request-link:focus {
-  background-color: transparent;
-  color: #e42a1d;
-  border-bottom: 1px solid #e42a1d;
-}
-
-/* ITEM RECORD */
-
-.word-break a.arrow-link:hover span {
-  color: #e42a1d;
-}
-
-.weak-text.unbound_biblio_plain_attrib, .media-body .weak-text {
-  display: none;
-}
-
-.md-dialog-container.fixed-container {
-  background-color: rgba(228, 42, 29,.8);
-}
-
-.recommendations-title {
-  color: #191919;
-}
-
-.recommendations-title:hover span span, .recommendations-title.hover span span {
-  color: #e42a1d;
-  box-shadow: none;
-  transition: color .18s ease-in-out;
-}
-
-.unbound_splitdiv .unbound_split_primo_recs .unbound_book_container_plain:hover .unbound_biblio_plain_title {
-  color: #e42a1d;
-  background-color: transparent !important;
-  text-decoration: none !important;
-}
-
-.unbound_splitdiv .unbound_split_primo_recs .unbound_book_container_plain:hover .unbound_biblio_plain_title a, .unbound_splitdiv .unbound_split_primo_recs .unbound_book_container_plain:hover .unbound_biblio_plain_title a:hover {
-  background-color: transparent !important;
-  box-shadow: none;
-  color: #e42a1d !important;
-} 
-
-.unbound_splitdiv .unbound_split_primo_recs .unbound_biblio_plain_title::after, .unbound_splitdiv .unbound_split_primo_recs .unbound_biblio_plain_title::before {
-  background: transparent !important;
-  color: transparent !important;
-}
-
-.unbound_splitdiv .unbound_footer a, .unbound_mega.primo .unbound_footer a {
+  background-color: #22272d;
   border-radius: 0 !important;
-  background-color: transparent !important;
-  color: #3a3a3a !important;
-  border-color: #3a3a3a !important;
-  text-transform: uppercase;
-  border: 1px solid !important;
+  color: white !important;
 }
 
-.unbound_splitdiv .unbound_footer a:hover, .unbound_mega .unbound_footer a:hover, .unbound_mega.primo .unbound_footer a:hover {
-  border-color: #3a3a3a !important;
-  background-color: #3a3a3a !important;
-  color: #ffffff !important;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out, border-color .18s ease-in-out;
+.switch-to-simple, .switch-to-advanced {
+  background-color: #57068c;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 0 20px;
 }
 
-.unbound_mega.primo .unbound_footer a.unbound_lightbox:hover, .unbound_mega.primo .unbound_footer a.unbound_seemore_link:hover {
-  color: #ffffff !important;
+.switch-to-simple:hover, .switch-to-advanced:hover {
+  background-color: #4A007F !important;
 }
-
-#unbound_ebook_alert {
-  display: none;
-}
-
-.unbound_hover_basic .unbound_hover_title {
-  font-family: "neue", "Arial", Helvetica, sans-serif;
-  color: #191919;
-}
-
-.unbound_hover_basic .unbound_hover_link_button {
-  background: #e42a1d;
-  border-radius: 0;
-  font-family: "neue", "Arial", Helvetica, sans-serif;;
-  border: none;
-}
-
-.unbound_hover_basic .unbound_hover_link_button:hover {
-  background: #a22017;
-}
-
-md-tabs.tabs-as-app .back-button {
-  color: #e42a1d;
-  border-radius: 0;
-}
-
- md-tabs.tabs-as-app .back-button:hover:not([disabled]) {
-  color: #ffffff;
-  background-color: #e42a1d;
-  transition: color .18s ease-in-out, background-color .18s ease-in-out;
- }
-
-prm-service-links .arrow-link.md-primoExplore-theme span {
-  font-weight: 600;
-}
-
- prm-quick-link a .quick-link-type {
-  color: #191919;
-}
-
-prm-quick-link a:hover .quick-link-type, prm-service-links a.arrow-link.md-primoExplore-theme:hover span {
-  color: #e42a1d;
-  transition: color .18s ease-in-out;
-}
-
-opacity-and-scale.md-no-proxy._md.pointer:hover {
-  background-color: #f3f3f3;
-}
-
-.csl-entry {
-  line-height: 20px;
-}
-
-.md-button.button-link.link-alt-color {
-  color: #ffffff;
-  border: 2px solid #767676;
-  background-color: #767676;
-  border-radius: 0;
-  font-family: "neue", "Arial", Helvetica, sans-serif;
-  font-size: 13px;
-  transition: border-color .18s ease-in-out, background-color .18s ease-in-out;
-}
-
-.md-button.button-link.link-alt-color span.bold-text {
-  font-weight: 900 !important;
-}
-
-md-dialog.light-on-dark-dialog a {
-  color: #191919;
-}
-
-.separate-list-items md-list-item {
-  border-bottom: 1px solid #d3d3d3;
-  background-color: #ffffff;
-  border-top: 1px solid #d3d3d3;
-  margin-bottom: -1px;
-}
-
-.item-title.md-primoExplore-theme {
-  color: #e42a1d;
-}
-
-.md-button.button-link.link-alt-color:hover:not([disabled]) {
-  background-color: #191919;
-  border: 2px solid #191919;
-  color:#ffffff;
-  transition: border-color .18s ease-in-out, background-color .18s ease-in-out;
-}
-
-prm-service-details .arrow-link.md-primoExplore-theme {
-  border-bottom: 1px solid #191919;
-  line-height: 2em;
-}
-
-prm-service-details .arrow-link.md-primoExplore-theme:hover {
-  border-color: #e42a1d;
-  transition: color .18s ease-in-out, border-color .18s ease-in-out;
-}
-
-prm-alma-other-members .availability-status {
-  color: #42056a;
-}
-
-md-dialog md-list md-list-item:hover:not([disabled]) {
-  background-color: #f3f3f3;
-}
-
-md-dialog md-list md-list-item .md-button:focus:not([disabled]).neutralized-button, md-dialog md-list md-list-item .md-button:hover:not([disabled]).neutralized-button, md-dialog md-list md-list-item button:focus:not([disabled]).neutralized-button, md-dialog md-list md-list-item button:hover:not([disabled]).neutralized-button {
-  background-color: #f3f3f3;
-  color: inherit;
-}
-
-md-list-item.md-3-line.in-element-dialog-parent.animate-opacity-and-scale.md-no-proxy._md.pointer:hover {
-    background-color: #f3f3f3;
-}
-
-#virtualBrowse {
-  -webkit-box-ordinal-group: 10;
-          order: 9; 
-          display:none;}
-
-[aria-label="Virtual Browse"] {
-  -webkit-box-ordinal-group: 9 !important;
-          order: 8 !important; 
-          display:none;}
-
-prm-rapido-no-offer-message .main_tile, prm-rapido-no-offer-message #no_offer_message_out_text_notClickable {
-  background-color: #f2f2f2;
-  font-family: "neue", "Arial", Helvetica, sans-serif;
-  box-shadow: none;
-}
-
-/* JOURNAL SEARCH */
-
-prm-tree-nav md-list md-list-item .md-button.branch-name.is-selected, prm-tree-nav md-list md-list-item md-button.branch-name.is-selected {
-  color: #e42a1d;
-}
-
-prm-tree-nav md-list md-list-item .md-button.branch-name.is-selected._md-focused:not([disabled]), prm-tree-nav md-list md-list-item .md-button.branch-name.is-selected.hovered:not([disabled]), prm-tree-nav md-list md-list-item .md-button.branch-name.is-selected.md-focused:not([disabled]), prm-tree-nav md-list md-list-item .md-button.branch-name.is-selected:focus:not([disabled]), prm-tree-nav md-list md-list-item .md-button.branch-name.is-selected:hover:not([disabled]), prm-tree-nav md-list md-list-item md-button.branch-name.is-selected._md-focused:not([disabled]), prm-tree-nav md-list md-list-item md-button.branch-name.is-selected.hovered:not([disabled]), prm-tree-nav md-list md-list-item md-button.branch-name.is-selected.md-focused:not([disabled]), prm-tree-nav md-list md-list-item md-button.branch-name.is-selected:focus:not([disabled]), prm-tree-nav md-list md-list-item md-button.branch-name.is-selected:hover:not([disabled]) {
-  color: #fff;
-  background-color: #e42a1d;
-}
-
-/* BROWSE BY */
-
-
-md-list.prm-list.prm-linkable-list-items md-list-item .md-list-item-inner, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item .md-list-item-inner {
-  background-color: #ffffff;
-}
-
-prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:hover + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:hover + .md-list-item-inner {
-  background-color: #f3f3f3;
-}
-
-.prm-citation-title, prm-citation-trails-item.active-item .item-title, prm-chapters-and-reviews .item-title, prm-opac .related-title .related-title-name, prm-gallery-collection .collection-folder .collection-overlay, prm-gallery-item .collection-element .item-title, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item .item-title, prm-tags-results-list md-list.prm-list.prm-linkable-list-items md-list-item .item-title, md-list.prm-list.prm-linkable-list-items md-list-item .item-title {
-  color: #191919;
-}
-
-/* USERSNAP */
-
-#userSnap:hover {
-	background-color:#ffd800;
-	color:#000000;
-    text-decoration: none;
-}
-
-#userSnap {
-	background-color: #ffe000;
-}
-
-#userSnap a.md-primoExplore-theme {color:#000000;}
-
-#userSnap a.md-primoExplore-theme:hover {box-shadow: none;}
-
-/* TNS FONTS */
-
-@font-face {
-    font-family: neue;
-    src: url('https://fonts.newschool.edu/fonts/neue-Black.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Black.woff') format("woff"), 
-    url('https://fonts.newschool.edu/fonts/neue-Black.woff2') format("woff2"), 
-    url('https://fonts.newschool.edu/fonts/neue-Black.ttf') format('truetype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Black.svg#svgFontName') format('svg'), url('https://fonts.newschool.edu/fonts/neue-Black.ttf') format("opentype");
-    font-weight: 900;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-}
-
-@font-face {
-    font-family: neue900;
-    src: url('https://fonts.newschool.edu/fonts/neue-Black.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Black.woff') format("woff"), 
-    url('https://fonts.newschool.edu/fonts/neue-Black.woff2') format("woff2"), 
-    url('https://fonts.newschool.edu/fonts/neue-Black.ttf') format('truetype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Black.svg#svgFontName') format('svg'), url('https://fonts.newschool.edu/fonts/neue-Black.ttf') format("opentype");
-    font-weight: 900;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-}
-
-@font-face {
-    font-family: neue700;
-    src: url('https://fonts.newschool.edu/fonts/neue-Bold.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Bold.woff2') format("woff2"), 
-    url('https://fonts.newschool.edu/fonts/neue-Bold.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neue-Bold.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neue-Bold.svg#svgFontName') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: neue;
-    src: url('https://fonts.newschool.edu/fonts/neue-Bold.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Bold.woff2') format("woff2"), 
-    url('https://fonts.newschool.edu/fonts/neue-Bold.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neue-Bold.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neue-Bold.svg#svgFontName') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: neue;
-    src: url('https://fonts.newschool.edu/fonts/neue-Light.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Light.woff2') format("woff2"), 
-    url('https://fonts.newschool.edu/fonts/neue-Light.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neue-Light.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neue-Light.svg#svgFontName') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: neue;
-    src: url('https://fonts.newschool.edu/fonts/neue-Regular.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Regular.woff2') format("woff2"), 
-    url('https://fonts.newschool.edu/fonts/neue-Regular.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neue-Regular.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neue-Regular.svg#svgFontName') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: neue;
-    src: url('https://fonts.newschool.edu/fonts/neue-RegularItalic.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-RegularItalic.woff2') format("woff2"), 
-    url('https://fonts.newschool.edu/fonts/neue-RegularItalic.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neue-RegularItalic.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neue-RegularItalic.svg#svgFontName') format('svg');
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: neue;
-    src: url('https://fonts.newschool.edu/fonts/neue-LightItalic.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-LightItalic.woff2') format("woff2"), 
-    url('https://fonts.newschool.edu/fonts/neue-LightItalic.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neue-LightItalic.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neue-LightItalic.svg#svgFontName') format('svg');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: neue;
-    src: url('https://fonts.newschool.edu/fonts/neue-Thin.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-Thin.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neue-Thin.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neue-Thin.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neue-Thin.svg#svgFontName') format('svg');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: neue;
-    src: url('https://fonts.newschool.edu/fonts/neue-ThinItalic.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neue-ThinItalic.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neue-ThinItalic.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neue-ThinItalic.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neue-ThinItalic.svg#svgFontName') format('svg');
-    font-weight: 200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "neue-display";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-Black.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Black.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Black.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neueDisplay-Black.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-Black.svg#svgFontName') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "neue-display";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-Regular.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Regular.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Regular.woff') format("woff"), url('https://fonts.newschool.edu/fonts/neueDisplay-Regular.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-Regular.svg#svgFontName') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "neue-display-random";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-Random.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Random.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Random.woff') format('woff'), url('https://fonts.newschool.edu/fonts/neueDisplay-Random.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-Random.svg#neueDisplay-Random') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    -webkit-font-feature-settings: 'liga' 1;
-    -o-font-feature-settings: 'liga' 1;
-    -moz-font-feature-settings: 'liga' 1;
-    -ms-font-feature-settings: 'liga' 1;
-    font-feature-settings: 'liga' 1;
-}
-
-@font-face {
-    font-family: "neue-display-random";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-RegularRandom.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-RegularRandom.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-RegularRandom.woff') format('woff'), url('https://fonts.newschool.edu/fonts/neueDisplay-RegularRandom.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-RegularRandom.svg#neueDisplay-RegularRandom') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    -webkit-font-feature-settings: 'liga' 1;
-    -o-font-feature-settings: 'liga' 1;
-    -moz-font-feature-settings: 'liga' 1;
-    -ms-font-feature-settings: 'liga' 1;
-    font-feature-settings: 'liga' 1;
-}
-
-@font-face {
-    font-family: "neue-display-wide";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.woff') format('woff'), url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.svg#neueDisplay-Wide') format('svg');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "neue-display-wide";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.woff') format('woff'), url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-Wide.svg#neueDisplay-Wide') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "neue-display-wide";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-RegularWide.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-RegularWide.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-RegularWide.woff') format('woff'), url('https://fonts.newschool.edu/fonts/neueDisplay-RegularWide.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-RegularWide.svg#neueDisplay-RegularWide') format('svg');
-    font-weight: normal;
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "neue-display-ultra";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-Ultra.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Ultra.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Ultra.woff') format('woff'), url('https://fonts.newschool.edu/fonts/neueDisplay-Ultra.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-Ultra.svg#neueDisplay-Ultra') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "neue-display-ultra";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-RegularUltra.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-RegularUltra.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-RegularUltra.woff') format('woff'), url('https://fonts.newschool.edu/fonts/neueDisplay-RegularUltra.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-RegularUltra.svg#neueDisplay-RegularUltra') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "neue-display-random";
-    src: url('https://fonts.newschool.edu/fonts/neueDisplay-Random.eot?#iefix') format('embedded-opentype'), 
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Random.woff2') format("woff2"),
-    url('https://fonts.newschool.edu/fonts/neueDisplay-Random.woff') format('woff'), url('https://fonts.newschool.edu/fonts/neueDisplay-Random.ttf') format('truetype'), url('https://fonts.newschool.edu/fonts/neueDisplay-Random.svg#neueDisplay-Random') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    -webkit-font-feature-settings: 'liga' 1;
-    -o-font-feature-settings: 'liga' 1;
-    -moz-font-feature-settings: 'liga' 1;
-    -ms-font-feature-settings: 'liga' 1;
-    font-feature-settings: 'liga' 1;
-}
-
-@font-face {
-    font-family: "neue-variable";
-    src: url('https://fonts.newschool.edu/fonts/neue-Variable.ttf') format('truetype');
-    font-stretch: 20% 625%;
-}
-
-prm-newspapers-spotlight {display:none;}
-
-#searchWithinJournal {display:none;}
-
-[aria-label='Search inside'] {
-  display: none;
-}
-
-md-list-item.md-no-proxy._md:has([aria-label="EZBorrow"]) {
-  display:none;
-}
-
-.md-button:has([aria-label="EZBorrow"]) {display:none;}
-
-[aria-label='EZBorrow'] {display:none;}
-
-.offer_detail {visibility: hidden;}
-
-.delivered_in {display:none;}
-
-/* LOCAL BANNER */ 
-body::before { 
-content: "We’re making changes to improve how you connect to library ebooks and databases. If you experience any access issues, email us at libhelp@newschool.edu for help. \A \A Thanks for your patience as we work to improve your access."; 
-display: block; 
-background: #ffe000;  
-padding: 25px;
-width: 100%; 
-font-weight: bold;
-white-space: pre-wrap; 
-} 
-/* END local banner */
