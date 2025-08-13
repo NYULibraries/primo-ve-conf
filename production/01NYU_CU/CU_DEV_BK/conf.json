@@ -2464,6 +2464,10 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_ai_insights_links"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "enable_natural_language_search"
+    }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"

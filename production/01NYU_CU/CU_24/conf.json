@@ -1,4 +1,4 @@
-{"beaconO22":"1048",
+{"beaconO22":"1326",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -2431,6 +2431,10 @@
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "enable_natural_language_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
