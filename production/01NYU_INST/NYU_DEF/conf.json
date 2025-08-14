@@ -1,4 +1,4 @@
-{"beaconO22":"1268",
+{"beaconO22":"1500",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -4151,13 +4151,6 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "citationType",
-      "source3" : "type",
-      "source4" : "1",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "findBookItemsDescriptions",
@@ -4176,6 +4169,13 @@
       "source1" : "both",
       "source2" : "specificChapterPages",
       "source3" : "chapter",
+      "source4" : "1",
+      "source5" : "No"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "citationType",
+      "source3" : "type",
       "source4" : "1",
       "source5" : "No"
     }, {

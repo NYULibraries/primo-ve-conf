@@ -1,4 +1,4 @@
-{"beaconO22":"1257",
+{"beaconO22":"1210",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2880,13 +2880,6 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "citationType",
-      "source3" : "type",
-      "source4" : "1",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "findBookItemsDescriptions",
@@ -2905,6 +2898,13 @@
       "source1" : "both",
       "source2" : "specificChapterPages",
       "source3" : "chapter",
+      "source4" : "1",
+      "source5" : "No"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "citationType",
+      "source3" : "type",
       "source4" : "1",
       "source5" : "No"
     }, {
