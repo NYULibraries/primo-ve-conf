@@ -1,4 +1,4 @@
-{"beaconO22":"806",
+{"beaconO22":"754",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
   "search-advanced.mediaType.option.acceptedmanuscript" : "Accepted Manuscripts",
   "search-advanced.mediaType.option.activity" : "Activity",
@@ -8267,6 +8267,7 @@
   "facets.facet.facet_location_code.7875–124367400007875–score" : "Full Score Collection",
   "facets.facet.facet_location_code.7876–163053450007876–main" : "Main Collection",
   "mediatype.dataset_general" : "Dataset",
+  "facets.facet.facet_digital_collection.811001250890007871" : "Music Scores (NYU)",
   "facets.facet.facet_location_code.7875–124368290007875–exhibit" : "Heritage Month Display",
   "facets.facet.facet_location_code.7878–112286510007878–carr" : "Carlisle Collection Reference",
   "facets.facet.facet_location_code.7876–163048130007876–refus" : "United States Documents Offsite",

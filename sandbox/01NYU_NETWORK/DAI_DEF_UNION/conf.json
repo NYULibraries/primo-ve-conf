@@ -1,4 +1,4 @@
-{"beaconO22":"730",
+{"beaconO22":"893",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -1932,10 +1932,6 @@
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "enable_qr"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:DEF_UNION",
-      "source2" : "enable_saveEshelf_message"
-    }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "use_classic_email_template"
@@ -1947,6 +1943,10 @@
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DEF_UNION",
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DEF_UNION",
@@ -2068,6 +2068,14 @@
       "source1" : "01NYU_NETWORK:DEF_UNION",
       "source2" : "export_all_records"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
+      "source2" : "nde_enable_places_widget"
+    }, {
       "target" : "false",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "display_CDI_secondary_RT"
@@ -2079,14 +2087,6 @@
       "target" : "true",
       "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
       "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
-      "source2" : "nde_enable_places_widget"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:DAI_DEF_DEDUP_UNION",
-      "source2" : "enableDidYouMean"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
