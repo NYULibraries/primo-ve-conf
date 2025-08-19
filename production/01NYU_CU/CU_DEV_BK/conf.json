@@ -1,4 +1,4 @@
-{"beaconO22":"1957",
+{"beaconO22":"1207",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -2631,6 +2631,10 @@
       "target" : "true",
       "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU",
+      "source2" : "enable_natural_language_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_24",

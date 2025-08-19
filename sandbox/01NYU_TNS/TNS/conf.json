@@ -435,6 +435,10 @@
           "url" : "bsearch",
           "label" : "BrowseSearch",
           "target" : "_self"
+        }, {
+          "url" : "/discovery/collectionDiscovery?vid=01NYU_TNS:TNS",
+          "label" : "CollectionDiscovery",
+          "target" : "_self"
         } ],
         "id" : "01NYU_TNS:TNS.MainMenuTileInterface"
       }

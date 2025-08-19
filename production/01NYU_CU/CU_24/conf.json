@@ -1,4 +1,4 @@
-{"beaconO22":"999",
+{"beaconO22":"1062",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -2599,6 +2599,10 @@
       "target" : "true",
       "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU",
+      "source2" : "enable_natural_language_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_24",

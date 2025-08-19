@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -2587,6 +2587,10 @@
       "target" : "true",
       "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:CU",
+      "source2" : "enable_natural_language_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_24",
@@ -5919,14 +5923,10 @@
     "resourceIcons" : { },
     "additionalLocationIcons" : { },
     "staticHtml" : {
-      "email" : {
-        "en.tmpl" : "custom/01NYU_CU-CU/html/email/email_en.tmpl.html"
-      },
       "homepage" : {
         "en" : "custom/01NYU_CU-CU/html/homepage/homepage_en.html"
       }
-    },
-    "viewSvg" : "custom/01NYU_CU-CU/img/custom-ui.svg"
+    }
   },
   "UIComponents" : {
     "574613760UI" : {

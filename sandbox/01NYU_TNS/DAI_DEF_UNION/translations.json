@@ -1,4 +1,4 @@
-{"beaconO22":"1768",
+{"beaconO22":"1579",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
   "search-advanced.mediaType.option.acceptedmanuscript" : "Accepted Manuscripts",
   "search-advanced.mediaType.option.activity" : "Activity",
@@ -8219,6 +8219,7 @@
   "facets.facet.facet_location_code.7873–461453870007873–unassigned" : "UNASSIGNED location",
   "facets.facet.facet_location_code.7873–112285990007873–ref" : "Reference",
   "facets.facet.facet_location_code.7878–112286510007878–aull" : "Felice Aull Collection",
+  "facets.facet.facet_digital_collection.81369893000007875" : "Digital Licensed Scores",
   "7876–OSCOR" : "NYU Courant Library Offsite",
   "facets.facet.facet_location_code.7872–124376420007872–matrc" : "Materials Resource Center",
   "facets.facet.facet_location_code.7876–163047900007876–tam" : "Main Collection",
