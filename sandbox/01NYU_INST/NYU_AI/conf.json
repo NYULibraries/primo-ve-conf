@@ -1,4 +1,4 @@
-{"beaconO22":"917",
+{"beaconO22":"736",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -5447,7 +5447,7 @@
     } ]
   },
   "authentication" : [ {
-    "profile-name" : "NYUSHIBBOLETH",
+    "profile-name" : "NYU_QA_SHIBBOLETH",
     "authentication-system" : "SAML",
     "silent-login-enabled" : "false"
   }, {
