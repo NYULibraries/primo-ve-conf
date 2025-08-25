@@ -1,4 +1,4 @@
-{"beaconO22":"1113",
+{"beaconO22":"997",
   "primo-view" : {
     "available-tabs" : [ "CourseReserves" ],
     "institution" : {
@@ -2434,14 +2434,6 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "email",
-      "source3" : "delivery",
-      "source4" : "9",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
       "source2" : "doi",
       "source3" : "article",
       "source4" : "9",
@@ -2460,6 +2452,14 @@
       "source2" : "alternativeLocationEmail",
       "source3" : "delivery",
       "source4" : "8",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "email",
+      "source3" : "delivery",
+      "source4" : "9",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2558,14 +2558,6 @@
       "source5" : "No"
     }, {
       "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredLocalPickupLocation",
-      "source3" : "delivery",
-      "source4" : "13",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
       "source3" : "article",
@@ -2585,6 +2577,14 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredLocalPickupLocation",
+      "source3" : "delivery",
+      "source4" : "13",
+      "source5" : "No",
+      "source6" : " "
     }, {
       "target" : "No",
       "source1" : "both",
@@ -3224,15 +3224,15 @@
       "source2" : "exact",
       "source3" : "ANY"
     }, {
-      "target" : "lds99",
-      "source1" : "any",
-      "source2" : "contains",
-      "source3" : "L"
-    }, {
       "target" : "addtitle",
       "source1" : "any",
       "source2" : "contains",
       "source3" : "ANY"
+    }, {
+      "target" : "lds99",
+      "source1" : "any",
+      "source2" : "contains",
+      "source3" : "L"
     } ],
     "Browse Lists" : [ {
       "target" : "No",
