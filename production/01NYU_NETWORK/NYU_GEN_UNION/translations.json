@@ -1,4 +1,4 @@
-{"beaconO22":"1985",
+{"beaconO22":"3616",
   "search-advanced.mediaType.option.dataset_general" : "Datasets",
   "search-advanced.mediaType.option.equipment" : "Equipment",
   "search-advanced.mediaType.option.tempdatabase" : "Databases",
@@ -8171,7 +8171,6 @@
   "facets.facet.facet_location_code.7873–112285990007873–beek" : "Beekman Collection",
   "facets.facet.facet_location_code.7876–163054470007876–fkapp" : "Kapp",
   "facets.facet.facet_location_code.7876–163053680007876–scor4" : "Main Collection - Scores - Non-Circulating",
-  "facets.facet.facet_location_code.7876–39054768060007876–unassigned" : "UNASSIGNED location",
   "facets.facet.facet_location_code.7876–163051920007876–ant2" : "Antiquarian Collection",
   "facets.facet.facet_location_code.7875–124367220007875–spcl4" : "Archives - Library Use Only",
   "facets.facet.facet_location_code.7875–124367400007875–micr4" : "Microfilm Collection - Reference",

@@ -1,4 +1,4 @@
-{"beaconO22":"865",
+{"beaconO22":"1798",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -15,7 +15,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_INST",
       "institution-name" : "New York University - New York",
-      "last-modified-time-stamp" : "Aug 22, 2025 17:17:51 PM",
+      "last-modified-time-stamp" : "Aug 25, 2025 15:18:53 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : false
     },
