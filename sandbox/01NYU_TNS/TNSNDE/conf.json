@@ -1,4 +1,4 @@
-{"beaconO22":"978",
+{"beaconO22":"1033",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -3237,10 +3237,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
       "target" : "true",
@@ -3258,6 +3254,10 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3389,6 +3389,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_display_summary_field"
     }, {
       "target" : "false",
@@ -3506,10 +3510,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNS_TEST",
       "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "use_normalized_cdi_subjects"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -3872,13 +3872,6 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "publisher",
-      "source3" : "book",
-      "source4" : "11",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
@@ -3899,6 +3892,13 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "Yes"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "publisher",
+      "source3" : "book",
+      "source4" : "11",
+      "source5" : "No"
     }, {
       "target" : "Yes",
       "source1" : "both",
@@ -5646,10 +5646,6 @@
       "source1" : "default",
       "source2" : "item.global.dataitem.5"
     }, {
-      "target" : "itemmaterial",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.3"
-    }, {
       "target" : "callnumber2",
       "source1" : "default",
       "source2" : "item.global.dataitem.1"
@@ -5657,6 +5653,10 @@
       "target" : "noteopac",
       "source1" : "default",
       "source2" : "item.global.dataitem.2"
+    }, {
+      "target" : "itemmaterial",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.3"
     } ],
     "Short Loan and Booking Request Detailed Display" : [ {
       "target" : "request_type",

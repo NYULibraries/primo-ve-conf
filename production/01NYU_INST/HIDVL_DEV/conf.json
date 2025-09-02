@@ -1,4 +1,4 @@
-{"beaconO22":"1158",
+{"beaconO22":"696",
   "primo-view" : {
     "available-tabs" : [ "default" ],
     "institution" : {
@@ -2694,6 +2694,21 @@
       "source5" : "No",
       "source6" : " "
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "formDescription",
+      "source3" : "owner",
+      "source4" : "1",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredPickupInstitution",
+      "source3" : "delivery",
+      "source4" : "10",
+      "source5" : "No",
+      "source6" : " "
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "findBookItemsDescriptions",
@@ -2719,13 +2734,6 @@
       "source1" : "both",
       "source2" : "citationType",
       "source3" : "type",
-      "source4" : "1",
-      "source5" : "No"
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "formDescription",
-      "source3" : "owner",
       "source4" : "1",
       "source5" : "No"
     }, {
@@ -2780,17 +2788,9 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "willingToPay",
+      "source2" : "language",
       "source3" : "delivery",
-      "source4" : "20",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredPickupInstitution",
-      "source3" : "delivery",
-      "source4" : "10",
+      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2820,9 +2820,9 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "language",
+      "source2" : "willingToPay",
       "source3" : "delivery",
-      "source4" : "19",
+      "source4" : "20",
       "source5" : "No",
       "source6" : " "
     }, {
