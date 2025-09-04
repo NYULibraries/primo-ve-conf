@@ -1,4 +1,4 @@
-{"beaconO22":"1602",
+{"beaconO22":"1497",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1790,6 +1790,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:DAI_DEF_UNION",
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:DAI_DEF_UNION",
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
@@ -1802,7 +1806,7 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:DAI_DEF_UNION",
-      "source2" : "nde_export_actions_table_is_customized"
+      "source2" : "nde_full_record_services_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:DAI_DEF_UNION",
@@ -1815,10 +1819,6 @@
       "target" : "true",
       "source1" : "01NYU_NYHS:DAI_DEF_UNION",
       "source2" : "nde_display_all_requests_in_expand_mode"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYHS:DAI_DEF_UNION",
-      "source2" : "nde_full_record_services_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS_DEV",
@@ -1924,6 +1924,10 @@
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "nde_actions_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NYHS:NYHS",
+      "source2" : "nde_actions_table_is_customized"
+    }, {
       "target" : "true",
       "source1" : "01NYU_NYHS:NYHS_DEV",
       "source2" : "export_all_records"
@@ -1931,10 +1935,6 @@
       "target" : "false",
       "source1" : "01NYU_NYHS:NYHS",
       "source2" : "export_all_records"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYHS:NYHS",
-      "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_NYHS:NYHS",

@@ -1,4 +1,4 @@
-{"beaconO22":"1093",
+{"beaconO22":"942",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1251,11 +1251,6 @@
     }, {
       "target" : "No",
       "source1" : "default",
-      "source2" : "postalCode",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
       "source2" : "addressLine4",
       "source5" : "false"
     }, {
@@ -1267,6 +1262,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "stateProvince",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
+      "source2" : "postalCode",
       "source5" : "false"
     } ],
     "Prima Direct Login To Other Institutions" : [ {
@@ -2094,10 +2094,6 @@
       "source1" : "01NYU_INST:HIDVL",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "nde_share_actions_table_is_customized"
-    }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "use_normalized_cdi_subjects"
@@ -2109,6 +2105,10 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_AI",
@@ -2168,10 +2168,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "enableDidYouMean"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_display_summary_field"
     }, {
       "target" : "false",
@@ -2181,6 +2177,10 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
@@ -2337,6 +2337,10 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DAI",
       "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_display_snippet"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_LAB",
@@ -2501,10 +2505,6 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU",
       "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_DEV",
-      "source2" : "nde_display_snippet"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -2657,13 +2657,6 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "additionalAuthor",
-      "source3" : "article",
-      "source4" : "5",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "comment",
@@ -2684,6 +2677,13 @@
       "source2" : "authorInitials",
       "source3" : "article",
       "source4" : "4",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "additionalAuthor",
+      "source3" : "article",
+      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",
