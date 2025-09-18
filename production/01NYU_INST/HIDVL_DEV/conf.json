@@ -1,4 +1,4 @@
-{"beaconO22":"641",
+{"beaconO22":"617",
   "primo-view" : {
     "available-tabs" : [ "default" ],
     "institution" : {
@@ -2473,14 +2473,6 @@
       "source5" : "No"
     }, {
       "target" : "No",
-      "source1" : "both",
-      "source2" : "notNeedAfter",
-      "source3" : "delivery",
-      "source4" : "14",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
       "source1" : "fulnet",
       "source2" : "allowOtherLibrary",
       "source3" : "delivery",
@@ -2494,6 +2486,14 @@
       "source3" : "delivery",
       "source4" : "13",
       "source5" : "Yes",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "notNeedAfter",
+      "source3" : "delivery",
+      "source4" : "14",
+      "source5" : "No",
       "source6" : " "
     }, {
       "target" : "No",
