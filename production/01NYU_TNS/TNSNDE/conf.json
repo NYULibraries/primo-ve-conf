@@ -1,4 +1,4 @@
-{"beaconO22":"880",
+{"beaconO22":"1037",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -55,7 +55,7 @@
       "ownerInstituionCode" : "VOLCANO",
       "citationTrailsEnabled" : true,
       "citationTrailsFilterByAvailability" : true,
-      "selectedFacetLocation" : "right",
+      "selectedFacetLocation" : "left",
       "personalizationEnabled" : true,
       "moreLikeCourse" : true,
       "moreLikeCollection" : true,
@@ -849,44 +849,28 @@
           "label" : "researchAssistant",
           "target" : "_self"
         }, {
-          "url" : "jsearch",
-          "label" : "JournalSearch",
-          "target" : "_self"
-        }, {
-          "url" : "tags",
-          "label" : "tags",
-          "target" : "_self"
-        }, {
           "url" : "/nde/home?vid=01NYU_TNS:TNSNDE",
           "label" : "LibrarySearch",
           "target" : "_self"
         }, {
-          "url" : "BlankIll",
-          "label" : "BlankIll",
-          "target" : "_self"
-        }, {
-          "url" : "citationlinker",
-          "label" : "citationlinker",
-          "target" : "_self"
-        }, {
-          "url" : "bsearch",
-          "label" : "BrowseSearch",
-          "target" : "_self"
-        }, {
-          "url" : "/nde/collectionDiscovery?vid=01NYU_TNS:TNSNDE",
-          "label" : "CollectionDiscovery",
-          "target" : "_self"
-        }, {
-          "url" : "/nde/npsearch?vid=01NYU_TNS:TNSNDE",
-          "label" : "NewspaperSearch",
+          "url" : "jsearch",
+          "label" : "JournalSearch",
           "target" : "_self"
         }, {
           "url" : "dbsearch",
           "label" : "DatabaseSearch",
           "target" : "_self"
         }, {
-          "url" : "PurchaseRequest",
-          "label" : "PurchaseRequest",
+          "url" : "/nde/npsearch?vid=01NYU_TNS:TNSNDE",
+          "label" : "NewspaperSearch",
+          "target" : "_self"
+        }, {
+          "url" : "BlankIll",
+          "label" : "BlankIll",
+          "target" : "_self"
+        }, {
+          "url" : "/nde/collectionDiscovery?vid=01NYU_TNS:TNSNDE",
+          "label" : "CollectionDiscovery",
           "target" : "_self"
         } ],
         "id" : "01NYU_TNS:TNSNDE.MainMenuTileInterface"
@@ -2132,7 +2116,7 @@
     "brief_results_journal_coverage" : false,
     "view_it_show_all_results" : false,
     "show_researcher_assistant_by_icon" : true,
-    "show_researcher_assistant_by_widget" : true,
+    "show_researcher_assistant_by_widget" : false,
     "enable_research_assistant_for" : "users",
     "facet_alphanumeric_icelandic_sort" : false,
     "use_expanded_db_label" : true,
@@ -2189,7 +2173,7 @@
     "primo_patron_info_updatable" : true,
     "currency_symbol" : "USD",
     "syndetics_unbound_url" : "https://unbound.syndetics.com/syndeticsunbound/connector/initiator.php?a_id=",
-    "logo_url" : "",
+    "logo_url" : "https://library.newschool.edu/",
     "enable_natural_language_search" : false,
     "display_hypertext_linking_journalAndDB_search" : false,
     "temp_logout_url_double_encoding_fix" : true
@@ -3234,6 +3218,14 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_natural_language_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",

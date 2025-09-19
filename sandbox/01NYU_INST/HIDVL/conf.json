@@ -1,4 +1,4 @@
-{"beaconO22":"946",
+{"beaconO22":"907",
   "primo-view" : {
     "available-tabs" : [ "HIDVL" ],
     "institution" : {
@@ -2614,6 +2614,14 @@
       "source4" : "1",
       "source5" : "No"
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "line1",
+      "source3" : "delivery",
+      "source4" : "4",
+      "source5" : "No",
+      "source6" : " "
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "format",
@@ -2635,14 +2643,6 @@
       "source2" : "alternativeLocationAddress",
       "source3" : "delivery",
       "source4" : "3",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "line1",
-      "source3" : "delivery",
-      "source4" : "4",
       "source5" : "No",
       "source6" : " "
     }, {

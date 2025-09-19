@@ -1,4 +1,4 @@
-{"beaconO22":"506",
+{"beaconO22":"781",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -1278,11 +1278,6 @@
     }, {
       "target" : "No",
       "source1" : "default",
-      "source2" : "postalCode",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
       "source2" : "addressLine4",
       "source5" : "false"
     }, {
@@ -1294,6 +1289,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "stateProvince",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
+      "source2" : "postalCode",
       "source5" : "false"
     } ],
     "Prima Direct Login To Other Institutions" : [ {

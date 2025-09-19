@@ -2654,6 +2654,14 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_natural_language_search"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
