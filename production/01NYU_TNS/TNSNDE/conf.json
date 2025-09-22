@@ -1,6 +1,6 @@
-{"beaconO22":"1037",
+{"beaconO22":"722",
   "primo-view" : {
-    "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
+    "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
       "description" : "The New School",
       "id" : 7875,
@@ -21,10 +21,7 @@
     },
     "pc-availability-tab-scopes-map" : {
       "Everything" : {
-        "MyInst_and_CI" : "AVAILABLE_ONLY"
-      },
-      "CentralIndex" : {
-        "CentralIndex" : "AVAILABLE_ONLY"
+        "DN_and_CI" : "INCLUDE_NO_FULL_TEXT"
       }
     },
     "view-org-level" : {
@@ -75,37 +72,36 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
-      "CentralIndex" : true,
-      "MyInst_and_CI" : true,
       "jsearch_scope" : false,
-      "Research" : true,
-      "MyInstitution" : true
+      "CourseReserves" : true,
+      "speccoll" : true,
+      "DN_and_CI" : true
     },
     "scopes" : [ {
-      "scope-id" : "MyInst_and_CI",
+      "scope-id" : "DN_and_CI",
       "locations" : "primo_central_multiple_fe,Local",
       "types" : "adaptor,local",
       "tab" : "Everything",
       "tab-id-for-scope-matching" : "Everything",
       "contains-central-index-scope" : true
     }, {
-      "scope-id" : "MyInstitution",
+      "scope-id" : "CourseReserves",
       "locations" : "Local",
       "types" : "local",
-      "tab" : "LibraryCatalog",
-      "tab-id-for-scope-matching" : "LibraryCatalog",
+      "tab" : "CourseReserves",
+      "tab-id-for-scope-matching" : "CourseReserves",
       "contains-central-index-scope" : false
     }, {
-      "scope-id" : "CentralIndex",
-      "locations" : "primo_central_multiple_fe",
-      "types" : "adaptor",
-      "tab" : "CentralIndex",
-      "tab-id-for-scope-matching" : "CentralIndex",
-      "contains-central-index-scope" : true
+      "scope-id" : "speccoll",
+      "locations" : "Local",
+      "types" : "local",
+      "tab" : "SpecColl",
+      "tab-id-for-scope-matching" : "SpecColl",
+      "contains-central-index-scope" : false
     } ],
     "cdi-ft-search-tab-scopes-map" : {
-      "CentralIndex" : {
-        "CentralIndex" : "no-always"
+      "Everything" : {
+        "DN_and_CI" : "no-always"
       }
     },
     "timeout" : {
@@ -117,7 +113,7 @@
   },
   "tiles" : {
     "FacetTileInterface" : {
-      "01NYU_TNS:TNSNDE.FacetTileInterface.Research" : {
+      "01NYU_TNS:TNSNDE.FacetTileInterface.CourseReserves" : {
         "toplevelfacet" : true,
         "toplevelsidefacet" : false,
         "generalpageactions" : false,
@@ -126,36 +122,12 @@
           "viewinstsort" : false,
           "instsort" : false,
           "valid" : true,
-          "count" : 5,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_tlevel",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
           "count" : 0,
           "sort" : {
-            "_string" : "by_size",
+            "_string" : "alpha_numeric",
             "_int" : 1
           },
-          "id" : "facet_topic",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_creator",
+          "id" : "facet_crsinstrc",
           "useTranslations" : false
         }, {
           "display" : true,
@@ -167,331 +139,11 @@
             "_string" : "alpha_numeric",
             "_int" : 1
           },
-          "id" : "facet_library",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_other_libraries",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_institution",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_location_code",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_rtype",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_domain",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_creationdate",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_jtitle",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_lang",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "none",
-            "_int" : 1
-          },
-          "id" : "facet_newrecords",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_degree_in",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_degree_awarded",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_project_type",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_resource_subtype",
+          "id" : "facet_crsid_name",
           "useTranslations" : false
         } ],
         "relatedfacetview" : { },
-        "id" : "01NYU_TNS:TNSNDE.FacetTileInterface.Research"
-      },
-      "01NYU_TNS:TNSNDE.FacetTileInterface.LibraryCatalog" : {
-        "toplevelfacet" : true,
-        "toplevelsidefacet" : false,
-        "generalpageactions" : false,
-        "facetview" : [ {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 5,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_tlevel",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_topic",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_creator",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_library",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_other_libraries",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_institution",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "facet_location_code",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_rtype",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_domain",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_creationdate",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_jtitle",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_lang",
-          "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 0,
-          "sort" : {
-            "_string" : "none",
-            "_int" : 1
-          },
-          "id" : "facet_newrecords",
-          "useTranslations" : false
-        } ],
-        "relatedfacetview" : { },
-        "id" : "01NYU_TNS:TNSNDE.FacetTileInterface.LibraryCatalog"
+        "id" : "01NYU_TNS:TNSNDE.FacetTileInterface.CourseReserves"
       },
       "01NYU_TNS:TNSNDE.FacetTileInterface.Everything" : {
         "toplevelfacet" : true,
@@ -657,7 +309,27 @@
         "relatedfacetview" : { },
         "id" : "01NYU_TNS:TNSNDE.FacetTileInterface.Everything"
       },
-      "01NYU_TNS:TNSNDE.FacetTileInterface.CentralIndex" : {
+      "01NYU_TNS:TNSNDE.FacetTileInterface.jsearch_slot" : {
+        "toplevelfacet" : true,
+        "toplevelsidefacet" : false,
+        "generalpageactions" : false,
+        "facetview" : [ {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 5,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "facet_tlevel",
+          "useTranslations" : false
+        } ],
+        "relatedfacetview" : { },
+        "id" : "01NYU_TNS:TNSNDE.FacetTileInterface.jsearch_slot"
+      },
+      "01NYU_TNS:TNSNDE.FacetTileInterface.SpecColl" : {
         "toplevelfacet" : true,
         "toplevelsidefacet" : false,
         "generalpageactions" : false,
@@ -819,27 +491,7 @@
           "useTranslations" : false
         } ],
         "relatedfacetview" : { },
-        "id" : "01NYU_TNS:TNSNDE.FacetTileInterface.CentralIndex"
-      },
-      "01NYU_TNS:TNSNDE.FacetTileInterface.jsearch_slot" : {
-        "toplevelfacet" : true,
-        "toplevelsidefacet" : false,
-        "generalpageactions" : false,
-        "facetview" : [ {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 5,
-          "sort" : {
-            "_string" : "by_size",
-            "_int" : 1
-          },
-          "id" : "facet_tlevel",
-          "useTranslations" : false
-        } ],
-        "relatedfacetview" : { },
-        "id" : "01NYU_TNS:TNSNDE.FacetTileInterface.jsearch_slot"
+        "id" : "01NYU_TNS:TNSNDE.FacetTileInterface.SpecColl"
       }
     },
     "MainMenuTileInterface" : {
@@ -877,90 +529,56 @@
       }
     },
     "SearchTileInterface" : {
-      "01NYU_TNS:TNSNDE.SearchTileInterface-Advanced.LibraryCatalog" : {
+      "01NYU_TNS:TNSNDE.SearchTileInterface-Advanced.CourseReserves" : {
         "qtvinstance" : [ {
-          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.CourseReserves"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.CourseReserves"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.language.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.language.CourseReserves"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.date_range.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.date_range.CourseReserves"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.CourseReserves"
         } ],
         "prefiltersenable" : false,
         "indexedPrefiltersenable" : false,
         "resourcetypePrefiltersenable" : false,
         "alphabeticLanguagesSort" : true
       },
-      "01NYU_TNS:TNSNDE.SearchTileInterface-Simple.LibraryCatalog" : {
+      "01NYU_TNS:TNSNDE.SearchTileInterface-Simple.CourseReserves" : {
         "qtvinstance" : [ {
-          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.CourseReserves"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.CourseReserves"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.language.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.language.CourseReserves"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.date_range.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.date_range.CourseReserves"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.LibraryCatalog"
+          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.CourseReserves"
         } ],
         "prefiltersenable" : false,
         "indexedPrefiltersenable" : false,
         "resourcetypePrefiltersenable" : false,
         "alphabeticLanguagesSort" : false
       },
-      "01NYU_TNS:TNSNDE.SearchTileInterface-Simple.Research" : {
+      "01NYU_TNS:TNSNDE.SearchTileInterface-Advanced.SpecColl" : {
         "qtvinstance" : [ {
-          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.Research"
+          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.SpecColl"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.Research"
+          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.SpecColl"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.language.Research"
+          "qtvid" : "01NYU_TNS:TNSNDE.language.SpecColl"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.date_range.Research"
+          "qtvid" : "01NYU_TNS:TNSNDE.date_range.SpecColl"
         }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.Research"
-        } ],
-        "prefiltersenable" : false,
-        "indexedPrefiltersenable" : false,
-        "resourcetypePrefiltersenable" : false,
-        "alphabeticLanguagesSort" : false
-      },
-      "01NYU_TNS:TNSNDE.SearchTileInterface-Advanced.Research" : {
-        "qtvinstance" : [ {
-          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.Research"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.Research"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.language.Research"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.date_range.Research"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.Research"
+          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.SpecColl"
         } ],
         "prefiltersenable" : false,
         "indexedPrefiltersenable" : false,
         "resourcetypePrefiltersenable" : false,
         "alphabeticLanguagesSort" : true
-      },
-      "01NYU_TNS:TNSNDE.SearchTileInterface-Simple.CentralIndex" : {
-        "qtvinstance" : [ {
-          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.CentralIndex"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.CentralIndex"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.language.CentralIndex"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.date_range.CentralIndex"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.CentralIndex"
-        } ],
-        "prefiltersenable" : false,
-        "indexedPrefiltersenable" : false,
-        "resourcetypePrefiltersenable" : false,
-        "alphabeticLanguagesSort" : false
       },
       "01NYU_TNS:TNSNDE.SearchTileInterface-Advanced.Everything" : {
         "qtvinstance" : [ {
@@ -979,6 +597,23 @@
         "resourcetypePrefiltersenable" : false,
         "alphabeticLanguagesSort" : true
       },
+      "01NYU_TNS:TNSNDE.SearchTileInterface-Simple.SpecColl" : {
+        "qtvinstance" : [ {
+          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.SpecColl"
+        }, {
+          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.SpecColl"
+        }, {
+          "qtvid" : "01NYU_TNS:TNSNDE.language.SpecColl"
+        }, {
+          "qtvid" : "01NYU_TNS:TNSNDE.date_range.SpecColl"
+        }, {
+          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.SpecColl"
+        } ],
+        "prefiltersenable" : false,
+        "indexedPrefiltersenable" : false,
+        "resourcetypePrefiltersenable" : false,
+        "alphabeticLanguagesSort" : false
+      },
       "01NYU_TNS:TNSNDE.SearchTileInterface-Simple.Everything" : {
         "qtvinstance" : [ {
           "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.Everything"
@@ -995,27 +630,10 @@
         "indexedPrefiltersenable" : false,
         "resourcetypePrefiltersenable" : false,
         "alphabeticLanguagesSort" : false
-      },
-      "01NYU_TNS:TNSNDE.SearchTileInterface-Advanced.CentralIndex" : {
-        "qtvinstance" : [ {
-          "qtvid" : "01NYU_TNS:TNSNDE.searchbox_complex.CentralIndex"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.mediaType.CentralIndex"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.language.CentralIndex"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.date_range.CentralIndex"
-        }, {
-          "qtvid" : "01NYU_TNS:TNSNDE.prescisionOperators.CentralIndex"
-        } ],
-        "prefiltersenable" : false,
-        "indexedPrefiltersenable" : false,
-        "resourcetypePrefiltersenable" : false,
-        "alphabeticLanguagesSort" : true
       }
     },
     "ResultFullTileInterface" : {
-      "01NYU_TNS:TNSNDE.ResultFullTileInterface.Research" : {
+      "01NYU_TNS:TNSNDE.ResultFullTileInterface.SpecColl" : {
         "eshelf" : false,
         "delimiter" : ";",
         "getitbutton" : false,
@@ -1153,147 +771,7 @@
           "items" : "history_reference",
           "displayInViewer" : true
         } ],
-        "id" : "01NYU_TNS:TNSNDE.ResultFullTileInterface.Research"
-      },
-      "01NYU_TNS:TNSNDE.ResultFullTileInterface.LibraryCatalog" : {
-        "eshelf" : false,
-        "delimiter" : ";",
-        "getitbutton" : false,
-        "resultlinks" : [ {
-          "links" : "linktorsrc,addlink,backlink,sourcerecord,"
-        } ],
-        "resultitemview" : [ {
-          "items" : "title,vertitle",
-          "displayInViewer" : true
-        }, {
-          "items" : "creator,contributor",
-          "displayInViewer" : true
-        }, {
-          "items" : "ispartof",
-          "displayInViewer" : true
-        }, {
-          "items" : "dissertation",
-          "displayInViewer" : true
-        }, {
-          "items" : "subject",
-          "displayInViewer" : true
-        }, {
-          "items" : "mesh",
-          "displayInViewer" : true
-        }, {
-          "items" : "genre",
-          "displayInViewer" : true
-        }, {
-          "items" : "description",
-          "displayInViewer" : true
-        }, {
-          "items" : "contents",
-          "displayInViewer" : true
-        }, {
-          "items" : "addtitle",
-          "displayInViewer" : true
-        }, {
-          "items" : "relation",
-          "displayInViewer" : true
-        }, {
-          "items" : "series",
-          "displayInViewer" : true
-        }, {
-          "items" : "publisher",
-          "displayInViewer" : true
-        }, {
-          "items" : "creationdate",
-          "displayInViewer" : true
-        }, {
-          "items" : "edition",
-          "displayInViewer" : true
-        }, {
-          "items" : "format",
-          "displayInViewer" : true
-        }, {
-          "items" : "frequency",
-          "displayInViewer" : true
-        }, {
-          "items" : "source",
-          "displayInViewer" : true
-        }, {
-          "items" : "boundwith",
-          "displayInViewer" : true
-        } ],
-        "authorityitemview" : [ {
-          "items" : "heading",
-          "displayInViewer" : true
-        }, {
-          "items" : "complex_reference",
-          "displayInViewer" : true
-        }, {
-          "items" : "see_from_tracing",
-          "displayInViewer" : true
-        }, {
-          "items" : "related_terms",
-          "displayInViewer" : true
-        }, {
-          "items" : "source_data_found",
-          "displayInViewer" : true
-        }, {
-          "items" : "source_data_not_found",
-          "displayInViewer" : true
-        }, {
-          "items" : "biographical_or_historical_data",
-          "displayInViewer" : true
-        }, {
-          "items" : "note",
-          "displayInViewer" : true
-        }, {
-          "items" : "heading_linking_entry",
-          "displayInViewer" : true
-        }, {
-          "items" : "other_standard_identifier",
-          "displayInViewer" : true
-        }, {
-          "items" : "field_of_activity",
-          "displayInViewer" : true
-        }, {
-          "items" : "corporate_name_associated_group",
-          "displayInViewer" : true
-        }, {
-          "items" : "subject_occupation",
-          "displayInViewer" : true
-        }, {
-          "items" : "imprint",
-          "displayInViewer" : true
-        }, {
-          "items" : "source_id",
-          "displayInViewer" : true
-        }, {
-          "items" : "special_coded_dates",
-          "displayInViewer" : true
-        }, {
-          "items" : "complex_see_also_reference_subject",
-          "displayInViewer" : true
-        }, {
-          "items" : "other_attributes",
-          "displayInViewer" : true
-        }, {
-          "items" : "associated_place",
-          "displayInViewer" : true
-        }, {
-          "items" : "address",
-          "displayInViewer" : true
-        }, {
-          "items" : "electronic_location_and_access",
-          "displayInViewer" : true
-        }, {
-          "items" : "associated_language",
-          "displayInViewer" : true
-        }, {
-          "items" : "complex_see_also_reference_name",
-          "displayInViewer" : true
-        }, {
-          "items" : "history_reference",
-          "displayInViewer" : true
-        } ],
-        "id" : "01NYU_TNS:TNSNDE.ResultFullTileInterface.LibraryCatalog"
+        "id" : "01NYU_TNS:TNSNDE.ResultFullTileInterface.SpecColl"
       },
       "01NYU_TNS:TNSNDE.ResultFullTileInterface.Everything" : {
         "eshelf" : false,
@@ -1575,7 +1053,7 @@
         } ],
         "id" : "01NYU_TNS:TNSNDE.ResultFullTileInterface.jsearch_slot"
       },
-      "01NYU_TNS:TNSNDE.ResultFullTileInterface.CentralIndex" : {
+      "01NYU_TNS:TNSNDE.ResultFullTileInterface.CourseReserves" : {
         "eshelf" : false,
         "delimiter" : ";",
         "getitbutton" : false,
@@ -1713,11 +1191,11 @@
           "items" : "history_reference",
           "displayInViewer" : true
         } ],
-        "id" : "01NYU_TNS:TNSNDE.ResultFullTileInterface.CentralIndex"
+        "id" : "01NYU_TNS:TNSNDE.ResultFullTileInterface.CourseReserves"
       }
     },
     "ResultTileInterface" : {
-      "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.LibraryCatalog" : {
+      "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.CourseReserves" : {
         "ilsapi" : false,
         "bulksize" : 2,
         "eshelf" : true,
@@ -1741,7 +1219,7 @@
         "showsnipifnotfound" : true,
         "boostinst" : false,
         "numofresults" : 10,
-        "id" : "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.LibraryCatalog",
+        "id" : "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.CourseReserves",
         "displaysigninmsg" : true,
         "groupmessage" : 0
       },
@@ -1779,7 +1257,7 @@
         "displaysigninmsg" : true,
         "groupmessage" : 0
       },
-      "01NYU_TNS:TNSNDE.ResultTileInterface.CentralIndex" : {
+      "01NYU_TNS:TNSNDE.ResultTileInterface.SpecColl" : {
         "ilsapi" : false,
         "bulksize" : 2,
         "eshelf" : true,
@@ -1809,7 +1287,7 @@
         "showsnipifnotfound" : true,
         "boostinst" : false,
         "numofresults" : 10,
-        "id" : "01NYU_TNS:TNSNDE.ResultTileInterface.CentralIndex",
+        "id" : "01NYU_TNS:TNSNDE.ResultTileInterface.SpecColl",
         "displaysigninmsg" : true,
         "groupmessage" : 0
       },
@@ -1838,68 +1316,6 @@
         "boostinst" : false,
         "numofresults" : 10,
         "id" : "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.Everything",
-        "displaysigninmsg" : true,
-        "groupmessage" : 0
-      },
-      "01NYU_TNS:TNSNDE.ResultTileInterface.Research" : {
-        "ilsapi" : false,
-        "bulksize" : 2,
-        "eshelf" : true,
-        "showsnip" : true,
-        "resultview" : [ {
-          "items" : "vertitle,title",
-          "delimiter" : "; "
-        }, {
-          "items" : "creator,contributor",
-          "delimiter" : "; "
-        }, {
-          "items" : "creationdate",
-          "delimiter" : "; "
-        }, {
-          "items" : "ispartof",
-          "delimiter" : "; "
-        } ],
-        "facebookenabled" : false,
-        "linkabletitle" : "2",
-        "sortby" : "rank,date_d,date_a,title,author",
-        "frbrdisplay" : 1,
-        "frbrsortby" : "date_d",
-        "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
-        },
-        "getall" : false,
-        "showsnipifnotfound" : true,
-        "boostinst" : false,
-        "numofresults" : 10,
-        "id" : "01NYU_TNS:TNSNDE.ResultTileInterface.Research",
-        "displaysigninmsg" : true,
-        "groupmessage" : 0
-      },
-      "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.Research" : {
-        "ilsapi" : false,
-        "bulksize" : 2,
-        "eshelf" : true,
-        "showsnip" : true,
-        "resultview" : [ {
-          "items" : "vertitle,title",
-          "delimiter" : ";"
-        }, {
-          "items" : "creator,contributor",
-          "delimiter" : ";"
-        } ],
-        "facebookenabled" : false,
-        "linkabletitle" : "2",
-        "sortby" : "rank,date_d,date_a,title,author",
-        "frbrdisplay" : 1,
-        "frbrsortby" : "date_d",
-        "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
-        },
-        "getall" : false,
-        "showsnipifnotfound" : true,
-        "boostinst" : false,
-        "numofresults" : 10,
-        "id" : "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.Research",
         "displaysigninmsg" : true,
         "groupmessage" : 0
       },
@@ -1937,7 +1353,63 @@
         "displaysigninmsg" : true,
         "groupmessage" : 0
       },
-      "01NYU_TNS:TNSNDE.ResultTileInterface.LibraryCatalog" : {
+      "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.jsearch_slot" : {
+        "ilsapi" : false,
+        "bulksize" : 2,
+        "eshelf" : true,
+        "showsnip" : true,
+        "resultview" : [ {
+          "items" : "vertitle,title",
+          "delimiter" : ";"
+        }, {
+          "items" : "creator,contributor",
+          "delimiter" : ";"
+        } ],
+        "facebookenabled" : false,
+        "linkabletitle" : "2",
+        "sortby" : "title,rank",
+        "frbrdisplay" : 1,
+        "frbrsortby" : "date_d",
+        "tabsorder" : {
+          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+        },
+        "getall" : false,
+        "showsnipifnotfound" : true,
+        "boostinst" : false,
+        "numofresults" : 10,
+        "id" : "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.jsearch_slot",
+        "displaysigninmsg" : true,
+        "groupmessage" : 0
+      },
+      "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.SpecColl" : {
+        "ilsapi" : false,
+        "bulksize" : 2,
+        "eshelf" : true,
+        "showsnip" : true,
+        "resultview" : [ {
+          "items" : "vertitle,title",
+          "delimiter" : ";"
+        }, {
+          "items" : "creator,contributor",
+          "delimiter" : ";"
+        } ],
+        "facebookenabled" : false,
+        "linkabletitle" : "2",
+        "sortby" : "rank,date_d,date_a,title,author",
+        "frbrdisplay" : 1,
+        "frbrsortby" : "date_d",
+        "tabsorder" : {
+          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+        },
+        "getall" : false,
+        "showsnipifnotfound" : true,
+        "boostinst" : false,
+        "numofresults" : 10,
+        "id" : "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.SpecColl",
+        "displaysigninmsg" : true,
+        "groupmessage" : 0
+      },
+      "01NYU_TNS:TNSNDE.ResultTileInterface.CourseReserves" : {
         "ilsapi" : false,
         "bulksize" : 2,
         "eshelf" : true,
@@ -1967,68 +1439,20 @@
         "showsnipifnotfound" : true,
         "boostinst" : false,
         "numofresults" : 10,
-        "id" : "01NYU_TNS:TNSNDE.ResultTileInterface.LibraryCatalog",
-        "displaysigninmsg" : true,
-        "groupmessage" : 0
-      },
-      "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.CentralIndex" : {
-        "ilsapi" : false,
-        "bulksize" : 2,
-        "eshelf" : true,
-        "showsnip" : true,
-        "resultview" : [ {
-          "items" : "vertitle,title",
-          "delimiter" : ";"
-        }, {
-          "items" : "creator,contributor",
-          "delimiter" : ";"
-        } ],
-        "facebookenabled" : false,
-        "linkabletitle" : "2",
-        "sortby" : "rank,date_d,date_a,title,author",
-        "frbrdisplay" : 1,
-        "frbrsortby" : "date_d",
-        "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
-        },
-        "getall" : false,
-        "showsnipifnotfound" : true,
-        "boostinst" : false,
-        "numofresults" : 10,
-        "id" : "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.CentralIndex",
-        "displaysigninmsg" : true,
-        "groupmessage" : 0
-      },
-      "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.jsearch_slot" : {
-        "ilsapi" : false,
-        "bulksize" : 2,
-        "eshelf" : true,
-        "showsnip" : true,
-        "resultview" : [ {
-          "items" : "vertitle,title",
-          "delimiter" : ";"
-        }, {
-          "items" : "creator,contributor",
-          "delimiter" : ";"
-        } ],
-        "facebookenabled" : false,
-        "linkabletitle" : "2",
-        "sortby" : "title,rank",
-        "frbrdisplay" : 1,
-        "frbrsortby" : "date_d",
-        "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
-        },
-        "getall" : false,
-        "showsnipifnotfound" : true,
-        "boostinst" : false,
-        "numofresults" : 10,
-        "id" : "01NYU_TNS:TNSNDE.ResultTileInterfaceFrbrGeneric.jsearch_slot",
+        "id" : "01NYU_TNS:TNSNDE.ResultTileInterface.CourseReserves",
         "displaysigninmsg" : true,
         "groupmessage" : 0
       }
     },
     "LocationsTileInterface" : {
+      "01NYU_TNS:TNSNDE.LocationsTileInterface.CourseReserves" : {
+        "viewinstsort" : false,
+        "rta" : "none",
+        "displayholdingsfilters" : true,
+        "filtersop" : "all_filters",
+        "instsort" : false,
+        "id" : "01NYU_TNS:TNSNDE.LocationsTileInterface.CourseReserves"
+      },
       "01NYU_TNS:TNSNDE.LocationsTileInterface.jsearch_slot" : {
         "viewinstsort" : false,
         "rta" : "none",
@@ -2037,30 +1461,6 @@
         "instsort" : false,
         "id" : "01NYU_TNS:TNSNDE.LocationsTileInterface.jsearch_slot"
       },
-      "01NYU_TNS:TNSNDE.LocationsTileInterface.LibraryCatalog" : {
-        "viewinstsort" : false,
-        "rta" : "none",
-        "displayholdingsfilters" : true,
-        "filtersop" : "all_filters",
-        "instsort" : false,
-        "id" : "01NYU_TNS:TNSNDE.LocationsTileInterface.LibraryCatalog"
-      },
-      "01NYU_TNS:TNSNDE.LocationsTileInterface.CentralIndex" : {
-        "viewinstsort" : false,
-        "rta" : "none",
-        "displayholdingsfilters" : true,
-        "filtersop" : "all_filters",
-        "instsort" : false,
-        "id" : "01NYU_TNS:TNSNDE.LocationsTileInterface.CentralIndex"
-      },
-      "01NYU_TNS:TNSNDE.LocationsTileInterface.Research" : {
-        "viewinstsort" : false,
-        "rta" : "none",
-        "displayholdingsfilters" : true,
-        "filtersop" : "all_filters",
-        "instsort" : false,
-        "id" : "01NYU_TNS:TNSNDE.LocationsTileInterface.Research"
-      },
       "01NYU_TNS:TNSNDE.LocationsTileInterface.Everything" : {
         "viewinstsort" : false,
         "rta" : "none",
@@ -2068,6 +1468,14 @@
         "filtersop" : "all_filters",
         "instsort" : false,
         "id" : "01NYU_TNS:TNSNDE.LocationsTileInterface.Everything"
+      },
+      "01NYU_TNS:TNSNDE.LocationsTileInterface.SpecColl" : {
+        "viewinstsort" : false,
+        "rta" : "none",
+        "displayholdingsfilters" : true,
+        "filtersop" : "all_filters",
+        "instsort" : false,
+        "id" : "01NYU_TNS:TNSNDE.LocationsTileInterface.SpecColl"
       }
     }
   },
@@ -2122,7 +1530,15 @@
     "use_expanded_db_label" : true,
     "use_rapido_functionality" : true,
     "allow_self_registration" : false,
-    "hide_rapido_expand_link_map" : { },
+    "hide_rapido_expand_link_map" : {
+      "Everything" : true,
+      "CentralIndex" : false,
+      "CourseReserves" : false,
+      "Research" : false,
+      "CollectionDiscovery" : false,
+      "SpecColl" : true,
+      "LibraryCatalog" : false
+    },
     "subjects_alphabetical_sort_fullDisplay" : true,
     "Activate Captcha [Y/N]" : "N",
     "Public Captcha Key" : "",
@@ -6033,11 +5449,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinking",
-      "source1" : "NO"
-    }, {
       "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
       "source1" : "true"
+    }, {
+      "target" : "enableDirectLinking",
+      "source1" : "NO"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",
@@ -6408,8 +5824,11 @@
     "silent-login-enabled" : "false"
   } ],
   "customization" : {
-    "customizedColorTheme" : "maroon",
-    "resourceIcons" : { }
+    "libraryLogo" : "custom/01NYU_TNS-TNSNDE/assets/images/library-logo.png",
+    "customizedColorTheme" : "red",
+    "resourceIcons" : { },
+    "viewSvg" : "custom/01NYU_TNS-TNSNDE/assets/icons/custom_icons.svg",
+    "homepage" : { }
   },
   "fieldsWithUseTranslation" : [ ],
   "advancedSearchConfiguration" : {
@@ -6436,9 +5855,9 @@
         "defaultOption" : "any"
       }
     },
-    "CentralIndex" : {
+    "CourseReserves" : {
       "fields" : {
-        "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
+        "options" : [ "any", "title", "creator", "sub", "course_instructor", "course_code", "course_name", "course_department_name", "issn", "user_tags" ],
         "defaultOption" : "any"
       },
       "operators" : {
@@ -6459,30 +5878,7 @@
         "defaultOption" : "any"
       }
     },
-    "Research" : {
-      "fields" : {
-        "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
-        "defaultOption" : "any"
-      },
-      "operators" : {
-        "options" : [ "contains", "exact", "startswith", "equalsPhrase" ],
-        "defaultOption" : "contains"
-      },
-      "boolOperators" : {
-        "options" : [ "AND", "OR", "NOT" ],
-        "defaultOption" : "AND"
-      },
-      "materialTypes" : {
-        "options" : [ "any", "journals", "books", "articles", "images", "audios", "videos", "dissertations" ],
-        "defaultOption" : "any"
-      },
-      "languages" : {
-        "isSort" : true,
-        "options" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
-        "defaultOption" : "any"
-      }
-    },
-    "LibraryCatalog" : {
+    "SpecColl" : {
       "fields" : {
         "options" : [ "any", "title", "creator", "sub", "issn", "user_tags" ],
         "defaultOption" : "any"
@@ -6511,11 +5907,10 @@
   "syndeticunbound-enable" : true,
   "syndeticunbound-id" : "144",
   "scopes-context-map" : {
-    "CentralIndex" : "C",
-    "MyInst_and_CI" : "B",
     "jsearch_scope" : "L",
-    "Research" : "L",
-    "MyInstitution" : "L"
+    "CourseReserves" : "L",
+    "speccoll" : "L",
+    "DN_and_CI" : "B"
   },
   "IsViewNdeEnabled" : true,
   "enableExtendSession" : true,
