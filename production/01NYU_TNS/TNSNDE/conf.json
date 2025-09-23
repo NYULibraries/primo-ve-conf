@@ -1,4 +1,4 @@
-{"beaconO22":"722",
+{"beaconO22":"781",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -5825,10 +5825,12 @@
   } ],
   "customization" : {
     "libraryLogo" : "custom/01NYU_TNS-TNSNDE/assets/images/library-logo.png",
-    "customizedColorTheme" : "red",
+    "customizedColorTheme" : "charcoal",
     "resourceIcons" : { },
     "viewSvg" : "custom/01NYU_TNS-TNSNDE/assets/icons/custom_icons.svg",
-    "homepage" : { }
+    "homepage" : {
+      "homepageBGImage" : "custom/01NYU_TNS-TNSNDE/assets/homepage/homepage_background.svg"
+    }
   },
   "fieldsWithUseTranslation" : [ ],
   "advancedSearchConfiguration" : {
