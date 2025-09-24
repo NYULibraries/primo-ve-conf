@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -5382,7 +5382,7 @@
       "source2" : "physicalLevelOfService",
       "source5" : "false"
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "default",
       "source2" : "dueDate",
       "source5" : "false"
