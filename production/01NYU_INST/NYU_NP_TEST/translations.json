@@ -1,4 +1,4 @@
-{"beaconO22":"1477",
+{"beaconO22":"1235",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
   "search-advanced.mediaType.option.acceptedmanuscript" : "Accepted Manuscripts",
   "search-advanced.mediaType.option.activity" : "Activity",
@@ -6974,6 +6974,7 @@
   "SOUND" : "Sound recording",
   "THES" : "Thesis/Dissertation",
   "VIDEO" : "Video recording",
+  "scopes.option.WorldCat" : "WorldCat",
   "scopes.option.MyInst_andCI_ResearchOnlyInventory" : "Search everything",
   "scopes.option.CourseReserves" : "Course Reserves",
   "scopes.option.MyInstitution" : "Library Catalog",
