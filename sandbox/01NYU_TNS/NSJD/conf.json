@@ -1,4 +1,4 @@
-{"beaconO22":"1258",
+{"beaconO22":"753",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -3683,10 +3683,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
@@ -3696,6 +3692,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3762,10 +3762,6 @@
       "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "nde_enable_places_widget"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
     }, {
@@ -3776,6 +3772,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_enable_places_widget"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
