@@ -1,4 +1,4 @@
-{"beaconO22":"1488",
+{"beaconO22":"1782",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
   "search-advanced.mediaType.option.acceptedmanuscript" : "Accepted Manuscripts",
   "search-advanced.mediaType.option.activity" : "Activity",
@@ -7916,6 +7916,7 @@
   "facets.facet.facet_location_code.7874–112295960007874–lubalin" : "Herb Lubalin Study Center of Design and Typography",
   "facets.facet.facet_location_code.7875–124367400007875–unassigned" : "UNASSIGNED location",
   "facets.facet.facet_location_code.7876–163048130007876–cour4" : "Courant Collection Offsite - Library Use Only",
+  "fulldisplay.datasource.HSL_LibGuides" : "Library Specialty Guides",
   "facets.facet.facet_location_code.7876–163049380007876–mpr14" : "Permanent Reserve 14 day loan",
   "fulldisplay.datasource.SIRSI" : "SIRSI Records",
   "facets.facet.facet_location_code.7876–163052610007876–offsi" : "Offsite Collection",
