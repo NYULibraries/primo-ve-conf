@@ -1756,7 +1756,8 @@ md-list-item.md-no-proxy._md:has([aria-label="EZBorrow"]) {
 
 .delivered_in {display:none;}
 
-/* LOCAL BANNER */ 
+/* LOCAL BANNER */
+/* 
 body::before { 
 content: "We’re making changes to improve how you connect to library ebooks and databases. If you experience any access issues, email us at libhelp@newschool.edu for help. \A \A Thanks for your patience as we work to improve your access."; 
 display: block; 
@@ -1766,4 +1767,5 @@ width: 100%;
 font-weight: bold;
 white-space: pre-wrap; 
 } 
+*/
 /* END local banner */
