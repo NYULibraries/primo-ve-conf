@@ -1,4 +1,4 @@
-{"beaconO22":"1017",
+{"beaconO22":"1051",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -3187,13 +3187,6 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "authorInitials",
-      "source3" : "article",
-      "source4" : "4",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "articleTitle",
@@ -3213,6 +3206,13 @@
       "source2" : "articleAuthor",
       "source3" : "article",
       "source4" : "3",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "authorInitials",
+      "source3" : "article",
+      "source4" : "4",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -3245,14 +3245,6 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "email",
-      "source3" : "delivery",
-      "source4" : "9",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
       "source2" : "doi",
       "source3" : "article",
       "source4" : "9",
@@ -3271,6 +3263,14 @@
       "source2" : "alternativeLocationEmail",
       "source3" : "delivery",
       "source4" : "8",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "email",
+      "source3" : "delivery",
+      "source4" : "9",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -4031,15 +4031,15 @@
       "source2" : "exact",
       "source3" : "ANY"
     }, {
-      "target" : "lds99",
-      "source1" : "any",
-      "source2" : "contains",
-      "source3" : "L"
-    }, {
       "target" : "addtitle",
       "source1" : "any",
       "source2" : "contains",
       "source3" : "ANY"
+    }, {
+      "target" : "lds99",
+      "source1" : "any",
+      "source2" : "contains",
+      "source3" : "L"
     } ],
     "Browse Lists" : [ {
       "target" : "Yes",
