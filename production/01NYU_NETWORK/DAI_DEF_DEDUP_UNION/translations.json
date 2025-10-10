@@ -1,4 +1,4 @@
-{"beaconO22":"543",
+{"beaconO22":"530",
   "search-advanced.mediaType.option.transcripts" : "Transcripts",
   "search-advanced.mediaType.option.dataset_general" : "Datasets",
   "search-advanced.mediaType.option.equipment" : "Equipment",
@@ -8687,6 +8687,7 @@
   "7873–NYHSO" : "NY Historical Society Offsite",
   "facets.facet.facet_location_code.7873–112286170007873–landa" : "Landauer",
   "facets.facet.facet_location_code.7876–163049100007876–afrmr" : "Reservable Media Rooms",
+  "fulldisplay.datasource.HSL_AZ_LibGuides" : "HSL A-Z Databases",
   "facets.facet.facet_location_code.7876–163048410007876–multi" : "Multimedia Collection",
   "facets.facet.facet_library.7871–20417161000007871" : "NYU Restricted",
   "facets.facet.facet_library.7876–163055270007876" : "NYU IFA Offsite",

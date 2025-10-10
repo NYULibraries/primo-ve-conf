@@ -1,4 +1,4 @@
-{"beaconO22":"646",
+{"beaconO22":"503",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -72,6 +72,7 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
+      "HSL_AZ_Database_LibGuides_Profile" : true,
       "LC_HSL" : true,
       "HSL_LibGuides_Profile_test" : true,
       "jsearch_scope" : false,
@@ -101,6 +102,13 @@
       "contains-central-index-scope" : false
     }, {
       "scope-id" : "HSL_LibGuides_Profile_test",
+      "locations" : "Local",
+      "types" : "local",
+      "tab" : "Main_Slot",
+      "tab-id-for-scope-matching" : "Main_Slot",
+      "contains-central-index-scope" : false
+    }, {
+      "scope-id" : "HSL_AZ_Database_LibGuides_Profile",
       "locations" : "Local",
       "types" : "local",
       "tab" : "Main_Slot",
@@ -5337,6 +5345,7 @@
     "silent-login-enabled" : "false"
   } ],
   "scopes-context-map" : {
+    "HSL_AZ_Database_LibGuides_Profile" : "L",
     "LC_HSL" : "L",
     "HSL_LibGuides_Profile_test" : "L",
     "jsearch_scope" : "L",
