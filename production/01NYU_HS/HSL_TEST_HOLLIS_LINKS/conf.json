@@ -1,4 +1,4 @@
-{"beaconO22":"1216",
+{"beaconO22":"999",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -2312,6 +2312,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "true",
@@ -2321,10 +2325,6 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_TEST_BANNER",
-      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
