@@ -1,4 +1,4 @@
-{"beaconO22":"702",
+{"beaconO22":"728",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2333,6 +2333,18 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_NP_TEST",
       "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DAI",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DAI",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DAI",
+      "source2" : "enable_natural_language_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DAI",

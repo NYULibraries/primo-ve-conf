@@ -1,4 +1,4 @@
-{"beaconO22":"672",
+{"beaconO22":"788",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -861,8 +861,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
-    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "manualAlternativeEmailRS" : false,
+    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -2347,6 +2347,18 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DAI",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DAI",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DAI",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DAI",
       "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
@@ -2668,13 +2680,6 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "additionalAuthor",
-      "source3" : "article",
-      "source4" : "5",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "comment",
@@ -2695,6 +2700,13 @@
       "source2" : "authorInitials",
       "source3" : "article",
       "source4" : "4",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "additionalAuthor",
+      "source3" : "article",
+      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2802,14 +2814,6 @@
       "source4" : "1",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "line1",
-      "source3" : "delivery",
-      "source4" : "4",
-      "source5" : "No",
-      "source6" : " "
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "format",
@@ -2836,6 +2840,14 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
+      "source2" : "line1",
+      "source3" : "delivery",
+      "source4" : "4",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
       "source2" : "line2",
       "source3" : "delivery",
       "source4" : "5",
@@ -2855,6 +2867,14 @@
       "source2" : "line4",
       "source3" : "delivery",
       "source4" : "7",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredPickupInstitution",
+      "source3" : "delivery",
+      "source4" : "10",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2952,22 +2972,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "willingToPay",
-      "source3" : "delivery",
-      "source4" : "20",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredPickupInstitution",
-      "source3" : "delivery",
-      "source4" : "10",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -2995,6 +2999,14 @@
       "source2" : "language",
       "source3" : "delivery",
       "source4" : "19",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "willingToPay",
+      "source3" : "delivery",
+      "source4" : "20",
       "source5" : "No",
       "source6" : " "
     }, {
