@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -861,8 +861,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
-    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "manualAlternativeEmailRS" : false,
+    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -1257,6 +1257,11 @@
     }, {
       "target" : "No",
       "source1" : "default",
+      "source2" : "stateProvince",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
       "source2" : "addressLine3",
       "source5" : "false"
     }, {
@@ -1268,11 +1273,6 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "city",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
-      "source2" : "stateProvince",
       "source5" : "false"
     }, {
       "target" : "No",
@@ -1965,6 +1965,10 @@
       "source1" : "01NYU_US:SH",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_share_actions_table_is_customized"
@@ -1977,20 +1981,16 @@
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_show_times_cited"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_US:SH_DEV",
-      "source2" : "nde_display_all_requests_in_expand_mode"
-    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_US:SH",
-      "source2" : "export_all_records"
-    }, {
       "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH",
       "source2" : "export_all_records"
     } ],
     "Resource Sharing Request Parameters" : [ {
