@@ -1,4 +1,4 @@
-{"beaconO22":"401",
+{"beaconO22":"472",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -4300,6 +4300,11 @@
       "source2" : "25",
       "source3" : "default"
     }, {
+      "target" : "item_barcode",
+      "source1" : "item_barcode",
+      "source2" : "29",
+      "source3" : "default"
+    }, {
       "target" : "item_category_name",
       "source1" : "item_category_name",
       "source2" : "27",
@@ -4308,11 +4313,6 @@
       "target" : "item_status_name",
       "source1" : "item_status_name",
       "source2" : "28",
-      "source3" : "default"
-    }, {
-      "target" : "item_barcode",
-      "source1" : "item_barcode",
-      "source2" : "29",
       "source3" : "default"
     }, {
       "target" : "request_id",
