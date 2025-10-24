@@ -1,4 +1,4 @@
-{"beaconO22":"629",
+{"beaconO22":"806",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2657,14 +2657,6 @@
       "source5" : "No"
     }, {
       "target" : "No",
-      "source1" : "both",
-      "source2" : "notNeedAfter",
-      "source3" : "delivery",
-      "source4" : "14",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
       "source1" : "fulnet",
       "source2" : "allowOtherLibrary",
       "source3" : "delivery",
@@ -2678,6 +2670,14 @@
       "source3" : "delivery",
       "source4" : "13",
       "source5" : "Yes",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "notNeedAfter",
+      "source3" : "delivery",
+      "source4" : "14",
+      "source5" : "No",
       "source6" : " "
     }, {
       "target" : "No",
@@ -2878,21 +2878,6 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "formDescription",
-      "source3" : "owner",
-      "source4" : "1",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredPickupInstitution",
-      "source3" : "delivery",
-      "source4" : "10",
-      "source5" : "No",
-      "source6" : " "
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "findBookItemsDescriptions",
@@ -2918,6 +2903,13 @@
       "source1" : "both",
       "source2" : "citationType",
       "source3" : "type",
+      "source4" : "1",
+      "source5" : "No"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "formDescription",
+      "source3" : "owner",
       "source4" : "1",
       "source5" : "No"
     }, {
@@ -2972,14 +2964,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "language",
-      "source3" : "delivery",
-      "source4" : "19",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -2999,6 +2983,14 @@
       "source2" : "copyrights",
       "source3" : "delivery",
       "source4" : "18",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "language",
+      "source3" : "delivery",
+      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -3031,6 +3023,14 @@
       "source2" : "email",
       "source3" : "delivery",
       "source4" : "9",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredPickupInstitution",
+      "source3" : "delivery",
+      "source4" : "10",
       "source5" : "No",
       "source6" : " "
     } ],

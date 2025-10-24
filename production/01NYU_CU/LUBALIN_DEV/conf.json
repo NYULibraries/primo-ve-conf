@@ -1,4 +1,4 @@
-{"beaconO22":"616",
+{"beaconO22":"1168",
   "primo-view" : {
     "available-tabs" : [ "LUBALIN" ],
     "institution" : {
@@ -780,8 +780,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "manualAlternativeEmailRS" : false,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
