@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "HIDVL" ],
     "institution" : {
@@ -2492,13 +2492,6 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "additionalAuthor",
-      "source3" : "article",
-      "source4" : "5",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "comment",
@@ -2519,6 +2512,13 @@
       "source2" : "authorInitials",
       "source3" : "article",
       "source4" : "4",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "additionalAuthor",
+      "source3" : "article",
+      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2784,14 +2784,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "language",
-      "source3" : "delivery",
-      "source4" : "19",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -2811,6 +2803,14 @@
       "source2" : "copyrights",
       "source3" : "delivery",
       "source4" : "18",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "language",
+      "source3" : "delivery",
+      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {

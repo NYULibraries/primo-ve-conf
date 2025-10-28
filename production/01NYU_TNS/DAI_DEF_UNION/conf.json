@@ -1,4 +1,4 @@
-{"beaconO22":"824",
+{"beaconO22":"817",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -862,8 +862,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "manualAlternativeEmailRS" : false,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -2015,6 +2015,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
       "target" : "true",
@@ -2032,10 +2036,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -2098,6 +2098,10 @@
       "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
     }, {
@@ -2108,10 +2112,6 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_full_record_services_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "nde_enable_places_widget"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
@@ -4846,11 +4846,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
-      "source1" : "true"
-    }, {
       "target" : "enableDirectLinking",
       "source1" : "NO"
+    }, {
+      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
+      "source1" : "true"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",

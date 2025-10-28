@@ -1,4 +1,4 @@
-{"beaconO22":"1234",
+{"beaconO22":"943",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -507,10 +507,6 @@
         }, {
           "url" : "jsearch",
           "label" : "JournalSearch",
-          "target" : "_self"
-        }, {
-          "url" : "dbsearch",
-          "label" : "DatabaseSearch",
           "target" : "_self"
         }, {
           "url" : "/nde/npsearch?vid=01NYU_TNS:TNSNDE",
