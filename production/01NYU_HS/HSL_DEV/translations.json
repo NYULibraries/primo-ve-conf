@@ -1,4 +1,4 @@
-{"beaconO22":"1262",
+{"beaconO22":"1813",
   "search-advanced.mediaType.option.HSL_LibGuide" : "Library Specialty Guides",
   "search-advanced.mediaType.option.transcripts" : "Transcripts",
   "search-advanced.mediaType.option.tempdatabase" : "Databases",
@@ -6990,6 +6990,7 @@
   "SOUND" : "Sound recording",
   "THES" : "Thesis/Dissertation",
   "VIDEO" : "Video recording",
+  "scopes.option.HSL_TEST_ALL" : "HSL Test All",
   "scopes.option.MyInst_andCI_ResearchOnlyInventory" : "Search everything",
   "scopes.option.CourseReserves" : "Course Reserves",
   "scopes.option.MyInstitution" : "Library Catalog",

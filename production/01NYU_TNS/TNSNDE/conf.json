@@ -1,4 +1,4 @@
-{"beaconO22":"943",
+{"beaconO22":"1032",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -1209,7 +1209,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1243,7 +1243,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1277,7 +1277,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1305,7 +1305,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1339,7 +1339,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1367,7 +1367,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1395,7 +1395,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1429,7 +1429,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "requests,searchWithinJournal,getit_link1,Digital versions,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
+          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,recommendations,tags,browseshelf,links,,moreFromTheSame,mayAlsoBeFoundAt,explore,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -2731,7 +2731,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
@@ -5229,23 +5229,23 @@
     "consortia member codes" : [ ],
     "get it prefilter locations" : [ ],
     "Full Record Services" : [ {
-      "target" : "prima.services.requests",
-      "source1" : "requests",
-      "source2" : "1",
-      "source3" : "true"
-    }, {
       "target" : "prima.services.searchWithinJournall",
       "source1" : "searchWithinJournal",
-      "source2" : "2",
+      "source2" : "1",
       "source3" : "false"
     }, {
       "target" : "prima.services.getit_link1",
       "source1" : "getit_link1",
-      "source2" : "3",
+      "source2" : "2",
       "source3" : "true"
     }, {
       "target" : "prima.services.digital_versions",
       "source1" : "Digital versions",
+      "source2" : "3",
+      "source3" : "true"
+    }, {
+      "target" : "prima.services.requests",
+      "source1" : "requests",
       "source2" : "4",
       "source3" : "true"
     }, {
@@ -5445,11 +5445,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
-      "source1" : "true"
-    }, {
       "target" : "enableDirectLinking",
       "source1" : "NO"
+    }, {
+      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
+      "source1" : "true"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",

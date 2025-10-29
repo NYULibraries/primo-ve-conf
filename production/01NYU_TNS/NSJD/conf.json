@@ -1,4 +1,4 @@
-{"beaconO22":"891",
+{"beaconO22":"1016",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -3777,7 +3777,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
