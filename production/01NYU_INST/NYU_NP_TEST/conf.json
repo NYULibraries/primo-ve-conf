@@ -1,4 +1,4 @@
-{"beaconO22":"552",
+{"beaconO22":"557",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2657,14 +2657,6 @@
       "source5" : "No"
     }, {
       "target" : "No",
-      "source1" : "both",
-      "source2" : "notNeedAfter",
-      "source3" : "delivery",
-      "source4" : "14",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
       "source1" : "fulnet",
       "source2" : "allowOtherLibrary",
       "source3" : "delivery",
@@ -2682,10 +2674,11 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "additionalAuthor",
-      "source3" : "article",
-      "source4" : "5",
-      "source5" : "No"
+      "source2" : "notNeedAfter",
+      "source3" : "delivery",
+      "source4" : "14",
+      "source5" : "No",
+      "source6" : " "
     }, {
       "target" : "Yes",
       "source1" : "both",
@@ -2707,6 +2700,13 @@
       "source2" : "authorInitials",
       "source3" : "article",
       "source4" : "4",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "additionalAuthor",
+      "source3" : "article",
+      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2814,14 +2814,6 @@
       "source4" : "1",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "line1",
-      "source3" : "delivery",
-      "source4" : "4",
-      "source5" : "No",
-      "source6" : " "
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "format",
@@ -2848,6 +2840,14 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
+      "source2" : "line1",
+      "source3" : "delivery",
+      "source4" : "4",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
       "source2" : "line2",
       "source3" : "delivery",
       "source4" : "5",
@@ -2869,13 +2869,6 @@
       "source4" : "7",
       "source5" : "No",
       "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "title",
-      "source3" : "book",
-      "source4" : "2",
-      "source5" : "Yes"
     }, {
       "target" : "No",
       "source1" : "fulnet",
@@ -2930,6 +2923,13 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
+      "source2" : "title",
+      "source3" : "book",
+      "source4" : "2",
+      "source5" : "Yes"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
       "source2" : "author",
       "source3" : "book",
       "source4" : "3",
@@ -2972,14 +2972,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "language",
-      "source3" : "delivery",
-      "source4" : "19",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -2999,6 +2991,14 @@
       "source2" : "copyrights",
       "source3" : "delivery",
       "source4" : "18",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "language",
+      "source3" : "delivery",
+      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {
