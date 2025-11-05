@@ -1,4 +1,4 @@
-{"beaconO22":"714",
+{"beaconO22":"1121",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -2883,11 +2883,6 @@
       "source2" : "volume",
       "source5" : "false"
     }, {
-      "target" : "No",
-      "source1" : "default",
-      "source2" : "manualDescription",
-      "source5" : "false"
-    }, {
       "target" : "Yes",
       "source1" : "default",
       "source2" : "issue",
@@ -2901,6 +2896,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "publicationDate",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
+      "source2" : "manualDescription",
       "source5" : "false"
     }, {
       "target" : "No",
@@ -3548,6 +3548,10 @@
       "source1" : "01NYU_TNS:DAI_DEF_UNION",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:LEGANTO",
+      "source2" : "enable_barcode_search"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "enable_qr"
@@ -3559,10 +3563,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:LEGANTO",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:LEGANTO",
@@ -3610,6 +3610,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:LEGANTO",
+      "source2" : "nde_show_times_cited"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
@@ -3619,10 +3623,6 @@
       "target" : "false",
       "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "nde_export_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:LEGANTO",
-      "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:LEGANTO",
@@ -3677,16 +3677,20 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_ai_insights_links"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3712,10 +3716,6 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_resource_type_filter_bar"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "use_classic_email_template"
-    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "focus_on_search_input"
@@ -3769,6 +3769,10 @@
       "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
     }, {
@@ -3779,10 +3783,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_full_record_services_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "nde_enable_places_widget"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
@@ -3840,6 +3840,10 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "use_normalized_cdi_subjects"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_display_summary_field"
@@ -3851,10 +3855,6 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
@@ -3880,6 +3880,10 @@
       "source1" : "01NYU_TNS:NSJD",
       "source2" : "export_all_records"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS_TEST",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS_TEST",
       "source2" : "nde_display_summary_field"
@@ -3891,10 +3895,6 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNS_TEST",
       "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS_TEST",
-      "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS_TEST",
@@ -6130,10 +6130,6 @@
       "source1" : "default",
       "source2" : "item.global.dataitem.5"
     }, {
-      "target" : "itemmaterial",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.3"
-    }, {
       "target" : "callnumber2",
       "source1" : "default",
       "source2" : "item.global.dataitem.1"
@@ -6141,6 +6137,10 @@
       "target" : "noteopac",
       "source1" : "default",
       "source2" : "item.global.dataitem.2"
+    }, {
+      "target" : "itemmaterial",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.3"
     } ],
     "Short Loan and Booking Request Detailed Display" : [ {
       "target" : "request_type",
