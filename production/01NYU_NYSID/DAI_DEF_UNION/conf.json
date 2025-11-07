@@ -1,4 +1,4 @@
-{"beaconO22":"1193",
+{"beaconO22":"757",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1795,6 +1795,10 @@
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "use_normalized_cdi_subjects"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "enable_barcode_search"
+    }, {
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "enable_qr"
@@ -1806,10 +1810,6 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYSID:NYSID",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:NYSID",
@@ -1839,6 +1839,10 @@
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
+      "source2" : "enable_qr"
+    }, {
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "export_all_records"
@@ -1850,10 +1854,6 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "export_all_records"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
-      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
@@ -1894,6 +1894,10 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
+      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:NYSID_DEV",
@@ -1914,10 +1918,6 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "nde_display_summary_field"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
-      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
