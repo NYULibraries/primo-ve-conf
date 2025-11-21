@@ -1,4 +1,4 @@
-{"beaconO22":"861",
+{"beaconO22":"693",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -3253,10 +3253,6 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_barcode_search"
-    }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_rapido_requests_on_top_mode"
@@ -3276,6 +3272,10 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3425,10 +3425,6 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "use_normalized_cdi_subjects"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "nde_share_actions_table_is_customized"
-    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_display_summary_field"
@@ -3440,6 +3436,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
@@ -3906,13 +3906,6 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "publisher",
-      "source3" : "book",
-      "source4" : "11",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
@@ -3933,6 +3926,13 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "Yes"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "publisher",
+      "source3" : "book",
+      "source4" : "11",
+      "source5" : "No"
     }, {
       "target" : "Yes",
       "source1" : "both",
