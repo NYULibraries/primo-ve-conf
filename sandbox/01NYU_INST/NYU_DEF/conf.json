@@ -1,4 +1,4 @@
-{"beaconO22":"757",
+{"beaconO22":"776",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -3246,6 +3246,10 @@
       "source1" : "01NYU_INST:NYU_LAB",
       "source2" : "use_normalized_cdi_subjects"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:DAI_DEF_UNION",
+      "source2" : "enable_qr"
+    }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_LAB",
       "source2" : "nde_display_summary_field"
@@ -3257,10 +3261,6 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_LAB",
       "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:DAI_DEF_UNION",
-      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:DAI_DEF_UNION",
@@ -3496,6 +3496,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_display_summary_field"
     }, {
       "target" : "false",
@@ -3505,10 +3509,6 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_NDE",
@@ -3662,14 +3662,6 @@
       "source1" : "01NYU_INST:NYU_NP_TEST",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_NP_TEST",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_NP_TEST",
-      "source2" : "display_CDI_secondary_RT"
-    }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DAI",
       "source2" : "enableDidYouMean"
@@ -3748,6 +3740,18 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_NP_TEST",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_NP_TEST",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
       "source2" : "enable_recent_scopes"
     }, {
       "target" : "true",
@@ -3757,10 +3761,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU",
@@ -3788,6 +3788,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DAI",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DAI",
       "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
@@ -3797,10 +3801,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DAI",
       "source2" : "nde_display_snippet"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_DAI",
-      "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DAI",
@@ -4325,6 +4325,14 @@
     }, {
       "target" : "No",
       "source1" : "both",
+      "source2" : "language",
+      "source3" : "delivery",
+      "source4" : "19",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -4344,14 +4352,6 @@
       "source2" : "copyrights",
       "source3" : "delivery",
       "source4" : "18",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "language",
-      "source3" : "delivery",
-      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {
