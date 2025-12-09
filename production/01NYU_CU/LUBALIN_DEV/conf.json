@@ -1,4 +1,4 @@
-{"beaconO22":"609",
+{"beaconO22":"514",
   "primo-view" : {
     "available-tabs" : [ "LUBALIN" ],
     "institution" : {
@@ -3321,15 +3321,15 @@
       "source2" : "exact",
       "source3" : "ANY"
     }, {
-      "target" : "addtitle",
-      "source1" : "any",
-      "source2" : "contains",
-      "source3" : "ANY"
-    }, {
       "target" : "lds99",
       "source1" : "any",
       "source2" : "contains",
       "source3" : "L"
+    }, {
+      "target" : "addtitle",
+      "source1" : "any",
+      "source2" : "contains",
+      "source3" : "ANY"
     } ],
     "Browse Lists" : [ {
       "target" : "No",
