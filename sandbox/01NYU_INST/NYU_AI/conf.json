@@ -1,4 +1,4 @@
-{"beaconO22":"609",
+{"beaconO22":"527",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2135,6 +2135,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:HIDVL",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL",
       "source2" : "enable_qr"
     }, {
       "target" : "false",
@@ -2144,10 +2148,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:HIDVL",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:HIDVL",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:HIDVL",
@@ -2414,10 +2414,6 @@
       "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
-      "source1" : "01NYU_INST:NYU_DEV",
-      "source2" : "nde_display_snippet"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_INST:NYU_LAB",
       "source2" : "enable_barcode_search"
     }, {
@@ -2620,6 +2616,10 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU",
       "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_display_snippet"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -2906,6 +2906,14 @@
       "source4" : "1",
       "source5" : "No"
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "line1",
+      "source3" : "delivery",
+      "source4" : "4",
+      "source5" : "No",
+      "source6" : " "
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "format",
@@ -2927,14 +2935,6 @@
       "source2" : "alternativeLocationAddress",
       "source3" : "delivery",
       "source4" : "3",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "line1",
-      "source3" : "delivery",
-      "source4" : "4",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -4202,88 +4202,13 @@
       "source2" : "nui.login.selfregistrationform.title"
     }, {
       "target" : "Yes",
-      "source2" : "type"
-    }, {
-      "target" : "Yes",
-      "source2" : "individualType"
-    }, {
-      "target" : "Yes",
-      "source2" : "organizationType"
-    }, {
-      "target" : "Yes",
-      "source2" : "userName"
-    }, {
-      "target" : "Yes",
-      "source2" : "password"
-    }, {
-      "target" : "Yes",
-      "source2" : "confirmPassword"
-    }, {
-      "target" : "Yes",
-      "source2" : "companyName"
+      "source2" : "nui.login.selfRegistration"
     }, {
       "target" : "Yes",
       "source2" : "addressLine1"
     }, {
       "target" : "Yes",
       "source2" : "addressLine2"
-    }, {
-      "target" : "Yes",
-      "source2" : "city"
-    }, {
-      "target" : "Yes",
-      "source2" : "state"
-    }, {
-      "target" : "Yes",
-      "source2" : "zipCode"
-    }, {
-      "target" : "Yes",
-      "source2" : "country"
-    }, {
-      "target" : "Yes",
-      "source2" : "firstName"
-    }, {
-      "target" : "Yes",
-      "source2" : "lastName"
-    }, {
-      "target" : "Yes",
-      "source2" : "email"
-    }, {
-      "target" : "Yes",
-      "source2" : "primaryContactFirstName"
-    }, {
-      "target" : "Yes",
-      "source2" : "primaryContactLastName"
-    }, {
-      "target" : "Yes",
-      "source2" : "primaryContactEmail"
-    }, {
-      "target" : "Yes",
-      "source2" : "phoneNumber"
-    }, {
-      "target" : "Yes",
-      "source2" : "individualComplianceStatement"
-    }, {
-      "target" : "Yes",
-      "source2" : "organizationComplianceStatement"
-    }, {
-      "target" : "Yes",
-      "source2" : "nui.login.selfRegistration"
-    }, {
-      "target" : "Yes",
-      "source2" : "nui.selfregistrationform.passwordvalidationmsg"
-    }, {
-      "target" : "Yes",
-      "source2" : "nui.selfregistrationform.uservalidationmsg"
-    }, {
-      "target" : "Yes",
-      "source2" : "maximumRequestCost"
-    }, {
-      "target" : "Yes",
-      "source2" : "billingContactName"
-    }, {
-      "target" : "Yes",
-      "source2" : "billingEmailAddress"
     }, {
       "target" : "Yes",
       "source2" : "billingAddressLine1"
@@ -4295,31 +4220,106 @@
       "source2" : "billingCity"
     }, {
       "target" : "Yes",
-      "source2" : "billingStateProvince"
+      "source2" : "billingComplianceStatement"
     }, {
       "target" : "Yes",
-      "source2" : "billingPostalCode"
+      "source2" : "billingContactName"
     }, {
       "target" : "Yes",
       "source2" : "billingCountry"
     }, {
       "target" : "Yes",
-      "source2" : "billingComplianceStatement"
+      "source2" : "billingEmailAddress"
     }, {
       "target" : "Yes",
-      "source2" : "nui.selfregistrationform.maximumrequestcostvalidationmsg"
+      "source2" : "billingPostalCode"
     }, {
       "target" : "Yes",
-      "source2" : "subtitle.personalinfo"
+      "source2" : "billingStateProvince"
     }, {
       "target" : "Yes",
-      "source2" : "subtitle.contactinfo"
+      "source2" : "city"
+    }, {
+      "target" : "Yes",
+      "source2" : "companyName"
+    }, {
+      "target" : "Yes",
+      "source2" : "confirmPassword"
+    }, {
+      "target" : "Yes",
+      "source2" : "country"
+    }, {
+      "target" : "Yes",
+      "source2" : "email"
+    }, {
+      "target" : "Yes",
+      "source2" : "firstName"
+    }, {
+      "target" : "Yes",
+      "source2" : "individualComplianceStatement"
+    }, {
+      "target" : "Yes",
+      "source2" : "individualType"
+    }, {
+      "target" : "Yes",
+      "source2" : "lastName"
+    }, {
+      "target" : "Yes",
+      "source2" : "maximumRequestCost"
+    }, {
+      "target" : "Yes",
+      "source2" : "organizationComplianceStatement"
+    }, {
+      "target" : "Yes",
+      "source2" : "organizationType"
+    }, {
+      "target" : "Yes",
+      "source2" : "password"
+    }, {
+      "target" : "Yes",
+      "source2" : "phoneNumber"
+    }, {
+      "target" : "Yes",
+      "source2" : "primaryContactEmail"
+    }, {
+      "target" : "Yes",
+      "source2" : "primaryContactFirstName"
+    }, {
+      "target" : "Yes",
+      "source2" : "primaryContactLastName"
+    }, {
+      "target" : "Yes",
+      "source2" : "state"
+    }, {
+      "target" : "Yes",
+      "source2" : "type"
+    }, {
+      "target" : "Yes",
+      "source2" : "userName"
+    }, {
+      "target" : "Yes",
+      "source2" : "zipCode"
     }, {
       "target" : "Yes",
       "source2" : "subtitle.billing"
     }, {
       "target" : "Yes",
+      "source2" : "subtitle.contactinfo"
+    }, {
+      "target" : "Yes",
+      "source2" : "subtitle.personalinfo"
+    }, {
+      "target" : "Yes",
+      "source2" : "nui.selfregistrationform.maximumrequestcostvalidationmsg"
+    }, {
+      "target" : "Yes",
+      "source2" : "nui.selfregistrationform.passwordvalidationmsg"
+    }, {
+      "target" : "Yes",
       "source2" : "nui.selfregistrationform.register"
+    }, {
+      "target" : "Yes",
+      "source2" : "nui.selfregistrationform.uservalidationmsg"
     }, {
       "target" : "Yes",
       "source2" : "individualMessage"

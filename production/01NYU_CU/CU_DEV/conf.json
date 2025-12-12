@@ -1,4 +1,4 @@
-{"beaconO22":"1183",
+{"beaconO22":"898",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -2673,10 +2673,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
-      "source2" : "nde_show_times_cited"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_DEV",
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
@@ -2686,6 +2682,10 @@
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
@@ -2913,10 +2913,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "true",
@@ -2926,6 +2922,10 @@
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",
       "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_RESTEST",
+      "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_RESTEST",

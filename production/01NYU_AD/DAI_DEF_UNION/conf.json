@@ -1,4 +1,4 @@
-{"beaconO22":"1116",
+{"beaconO22":"939",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2065,14 +2065,6 @@
       "source4" : "15",
       "source5" : "No"
     }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredPickupLocation",
-      "source3" : "delivery",
-      "source4" : "11",
-      "source5" : "No",
-      "source6" : " "
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "email",
@@ -2095,6 +2087,14 @@
       "source3" : "book",
       "source4" : "16",
       "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredPickupLocation",
+      "source3" : "delivery",
+      "source4" : "11",
+      "source5" : "No",
+      "source6" : " "
     }, {
       "target" : "No",
       "source1" : "both",
@@ -2153,14 +2153,6 @@
       "source5" : "No",
       "source6" : "Null"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "line2",
-      "source3" : "delivery",
-      "source4" : "5",
-      "source5" : "No",
-      "source6" : " "
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "requestedMedia",
@@ -2182,6 +2174,14 @@
       "source2" : "line1",
       "source3" : "delivery",
       "source4" : "4",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "line2",
+      "source3" : "delivery",
+      "source4" : "5",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2219,13 +2219,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "authorInitials",
-      "source3" : "book",
-      "source4" : "4",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "oclcNumber",
       "source3" : "book",
       "source4" : "10",
@@ -2243,6 +2236,13 @@
       "source2" : "findBookItemsDescriptions",
       "source3" : "book",
       "source4" : "1",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "authorInitials",
+      "source3" : "book",
+      "source4" : "4",
       "source5" : "No"
     }, {
       "target" : "Yes",
@@ -2287,13 +2287,6 @@
       "source4" : "3",
       "source5" : "No"
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "additionalAuthor",
-      "source3" : "book",
-      "source4" : "5",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "publisher",
@@ -2313,6 +2306,13 @@
       "source2" : "publicationDate",
       "source3" : "article",
       "source4" : "15",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "additionalAuthor",
+      "source3" : "book",
+      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2414,14 +2414,6 @@
       "source5" : "No"
     }, {
       "target" : "Yes",
-      "source1" : "both",
-      "source2" : "comment",
-      "source3" : "delivery",
-      "source4" : "15",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
       "source1" : "fulnet",
       "source2" : "preferredLocalPickupLocation",
       "source3" : "delivery",
@@ -2434,6 +2426,14 @@
       "source2" : "notNeedAfter",
       "source3" : "delivery",
       "source4" : "14",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "comment",
+      "source3" : "delivery",
+      "source4" : "15",
       "source5" : "No",
       "source6" : " "
     }, {

@@ -1,4 +1,4 @@
-{"beaconO22":"797",
+{"beaconO22":"553",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -3611,10 +3611,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:LEGANTO",
-      "source2" : "nde_show_times_cited"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
@@ -3624,6 +3620,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:LEGANTO",
+      "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:LEGANTO",
@@ -3680,15 +3680,15 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_barcode_search"
+    }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_rapido_requests_on_top_mode"
@@ -3711,7 +3711,7 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_barcode_search"
+      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3787,10 +3787,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "UseRedirectFromViewSavedSearches"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_rapido_requests_on_top_mode"
     }, {
       "target" : "false",
@@ -3801,6 +3797,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_natural_language_search"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_resource_type_filter_bar"
@@ -3852,6 +3852,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:NSJD",
       "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
@@ -3972,10 +3976,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNS_TEST",
       "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "use_normalized_cdi_subjects"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -4221,13 +4221,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "lccn",
-      "source3" : "article",
-      "source4" : "7",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "authorInitials",
       "source3" : "article",
       "source4" : "4",
@@ -4245,6 +4238,13 @@
       "source2" : "issn",
       "source3" : "article",
       "source4" : "6",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "lccn",
+      "source3" : "article",
+      "source4" : "7",
       "source5" : "No"
     }, {
       "target" : "Yes",
@@ -4338,13 +4338,6 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "publisher",
-      "source3" : "book",
-      "source4" : "11",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
@@ -4365,6 +4358,13 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "Yes"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "publisher",
+      "source3" : "book",
+      "source4" : "11",
+      "source5" : "No"
     }, {
       "target" : "Yes",
       "source1" : "both",
@@ -5575,88 +5575,13 @@
       "source2" : "nui.login.selfregistrationform.title"
     }, {
       "target" : "Yes",
-      "source2" : "type"
-    }, {
-      "target" : "Yes",
-      "source2" : "individualType"
-    }, {
-      "target" : "Yes",
-      "source2" : "organizationType"
-    }, {
-      "target" : "Yes",
-      "source2" : "userName"
-    }, {
-      "target" : "Yes",
-      "source2" : "password"
-    }, {
-      "target" : "Yes",
-      "source2" : "confirmPassword"
-    }, {
-      "target" : "Yes",
-      "source2" : "companyName"
+      "source2" : "nui.login.selfRegistration"
     }, {
       "target" : "Yes",
       "source2" : "addressLine1"
     }, {
       "target" : "Yes",
       "source2" : "addressLine2"
-    }, {
-      "target" : "Yes",
-      "source2" : "city"
-    }, {
-      "target" : "Yes",
-      "source2" : "state"
-    }, {
-      "target" : "Yes",
-      "source2" : "zipCode"
-    }, {
-      "target" : "Yes",
-      "source2" : "country"
-    }, {
-      "target" : "Yes",
-      "source2" : "firstName"
-    }, {
-      "target" : "Yes",
-      "source2" : "lastName"
-    }, {
-      "target" : "Yes",
-      "source2" : "email"
-    }, {
-      "target" : "Yes",
-      "source2" : "primaryContactFirstName"
-    }, {
-      "target" : "Yes",
-      "source2" : "primaryContactLastName"
-    }, {
-      "target" : "Yes",
-      "source2" : "primaryContactEmail"
-    }, {
-      "target" : "Yes",
-      "source2" : "phoneNumber"
-    }, {
-      "target" : "Yes",
-      "source2" : "individualComplianceStatement"
-    }, {
-      "target" : "Yes",
-      "source2" : "organizationComplianceStatement"
-    }, {
-      "target" : "Yes",
-      "source2" : "nui.login.selfRegistration"
-    }, {
-      "target" : "Yes",
-      "source2" : "nui.selfregistrationform.passwordvalidationmsg"
-    }, {
-      "target" : "Yes",
-      "source2" : "nui.selfregistrationform.uservalidationmsg"
-    }, {
-      "target" : "Yes",
-      "source2" : "maximumRequestCost"
-    }, {
-      "target" : "Yes",
-      "source2" : "billingContactName"
-    }, {
-      "target" : "Yes",
-      "source2" : "billingEmailAddress"
     }, {
       "target" : "Yes",
       "source2" : "billingAddressLine1"
@@ -5668,31 +5593,106 @@
       "source2" : "billingCity"
     }, {
       "target" : "Yes",
-      "source2" : "billingStateProvince"
+      "source2" : "billingComplianceStatement"
     }, {
       "target" : "Yes",
-      "source2" : "billingPostalCode"
+      "source2" : "billingContactName"
     }, {
       "target" : "Yes",
       "source2" : "billingCountry"
     }, {
       "target" : "Yes",
-      "source2" : "billingComplianceStatement"
+      "source2" : "billingEmailAddress"
     }, {
       "target" : "Yes",
-      "source2" : "nui.selfregistrationform.maximumrequestcostvalidationmsg"
+      "source2" : "billingPostalCode"
     }, {
       "target" : "Yes",
-      "source2" : "subtitle.personalinfo"
+      "source2" : "billingStateProvince"
     }, {
       "target" : "Yes",
-      "source2" : "subtitle.contactinfo"
+      "source2" : "city"
+    }, {
+      "target" : "Yes",
+      "source2" : "companyName"
+    }, {
+      "target" : "Yes",
+      "source2" : "confirmPassword"
+    }, {
+      "target" : "Yes",
+      "source2" : "country"
+    }, {
+      "target" : "Yes",
+      "source2" : "email"
+    }, {
+      "target" : "Yes",
+      "source2" : "firstName"
+    }, {
+      "target" : "Yes",
+      "source2" : "individualComplianceStatement"
+    }, {
+      "target" : "Yes",
+      "source2" : "individualType"
+    }, {
+      "target" : "Yes",
+      "source2" : "lastName"
+    }, {
+      "target" : "Yes",
+      "source2" : "maximumRequestCost"
+    }, {
+      "target" : "Yes",
+      "source2" : "organizationComplianceStatement"
+    }, {
+      "target" : "Yes",
+      "source2" : "organizationType"
+    }, {
+      "target" : "Yes",
+      "source2" : "password"
+    }, {
+      "target" : "Yes",
+      "source2" : "phoneNumber"
+    }, {
+      "target" : "Yes",
+      "source2" : "primaryContactEmail"
+    }, {
+      "target" : "Yes",
+      "source2" : "primaryContactFirstName"
+    }, {
+      "target" : "Yes",
+      "source2" : "primaryContactLastName"
+    }, {
+      "target" : "Yes",
+      "source2" : "state"
+    }, {
+      "target" : "Yes",
+      "source2" : "type"
+    }, {
+      "target" : "Yes",
+      "source2" : "userName"
+    }, {
+      "target" : "Yes",
+      "source2" : "zipCode"
     }, {
       "target" : "Yes",
       "source2" : "subtitle.billing"
     }, {
       "target" : "Yes",
+      "source2" : "subtitle.contactinfo"
+    }, {
+      "target" : "Yes",
+      "source2" : "subtitle.personalinfo"
+    }, {
+      "target" : "Yes",
+      "source2" : "nui.selfregistrationform.maximumrequestcostvalidationmsg"
+    }, {
+      "target" : "Yes",
+      "source2" : "nui.selfregistrationform.passwordvalidationmsg"
+    }, {
+      "target" : "Yes",
       "source2" : "nui.selfregistrationform.register"
+    }, {
+      "target" : "Yes",
+      "source2" : "nui.selfregistrationform.uservalidationmsg"
     }, {
       "target" : "Yes",
       "source2" : "individualMessage"
@@ -6147,10 +6147,6 @@
       "source1" : "default",
       "source2" : "item.global.dataitem.5"
     }, {
-      "target" : "itemmaterial",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.3"
-    }, {
       "target" : "callnumber2",
       "source1" : "default",
       "source2" : "item.global.dataitem.1"
@@ -6158,6 +6154,10 @@
       "target" : "noteopac",
       "source1" : "default",
       "source2" : "item.global.dataitem.2"
+    }, {
+      "target" : "itemmaterial",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.3"
     } ],
     "Short Loan and Booking Request Detailed Display" : [ {
       "target" : "request_type",
