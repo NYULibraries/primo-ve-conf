@@ -1,4 +1,4 @@
-{"beaconO22":"698",
+{"beaconO22":"1296",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2341,6 +2341,14 @@
       "source1" : "01NYU_INST:NYU_NP_TEST",
       "source2" : "focus_on_search_input"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_NP_TEST",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_NP_TEST",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DAI",
       "source2" : "nde_enable_places_widget"
@@ -2391,18 +2399,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_NP_TEST",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_NP_TEST",
-      "source2" : "display_CDI_secondary_RT"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU",
       "source2" : "enable_recent_scopes"
     }, {
       "target" : "true",
@@ -2412,6 +2408,10 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU",
       "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU",

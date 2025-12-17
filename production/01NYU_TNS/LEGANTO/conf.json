@@ -1,4 +1,4 @@
-{"beaconO22":"811",
+{"beaconO22":"966",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -3260,6 +3260,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
       "target" : "true",
@@ -3277,10 +3281,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
