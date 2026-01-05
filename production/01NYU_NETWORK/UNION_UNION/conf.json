@@ -1,4 +1,4 @@
-{"beaconO22":"888",
+{"beaconO22":"1130",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -5211,5 +5211,5 @@
   "limited_patrons_in_alma_starter" : false,
   "IsViewNdeEnabled" : false,
   "enable_mixpanel" : false,
-  "useNewSuggester" : false
+  "useNewSuggester" : true
 }

@@ -2668,10 +2668,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
       "target" : "true",
@@ -2689,6 +2685,10 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -6162,5 +6162,5 @@
   "limited_patrons_in_alma_starter" : false,
   "IsViewNdeEnabled" : false,
   "enable_mixpanel" : false,
-  "useNewSuggester" : false
+  "useNewSuggester" : true
 }

@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "consortia" ],
     "institution" : {
@@ -5863,5 +5863,5 @@
   "limited_patrons_in_alma_starter" : false,
   "IsViewNdeEnabled" : false,
   "enable_mixpanel" : false,
-  "useNewSuggester" : false
+  "useNewSuggester" : true
 }

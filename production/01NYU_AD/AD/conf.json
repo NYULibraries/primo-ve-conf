@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"3",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -5142,5 +5142,5 @@
   "limited_patrons_in_alma_starter" : false,
   "IsViewNdeEnabled" : false,
   "enable_mixpanel" : false,
-  "useNewSuggester" : false
+  "useNewSuggester" : true
 }
