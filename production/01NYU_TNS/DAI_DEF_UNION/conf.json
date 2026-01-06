@@ -1,4 +1,4 @@
-{"beaconO22":"866",
+{"beaconO22":"855",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2006,16 +2006,20 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_ai_insights_links"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -2040,10 +2044,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "use_classic_email_template"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",

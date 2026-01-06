@@ -1,4 +1,4 @@
-{"beaconO22":"987",
+{"beaconO22":"918",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1168,11 +1168,6 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
-      "target" : "Yes",
-      "source1" : "default",
-      "source2" : "chapterArticleTitle",
-      "source5" : "false"
-    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
@@ -1186,6 +1181,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "calculateQueueButton",
+      "source5" : "false"
+    }, {
+      "target" : "Yes",
+      "source1" : "default",
+      "source2" : "chapterArticleTitle",
       "source5" : "false"
     }, {
       "target" : "Yes",
