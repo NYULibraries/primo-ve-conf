@@ -1,4 +1,4 @@
-{"beaconO22":"517",
+{"beaconO22":"497",
   "primo-view" : {
     "available-tabs" : [ "HIDVL" ],
     "institution" : {
@@ -5091,7 +5091,22 @@
       "target" : "turabian-fullnote-bibliography-8th-edition",
       "source1" : "4"
     } ],
-    "DEI Term Configuration" : [ ],
+    "DEI Term Configuration" : [ {
+      "target" : "Immigrants -- United States",
+      "source1" : "None",
+      "source2" : "Part Of Phrase",
+      "source3" : "This record contains inaccurate terms. Please see <a href=\"https://library.nyu.edu/about/policies/content-policy/\">Library Policies</a>"
+    }, {
+      "target" : "Illegal immigration",
+      "source1" : "Remove",
+      "source2" : "Part Of Phrase"
+    }, {
+      "target" : "Immigrants",
+      "source1" : "Replace",
+      "source2" : "Exact",
+      "source3" : "This record contains inaccurate terms. Please see <a href=\"https://library.nyu.edu/about/policies/content-policy/\">Library Policies</a>",
+      "source4" : "International job seekers"
+    } ],
     "Export RIS encodings" : [ {
       "target" : "UTF-8",
       "source1" : "UTF-8"

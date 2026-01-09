@@ -444,6 +444,9 @@
           "items" : "language",
           "displayInViewer" : true
         }, {
+          "items" : "lds74",
+          "displayInViewer" : true
+        }, {
           "items" : "unititle",
           "displayInViewer" : true
         }, {
@@ -602,6 +605,9 @@
           "displayInViewer" : true
         }, {
           "items" : "language",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds74",
           "displayInViewer" : true
         }, {
           "items" : "unititle",
@@ -5308,7 +5314,22 @@
       "target" : "turabian-fullnote-bibliography-8th-edition",
       "source1" : "4"
     } ],
-    "DEI Term Configuration" : [ ],
+    "DEI Term Configuration" : [ {
+      "target" : "Immigrants -- United States",
+      "source1" : "None",
+      "source2" : "Part Of Phrase",
+      "source3" : "This record contains inaccurate terms. Please see <a href=\"https://library.nyu.edu/about/policies/content-policy/\">Library Policies</a>"
+    }, {
+      "target" : "Illegal immigration",
+      "source1" : "Remove",
+      "source2" : "Part Of Phrase"
+    }, {
+      "target" : "Immigrants",
+      "source1" : "Replace",
+      "source2" : "Exact",
+      "source3" : "This record contains inaccurate terms. Please see <a href=\"https://library.nyu.edu/about/policies/content-policy/\">Library Policies</a>",
+      "source4" : "International job seekers"
+    } ],
     "Export RIS encodings" : [ {
       "target" : "UTF-8",
       "source1" : "UTF-8"
@@ -5642,13 +5663,13 @@
       "options" : [ "end_month", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" ]
     },
     "628889103UI" : {
-      "indexFields" : [ "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang" ],
+      "indexFields" : [ "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang" ],
       "type" : {
         "_string" : "language"
       },
       "defaultOption" : "any",
-      "displayOptions" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
-      "options" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
+      "displayOptions" : [ "any", "pol", "per", "mixt1427", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
+      "options" : [ "any", "pol", "per", "mixt1427", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
     },
     "1511266235UI" : {
       "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
@@ -5660,13 +5681,13 @@
       "options" : [ "contains", "exact", "begins_with", "equals" ]
     },
     "1024082127UI" : {
-      "indexFields" : [ "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang" ],
+      "indexFields" : [ "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang", "lang" ],
       "type" : {
         "_string" : "language"
       },
       "defaultOption" : "any",
-      "displayOptions" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
-      "options" : [ "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
+      "displayOptions" : [ "any", "pol", "per", "mixt1427", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
+      "options" : [ "any", "pol", "per", "mixt1427", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
     },
     "freeText" : {
       "indexFields" : [ "any" ],
