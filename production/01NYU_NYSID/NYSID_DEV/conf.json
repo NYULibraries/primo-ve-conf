@@ -1,4 +1,4 @@
-{"beaconO22":"948",
+{"beaconO22":"962",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "consortia" ],
     "institution" : {
@@ -2530,6 +2530,10 @@
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
+      "source2" : "enable_qr"
+    }, {
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "export_all_records"
@@ -2541,10 +2545,6 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "export_all_records"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
-      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
@@ -2586,6 +2586,10 @@
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "export_all_records"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
+      "source2" : "nde_display_snippet"
+    }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
@@ -2605,10 +2609,6 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "nde_display_summary_field"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
-      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
