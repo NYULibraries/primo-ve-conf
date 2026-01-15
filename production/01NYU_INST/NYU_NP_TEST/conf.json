@@ -1,4 +1,4 @@
-{"beaconO22":"822",
+{"beaconO22":"1036",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -862,8 +862,8 @@
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
     "manualAlternativeEmailRS" : false,
-    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "showICPLicenseFooter" : "false",
+    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -1180,6 +1180,11 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
+      "target" : "Yes",
+      "source1" : "default",
+      "source2" : "chapterArticleTitle",
+      "source5" : "false"
+    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
@@ -1193,11 +1198,6 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "calculateQueueButton",
-      "source5" : "false"
-    }, {
-      "target" : "Yes",
-      "source1" : "default",
-      "source2" : "chapterArticleTitle",
       "source5" : "false"
     }, {
       "target" : "Yes",

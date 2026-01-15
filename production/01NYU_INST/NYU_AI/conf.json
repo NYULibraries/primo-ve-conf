@@ -1,4 +1,4 @@
-{"beaconO22":"540",
+{"beaconO22":"862",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -878,8 +878,8 @@
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
     "manualAlternativeEmailRS" : false,
-    "showICPLicenseFooter" : "false",
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
