@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -1505,8 +1505,8 @@
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
     "manualAlternativeEmailRS" : false,
-    "showICPLicenseFooter" : "false",
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -2671,6 +2671,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enableDidYouMean"
@@ -2751,7 +2755,7 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {

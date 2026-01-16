@@ -1,4 +1,4 @@
-{"beaconO22":"1086",
+{"beaconO22":"1236",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -2652,6 +2652,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enableDidYouMean"
@@ -2732,7 +2736,7 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
@@ -5261,47 +5265,47 @@
     }, {
       "target" : "prima.services.tags",
       "source1" : "tags",
-      "source2" : "7",
+      "source2" : "6",
       "source3" : "false"
     }, {
       "target" : "prima.services.browseshelf",
       "source1" : "browseshelf",
-      "source2" : "8",
+      "source2" : "7",
       "source3" : "true"
     }, {
       "target" : "prima.services.links",
       "source1" : "links",
-      "source2" : "9",
+      "source2" : "8",
       "source3" : "false"
     }, {
       "target" : "prima.services.citation_trail_and_times_cited",
       "source1" : "citationTrailAndTimesCited",
-      "source2" : "10",
+      "source2" : "9",
       "source3" : "false"
     }, {
       "target" : "prima.services.more.from.the.same",
       "source1" : "moreFromTheSame",
-      "source2" : "11",
+      "source2" : "10",
       "source3" : "false"
     }, {
       "target" : "prima.services.mayAlsoBeFoundAt",
       "source1" : "mayAlsoBeFoundAt",
-      "source2" : "12",
+      "source2" : "11",
       "source3" : "false"
     }, {
       "target" : "prima.services.explore",
       "source1" : "explore",
-      "source2" : "13",
+      "source2" : "12",
       "source3" : "true"
     }, {
       "target" : "prima.services.book.chapters",
       "source1" : "Related Items",
-      "source2" : "14",
+      "source2" : "13",
       "source3" : "false"
     }, {
       "target" : "prima.services.book.reviews",
       "source1" : "Book Reviews",
-      "source2" : "15",
+      "source2" : "14",
       "source3" : "false"
     } ],
     "Rapido Request Optional Parameters" : [ {

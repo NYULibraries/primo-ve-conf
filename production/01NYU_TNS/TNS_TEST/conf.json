@@ -1,4 +1,4 @@
-{"beaconO22":"690",
+{"beaconO22":"695",
   "primo-view" : {
     "available-tabs" : [ "CI_R", "SpecColl", "CourseReserves" ],
     "institution" : {
@@ -2600,6 +2600,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enableDidYouMean"
@@ -2680,7 +2684,7 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
