@@ -1,4 +1,4 @@
-{"beaconO22":"980",
+{"beaconO22":"1011",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "NYUDsicoverNetwork" ],
     "institution" : {
@@ -2481,10 +2481,6 @@
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
-      "source2" : "enable_qr"
-    }, {
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "export_all_records"
@@ -2496,6 +2492,10 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
+      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
@@ -2541,10 +2541,6 @@
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
-      "source2" : "nde_display_summary_field"
-    }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "use_normalized_cdi_subjects"
@@ -2556,6 +2552,10 @@
       "target" : "false",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
       "source2" : "nde_show_times_cited"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_NYSID:DAI_DEF_UNION",
+      "source2" : "nde_display_summary_field"
     }, {
       "target" : "true",
       "source1" : "01NYU_NYSID:DAI_DEF_UNION",
