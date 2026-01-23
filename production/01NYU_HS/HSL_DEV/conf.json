@@ -1,4 +1,4 @@
-{"beaconO22":"833",
+{"beaconO22":"681",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -870,8 +870,8 @@
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
     "manualAlternativeEmailRS" : false,
-    "showICPLicenseFooter" : "false",
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -1686,6 +1686,26 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL",
       "source2" : "Form description mandatory"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "Activate widget"
+    }, {
+      "target" : "4",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "Number of categories"
+    }, {
+      "target" : "",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "Email address"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "Form email address mandatory"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "Form description mandatory"
     } ],
     "Resource Recommender Config" : [ {
       "target" : "priority",
@@ -2314,6 +2334,94 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV",
       "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_display_summary_field"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_show_times_cited"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV",

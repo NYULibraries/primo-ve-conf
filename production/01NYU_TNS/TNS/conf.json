@@ -1505,8 +1505,8 @@
     "Auto_Complete_Feature_Enabled" : "true",
     "Use local fields 30-39 as lateral links" : "Y",
     "manualAlternativeEmailRS" : false,
-    "showICPLicenseFooter" : "false",
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
     "Show More (replaces scrolling) Threshold" : "50",
@@ -2667,6 +2667,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_natural_language_search"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
@@ -2703,7 +2707,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
