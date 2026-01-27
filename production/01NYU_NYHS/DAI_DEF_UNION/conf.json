@@ -1,4 +1,4 @@
-{"beaconO22":"838",
+{"beaconO22":"678",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2867,6 +2867,26 @@
       "source1" : "3"
     } ],
     "Loans Detailed Display" : [ {
+      "target" : "year",
+      "source1" : "year",
+      "source2" : "1",
+      "source3" : "default"
+    }, {
+      "target" : "due_date",
+      "source1" : "due_date",
+      "source2" : "2",
+      "source3" : "default"
+    }, {
+      "target" : "due_hour",
+      "source1" : "due_hour",
+      "source2" : "3",
+      "source3" : "default"
+    }, {
+      "target" : "fine",
+      "source1" : "fine",
+      "source2" : "4",
+      "source3" : "default"
+    }, {
       "target" : "main_location_name",
       "source1" : "main_location_name",
       "source2" : "5",
@@ -2950,26 +2970,6 @@
       "target" : "proxy_id",
       "source1" : "proxy_id",
       "source2" : "25",
-      "source3" : "default"
-    }, {
-      "target" : "year",
-      "source1" : "year",
-      "source2" : "1",
-      "source3" : "default"
-    }, {
-      "target" : "due_date",
-      "source1" : "due_date",
-      "source2" : "2",
-      "source3" : "default"
-    }, {
-      "target" : "due_hour",
-      "source1" : "due_hour",
-      "source2" : "3",
-      "source3" : "default"
-    }, {
-      "target" : "fine",
-      "source1" : "fine",
-      "source2" : "4",
       "source3" : "default"
     } ],
     "Actions List" : [ {
@@ -3752,6 +3752,11 @@
       "source1" : "01NYU.01NYU_NYHS.PPRD"
     } ],
     "Fines Detailed Display" : [ {
+      "target" : "type",
+      "source1" : "type",
+      "source2" : "1",
+      "source3" : "default"
+    }, {
       "target" : "author",
       "source1" : "author",
       "source2" : "2",
@@ -3855,11 +3860,6 @@
       "target" : "fine_id",
       "source1" : "fine_id",
       "source2" : "26",
-      "source3" : "default"
-    }, {
-      "target" : "type",
-      "source1" : "type",
-      "source2" : "1",
       "source3" : "default"
     } ],
     "ILL Request Detailed Display" : [ {

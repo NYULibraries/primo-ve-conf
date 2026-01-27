@@ -1,4 +1,4 @@
-{"beaconO22":"1971",
+{"beaconO22":"1355",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecCol" ],
     "institution" : {
@@ -2632,6 +2632,14 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_menu_links_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_rapido_requests_on_top_mode"
     }, {
       "target" : "false",
@@ -2921,14 +2929,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNS_TEST",
       "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "nde_menu_links_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_highlight_the_record_you_came_from"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
