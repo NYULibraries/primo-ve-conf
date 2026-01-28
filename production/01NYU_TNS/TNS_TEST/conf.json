@@ -1,4 +1,4 @@
-{"beaconO22":"614",
+{"beaconO22":"687",
   "primo-view" : {
     "available-tabs" : [ "CI_R", "SpecColl", "CourseReserves" ],
     "institution" : {
@@ -2780,7 +2780,7 @@
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_show_times_cited"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {

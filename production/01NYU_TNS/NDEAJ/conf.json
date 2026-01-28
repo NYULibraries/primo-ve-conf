@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"481",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CentralIndex", "CourseReserves" ],
     "institution" : {
@@ -2850,7 +2850,7 @@
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_show_times_cited"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
@@ -5967,7 +5967,7 @@
     "silent-login-enabled" : "false"
   } ],
   "customization" : {
-    "customizedColorTheme" : "purple_otb",
+    "customizedColorTheme" : "dark_blue",
     "resourceIcons" : { }
   },
   "fieldsWithUseTranslation" : [ ],

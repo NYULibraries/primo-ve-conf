@@ -1,4 +1,4 @@
-{"beaconO22":"1165",
+{"beaconO22":"1243",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2258,6 +2258,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEF",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEF",
       "source2" : "enable_recent_scopes"
     }, {
       "target" : "true",
@@ -2267,10 +2271,6 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEF",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_DEF",
-      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEF",
@@ -2458,6 +2458,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
       "source2" : "enable_qr"
     }, {
       "target" : "false",
@@ -2467,10 +2471,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_DEV",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEV",
@@ -2686,6 +2686,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
       "source2" : "enable_recent_scopes"
     }, {
       "target" : "true",
@@ -2695,10 +2699,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU",
-      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU",

@@ -1,4 +1,4 @@
-{"beaconO22":"700",
+{"beaconO22":"837",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2202,7 +2202,7 @@
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_show_times_cited"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
@@ -4958,11 +4958,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinking",
-      "source1" : "NO"
-    }, {
       "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
       "source1" : "true"
+    }, {
+      "target" : "enableDirectLinking",
+      "source1" : "NO"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",
