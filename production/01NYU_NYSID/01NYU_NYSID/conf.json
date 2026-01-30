@@ -1,4 +1,4 @@
-{"beaconO22":"906",
+{"beaconO22":"1033",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "NYUDsicoverNetwork" ],
     "institution" : {
@@ -2437,6 +2437,10 @@
       "source1" : "01NYU_NYSID:NYSID_DEV",
       "source2" : "use_normalized_cdi_subjects"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_NYSID:NYSID",
+      "source2" : "enable_barcode_search"
+    }, {
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "enable_qr"
@@ -2448,10 +2452,6 @@
       "target" : "true",
       "source1" : "01NYU_NYSID:NYSID",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_NYSID:NYSID",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_NYSID:NYSID",

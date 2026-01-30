@@ -1,4 +1,4 @@
-{"beaconO22":"560",
+{"beaconO22":"784",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CentralIndex", "CourseReserves" ],
     "institution" : {
@@ -5592,11 +5592,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
-      "source1" : "true"
-    }, {
       "target" : "enableDirectLinking",
       "source1" : "NO"
+    }, {
+      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
+      "source1" : "true"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",
