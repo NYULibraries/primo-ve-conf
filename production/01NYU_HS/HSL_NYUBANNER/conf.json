@@ -1,4 +1,4 @@
-{"beaconO22":"922",
+{"beaconO22":"580",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -2120,6 +2120,30 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_NYUBANNER",
       "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "enable_similar_image_browse"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_FACETS",
