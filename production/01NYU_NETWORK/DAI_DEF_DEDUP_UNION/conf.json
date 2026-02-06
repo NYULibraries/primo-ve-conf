@@ -1,4 +1,4 @@
-{"beaconO22":"454",
+{"beaconO22":"350",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -2052,6 +2052,10 @@
       "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "true",
+      "source1" : "01NYU_NETWORK:UCTEST01_UNION",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_NETWORK:DAI_DEF_UNION",
       "source2" : "export_all_records"
     }, {
@@ -2061,10 +2065,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_NETWORK:UNION_UNION",
-      "source2" : "export_all_records"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_NETWORK:UCTEST01_UNION",
       "source2" : "export_all_records"
     }, {
       "target" : "true",
