@@ -1,4 +1,4 @@
-{"beaconO22":"1185",
+{"beaconO22":"1200",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -15,7 +15,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_TNS",
       "institution-name" : "The New School",
-      "last-modified-time-stamp" : "May 29, 2024 19:01:12 PM",
+      "last-modified-time-stamp" : "Aug 14, 2025 17:25:05 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : true
     },
@@ -2234,30 +2234,6 @@
     }, {
       "target" : "Yes",
       "source1" : "article",
-      "source2" : "volume",
-      "source3" : "default",
-      "source4" : "4"
-    }, {
-      "target" : "Yes",
-      "source1" : "article",
-      "source2" : "issue",
-      "source3" : "default",
-      "source4" : "5"
-    }, {
-      "target" : "Yes",
-      "source1" : "article",
-      "source2" : "spage",
-      "source3" : "default",
-      "source4" : "6"
-    }, {
-      "target" : "Yes",
-      "source1" : "article",
-      "source2" : "epage",
-      "source3" : "default",
-      "source4" : "7"
-    }, {
-      "target" : "Yes",
-      "source1" : "article",
       "source2" : "issn",
       "source3" : "default",
       "source4" : "8"
@@ -2281,18 +2257,6 @@
       "source4" : "11"
     }, {
       "target" : "Yes",
-      "source1" : "journal",
-      "source2" : "issn",
-      "source3" : "default",
-      "source4" : "20"
-    }, {
-      "target" : "Yes",
-      "source1" : "journal",
-      "source2" : "doi",
-      "source3" : "default",
-      "source4" : "21"
-    }, {
-      "target" : "Yes",
       "source1" : "article",
       "source2" : "aufirst",
       "source3" : "default",
@@ -2309,6 +2273,30 @@
       "source2" : "publisher",
       "source3" : "default",
       "source4" : "14"
+    }, {
+      "target" : "Yes",
+      "source1" : "article",
+      "source2" : "volume",
+      "source3" : "default",
+      "source4" : "4"
+    }, {
+      "target" : "Yes",
+      "source1" : "article",
+      "source2" : "issue",
+      "source3" : "default",
+      "source4" : "5"
+    }, {
+      "target" : "Yes",
+      "source1" : "article",
+      "source2" : "spage",
+      "source3" : "default",
+      "source4" : "6"
+    }, {
+      "target" : "Yes",
+      "source1" : "article",
+      "source2" : "epage",
+      "source3" : "default",
+      "source4" : "7"
     }, {
       "target" : "Yes",
       "source1" : "article",
@@ -2399,6 +2387,18 @@
       "source2" : "issue",
       "source3" : "default",
       "source4" : "19"
+    }, {
+      "target" : "Yes",
+      "source1" : "journal",
+      "source2" : "issn",
+      "source3" : "default",
+      "source4" : "20"
+    }, {
+      "target" : "Yes",
+      "source1" : "journal",
+      "source2" : "doi",
+      "source3" : "default",
+      "source4" : "21"
     } ],
     "Request (Hold and Booking) Optional Parameters" : [ {
       "target" : "Yes",
@@ -2599,6 +2599,20 @@
       "target" : "medicine",
       "source1" : "default"
     }, {
+      "target" : "nursing",
+      "source1" : "default"
+    }, {
+      "target" : "pharmacy_therapeutics_pharmacology",
+      "source1" : "default",
+      "source2" : "medicine"
+    }, {
+      "target" : "philosophy_religion",
+      "source1" : "default",
+      "source2" : "arts_humanities"
+    }, {
+      "target" : "physics",
+      "source1" : "default"
+    }, {
       "target" : "social_sciences",
       "source1" : "default"
     }, {
@@ -2628,20 +2642,6 @@
       "target" : "statistics",
       "source1" : "default"
     }, {
-      "target" : "nursing",
-      "source1" : "default"
-    }, {
-      "target" : "pharmacy_therapeutics_pharmacology",
-      "source1" : "default",
-      "source2" : "medicine"
-    }, {
-      "target" : "philosophy_religion",
-      "source1" : "default",
-      "source2" : "arts_humanities"
-    }, {
-      "target" : "physics",
-      "source1" : "default"
-    }, {
       "target" : "political_sciences",
       "source1" : "default",
       "source2" : "social_sciences"
@@ -2657,14 +2657,9 @@
       "source1" : "default"
     } ],
     "Personal Setting Fields" : [ {
-      "target" : "address_4",
-      "source1" : "contact.address_4",
-      "source2" : "4",
-      "source3" : "default"
-    }, {
-      "target" : "address_5",
-      "source1" : "contact.address_5",
-      "source2" : "5",
+      "target" : "address_1",
+      "source1" : "contact.address_1",
+      "source2" : "1",
       "source3" : "default"
     }, {
       "target" : "address_2",
@@ -2675,6 +2670,26 @@
       "target" : "address_3",
       "source1" : "contact.address_3",
       "source2" : "3",
+      "source3" : "default"
+    }, {
+      "target" : "address_4",
+      "source1" : "contact.address_4",
+      "source2" : "4",
+      "source3" : "default"
+    }, {
+      "target" : "address_5",
+      "source1" : "contact.address_5",
+      "source2" : "5",
+      "source3" : "default"
+    }, {
+      "target" : "city",
+      "source1" : "contact.city",
+      "source2" : "6",
+      "source3" : "default"
+    }, {
+      "target" : "state",
+      "source1" : "contact.state",
+      "source2" : "7",
       "source3" : "default"
     }, {
       "target" : "zip",
@@ -2702,26 +2717,6 @@
       "source2" : "12",
       "source3" : "default"
     }, {
-      "target" : "city",
-      "source1" : "contact.city",
-      "source2" : "6",
-      "source3" : "default"
-    }, {
-      "target" : "state",
-      "source1" : "contact.state",
-      "source2" : "7",
-      "source3" : "default"
-    }, {
-      "target" : "mail_attachement",
-      "source1" : "contact.mail_attachment",
-      "source2" : "18",
-      "source3" : "default"
-    }, {
-      "target" : "pincode",
-      "source1" : "contact.pincode",
-      "source2" : "20",
-      "source3" : "default"
-    }, {
       "target" : "telephone_3",
       "source1" : "contact.telephone_3",
       "source2" : "13",
@@ -2737,9 +2732,14 @@
       "source2" : "16",
       "source3" : "default"
     }, {
-      "target" : "address_1",
-      "source1" : "contact.address_1",
-      "source2" : "1",
+      "target" : "mail_attachement",
+      "source1" : "contact.mail_attachment",
+      "source2" : "18",
+      "source3" : "default"
+    }, {
+      "target" : "pincode",
+      "source1" : "contact.pincode",
+      "source2" : "20",
       "source3" : "default"
     }, {
       "target" : "old_password",
@@ -2866,16 +2866,6 @@
     "Requests Brief Display" : [ {
       "target" : "&nbsp",
       "source1" : "default",
-      "source2" : "requests.brief.1",
-      "source3" : "author"
-    }, {
-      "target" : "&nbsp",
-      "source1" : "default",
-      "source2" : "requests.brief.2",
-      "source3" : "pickuplocationname"
-    }, {
-      "target" : "&nbsp",
-      "source1" : "default",
       "source2" : "requests.brief.loan_period",
       "source3" : "sessionperiod"
     }, {
@@ -2888,6 +2878,16 @@
       "source1" : "default",
       "source2" : "requests.brief.remaining_renewal_period",
       "source3" : "remainingrenewalperiod"
+    }, {
+      "target" : "&nbsp",
+      "source1" : "default",
+      "source2" : "requests.brief.2",
+      "source3" : "pickuplocationname"
+    }, {
+      "target" : "&nbsp",
+      "source1" : "default",
+      "source2" : "requests.brief.1",
+      "source3" : "author"
     } ],
     "My Account Menu Configuration - OvP" : [ {
       "target" : "Yes",
@@ -3207,34 +3207,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
-      "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_recent_scopes"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_qr"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "use_classic_email_template"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_display_snippet"
     }, {
       "target" : "true",
@@ -3255,19 +3227,55 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_qr"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "UseRedirectFromViewSavedSearches"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
       "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
+      "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_rapido_requests_on_top_mode"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "UseRedirectFromViewSavedSearches"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3285,6 +3293,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_barcode_search"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "use_classic_email_template"
@@ -3292,10 +3304,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3313,7 +3321,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_summary_field"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_snippet"
     }, {
@@ -3321,11 +3329,11 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "export_all_records"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_actions_table_is_customized"
     }, {
@@ -3342,14 +3350,10 @@
       "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "nde_enable_places_widget"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
@@ -3357,21 +3361,117 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "UseRedirectFromViewSavedSearches"
-    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "display_CDI_secondary_RT"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_display_summary_field"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_display_snippet"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_menu_links_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_rapido_requests_on_top_mode"
     }, {
       "target" : "false",
-      "source1" : "01NYU_TNS:TNSNDE",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_show_times_cited"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "enable_ai_insights_links"
     }, {
       "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
+      "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "UseRedirectFromViewSavedSearches"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
@@ -3425,14 +3525,6 @@
       "source1" : "01NYU_TNS:NSJD",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "nde_export_actions_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "use_normalized_cdi_subjects"
-    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_display_summary_field"
@@ -3448,6 +3540,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS",
@@ -3471,7 +3567,11 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS_TEST",
-      "source2" : "nde_share_actions_table_is_customized"
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS_TEST",
@@ -3487,7 +3587,7 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS_TEST",
-      "source2" : "nde_export_actions_table_is_customized"
+      "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNS_TEST",
@@ -3793,13 +3893,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "lccn",
-      "source3" : "article",
-      "source4" : "7",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "authorInitials",
       "source3" : "article",
       "source4" : "4",
@@ -3817,6 +3910,13 @@
       "source2" : "issn",
       "source3" : "article",
       "source4" : "6",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "lccn",
+      "source3" : "article",
+      "source4" : "7",
       "source5" : "No"
     }, {
       "target" : "Yes",
@@ -4077,11 +4177,8 @@
       "source5" : "1"
     } ],
     "Nde Export Actions" : [ {
-      "target" : "Mendeley",
-      "source1" : "7"
-    }, {
-      "target" : "Excel",
-      "source1" : "8"
+      "target" : "Print",
+      "source1" : "1"
     }, {
       "target" : "RefWorks",
       "source1" : "2"
@@ -4098,18 +4195,16 @@
       "target" : "BibTeXPushTo",
       "source1" : "6"
     }, {
+      "target" : "Mendeley",
+      "source1" : "7"
+    }, {
+      "target" : "Excel",
+      "source1" : "8"
+    }, {
       "target" : "Leganto",
       "source1" : "9"
-    }, {
-      "target" : "Print",
-      "source1" : "1"
     } ],
     "Controlled Digital Lending Request Detailed Display" : [ {
-      "target" : "requester_id",
-      "source1" : "requester_id",
-      "source2" : "15",
-      "source3" : "default"
-    }, {
       "target" : "request_type",
       "source1" : "request_type",
       "source2" : "1",
@@ -4158,26 +4253,6 @@
       "target" : "pickup_location_name",
       "source1" : "pickup_location_name",
       "source2" : "10",
-      "source3" : "default"
-    }, {
-      "target" : "return_location",
-      "source1" : "return_location",
-      "source2" : "11",
-      "source3" : "default"
-    }, {
-      "target" : "delivery_method",
-      "source1" : "delivery_method",
-      "source2" : "12",
-      "source3" : "default"
-    }, {
-      "target" : "patron_note_1",
-      "source1" : "patron_note_1",
-      "source2" : "16",
-      "source3" : "default"
-    }, {
-      "target" : "patron_note_2",
-      "source1" : "patron_note_2",
-      "source2" : "17",
       "source3" : "default"
     }, {
       "target" : "item_description",
@@ -4248,6 +4323,31 @@
       "target" : "remaining_renewal_period",
       "source1" : "remaining_renewal_period",
       "source2" : "41",
+      "source3" : "default"
+    }, {
+      "target" : "return_location",
+      "source1" : "return_location",
+      "source2" : "11",
+      "source3" : "default"
+    }, {
+      "target" : "delivery_method",
+      "source1" : "delivery_method",
+      "source2" : "12",
+      "source3" : "default"
+    }, {
+      "target" : "requester_id",
+      "source1" : "requester_id",
+      "source2" : "15",
+      "source3" : "default"
+    }, {
+      "target" : "patron_note_1",
+      "source1" : "patron_note_1",
+      "source2" : "16",
+      "source3" : "default"
+    }, {
+      "target" : "patron_note_2",
+      "source1" : "patron_note_2",
+      "source2" : "17",
       "source3" : "default"
     } ],
     "Digitization Optional Request Parameters" : [ {
@@ -4432,6 +4532,9 @@
       "source1" : "4"
     } ],
     "User Area Links" : [ {
+      "target" : "My Library Activity",
+      "source1" : "1"
+    }, {
       "target" : "My favorites",
       "source1" : "2"
     }, {
@@ -4440,9 +4543,6 @@
     }, {
       "target" : "Settings",
       "source1" : "8"
-    }, {
-      "target" : "My Library Activity",
-      "source1" : "1"
     } ],
     "NDE Quick Filters" : [ {
       "target" : "facets.facet.tlevel.online_resources",
@@ -4648,40 +4748,6 @@
       "source3" : "ANY"
     } ],
     "Browse Lists" : [ {
-      "target" : "No",
-      "source1" : "callnumber",
-      "source4" : "default",
-      "source5" : "13",
-      "source6" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "subject.1",
-      "source2" : "author",
-      "source4" : "default",
-      "source5" : "14",
-      "source6" : "true"
-    }, {
-      "target" : "No",
-      "source1" : "subject.2",
-      "source2" : "author",
-      "source4" : "default",
-      "source5" : "15",
-      "source6" : "true"
-    }, {
-      "target" : "No",
-      "source1" : "subject.3",
-      "source2" : "author",
-      "source4" : "default",
-      "source5" : "16",
-      "source6" : "true"
-    }, {
-      "target" : "No",
-      "source1" : "subject.4",
-      "source2" : "author",
-      "source4" : "default",
-      "source5" : "17",
-      "source6" : "true"
-    }, {
       "target" : "Yes",
       "source1" : "author",
       "source2" : "title",
@@ -4738,6 +4804,40 @@
       "source4" : "default",
       "source5" : "9",
       "source6" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "callnumber",
+      "source4" : "default",
+      "source5" : "13",
+      "source6" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "subject.1",
+      "source2" : "author",
+      "source4" : "default",
+      "source5" : "14",
+      "source6" : "true"
+    }, {
+      "target" : "No",
+      "source1" : "subject.2",
+      "source2" : "author",
+      "source4" : "default",
+      "source5" : "15",
+      "source6" : "true"
+    }, {
+      "target" : "No",
+      "source1" : "subject.3",
+      "source2" : "author",
+      "source4" : "default",
+      "source5" : "16",
+      "source6" : "true"
+    }, {
+      "target" : "No",
+      "source1" : "subject.4",
+      "source2" : "author",
+      "source4" : "default",
+      "source5" : "17",
+      "source6" : "true"
     }, {
       "target" : "No",
       "source1" : "subject.5",
@@ -5053,11 +5153,14 @@
       "source1" : "Reviews"
     } ],
     "Nde Share Actions" : [ {
+      "target" : "Permalink",
+      "source1" : "2"
+    }, {
       "target" : "Email",
       "source1" : "1"
     }, {
-      "target" : "Permalink",
-      "source1" : "2"
+      "target" : "QR",
+      "source1" : "7"
     }, {
       "target" : "Whatsapp",
       "source1" : "3"
@@ -5070,9 +5173,6 @@
     }, {
       "target" : "LinkedIn",
       "source1" : "6"
-    }, {
-      "target" : "QR",
-      "source1" : "7"
     } ],
     "Items Brief Display" : [ {
       "target" : "&nbsp;",
@@ -5274,36 +5374,6 @@
       "source2" : "organizationMessage"
     } ],
     "Acquisition Request Detailed Display" : [ {
-      "target" : "request_title",
-      "source1" : "request_title",
-      "source2" : "6",
-      "source3" : "default"
-    }, {
-      "target" : "request_pages",
-      "source1" : "request_pages",
-      "source2" : "7",
-      "source3" : "default"
-    }, {
-      "target" : "order_number",
-      "source1" : "order_number",
-      "source2" : "8",
-      "source3" : "default"
-    }, {
-      "target" : "last_status_date",
-      "source1" : "last_status_date",
-      "source2" : "10",
-      "source3" : "default"
-    }, {
-      "target" : "library_note",
-      "source1" : "library_note",
-      "source2" : "11",
-      "source3" : "default"
-    }, {
-      "target" : "request_status",
-      "source1" : "request_status",
-      "source2" : "9",
-      "source3" : "default"
-    }, {
       "target" : "request_type",
       "source1" : "request_type",
       "source2" : "1",
@@ -5328,12 +5398,67 @@
       "source1" : "imprint",
       "source2" : "5",
       "source3" : "default"
+    }, {
+      "target" : "request_title",
+      "source1" : "request_title",
+      "source2" : "6",
+      "source3" : "default"
+    }, {
+      "target" : "request_pages",
+      "source1" : "request_pages",
+      "source2" : "7",
+      "source3" : "default"
+    }, {
+      "target" : "order_number",
+      "source1" : "order_number",
+      "source2" : "8",
+      "source3" : "default"
+    }, {
+      "target" : "request_status",
+      "source1" : "request_status",
+      "source2" : "9",
+      "source3" : "default"
+    }, {
+      "target" : "last_status_date",
+      "source1" : "last_status_date",
+      "source2" : "10",
+      "source3" : "default"
+    }, {
+      "target" : "library_note",
+      "source1" : "library_note",
+      "source2" : "11",
+      "source3" : "default"
     } ],
     "primo_central_institutions_unique_ids" : [ {
       "target" : "VOLCANO",
       "source1" : "01NYU.01NYU_TNS.PPRD"
     } ],
     "Fines Detailed Display" : [ {
+      "target" : "secondary_location_name",
+      "source1" : "secondary_location_name",
+      "source2" : "19",
+      "source3" : "default"
+    }, {
+      "target" : "call_number",
+      "source1" : "call_number",
+      "source2" : "20",
+      "source3" : "default"
+    }, {
+      "target" : "type",
+      "source1" : "type",
+      "source2" : "1",
+      "source3" : "default"
+    }, {
+      "target" : "author",
+      "source1" : "author",
+      "source2" : "2",
+      "source3" : "default"
+    }, {
+      "target" : "title",
+      "source1" : "title",
+      "source2" : "3",
+      "source3" : "default"
+    }, {
       "target" : "year",
       "source1" : "year",
       "source2" : "4",
@@ -5357,11 +5482,6 @@
       "target" : "fine_date",
       "source1" : "fine_date",
       "source2" : "8",
-      "source3" : "default"
-    }, {
-      "target" : "title",
-      "source1" : "title",
-      "source2" : "3",
       "source3" : "default"
     }, {
       "target" : "fine_main_location",
@@ -5399,16 +5519,6 @@
       "source2" : "17",
       "source3" : "default"
     }, {
-      "target" : "secondary_location_name",
-      "source1" : "secondary_location_name",
-      "source2" : "19",
-      "source3" : "default"
-    }, {
-      "target" : "call_number",
-      "source1" : "call_number",
-      "source2" : "20",
-      "source3" : "default"
-    }, {
       "target" : "call_number_2",
       "source1" : "call_number_2",
       "source2" : "21",
@@ -5432,16 +5542,6 @@
       "target" : "fine_id",
       "source1" : "fine_id",
       "source2" : "26",
-      "source3" : "default"
-    }, {
-      "target" : "type",
-      "source1" : "type",
-      "source2" : "1",
-      "source3" : "default"
-    }, {
-      "target" : "author",
-      "source1" : "author",
-      "source2" : "2",
       "source3" : "default"
     } ],
     "ILL Request Detailed Display" : [ {
@@ -5670,19 +5770,15 @@
     "Fines Brief Display" : [ {
       "target" : "&nbsp",
       "source1" : "default",
-      "source2" : "fines.brief.1",
-      "source3" : "title"
+      "source2" : "fines.brief.2",
+      "source3" : "finedate"
     }, {
       "target" : "&nbsp",
       "source1" : "default",
-      "source2" : "fines.brief.2",
-      "source3" : "finedate"
+      "source2" : "fines.brief.1",
+      "source3" : "title"
     } ],
     "Hold Optional Request Parameters" : [ {
-      "target" : "No",
-      "source1" : "default",
-      "source2" : "rush_request"
-    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "last_interest_date"
@@ -5706,6 +5802,10 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "patron_note_2"
+    }, {
+      "target" : "No",
+      "source1" : "default",
+      "source2" : "rush_request"
     } ],
     "Location Item content" : [ {
       "target" : "5",
@@ -5720,10 +5820,6 @@
       "source1" : "default",
       "source2" : "item.global.dataitem.5"
     }, {
-      "target" : "itemmaterial",
-      "source1" : "default",
-      "source2" : "item.global.dataitem.3"
-    }, {
       "target" : "callnumber2",
       "source1" : "default",
       "source2" : "item.global.dataitem.1"
@@ -5731,6 +5827,10 @@
       "target" : "noteopac",
       "source1" : "default",
       "source2" : "item.global.dataitem.2"
+    }, {
+      "target" : "itemmaterial",
+      "source1" : "default",
+      "source2" : "item.global.dataitem.3"
     } ],
     "Short Loan and Booking Request Detailed Display" : [ {
       "target" : "request_type",
@@ -6020,7 +6120,7 @@
       "source2" : "physicalLevelOfService",
       "source5" : "false"
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "default",
       "source2" : "dueDate",
       "source5" : "false"
@@ -6117,46 +6217,6 @@
       "source1" : "true"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
-      "target" : "REQUEST_CREATED_BOR",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "READY_TO_SEND",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "PENDING_APPROVAL",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "OVERDUE_ITEM",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "LOCATE_FAILED",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "REJECTED",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "CANCEL_NOT_ACCEPTED",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "CANCEL_REPLY",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "LOCAL_HOLDING",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
-      "target" : "LOCATE_IN_PROCESS",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
       "target" : "REACTIVATED",
       "source1" : "Requested",
       "source2" : "REQUESTED"
@@ -6188,6 +6248,10 @@
       "target" : "LOANED",
       "source2" : "CHECKED_OUT"
     }, {
+      "target" : "SHIPPED_PHYSICALLY",
+      "source1" : "Shipped",
+      "source2" : "SHIPPED"
+    }, {
       "target" : "RENEW_REQUESTED",
       "source1" : "Received",
       "source2" : "RECEIVED"
@@ -6195,10 +6259,6 @@
       "target" : "RENEWED",
       "source1" : "Received",
       "source2" : "RECEIVED"
-    }, {
-      "target" : "SHIPPED_PHYSICALLY",
-      "source1" : "Shipped",
-      "source2" : "SHIPPED"
     }, {
       "target" : "RENEW_NOT_ACCEPTED",
       "source1" : "Received",
@@ -6239,6 +6299,46 @@
       "target" : "EXTERNAL_FILE_URL_DELIVERED",
       "source1" : "Sent",
       "source2" : "SENT"
+    }, {
+      "target" : "REQUEST_CREATED_BOR",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "READY_TO_SEND",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "PENDING_APPROVAL",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "OVERDUE_ITEM",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "LOCATE_FAILED",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "REJECTED",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "CANCEL_NOT_ACCEPTED",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "CANCEL_REPLY",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "LOCAL_HOLDING",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "LOCATE_IN_PROCESS",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
     } ],
     "Citation styles" : [ {
       "target" : "modern-language-association-7th-edition",
@@ -6281,11 +6381,6 @@
       "source2" : "patron_note_1"
     } ],
     "Hold/Recall Request Detailed Display" : [ {
-      "target" : "end_hold_date",
-      "source1" : "end_hold_date",
-      "source2" : "7",
-      "source3" : "default"
-    }, {
       "target" : "request_type",
       "source1" : "request_type",
       "source2" : "1",
@@ -6319,6 +6414,11 @@
       "target" : "hold_date",
       "source1" : "hold_date",
       "source2" : "6",
+      "source3" : "default"
+    }, {
+      "target" : "end_hold_date",
+      "source1" : "end_hold_date",
+      "source2" : "7",
       "source3" : "default"
     }, {
       "target" : "pickup_location_name",
