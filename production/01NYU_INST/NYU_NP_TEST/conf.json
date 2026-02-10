@@ -1,4 +1,4 @@
-{"beaconO22":"508",
+{"beaconO22":"840",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -15,7 +15,7 @@
       "is-org-fields-set" : true,
       "institution-code" : "01NYU_INST",
       "institution-name" : "New York University - New York",
-      "last-modified-time-stamp" : "Nov 20, 2025 17:49:17 PM",
+      "last-modified-time-stamp" : "Feb 09, 2026 18:11:08 PM",
       "updated-by" : "exl_impl",
       "newspapers-search" : false
     },
@@ -2186,10 +2186,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "enableDidYouMean"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_display_summary_field"
     }, {
       "target" : "false",
@@ -2199,6 +2195,10 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
