@@ -1,4 +1,4 @@
-{"beaconO22":"554",
+{"beaconO22":"538",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -3261,6 +3261,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_natural_language_search"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_similar_image_browse"
+    }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "UseRedirectFromViewSavedSearches"
@@ -3317,11 +3321,11 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_summary_field"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_snippet"
     }, {
@@ -3333,15 +3337,15 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_actions_table_is_customized"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_share_actions_table_is_customized"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_export_actions_table_is_customized"
     }, {
@@ -3353,7 +3357,7 @@
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enableDidYouMean"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
