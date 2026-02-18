@@ -1,4 +1,4 @@
-{"beaconO22":"1851",
+{"beaconO22":"2420",
   "primo-view" : {
     "available-tabs" : [ "default" ],
     "institution" : {
@@ -1597,6 +1597,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_ADDON",
+      "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_ADDON",
       "source2" : "export_all_records"
     }, {
       "target" : "true",
@@ -1606,10 +1610,6 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_ADDON",
       "source2" : "nde_share_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_ADDON",
-      "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_ADDON",
@@ -1825,6 +1825,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL_DEV",
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
@@ -1834,10 +1838,6 @@
       "target" : "false",
       "source1" : "01NYU_INST:HIDVL_DEV",
       "source2" : "nde_display_fields_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:HIDVL_DEV",
-      "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:HIDVL_DEV",
@@ -1938,18 +1938,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_NDE",
       "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_NDE",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_NDE",
-      "source2" : "use_classic_email_template"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_NDE",
-      "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_LAB",
@@ -2109,15 +2097,27 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEF",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_NDE",
+      "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_NDE",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_NDE",
+      "source2" : "focus_on_search_input"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEF",
       "source2" : "enable_recent_scopes"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEF",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_DEF",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEF",
@@ -2245,6 +2245,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_TEST_NDE",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_TEST_NDE",
       "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "true",
@@ -2254,10 +2258,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_TEST_NDE",
       "source2" : "nde_show_times_cited"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_TEST_NDE",
-      "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_TEST_NDE",
@@ -2386,24 +2386,24 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "nde_display_summary_field"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "nde_display_fields_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
+      "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "nde_display_summary_field"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_INST:NYU_TEST_NDE",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
@@ -2517,6 +2517,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:HIDVL_DEV",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:HIDVL_DEV",
       "source2" : "enable_qr"
     }, {
       "target" : "false",
@@ -2526,10 +2530,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:HIDVL_DEV",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_INST:HIDVL_DEV",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_INST:HIDVL_DEV",
@@ -2590,10 +2590,6 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_NP_TEST",
       "source2" : "display_CDI_secondary_RT"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_NDE_ADDON",
-      "source2" : "nde_menu_links_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DAI",
@@ -2786,6 +2782,10 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU",
       "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_NDE_ADDON",
+      "source2" : "nde_menu_links_table_is_customized"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -5473,8 +5473,8 @@
       "target" : "harvard-kings-college-london",
       "source1" : "5"
     }, {
-      "target" : "turabian-fullnote-bibliography-8th-edition",
-      "source1" : "4"
+      "target" : "chicago-notes-bibliography",
+      "source1" : "3"
     } ],
     "DEI Term Configuration" : [ ],
     "Export RIS encodings" : [ {
