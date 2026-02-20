@@ -1,4 +1,4 @@
-{"beaconO22":"623",
+{"beaconO22":"823",
   "primo-view" : {
     "available-tabs" : [ "HIDVL" ],
     "institution" : {
@@ -5019,8 +5019,8 @@
       "target" : "harvard-kings-college-london",
       "source1" : "5"
     }, {
-      "target" : "turabian-fullnote-bibliography-8th-edition",
-      "source1" : "4"
+      "target" : "chicago-notes-bibliography",
+      "source1" : "3"
     } ],
     "DEI Term Configuration" : [ ],
     "Export RIS encodings" : [ {

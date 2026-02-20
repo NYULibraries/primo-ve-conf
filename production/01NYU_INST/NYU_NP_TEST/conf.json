@@ -1,4 +1,4 @@
-{"beaconO22":"648",
+{"beaconO22":"654",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -5224,8 +5224,8 @@
       "target" : "harvard-kings-college-london",
       "source1" : "5"
     }, {
-      "target" : "turabian-fullnote-bibliography-8th-edition",
-      "source1" : "4"
+      "target" : "chicago-notes-bibliography",
+      "source1" : "3"
     } ],
     "DEI Term Configuration" : [ ],
     "Export RIS encodings" : [ {

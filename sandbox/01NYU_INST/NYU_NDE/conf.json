@@ -1,4 +1,4 @@
-{"beaconO22":"3",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -5871,7 +5871,11 @@
     "additionalLocationIcons" : { },
     "resourceIcons" : { },
     "viewSvg" : "custom/01NYU_INST-NYU_NDE/assets/icons/custom_icons.svg",
-    "homepage" : { }
+    "homepage" : {
+      "html" : {
+        "en" : "custom/01NYU_INST-NYU_NDE/assets/homepage/homepage_en.html"
+      }
+    }
   },
   "fieldsWithUseTranslation" : [ ],
   "advancedSearchConfiguration" : {

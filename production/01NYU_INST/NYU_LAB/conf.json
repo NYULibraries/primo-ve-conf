@@ -1,4 +1,4 @@
-{"beaconO22":"583",
+{"beaconO22":"687",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2985,14 +2985,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "language",
-      "source3" : "delivery",
-      "source4" : "19",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -3012,6 +3004,14 @@
       "source2" : "copyrights",
       "source3" : "delivery",
       "source4" : "18",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "language",
+      "source3" : "delivery",
+      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -5230,8 +5230,8 @@
       "target" : "harvard-kings-college-london",
       "source1" : "5"
     }, {
-      "target" : "turabian-fullnote-bibliography-8th-edition",
-      "source1" : "4"
+      "target" : "chicago-notes-bibliography",
+      "source1" : "3"
     } ],
     "DEI Term Configuration" : [ ],
     "Export RIS encodings" : [ {
