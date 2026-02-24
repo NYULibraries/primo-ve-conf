@@ -1,4 +1,4 @@
-{"beaconO22":"949",
+{"beaconO22":"971",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork" ],
     "institution" : {
@@ -67,6 +67,7 @@
     },
     "auto-complete-enabled-map" : {
       "external" : false,
+      "FAO" : false,
       "jsearch_scope" : false,
       "DiscoveryNetwork" : false
     },
@@ -79,6 +80,13 @@
       "contains-central-index-scope" : false
     }, {
       "scope-id" : "external",
+      "locations" : "Local",
+      "types" : "local",
+      "tab" : "DiscoveryNetwork",
+      "tab-id-for-scope-matching" : "DiscoveryNetwork",
+      "contains-central-index-scope" : false
+    }, {
+      "scope-id" : "FAO",
       "locations" : "Local",
       "types" : "local",
       "tab" : "DiscoveryNetwork",
@@ -5072,6 +5080,7 @@
   } ],
   "scopes-context-map" : {
     "external" : "L",
+    "FAO" : "L",
     "jsearch_scope" : "L",
     "DiscoveryNetwork" : "L"
   },

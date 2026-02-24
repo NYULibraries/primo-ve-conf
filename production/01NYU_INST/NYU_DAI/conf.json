@@ -1,4 +1,4 @@
-{"beaconO22":"732",
+{"beaconO22":"639",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot", "CentralIndex", "WorldCat" ],
     "institution" : {
@@ -79,6 +79,7 @@
       "CI_NYU_CONSORTIA" : true,
       "CentralIndex" : true,
       "NYUBAFC" : true,
+      "FAO" : true,
       "WorldCat" : true,
       "jsearch_scope" : false,
       "ARTICLES" : true,
@@ -115,6 +116,13 @@
       "contains-central-index-scope" : false
     }, {
       "scope-id" : "NYUSC",
+      "locations" : "Local",
+      "types" : "local",
+      "tab" : "Unified_Slot",
+      "tab-id-for-scope-matching" : "Unified_Slot",
+      "contains-central-index-scope" : false
+    }, {
+      "scope-id" : "FAO",
       "locations" : "Local",
       "types" : "local",
       "tab" : "Unified_Slot",
@@ -6342,6 +6350,7 @@
     "CI_NYU_CONSORTIA" : "B",
     "CentralIndex" : "C",
     "NYUBAFC" : "L",
+    "FAO" : "L",
     "WorldCat" : "C",
     "jsearch_scope" : "L",
     "ARTICLES" : "C",

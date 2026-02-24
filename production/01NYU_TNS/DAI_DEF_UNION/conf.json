@@ -1,4 +1,4 @@
-{"beaconO22":"804",
+{"beaconO22":"620",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -68,6 +68,7 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
+      "FAO_UCV" : false,
       "DiscoveryNetwork_UCV" : false,
       "external_UCV" : false,
       "jsearch_scope_UCV" : false
@@ -81,6 +82,13 @@
       "contains-central-index-scope" : false
     }, {
       "scope-id" : "external_UCV",
+      "locations" : "Local",
+      "types" : "local",
+      "tab" : "DiscoveryNetwork_UCV",
+      "tab-id-for-scope-matching" : "DiscoveryNetwork_UCV",
+      "contains-central-index-scope" : false
+    }, {
+      "scope-id" : "FAO_UCV",
       "locations" : "Local",
       "types" : "local",
       "tab" : "DiscoveryNetwork_UCV",

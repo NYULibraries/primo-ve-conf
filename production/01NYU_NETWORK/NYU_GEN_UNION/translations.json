@@ -1,4 +1,4 @@
-{"beaconO22":"1533",
+{"beaconO22":"1482",
   "search-advanced.mediaType.option.transcripts" : "Transcripts",
   "search-advanced.mediaType.option.dataset_general" : "Datasets",
   "search-advanced.mediaType.option.equipment" : "Equipment",
@@ -7147,6 +7147,7 @@
   "scopes.option.CentralIndex" : "Articles and more",
   "scopes.option.ResearchHasInventory" : "Outputs With Inventory",
   "scopes.option.ResearchNonETD" : "Faculty Output",
+  "scopes.option.FAO" : "FAO",
   "label.advanced_search" : "Advanced Search",
   "label.primo_research_assistant" : "Discovery Research Assistant",
   "label.simple_search" : "Simple Search",

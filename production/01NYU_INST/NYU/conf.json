@@ -1194,6 +1194,11 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
+      "target" : "Yes",
+      "source1" : "default",
+      "source2" : "chapterArticleTitle",
+      "source5" : "false"
+    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
@@ -1207,11 +1212,6 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "calculateQueueButton",
-      "source5" : "false"
-    }, {
-      "target" : "Yes",
-      "source1" : "default",
-      "source2" : "chapterArticleTitle",
       "source5" : "false"
     }, {
       "target" : "Yes",
