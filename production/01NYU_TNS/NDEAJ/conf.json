@@ -1,4 +1,4 @@
-{"beaconO22":"719",
+{"beaconO22":"567",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CentralIndex", "CourseReserves" ],
     "institution" : {
@@ -2686,10 +2686,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enableDidYouMean"
     }, {
       "target" : "false",
@@ -2699,6 +2695,10 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -2740,7 +2740,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "export_all_records"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
@@ -5745,9 +5745,6 @@
     }, {
       "target" : "apa",
       "source1" : "2"
-    }, {
-      "target" : "turabian-fullnote-bibliography-8th-edition",
-      "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"

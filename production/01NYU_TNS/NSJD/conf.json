@@ -1,4 +1,4 @@
-{"beaconO22":"1119",
+{"beaconO22":"749",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -3764,7 +3764,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "export_all_records"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
@@ -6781,9 +6781,6 @@
     }, {
       "target" : "apa",
       "source1" : "2"
-    }, {
-      "target" : "turabian-fullnote-bibliography-8th-edition",
-      "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"

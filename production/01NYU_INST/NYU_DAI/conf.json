@@ -1,4 +1,4 @@
-{"beaconO22":"911",
+{"beaconO22":"714",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot", "CentralIndex", "WorldCat" ],
     "institution" : {
@@ -2073,11 +2073,6 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
-      "target" : "Yes",
-      "source1" : "default",
-      "source2" : "chapterArticleTitle",
-      "source5" : "false"
-    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
@@ -2091,6 +2086,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "calculateQueueButton",
+      "source5" : "false"
+    }, {
+      "target" : "Yes",
+      "source1" : "default",
+      "source2" : "chapterArticleTitle",
       "source5" : "false"
     }, {
       "target" : "Yes",

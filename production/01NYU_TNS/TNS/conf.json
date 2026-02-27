@@ -2741,7 +2741,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "export_all_records"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
@@ -5591,11 +5591,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
-      "source1" : "true"
-    }, {
       "target" : "enableDirectLinking",
       "source1" : "NO"
+    }, {
+      "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
+      "source1" : "true"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "LOCATE_FAILED",
@@ -5727,9 +5727,6 @@
     }, {
       "target" : "apa",
       "source1" : "2"
-    }, {
-      "target" : "turabian-fullnote-bibliography-8th-edition",
-      "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"

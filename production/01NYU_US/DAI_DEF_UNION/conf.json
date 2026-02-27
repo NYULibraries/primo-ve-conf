@@ -1,4 +1,4 @@
-{"beaconO22":"900",
+{"beaconO22":"848",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1179,7 +1179,7 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
-      "target" : "Yes",
+      "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
       "source5" : "false"

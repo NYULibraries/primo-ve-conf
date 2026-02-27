@@ -1,4 +1,4 @@
-{"beaconO22":"1684",
+{"beaconO22":"1607",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -68,8 +68,8 @@
       "displayVoiceSearch" : true,
       "displayLibraryNameLocationFacet" : false,
       "virtualBrowseType" : "bib",
-      "editMyLibraryCard" : true,
-      "mayAlsoBeHeldByEnabled" : true
+      "editMyLibraryCard" : false,
+      "mayAlsoBeHeldByEnabled" : false
     },
     "auto-complete-enabled-map" : {
       "jsearch_scope" : false,
@@ -2610,7 +2610,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "export_all_records"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
@@ -3816,6 +3816,9 @@
     }, {
       "target" : "facets.facet.tlevel.peer_reviewed",
       "source1" : "3"
+    }, {
+      "target" : "facets.facet.tlevel.open_access",
+      "source1" : "4"
     } ],
     "Loans Detailed Display" : [ {
       "target" : "year",
@@ -5578,9 +5581,6 @@
     }, {
       "target" : "apa",
       "source1" : "2"
-    }, {
-      "target" : "turabian-fullnote-bibliography-8th-edition",
-      "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"
