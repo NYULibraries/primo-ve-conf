@@ -1,4 +1,4 @@
-{"beaconO22":"1191",
+{"beaconO22":"1377",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -866,8 +866,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "manualAlternativeEmailRS" : false,
+    "ndenumberOfEmailSignedInUserAllowToSend" : 10,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -1863,6 +1863,10 @@
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_EXCLUDE_HOLLIS_LOC",
       "source2" : "enable_recent_scopes"
     }, {
@@ -1901,6 +1905,26 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_EXCLUDE_HOLLIS_LOC",
       "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "enable_similar_image_browse"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",

@@ -1,4 +1,4 @@
-{"beaconO22":"1844",
+{"beaconO22":"1134",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -2528,8 +2528,8 @@
     "FE UI - Scrolling Threshold" : "10",
     "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
-    "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
+    "manualAlternativeEmailRS" : false,
     "showICPLicenseFooter" : "false",
     "GATHER_SEARCH_STAT" : "N",
     "GATHER_PAGE_STAT" : "Y",
@@ -3703,6 +3703,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "UseRedirectFromViewSavedSearches"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "use_classic_email_template"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "nde_menu_links_table_is_customized"
@@ -3730,10 +3734,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "use_classic_email_template"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3805,6 +3805,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "enableDidYouMean"
     }, {
       "target" : "false",
@@ -3814,10 +3818,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:NDEAJ",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:NDEAJ",
