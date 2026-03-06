@@ -64,28 +64,17 @@ var app = angular.module('viewCustom', ['angularLoad']);
   app.component('prmFavoritesToolBarAfter', {
     bindings: { parentCtrl: '<' },
     template: `
-              <div ng-if="!$ctrl.isSignedIn" layout="row" layout-align="center center" class="layout-align-center-center layout-row">
-                  <md-card flex="80" class="_md md-primoExplore-theme flex-80">
-                  <md-card-title>
-                      <md-card-title-text layout-align="center center" class="layout-align-center-center"><span class="md-headline">
-                      Please sign in using the link in the upper right to view your favorite resources!</span>
-          
-                      </md-card-title-text>
-                      <md-card-title-media>
-                      <div class="md-media-sm card-media"></div>
-                      </md-card-title-media>
-                  </md-card-title>
-                  </md-card>
-              </div>
-              <div layout="row" layout-align="center center">
-              <div flex="80" style="margin-bottom:21px;">
+              
+              <div layout="row">
+              <div flex="0" flex-md="0" flex-lg="13" flex-xl="23" ng-class="{'flex-lgPlus-15': $ctrl.mediaQueries.lgPlus}" class="flex-xl-20 flex-md-0 flex-lg-10 flex-0"></div>
+              <div flex="70" style="padding:1em;margin-bottom:14px;margin-top:.25em;font-size:1.1em;">
            
-                             <p style="font-size:1.1em;margin-top:.75em;">
-                             To add to your Favorites list, search the catalog for your favorite resources and look for the Pin icon: <svg id="prm_pin_cache229" width="21" height="21" viewBox="0 0 24 24" y="0" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                             <p style="margin:0">
+                             To pin items to your Favorites list, please sign in using the link in the upper right. 
+                             Then, search the catalog for your favorite resources and look for the pin <svg id="prm_pin_cache229" style="vertical-align:middle;" width="21" height="21" viewBox="0 0 24 24" y="0" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
         <path d="M16,12V4H17V2H7V4H8V12L6,14V16H11.2V22H12.8V16H18V14L16,12Z"></path>
     </svg>
-                            <br/><br/>
-                            Any pinned items will automatically appear here, and on the HSL homepage.</span>
+                            icon. Any pinned items will automatically appear here, and on the HSL homepage.</span>
                             
                          </md-card-title>
                      </div>
