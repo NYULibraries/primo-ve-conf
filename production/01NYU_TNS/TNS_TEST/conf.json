@@ -1,4 +1,4 @@
-{"beaconO22":"1279",
+{"beaconO22":"1105",
   "primo-view" : {
     "available-tabs" : [ "CI_R", "SpecColl", "CourseReserves" ],
     "institution" : {
@@ -2590,6 +2590,10 @@
       "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
+      "source1" : "01NYU_TNS:TNS",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_ai_insights_links"
     }, {
@@ -2604,14 +2608,6 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "UseRedirectFromViewSavedSearches"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "focus_on_search_input"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_TNS:TNS",
-      "source2" : "enable_highlight_the_record_you_came_from"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -2644,6 +2640,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "use_classic_email_template"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -2781,10 +2781,6 @@
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:NDEAJ",
-      "source2" : "nde_rapido_requests_on_top_mode"
-    }, {
       "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_export_actions_table_is_customized"
@@ -2796,6 +2792,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_rapido_requests_on_top_mode"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
