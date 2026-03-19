@@ -1,4 +1,4 @@
-{"beaconO22":"3",
+{"beaconO22":"2620",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot", "CentralIndex", "WorldCat" ],
     "institution" : {
@@ -6177,62 +6177,62 @@
     "Full Record Services" : [ {
       "target" : "prima.services.searchWithinJournall",
       "source1" : "searchWithinJournal",
-      "source2" : "1",
+      "source2" : "0",
       "source3" : "false"
     }, {
       "target" : "prima.services.quickaccess",
       "source1" : "quickAccess",
-      "source2" : "2",
+      "source2" : "0",
       "source3" : "true"
     }, {
       "target" : "prima.services.getit_link1",
       "source1" : "getit_link1",
-      "source2" : "2",
+      "source2" : "0",
       "source3" : "true"
-    }, {
-      "target" : "prima.services.rapidoOffer",
-      "source1" : "rapidoOffer",
-      "source2" : "3",
-      "source3" : "false"
     }, {
       "target" : "prima.services.details",
       "source1" : "details",
-      "source2" : "4",
+      "source2" : "0",
       "source3" : "true"
     }, {
       "target" : "prima.services.tags",
       "source1" : "tags",
-      "source2" : "6",
+      "source2" : "0",
       "source3" : "false"
     }, {
       "target" : "prima.services.browseshelf",
       "source1" : "browseshelf",
-      "source2" : "7",
+      "source2" : "0",
       "source3" : "true"
     }, {
       "target" : "prima.services.links",
       "source1" : "links",
-      "source2" : "8",
+      "source2" : "0",
       "source3" : "false"
     }, {
       "target" : "prima.services.citation_trail_and_times_cited",
       "source1" : "citationTrailAndTimesCited",
-      "source2" : "9",
+      "source2" : "0",
       "source3" : "false"
     }, {
       "target" : "prima.services.more.from.the.same",
       "source1" : "moreFromTheSame",
-      "source2" : "10",
+      "source2" : "0",
       "source3" : "false"
     }, {
       "target" : "prima.services.mayAlsoBeFoundAt",
       "source1" : "mayAlsoBeFoundAt",
-      "source2" : "11",
+      "source2" : "0",
+      "source3" : "false"
+    }, {
+      "target" : "prima.services.rapidoOffer",
+      "source1" : "rapidoOffer",
+      "source2" : "0",
       "source3" : "false"
     }, {
       "target" : "prima.services.requests",
       "source1" : "requests",
-      "source2" : "12",
+      "source2" : "0",
       "source3" : "true"
     } ],
     "Rapido Request Optional Parameters" : [ {
