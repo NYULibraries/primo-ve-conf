@@ -1,4 +1,4 @@
-{"beaconO22":"1116",
+{"beaconO22":"1478",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -4108,7 +4108,7 @@
       "source3" : "ANY"
     }, {
       "target" : "contributor",
-      "source1" : "creator",
+      "source1" : "any",
       "source2" : "exact",
       "source3" : "ANY"
     }, {

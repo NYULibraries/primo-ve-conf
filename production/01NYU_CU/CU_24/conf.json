@@ -1,4 +1,4 @@
-{"beaconO22":"1266",
+{"beaconO22":"1515",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -4073,7 +4073,7 @@
       "source3" : "ANY"
     }, {
       "target" : "contributor",
-      "source1" : "creator",
+      "source1" : "any",
       "source2" : "exact",
       "source3" : "ANY"
     }, {
