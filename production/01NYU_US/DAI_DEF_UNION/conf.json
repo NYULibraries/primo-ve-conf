@@ -1,4 +1,4 @@
-{"beaconO22":"1189",
+{"beaconO22":"1451",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2194,13 +2194,6 @@
       "source4" : "11",
       "source5" : "No"
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "part",
-      "source3" : "book",
-      "source4" : "15",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "publicationDate",
@@ -2220,6 +2213,13 @@
       "source2" : "volume",
       "source3" : "book",
       "source4" : "14",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "part",
+      "source3" : "book",
+      "source4" : "15",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2404,13 +2404,6 @@
       "source4" : "21",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "specificChapterPages",
-      "source3" : "chapter",
-      "source4" : "1",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "itemAvailability",
@@ -2429,6 +2422,13 @@
       "source1" : "both",
       "source2" : "owner",
       "source3" : "owner",
+      "source4" : "1",
+      "source5" : "No"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "specificChapterPages",
+      "source3" : "chapter",
       "source4" : "1",
       "source5" : "No"
     }, {
