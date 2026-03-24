@@ -1,4 +1,4 @@
-{"beaconO22":"1884",
+{"beaconO22":"1753",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -6663,11 +6663,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinking",
-      "source1" : "NO"
-    }, {
       "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
       "source1" : "true"
+    }, {
+      "target" : "enableDirectLinking",
+      "source1" : "NO"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",

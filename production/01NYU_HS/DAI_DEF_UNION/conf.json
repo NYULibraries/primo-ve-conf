@@ -1,4 +1,4 @@
-{"beaconO22":"1142",
+{"beaconO22":"3004",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1928,11 +1928,11 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
-      "source2" : "focus_on_search_input"
+      "source2" : "enable_barcode_search"
     }, {
-      "target" : "true",
+      "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
-      "source2" : "enable_saveEshelf_message"
+      "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
@@ -1946,9 +1946,9 @@
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
-      "source2" : "enable_barcode_search"
+      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
@@ -2434,6 +2434,10 @@
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "use_classic_email_template"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "allow_direct_login_from_other_institutions"
+    }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "enable_saveEshelf_message"
@@ -2445,10 +2449,6 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_FAVORITES",
-      "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
@@ -2512,6 +2512,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV",
+      "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_DEV",
       "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "false",
@@ -2521,10 +2525,6 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV",
       "source2" : "nde_display_all_requests_in_expand_mode"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_DEV",
-      "source2" : "nde_full_record_services_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
