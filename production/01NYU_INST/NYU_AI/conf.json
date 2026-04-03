@@ -1,4 +1,4 @@
-{"beaconO22":"1181",
+{"beaconO22":"3209",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2205,10 +2205,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
-      "source2" : "enableDidYouMean"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_display_summary_field"
     }, {
       "target" : "false",
@@ -2218,6 +2214,10 @@
       "target" : "false",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "nde_actions_table_is_customized"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_AI",
+      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
@@ -2706,13 +2706,6 @@
       "source5" : "No",
       "source6" : " "
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "additionalAuthor",
-      "source3" : "article",
-      "source4" : "5",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "comment",
@@ -2733,6 +2726,13 @@
       "source2" : "authorInitials",
       "source3" : "article",
       "source4" : "4",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "additionalAuthor",
+      "source3" : "article",
+      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2840,14 +2840,6 @@
       "source4" : "1",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "line1",
-      "source3" : "delivery",
-      "source4" : "4",
-      "source5" : "No",
-      "source6" : " "
-    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "format",
@@ -2869,6 +2861,14 @@
       "source2" : "alternativeLocationAddress",
       "source3" : "delivery",
       "source4" : "3",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "line1",
+      "source3" : "delivery",
+      "source4" : "4",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2898,24 +2898,17 @@
     }, {
       "target" : "No",
       "source1" : "fulnet",
-      "source2" : "preferredPickupLocation",
-      "source3" : "delivery",
-      "source4" : "11",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "formDescription",
-      "source3" : "owner",
-      "source4" : "1",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
       "source2" : "preferredPickupInstitution",
       "source3" : "delivery",
       "source4" : "10",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredPickupLocation",
+      "source3" : "delivery",
+      "source4" : "11",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2944,6 +2937,13 @@
       "source1" : "both",
       "source2" : "citationType",
       "source3" : "type",
+      "source4" : "1",
+      "source5" : "No"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "formDescription",
+      "source3" : "owner",
       "source4" : "1",
       "source5" : "No"
     }, {
@@ -2998,14 +2998,6 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "language",
-      "source3" : "delivery",
-      "source4" : "19",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -3025,6 +3017,14 @@
       "source2" : "copyrights",
       "source3" : "delivery",
       "source4" : "18",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "language",
+      "source3" : "delivery",
+      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {
