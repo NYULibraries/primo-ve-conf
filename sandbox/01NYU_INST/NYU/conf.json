@@ -283,6 +283,18 @@
           "valid" : true,
           "count" : 0,
           "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "lds97",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
             "_string" : "alpha_numeric",
             "_int" : 1
           },
@@ -299,6 +311,18 @@
             "_int" : 1
           },
           "id" : "facet_newrecords",
+          "useTranslations" : false
+        }, {
+          "display" : true,
+          "viewinstsort" : false,
+          "instsort" : false,
+          "valid" : true,
+          "count" : 0,
+          "sort" : {
+            "_string" : "by_size",
+            "_int" : 1
+          },
+          "id" : "lds98",
           "useTranslations" : false
         } ],
         "relatedfacetview" : { },
@@ -496,6 +520,9 @@
         }, {
           "items" : "lds63",
           "displayInViewer" : true
+        }, {
+          "items" : "lds97",
+          "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
           "items" : "heading",
@@ -658,6 +685,9 @@
           "displayInViewer" : true
         }, {
           "items" : "lds63",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds97",
           "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
