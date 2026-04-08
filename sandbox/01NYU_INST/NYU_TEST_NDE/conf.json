@@ -1,4 +1,4 @@
-{"beaconO22":"2132",
+{"beaconO22":"2056",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -5882,7 +5882,7 @@
     "additionalLocationIcons" : { },
     "resourceIcons" : { }
   },
-  "fieldsWithUseTranslation" : [ ],
+  "fieldsWithUseTranslation" : [ "lds97" ],
   "advancedSearchConfiguration" : {
     "Unified_Slot" : {
       "fields" : {

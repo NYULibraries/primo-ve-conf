@@ -1,4 +1,4 @@
-{"beaconO22":"1509",
+{"beaconO22":"3409",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -3268,6 +3268,10 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_similar_image_browse"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "focus_on_search_input"
+    }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "UseRedirectFromViewSavedSearches"
@@ -3303,10 +3307,6 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "use_classic_email_template"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:TNSNDE",
-      "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:TNSNDE",
@@ -3374,6 +3374,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "enable_barcode_search"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "enableDidYouMean"
     }, {
       "target" : "false",
@@ -3383,10 +3387,6 @@
       "target" : "true",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "enable_saveEshelf_message"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:NDEAJ",
-      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:NDEAJ",
@@ -3444,6 +3444,10 @@
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_menu_links_table_is_customized"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_TNS:NDEAJ",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
       "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_export_actions_table_is_customized"
@@ -3455,10 +3459,6 @@
       "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "nde_display_all_requests_in_expand_mode"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_TNS:NDEAJ",
-      "source2" : "nde_rapido_requests_on_top_mode"
     }, {
       "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
@@ -6232,11 +6232,11 @@
       "target" : "disableDirectLinkingForOpenAccess",
       "source1" : "true"
     }, {
-      "target" : "enableDirectLinking",
-      "source1" : "NO"
-    }, {
       "target" : "enableDirectLinkingWhenMultipleServicesAreAvailable",
       "source1" : "true"
+    }, {
+      "target" : "enableDirectLinking",
+      "source1" : "NO"
     } ],
     "Alma To Rapido Request Status Mapping" : [ {
       "target" : "REQUEST_CREATED_BOR",
