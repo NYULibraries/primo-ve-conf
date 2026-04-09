@@ -1,4 +1,4 @@
-{"beaconO22":"4067",
+{"beaconO22":"8612",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -1844,31 +1844,27 @@
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
-      "source1" : "01NYU_US:SH",
+      "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_display_summary_field"
     }, {
       "target" : "false",
-      "source1" : "01NYU_US:SH",
+      "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
-      "source1" : "01NYU_US:SH",
+      "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "true",
-      "source1" : "01NYU_US:DAI_DEF_UNION",
-      "source2" : "nde_display_snippet"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_US:SH_DEV",
+      "source1" : "01NYU_US:SH",
       "source2" : "nde_display_summary_field"
     }, {
       "target" : "false",
-      "source1" : "01NYU_US:SH_DEV",
+      "source1" : "01NYU_US:SH",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
-      "source1" : "01NYU_US:SH_DEV",
+      "source1" : "01NYU_US:SH",
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
@@ -1878,6 +1874,10 @@
       "target" : "true",
       "source1" : "01NYU_US:DAI_DEF_UNION",
       "source2" : "nde_display_summary_field"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:DAI_DEF_UNION",
+      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_US:DAI_DEF_UNION",
@@ -1975,10 +1975,6 @@
       "source1" : "01NYU_US:SH",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_US:SH_DEV",
-      "source2" : "nde_display_all_requests_in_expand_mode"
-    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_share_actions_table_is_customized"
@@ -1991,16 +1987,20 @@
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_show_times_cited"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_US:SH_DEV",
-      "source2" : "export_all_records"
-    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
       "source2" : "export_all_records"
     } ],
     "Resource Sharing Request Parameters" : [ {

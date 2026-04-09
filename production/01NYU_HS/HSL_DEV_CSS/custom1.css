@@ -1,35 +1,5 @@
 /* primary color hook */
 /* commenttttt*/
-/* fixing standalone login page 4/3/2026 */
-div:has(> prm-stand-alone-login) {
-  background-color: #580f8b; 
-}
-body:has(prm-stand-alone-login) {
-  background-color: #580f8b; 
-}
-prm-stand-alone-login md-card.login-card {
-  background-color: #1c1c1c; 
-}
-prm-stand-alone-login h1 {
-  color:white;
-  font-weight:bold !important;
-}
-prm-stand-alone-login prm-login-item span.list-item-title {
-  color: white !important;
-}
-prm-stand-alone-login prm-login-item prm-icon {
-  color: #eee !important;
-}
-prm-stand-alone-login prm-login button.md-button:active,
-.login-card md-list-item.login-brighter-dialog .md-button:hover,
-.login-card md-list-item.login-brighter-dialog .md-button:active,
-.login-card md-list-item.login-brighter-dialog .md-button:focus {
-  background-color: transparent !important;
-}
-prm-stand-alone-login prm-login button.md-button:hover {
-  background-color: transparent !important;
-}
-
 .md-button {
   color: #3a3a3a; }
   .md-button:hover:not([disabled]), .md-button:focus:not([disabled]), .md-button.hovered:not([disabled]), .md-button.md-focused:not([disabled]), .md-button._md-focused:not([disabled]) {

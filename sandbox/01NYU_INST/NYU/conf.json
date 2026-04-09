@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"3",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -276,18 +276,6 @@
           },
           "id" : "facet_jtitle",
           "useTranslations" : false
-        }, {
-          "display" : true,
-          "viewinstsort" : false,
-          "instsort" : false,
-          "valid" : true,
-          "count" : 3,
-          "sort" : {
-            "_string" : "alpha_numeric",
-            "_int" : 1
-          },
-          "id" : "lds97",
-          "useTranslations" : true
         }, {
           "display" : true,
           "viewinstsort" : false,
@@ -6152,7 +6140,7 @@
   },
   "journal_tab" : "jsearch_slot",
   "institution-base-url" : "ALMA_OPENURL",
-  "fieldsWithUseTranslation" : [ "lds97" ],
+  "fieldsWithUseTranslation" : [ ],
   "summon_over_alma" : false,
   "rapido_sa_enabled" : false,
   "syndeticunbound-enable" : false,
