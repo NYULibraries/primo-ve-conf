@@ -1,4 +1,4 @@
-{"beaconO22":"2945",
+{"beaconO22":"2049",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -2262,6 +2262,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:DAI_DEF_UNION",
+      "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:DAI_DEF_UNION",
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
@@ -2271,10 +2275,6 @@
       "target" : "true",
       "source1" : "01NYU_HS:DAI_DEF_UNION",
       "source2" : "nde_display_snippet"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:DAI_DEF_UNION",
-      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:DAI_DEF_UNION",
@@ -2426,6 +2426,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "true",
@@ -2435,10 +2439,6 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_TEST_BANNER",
-      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
@@ -2475,6 +2475,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_DEV_CSS",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
@@ -2495,10 +2499,6 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "nde_display_snippet"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_DEV_CSS",
-      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
@@ -2674,6 +2674,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV",
+      "source2" : "use_classic_email_template"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_DEV",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
@@ -2683,10 +2687,6 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV",
       "source2" : "enable_qr"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_DEV",
-      "source2" : "use_classic_email_template"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV",
@@ -2707,10 +2707,6 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV",
       "source2" : "nde_full_record_services_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL",
-      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_FACETS",
@@ -2758,6 +2754,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL",
       "source2" : "use_normalized_cdi_subjects"
     } ],
     "Resource Sharing Request Parameters" : [ {
