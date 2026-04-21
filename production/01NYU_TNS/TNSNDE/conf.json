@@ -1,4 +1,4 @@
-{"beaconO22":"2713",
+{"beaconO22":"1992",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -1123,7 +1123,7 @@
           "items" : "creator,contributor",
           "delimiter" : "; "
         }, {
-          "items" : "creationdate",
+          "items" : "creationdate,publisher",
           "delimiter" : "; "
         }, {
           "items" : "ispartof",
@@ -1157,7 +1157,7 @@
           "items" : "creator,contributor",
           "delimiter" : "; "
         }, {
-          "items" : "creationdate",
+          "items" : "creationdate,publisher",
           "delimiter" : "; "
         }, {
           "items" : "ispartof",
@@ -1219,7 +1219,7 @@
           "items" : "creator,contributor",
           "delimiter" : "; "
         }, {
-          "items" : "creationdate",
+          "items" : "creationdate,publisher",
           "delimiter" : "; "
         }, {
           "items" : "ispartof",
@@ -1309,7 +1309,7 @@
           "items" : "creator,contributor",
           "delimiter" : "; "
         }, {
-          "items" : "creationdate",
+          "items" : "creationdate,publisher",
           "delimiter" : "; "
         }, {
           "items" : "ispartof",
