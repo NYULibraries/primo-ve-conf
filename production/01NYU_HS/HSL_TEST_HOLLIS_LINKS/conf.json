@@ -1,4 +1,4 @@
-{"beaconO22":"1998",
+{"beaconO22":"1438",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -2250,6 +2250,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:DAI_DEF_UNION",
+      "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:DAI_DEF_UNION",
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
@@ -2259,10 +2263,6 @@
       "target" : "true",
       "source1" : "01NYU_HS:DAI_DEF_UNION",
       "source2" : "nde_display_snippet"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:DAI_DEF_UNION",
-      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:DAI_DEF_UNION",
@@ -2414,6 +2414,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "true",
@@ -2423,10 +2427,6 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_TEST_BANNER",
-      "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
@@ -2463,6 +2463,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_DEV_CSS",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
@@ -2483,10 +2487,6 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "nde_display_snippet"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_DEV_CSS",
-      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
