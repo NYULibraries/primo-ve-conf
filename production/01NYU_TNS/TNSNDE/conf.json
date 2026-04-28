@@ -1,4 +1,4 @@
-{"beaconO22":"1664",
+{"beaconO22":"1408",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -5955,7 +5955,36 @@
   "enableExtendSessionToMax" : false,
   "enableUserSettingForExtendSession" : false,
   "country-codes" : [ "ABW", "AFG", "AGO", "AIA", "ALA", "ALB", "AND", "ARE", "ARG", "ARM", "ASM", "ATA", "ATG", "AUS", "AUT", "AZE", "BDI", "BEL", "BEN", "BFA", "BGD", "BGR", "BHR", "BHS", "BIH", "BLM", "BLR", "BLZ", "BMU", "BOL", "BRA", "BRB", "BRN", "BTN", "BWA", "CAF", "CAN", "CHE", "CHL", "CHN", "CIV", "CMR", "COD", "COG", "COK", "COL", "COM", "CPV", "CRI", "CUB", "CUW", "CYM", "CYP", "CZE", "DEU", "DJI", "DMA", "DNK", "DOM", "DZA", "ECU", "EGY", "ERI", "ESH", "ESP", "EST", "ETH", "FIN", "FJI", "FLK", "FRA", "FRO", "FSM", "GAB", "GBR", "GEO", "GGY", "GHA", "GIB", "GIN", "GLP", "GMB", "GNB", "GNQ", "GRC", "GRD", "GRL", "GTM", "GUF", "GUM", "GUY", "HKG", "HND", "HRV", "HTI", "HUN", "IDN", "IND", "IRL", "IRN", "IRQ", "ISL", "ISR", "ITA", "JAM", "JOR", "JPN", "KAZ", "KEN", "KGZ", "KHM", "KIR", "KOR", "KWT", "LAO", "LBN", "LBR", "LBY", "LIE", "LKA", "LSO", "LTU", "LUX", "LVA", "MAC", "MAR", "MCO", "MDA", "MDG", "MDV", "MEX", "MHL", "MKD", "MLI", "MLT", "MMR", "MNE", "MNG", "MOZ", "MRT", "MSR", "MTQ", "MUS", "MWI", "MYS", "NAM", "NCL", "NER", "NFK", "NGA", "NIC", "NIU", "NLD", "NOR", "NPL", "NRU", "NZL", "OMN", "PAK", "PAN", "PCN", "PER", "PHL", "PLW", "PNG", "POL", "PRI", "PRK", "PRT", "PRY", "PYF", "QAT", "ROU", "RUS", "RWA", "SAU", "SDN", "SEN", "SGP", "SLB", "SLE", "SLV", "SMR", "SOM", "SRB", "SUR", "SVK", "SVN", "SWE", "SWZ", "SYC", "SYR", "TCD", "TGO", "THA", "TJK", "TKL", "TKM", "TLS", "TON", "TTO", "TUN", "TUR", "TUV", "TWN", "TZA", "UGA", "UKR", "URY", "USA", "UZB", "VAT", "VCT", "VEN", "VGB", "VIR", "VNM", "VUT", "WLF", "WSM", "YEM", "ZAF", "ZMB", "ZWE" ],
-  "ndeAddons" : { },
+  "ndeAddons" : {
+    "LibKey" : {
+      "url" : "https://thirdiron-adapters.s3.amazonaws.com/primo-nde/production/",
+      "properties" : {
+        "articleAcceptedManuscriptArticleLinkViaUnpaywallEnabled" : "true",
+        "articlePDFDownloadLinkText" : "Download PDF",
+        "printRecordsIntegrationEnabled" : "true",
+        "documentDeliveryFulfillmentEnabled" : "true",
+        "showFormatChoice" : "false",
+        "enableLinkOptimizer" : "true",
+        "articleLinkViaUnpaywallEnabled" : "true",
+        "apiKey" : "0778bdb6-b33e-4315-84e7-c78859ea6974",
+        "libraryId" : "1727",
+        "articleLinkEnabled" : "true",
+        "articleAcceptedManuscriptPDFViaUnpaywallEnabled" : "true",
+        "articlePDFDownloadLinkEnabled" : "true",
+        "articleExpressionOfConcernEnabled" : "true",
+        "articlePDFDownloadViaUnpaywallEnabled" : "true",
+        "viewOption" : "single-stack",
+        "problematicJournalEnabled" : "true",
+        "journalBrowZineWebLinkTextEnabled" : "true",
+        "journalCoverImagesEnabled" : "true",
+        "unpaywallEmailAddressKey" : "libsupport@newschool.edu",
+        "articleBrowZineWebLinkTextEnabled" : "true",
+        "articlePDFDownloadViaUnpaywallText" : "Download PDF",
+        "showLinkResolverLink" : "true",
+        "articleRetractionWatchEnabled" : "true"
+      }
+    }
+  },
   "collectionDiscoveryFacets" : [ {
     "display" : true,
     "viewinstsort" : false,
