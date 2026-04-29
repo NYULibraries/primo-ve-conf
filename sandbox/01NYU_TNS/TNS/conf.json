@@ -21,7 +21,7 @@
     },
     "pc-availability-tab-scopes-map" : {
       "Everything" : {
-        "DN_and_CI" : "INCLUDE_NO_FULL_TEXT"
+        "DN_and_CI" : "AVAILABLE_ONLY"
       }
     },
     "view-org-level" : {

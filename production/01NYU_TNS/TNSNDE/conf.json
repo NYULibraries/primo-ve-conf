@@ -1,4 +1,4 @@
-{"beaconO22":"1408",
+{"beaconO22":"1903",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -1101,7 +1101,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,explore,tags,esploroUsage,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1135,7 +1135,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,explore,tags,esploroUsage,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1169,7 +1169,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,explore,tags,esploroUsage,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1197,7 +1197,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,explore,tags,esploroUsage,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1231,7 +1231,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,explore,tags,esploroUsage,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1259,7 +1259,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,explore,tags,esploroUsage,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1287,7 +1287,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,explore,tags,esploroUsage,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1321,7 +1321,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "searchWithinJournal,getit_link1,Digital versions,requests,details,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,explore,tags,esploroUsage,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -5224,30 +5224,30 @@
     "consortia member codes" : [ ],
     "get it prefilter locations" : [ ],
     "Full Record Services" : [ {
-      "target" : "prima.services.searchWithinJournall",
-      "source1" : "searchWithinJournal",
-      "source2" : "1",
-      "source3" : "false"
-    }, {
       "target" : "prima.services.getit_link1",
       "source1" : "getit_link1",
-      "source2" : "2",
+      "source2" : "1",
       "source3" : "true"
     }, {
       "target" : "prima.services.digital_versions",
       "source1" : "Digital versions",
-      "source2" : "3",
+      "source2" : "2",
       "source3" : "true"
     }, {
       "target" : "prima.services.requests",
       "source1" : "requests",
-      "source2" : "4",
+      "source2" : "3",
       "source3" : "true"
     }, {
       "target" : "prima.services.details",
       "source1" : "details",
+      "source2" : "4",
+      "source3" : "true"
+    }, {
+      "target" : "prima.services.explore",
+      "source1" : "explore",
       "source2" : "5",
-      "source3" : "false"
+      "source3" : "true"
     }, {
       "target" : "prima.services.links",
       "source1" : "links",
@@ -5284,20 +5284,20 @@
       "source2" : "12",
       "source3" : "false"
     }, {
-      "target" : "prima.services.explore",
-      "source1" : "explore",
-      "source2" : "13",
-      "source3" : "false"
-    }, {
       "target" : "prima.services.tags",
       "source1" : "tags",
-      "source2" : "14",
+      "source2" : "13",
       "source3" : "false"
     }, {
       "target" : "prima.services.esploroUsage",
       "source1" : "esploroUsage",
-      "source2" : "15",
+      "source2" : "14",
       "source3" : "true"
+    }, {
+      "target" : "prima.services.searchWithinJournall",
+      "source1" : "searchWithinJournal",
+      "source2" : "15",
+      "source3" : "false"
     }, {
       "target" : "prima.services.book.similar_images",
       "source1" : "Similar Images",
