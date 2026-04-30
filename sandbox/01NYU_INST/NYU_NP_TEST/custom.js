@@ -2330,17 +2330,97 @@ function generateAllPossibleCustomDirectives() {
 
             vm.getPnx = function () {
                 try {
-             �����\>�\"���P�h �/�o�9���J죴��v�Z�k��PM塩���8
-N�u ,v��8���t=�[����O��{r�1>~\�Å!�^)N���%���o��y�Vo͑uW3��p�D����7Au@�آ���lX1ɪ)�����/g9�V�ޘ0R�͙��&>z�$p���7�e����Y/�-I�qGr��{����ȿ�OO�Nb�1�r��Nh�����-I�Ύ�(5 �q� "�,-�����~���si	u�:�A�����7�n�7�����^����)���?��G_�4G�r��E�k���v,�����r�qmo�^'�d��c8w$ns7˸��8h�=�n����?�ַ�ku��.l{ ��?���]�١�{�|�z�(Y�C����������G\�Q>�������噤��#/��SE���Zt��>��m��mxF2���y�u�e�*��	
-~�R}�g�� �l��8R,�۩;*���h"L&�!`K��[��Mu5EC�#�림bk��b�W�k����1uQ�y��M�;�A,�b���9�Ѹ:�\�Gl��!��5���
-�{-����PZ�( ==Oh�L�(Yn�@�?�.&�?^�]�OJ�)�΄�A�o,0�
-���������L��E��m�T/��+߹;��ץ����nsմj�td�3�ʠt�i��f\-�F�#��kzD/;GAPx��i|��?��\�~7�L��֜��xM���Z��t P�KI�.�H�K{�Ew�K�z��@j		���2P�9�������8{X�H�ϻJ��	�7A���n�ѹ"�1tV����'�<�C{��y��v*�����p��G6���.Q��o0�=]bF�!a~55 ��?�/�w��m'�'A��_<f�����ֶ���I�K���c��>YN�-ʗ�?������]��Ev�X��j���9����+�����+��m|����Z�'6�,��%��|D�B ����P:,:2+s.YA�[W����]���2	"�wv(W(؜�,@5
-$c���q��Q��s㟯�xˠY�9n�Q�H#-�٭�-4y�h����7� X��9_Փ���n��}`Ku��<���=����-G{U�x-��t!h���iR�&Z�4�o�>�X6E[ ���~�7�]ȹ-���Ⱥz	-<řu�S���3�Q������A��2�?��w( gz�v�:�~�L��mcq�~���j����|9�����U�>ں�ik�gw	I��Y�2!��q�̇��ZyMI0Zd�\h�.�����n��hr����ݾ0���ыf��?��v_��h�:q���#�^a�e4���o�w
-hA�5�RHb��D}���{�l���9ˌ�, m�|1`Q�����q�����,���	�ƞ��2 ����&��VA�+����\�f�U��tܹ-Z�$���:`��)����L���o˩������pv��:�����>��ړ�|�\�����d_0��:g��N�kV��3=�-B��l����7`W�S��"�}��T������`®9�;P�JH�o��&+�	��%�l�%G `�6��q�?��}��sV�n�4��y��0�<������፭:�<�;W�a�N����0��RÄ(j������mG��D+�9�����1�s\(BY���.
-pp��O�+.�2�ѧ�A�vj_(?��H#�N�(E�Xe�7��IJ$��=�v���dT��u�������fh�a�_<������o'�/�گ�U��S��ݼ�_��J�l�x�9d2J�$< -��r*�6����8�>�߂ڦ��JX�������װ'$�W���"R7���ˀg*�| �Hm�����o���AaSu�'IZ1^�Ψٰɀ�8QըEg�or(�8���0mTc%����N�\<C��2;�v�rVcq/뛶�%�~�m�"��+���!}�*3X��xT�b����;Ur��iq�	$`��Xl�^9��}���̲׿��w̶��C�j�e,��2�����s���/$$=��6"VU�j�B��ʬB�c��hu�6��;�r�&���9�P��`�����z��ñ6�I�*G;��^���V�b�� f_2�?�l���9Gy�M~Ǡn�w�����9���`6��
-*��*dL�j�뷊-��[Z��{K�W��;��_��Y\�-�A)���V�Spb�v��vOa]Zi��h�(���c��H�>���p�T+�ɭ��]0x�E��@��}Y�r,/��R�Fe%��̚�(�8b-���N���4�ci���A���n��m���#Ȉ���֍��[��q�_��~��n[�>ʺ;�d=�0C�����j�A�VA�kփB���t�/g`i	�5��7|]��cN_�>����*Ʃ�t�gGJmFRkW�6^A�n䭎kh�5��Ϊ��de鬖��Q�;K&_��]��w�����C&�8��
-h���������X�x&%���M�@�+ķ��X�w���KXx�TN+c��Ϳ�nrս�"D.#�n�Y.�l����J�m�73�*R��!O�Hm��b�/��.���G��n/�� �y"�J*;pV�'��1��y��h�Wx��-�iI��+i�Y��&�	g�/�t���@<AB�;�LLS�r�N޺��Y�2�IO7�8
-�܌�uo����*�G�/�xN��e�g#Q���=>�3��;=ne'��Hcj�̧{��1%�6�.��tO]��*i��	�����^`)i��b�                  console.log('prmFinesOverviewAfter: error accessing `vm.parentCtrl.item.pnx`');
+                    return vm.parentCtrl.item.pnx;
+                } catch (err) {
+                    console.log('prmFavoritesWarningMessageAfter: error accessing `vm.parentCtrl.item.pnx`');
+
+                    return null;
+                }
+            };
+
+            vm.rootScope = $rootScope;
+            vm.scope = $scope;
+        },
+        templateUrl: cdnUrl + '/html/prm-favorites-warning-message-after.html'
+    });
+
+    // PRM-FEATURED-RESULT-ITEM-AFTER
+    app.component('prmFeaturedResultItemAfter', {
+        bindings: { parentCtrl: '<' },
+        controller: function controller($scope, $rootScope) {
+            var vm = this;
+
+            vm.getPnx = function () {
+                try {
+                    return vm.parentCtrl.item.pnx;
+                } catch (err) {
+                    console.log('prmFeaturedResultItemAfter: error accessing `vm.parentCtrl.item.pnx`');
+
+                    return null;
+                }
+            };
+
+            vm.rootScope = $rootScope;
+            vm.scope = $scope;
+        },
+        templateUrl: cdnUrl + '/html/prm-featured-result-item-after.html'
+    });
+
+    // PRM-FEATURED-RESULTS-AFTER
+    app.component('prmFeaturedResultsAfter', {
+        bindings: { parentCtrl: '<' },
+        controller: function controller($scope, $rootScope) {
+            var vm = this;
+
+            vm.getPnx = function () {
+                try {
+                    return vm.parentCtrl.item.pnx;
+                } catch (err) {
+                    console.log('prmFeaturedResultsAfter: error accessing `vm.parentCtrl.item.pnx`');
+
+                    return null;
+                }
+            };
+
+            vm.rootScope = $rootScope;
+            vm.scope = $scope;
+        },
+        templateUrl: cdnUrl + '/html/prm-featured-results-after.html'
+    });
+
+    // PRM-FINES-AFTER
+    app.component('prmFinesAfter', {
+        bindings: { parentCtrl: '<' },
+        controller: function controller($scope, $rootScope) {
+            var vm = this;
+
+            vm.getPnx = function () {
+                try {
+                    return vm.parentCtrl.item.pnx;
+                } catch (err) {
+                    console.log('prmFinesAfter: error accessing `vm.parentCtrl.item.pnx`');
+
+                    return null;
+                }
+            };
+
+            vm.rootScope = $rootScope;
+            vm.scope = $scope;
+        },
+        templateUrl: cdnUrl + '/html/prm-fines-after.html'
+    });
+
+    // PRM-FINES-OVERVIEW-AFTER
+    app.component('prmFinesOverviewAfter', {
+        bindings: { parentCtrl: '<' },
+        controller: function controller($scope, $rootScope) {
+            var vm = this;
+
+            vm.getPnx = function () {
+                try {
+                    return vm.parentCtrl.item.pnx;
+                } catch (err) {
+                    console.log('prmFinesOverviewAfter: error accessing `vm.parentCtrl.item.pnx`');
 
                     return null;
                 }

@@ -1,4 +1,4 @@
-{"beaconO22":"8",
+{"beaconO22":"492",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
   "search-advanced.mediaType.option.acceptedmanuscript" : "Accepted Manuscripts",
   "search-advanced.mediaType.option.activity" : "Activity",
@@ -7440,6 +7440,7 @@
   "tabbedmenu.CourseReserves.label" : "Course Reserves",
   "tabbedmenu.Everything.label" : "Library Catalog",
   "tabbedmenu.Everything.tooltip" : "Everything The New School has access to",
+  "mainmenu.label.Databases_AZ" : "Databases",
   "nui.newspapers_search.featured.Test Description" : "Test Description",
   "nui.newspapers_search.featured.ECON" : "Top Fashion Newspapers",
   "nui.newspapers_search.featured.Vogue, Elle, Allure, Harper's Bazaar, Women's Wear Daily" : "Vogue, Elle, Allure, Harper's Bazaar, Women's Wear Daily",

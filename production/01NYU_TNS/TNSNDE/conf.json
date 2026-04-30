@@ -1,4 +1,4 @@
-{"beaconO22":"1903",
+{"beaconO22":"1810",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -400,6 +400,10 @@
           "url" : "jsearch",
           "label" : "JournalSearch",
           "target" : "_self"
+        }, {
+          "url" : "https://guides.library.newschool.edu/az.php",
+          "label" : "Databases_AZ",
+          "target" : "_blank"
         }, {
           "url" : "/nde/npsearch?vid=01NYU_TNS:TNSNDE",
           "label" : "NewspaperSearch",

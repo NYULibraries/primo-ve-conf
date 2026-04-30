@@ -1,4 +1,4 @@
-{"beaconO22":"4616",
+{"beaconO22":"4163",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -519,10 +519,6 @@
         }, {
           "url" : "/nde/collectionDiscovery?vid=01NYU_TNS:TNSNDE",
           "label" : "CollectionDiscovery",
-          "target" : "_self"
-        }, {
-          "url" : "QR",
-          "label" : "QR",
           "target" : "_self"
         } ],
         "id" : "01NYU_TNS:TNSNDE.MainMenuTileInterface"

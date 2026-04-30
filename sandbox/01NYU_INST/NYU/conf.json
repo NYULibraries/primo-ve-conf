@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -511,6 +511,9 @@
         }, {
           "items" : "lds97",
           "displayInViewer" : true
+        }, {
+          "items" : "lds73",
+          "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
           "items" : "heading",
@@ -676,6 +679,9 @@
           "displayInViewer" : true
         }, {
           "items" : "lds97",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds73",
           "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
