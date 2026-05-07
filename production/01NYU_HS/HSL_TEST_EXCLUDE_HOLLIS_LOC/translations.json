@@ -1,4 +1,4 @@
-{"beaconO22":"1749",
+{"beaconO22":"1724",
   "search-advanced.mediaType.option.HSL_LibGuide" : "Library Specialty Guides",
   "search-advanced.mediaType.option.transcripts" : "Transcripts",
   "search-advanced.mediaType.option.tempdatabase" : "Databases",
@@ -8378,6 +8378,7 @@
   "facets.facet.facet_location_code.7876–163048870007876–ecs 1wcha" : "BLCC 168 Hour Chargers",
   "facets.facet.facet_location_code.7878–112286510007878–bry" : "Bryant Collection",
   "facets.facet.facet_location_code.7875–124368290007875–nres" : "Reserves Collection",
+  "facets.facet.facet_location_code.7875–124368570007875–main4" : "MAIN Processing Shelf",
   "facets.facet.facet_location_code.7875–124367040007875–av4" : "Audio-Visual - Non-Circulating",
   "facets.facet.facet_location_code.7876–163053680007876–crper" : "Current Periodicals Closed Stacks - Non-Circulating",
   "facets.facet.facet_library.7874–12900830000231" : "Resource Sharing Library",
