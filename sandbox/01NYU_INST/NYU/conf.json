@@ -509,9 +509,6 @@
           "items" : "lds63",
           "displayInViewer" : true
         }, {
-          "items" : "lds97",
-          "displayInViewer" : true
-        }, {
           "items" : "lds73",
           "displayInViewer" : true
         } ],
@@ -676,9 +673,6 @@
           "displayInViewer" : true
         }, {
           "items" : "lds63",
-          "displayInViewer" : true
-        }, {
-          "items" : "lds97",
           "displayInViewer" : true
         }, {
           "items" : "lds73",
@@ -984,7 +978,7 @@
     "default_user_search_history_off" : false,
     "save_users_ra_search_history" : true,
     "equals_search_operator_hypertext_linking_enabled" : true,
-    "equals_search_operator_hypertext_linking_enabled_title_field" : true,
+    "equals_search_operator_hypertext_linking_enabled_title_field" : false,
     "equals_search_operator_hypertext_linking_enabled_author_field" : true,
     "equals_search_operator_hypertext_linking_enabled_subject_field" : true,
     "allow_start_with_for_call_number" : false,
@@ -4056,6 +4050,16 @@
       "source1" : "N"
     } ],
     "Hypertext Linking Definitions" : [ {
+      "target" : "relation",
+      "source1" : "title",
+      "source2" : "exact",
+      "source3" : "L"
+    }, {
+      "target" : "creator",
+      "source1" : "creator",
+      "source2" : "exact",
+      "source3" : "ANY"
+    }, {
       "target" : "contributor",
       "source1" : "creator",
       "source2" : "exact",
@@ -4071,11 +4075,6 @@
       "source2" : "exact",
       "source3" : "L"
     }, {
-      "target" : "relation",
-      "source1" : "title",
-      "source2" : "exact",
-      "source3" : "L"
-    }, {
       "target" : "ispartof",
       "source1" : "title",
       "source2" : "exact",
@@ -4083,11 +4082,6 @@
     }, {
       "target" : "mesh",
       "source1" : "mesh",
-      "source2" : "exact",
-      "source3" : "ANY"
-    }, {
-      "target" : "creator",
-      "source1" : "creator",
       "source2" : "exact",
       "source3" : "ANY"
     }, {

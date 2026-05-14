@@ -1,4 +1,4 @@
-{"beaconO22":"3",
+{"beaconO22":"2467",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -3961,6 +3961,16 @@
       "source1" : "N"
     } ],
     "Hypertext Linking Definitions" : [ {
+      "target" : "relation",
+      "source1" : "title",
+      "source2" : "exact",
+      "source3" : "L"
+    }, {
+      "target" : "creator",
+      "source1" : "creator",
+      "source2" : "exact",
+      "source3" : "ANY"
+    }, {
       "target" : "contributor",
       "source1" : "creator",
       "source2" : "exact",
@@ -3976,11 +3986,6 @@
       "source2" : "exact",
       "source3" : "L"
     }, {
-      "target" : "relation",
-      "source1" : "title",
-      "source2" : "exact",
-      "source3" : "L"
-    }, {
       "target" : "ispartof",
       "source1" : "title",
       "source2" : "exact",
@@ -3988,11 +3993,6 @@
     }, {
       "target" : "mesh",
       "source1" : "mesh",
-      "source2" : "exact",
-      "source3" : "ANY"
-    }, {
-      "target" : "creator",
-      "source1" : "creator",
       "source2" : "exact",
       "source3" : "ANY"
     }, {
