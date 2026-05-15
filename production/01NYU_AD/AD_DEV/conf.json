@@ -1,4 +1,4 @@
-{"beaconO22":"1360",
+{"beaconO22":"1208",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -1778,6 +1778,10 @@
       "source1" : "01NYU_AD:AD",
       "source2" : "focus_on_search_input"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "enable_saveEshelf_message"
+    }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_recent_scopes"
@@ -1789,10 +1793,6 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "use_classic_email_template"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_AD:AD",
-      "source2" : "enable_saveEshelf_message"
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD",
@@ -1818,6 +1818,10 @@
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:DAI_DEF_UNION",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
       "target" : "true",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
       "source2" : "nde_display_snippet"
@@ -1829,10 +1833,6 @@
       "target" : "false",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
       "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:DAI_DEF_UNION",
-      "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
