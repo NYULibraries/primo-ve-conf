@@ -1,4 +1,4 @@
-{"beaconO22":"1387",
+{"beaconO22":"1571",
   "primo-view" : {
     "available-tabs" : [ "Main_Slot" ],
     "institution" : {
@@ -2462,13 +2462,13 @@
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "use_normalized_cdi_subjects"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_DEV_CSS",
-      "source2" : "nde_actions_table_is_customized"
-    }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_DEV_CSS",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
@@ -2492,7 +2492,7 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
-      "source2" : "nde_display_fields_table_is_customized"
+      "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
@@ -2586,10 +2586,6 @@
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "use_classic_email_template"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_FAVORITES",
-      "source2" : "allow_direct_login_from_other_institutions"
-    }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "enable_saveEshelf_message"
@@ -2601,6 +2597,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "enable_resource_type_filter_bar"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "allow_direct_login_from_other_institutions"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
