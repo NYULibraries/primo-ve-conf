@@ -1,4 +1,4 @@
-{"beaconO22":"1271",
+{"beaconO22":"1002",
   "primo-view" : {
     "available-tabs" : [ "LUBALIN" ],
     "institution" : {
@@ -876,7 +876,7 @@
     "NDE_number_of_email_signed_in_user_allow_to_send" : 10,
     "display_location_level_in_getIt_single_location" : false,
     "nde_number_of_services_to_display_view_it" : "3",
-    "enable_email_client" : false,
+    "enable_email_client" : true,
     "booking_request_minutes_policy" : "30",
     "booking_hour_format" : "24hours",
     "exhibitions_creator" : false,
@@ -4963,14 +4963,14 @@
       "target" : "chicago-fullnote-bibliography",
       "source1" : "1"
     }, {
-      "target" : "chicago-author-date",
-      "source1" : "2"
-    }, {
       "target" : "apa",
       "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"
+    }, {
+      "target" : "chicago-author-date",
+      "source1" : "2"
     } ],
     "DEI Term Configuration" : [ ],
     "Export RIS encodings" : [ {

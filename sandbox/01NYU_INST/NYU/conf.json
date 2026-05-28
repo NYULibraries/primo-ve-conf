@@ -1,4 +1,4 @@
-{"beaconO22":"19",
+{"beaconO22":"3",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -5618,10 +5618,6 @@
       "source1" : "Sent",
       "source2" : "SENT"
     }, {
-      "target" : "REJECTED",
-      "source1" : "Requested",
-      "source2" : "REQUESTED"
-    }, {
       "target" : "PENDING_APPROVAL",
       "source1" : "Requested",
       "source2" : "REQUESTED"
@@ -5631,6 +5627,10 @@
       "source2" : "REQUESTED"
     }, {
       "target" : "LOCATE_FAILED",
+      "source1" : "Requested",
+      "source2" : "REQUESTED"
+    }, {
+      "target" : "REJECTED",
       "source1" : "Requested",
       "source2" : "REQUESTED"
     }, {

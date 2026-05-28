@@ -1,4 +1,4 @@
-{"beaconO22":"1247",
+{"beaconO22":"531",
   "search-advanced.mediaType.option.transcripts" : "Transcripts",
   "search-advanced.mediaType.option.collections" : "Archival Collections",
   "search-advanced.mediaType.option.abstracts" : "Abstracts",
@@ -8819,6 +8819,7 @@
   "facets.facet.facet_location_code.7875–124367400007875–perio" : "Periodicals Collection",
   "facets.facet.facet_location_code.7876–163048870007876–ecs 4hcha" : "BLCC 4 Hour Chargers",
   "scopes.option.ResearchOA_UCV" : "Open Access",
+  "facets.facet.facet_location_code.7875–124368570007875–lost items" : "Lost Items",
   "scopes.option.DiscoveryNetwork_UCV" : "All Libraries",
   "facets.facet.facet_location_code.7875–124367730007875–circ" : "Inter-Library Loan Materials",
   "facets.facet.facet_location_code.7876–163053680007876–mref" : "Music Reference",
