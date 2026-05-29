@@ -1,4 +1,4 @@
-{"beaconO22":"1471",
+{"beaconO22":"1462",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -3454,6 +3454,14 @@
       "source5" : "No"
     }, {
       "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredLocalPickupLocation",
+      "source3" : "delivery",
+      "source4" : "13",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
       "source3" : "article",
@@ -3473,14 +3481,6 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredLocalPickupLocation",
-      "source3" : "delivery",
-      "source4" : "13",
-      "source5" : "No",
-      "source6" : " "
     }, {
       "target" : "No",
       "source1" : "both",
