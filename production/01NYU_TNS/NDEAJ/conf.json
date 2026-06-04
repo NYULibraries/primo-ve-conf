@@ -1,4 +1,4 @@
-{"beaconO22":"1256",
+{"beaconO22":"1263",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CentralIndex", "CourseReserves" ],
     "institution" : {
@@ -3966,11 +3966,11 @@
       "target" : "My favorites",
       "source1" : "2"
     }, {
-      "target" : "Search History",
-      "source1" : "3"
+      "target" : "My Loans",
+      "source1" : "5"
     }, {
-      "target" : "Settings",
-      "source1" : "8"
+      "target" : "My Requests",
+      "source1" : "6"
     } ],
     "NDE Quick Filters" : [ {
       "target" : "facets.facet.tlevel.online_resources",

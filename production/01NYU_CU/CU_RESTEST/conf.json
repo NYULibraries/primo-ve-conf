@@ -1,4 +1,4 @@
-{"beaconO22":"970",
+{"beaconO22":"1347",
   "primo-view" : {
     "available-tabs" : [ "CourseReserves" ],
     "institution" : {
@@ -1769,6 +1769,10 @@
       "source2" : "export_all_records"
     }, {
       "target" : "true",
+      "source1" : "01NYU_CU:CU_24",
+      "source2" : "nde_display_snippet"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_CU:CU",
       "source2" : "enable_natural_language_search"
     }, {
@@ -1790,10 +1794,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_24",
-      "source2" : "nde_display_snippet"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_CU:CU_24",
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
       "target" : "false",
@@ -1852,6 +1852,10 @@
       "source1" : "01NYU_CU:CU_24",
       "source2" : "display_CDI_secondary_RT"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_24",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU",
       "source2" : "enableDidYouMean"
@@ -1864,13 +1868,13 @@
       "source1" : "01NYU_CU:CU",
       "source2" : "enable_ai_insights_links"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_24",
-      "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_24",
       "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "nde_show_times_cited"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
@@ -1884,10 +1888,6 @@
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "nde_export_actions_table_is_customized"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_DEV",
-      "source2" : "nde_show_times_cited"
-    }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "nde_display_all_requests_in_expand_mode"
@@ -1899,6 +1899,10 @@
       "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:LUBALIN_DEV",
+      "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:LUBALIN_DEV",
@@ -1914,10 +1918,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:LUBALIN_DEV",
-      "source2" : "nde_export_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:LUBALIN_DEV",
       "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
@@ -1979,18 +1979,6 @@
       "target" : "false",
       "source1" : "01NYU_CU:LUBALIN_DEV",
       "source2" : "use_normalized_cdi_subjects"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_CU:LUBALIN_DEV",
-      "source2" : "enableDidYouMean"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_CU:LUBALIN_DEV",
-      "source2" : "nde_enable_places_widget"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:LUBALIN_DEV",
-      "source2" : "enable_ai_insights_links"
     }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_RESTEST",
@@ -2167,6 +2155,18 @@
       "target" : "false",
       "source1" : "01NYU_CU:CU_24",
       "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:LUBALIN_DEV",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:LUBALIN_DEV",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_CU:LUBALIN_DEV",
+      "source2" : "nde_enable_places_widget"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "Yes",
@@ -4874,14 +4874,14 @@
       "target" : "chicago-fullnote-bibliography",
       "source1" : "1"
     }, {
+      "target" : "chicago-author-date",
+      "source1" : "2"
+    }, {
       "target" : "apa",
       "source1" : "3"
     }, {
       "target" : "modern-language-association",
       "source1" : "4"
-    }, {
-      "target" : "chicago-author-date",
-      "source1" : "2"
     } ],
     "DEI Term Configuration" : [ ],
     "Export RIS encodings" : [ {

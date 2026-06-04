@@ -1,4 +1,4 @@
-{"beaconO22":"1398",
+{"beaconO22":"1539",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -2585,10 +2585,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_24",
-      "source2" : "nde_show_times_cited"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_24",
       "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
@@ -2598,6 +2594,10 @@
       "target" : "false",
       "source1" : "01NYU_CU:CU_24",
       "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_24",
+      "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_24",
@@ -2663,10 +2663,6 @@
       "source1" : "01NYU_CU:CU_24",
       "source2" : "display_CDI_secondary_RT"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_24",
-      "source2" : "enable_highlight_the_record_you_came_from"
-    }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU",
       "source2" : "enableDidYouMean"
@@ -2679,13 +2675,13 @@
       "source1" : "01NYU_CU:CU",
       "source2" : "enable_ai_insights_links"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_24",
+      "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_24",
       "source2" : "use_normalized_cdi_subjects"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:CU_DEV",
-      "source2" : "nde_show_times_cited"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
@@ -2698,6 +2694,10 @@
       "target" : "false",
       "source1" : "01NYU_CU:CU_DEV",
       "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:CU_DEV",
+      "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_CU:CU_DEV",
@@ -2713,10 +2713,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:LUBALIN_DEV",
-      "source2" : "nde_export_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_CU:LUBALIN_DEV",
       "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
@@ -2726,6 +2722,10 @@
       "target" : "false",
       "source1" : "01NYU_CU:LUBALIN_DEV",
       "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_CU:LUBALIN_DEV",
+      "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_CU:LUBALIN_DEV",

@@ -1,4 +1,4 @@
-{"beaconO22":"1164",
+{"beaconO22":"1362",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -3326,11 +3326,11 @@
       "target" : "My favorites",
       "source1" : "2"
     }, {
-      "target" : "Search History",
-      "source1" : "3"
+      "target" : "My Loans",
+      "source1" : "5"
     }, {
-      "target" : "Settings",
-      "source1" : "8"
+      "target" : "My Requests",
+      "source1" : "6"
     } ],
     "NDE Quick Filters" : [ {
       "target" : "facets.facet.tlevel.online_resources",
