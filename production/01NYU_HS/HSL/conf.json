@@ -2422,13 +2422,13 @@
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "use_normalized_cdi_subjects"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_DEV_CSS",
-      "source2" : "nde_actions_table_is_customized"
-    }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_DEV_CSS",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
@@ -2452,7 +2452,7 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
-      "source2" : "nde_display_fields_table_is_customized"
+      "source2" : "nde_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
