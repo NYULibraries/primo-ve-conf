@@ -1,4 +1,4 @@
-{"beaconO22":"3",
+{"beaconO22":"2",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "NYUDisoveryNetwork", "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -2326,7 +2326,7 @@
       "NYUDisoveryNetwork" : false,
       "CourseReserves" : false,
       "Research" : false,
-      "LibraryCatalog" : true,
+      "LibraryCatalog" : false,
       "SpecColl" : true
     },
     "subjects_alphabetical_sort_fullDisplay" : true,
@@ -4223,6 +4223,13 @@
       "source4" : "19",
       "source5" : "No"
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "publisher",
+      "source3" : "book",
+      "source4" : "11",
+      "source5" : "No"
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
@@ -4243,13 +4250,6 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "Yes"
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "publisher",
-      "source3" : "book",
-      "source4" : "11",
-      "source5" : "No"
     }, {
       "target" : "Yes",
       "source1" : "both",

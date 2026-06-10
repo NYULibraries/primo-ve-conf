@@ -1,4 +1,4 @@
-{"beaconO22":"1689",
+{"beaconO22":"2279",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -987,7 +987,7 @@
     "display_register_button_by_restricted_user_groups" : false,
     "primo_loan_list_sorting" : "descending",
     "export_all_for_user_email_only" : false,
-    "specto_max_file_size_for_display" : "2000000000"
+    "specto_max_file_size_for_display" : "200000000000"
   },
   "mapping-tables" : {
     "Citation Linker Definitions" : [ {
@@ -2570,6 +2570,13 @@
       "source4" : "19",
       "source5" : "No"
     }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "authorInitials",
+      "source3" : "article",
+      "source4" : "4",
+      "source5" : "No"
+    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "articleTitle",
@@ -2589,13 +2596,6 @@
       "source2" : "articleAuthor",
       "source3" : "article",
       "source4" : "3",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "authorInitials",
-      "source3" : "article",
-      "source4" : "4",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2628,6 +2628,14 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
+      "source2" : "email",
+      "source3" : "delivery",
+      "source4" : "9",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
       "source2" : "doi",
       "source3" : "article",
       "source4" : "9",
@@ -2646,14 +2654,6 @@
       "source2" : "alternativeLocationEmail",
       "source3" : "delivery",
       "source4" : "8",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "email",
-      "source3" : "delivery",
-      "source4" : "9",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2752,6 +2752,14 @@
       "source5" : "No"
     }, {
       "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredLocalPickupLocation",
+      "source3" : "delivery",
+      "source4" : "13",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
       "source3" : "article",
@@ -2771,14 +2779,6 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredLocalPickupLocation",
-      "source3" : "delivery",
-      "source4" : "13",
-      "source5" : "No",
-      "source6" : " "
     }, {
       "target" : "No",
       "source1" : "both",
@@ -3433,14 +3433,14 @@
       "source2" : "exact",
       "source3" : "ANY"
     }, {
-      "target" : "addtitle",
-      "source1" : "any",
-      "source2" : "contains",
-      "source3" : "ANY"
-    }, {
       "target" : "lds99",
       "source1" : "any",
       "source2" : "exact",
+      "source3" : "ANY"
+    }, {
+      "target" : "addtitle",
+      "source1" : "any",
+      "source2" : "contains",
       "source3" : "ANY"
     } ],
     "Authority Search Operators" : [ {

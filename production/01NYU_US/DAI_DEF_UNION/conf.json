@@ -1,4 +1,4 @@
-{"beaconO22":"866",
+{"beaconO22":"1596",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -983,7 +983,7 @@
     "display_register_button_by_restricted_user_groups" : false,
     "primo_loan_list_sorting" : "descending",
     "export_all_for_user_email_only" : false,
-    "specto_max_file_size_for_display" : "2000000000"
+    "specto_max_file_size_for_display" : "200000000000"
   },
   "mapping-tables" : {
     "Citation Linker Definitions" : [ {
@@ -1874,6 +1874,10 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_US:DAI_DEF_UNION",
+      "source2" : "nde_display_fields_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:DAI_DEF_UNION",
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
@@ -1883,10 +1887,6 @@
       "target" : "true",
       "source1" : "01NYU_US:DAI_DEF_UNION",
       "source2" : "nde_display_snippet"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_US:DAI_DEF_UNION",
-      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_US:DAI_DEF_UNION",
@@ -1980,6 +1980,10 @@
       "source1" : "01NYU_US:SH",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_share_actions_table_is_customized"
@@ -1992,20 +1996,16 @@
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_show_times_cited"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_US:SH_DEV",
-      "source2" : "nde_display_all_requests_in_expand_mode"
-    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_US:SH",
-      "source2" : "export_all_records"
-    }, {
       "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH",
       "source2" : "export_all_records"
     } ],
     "Resource Sharing Request Parameters" : [ {

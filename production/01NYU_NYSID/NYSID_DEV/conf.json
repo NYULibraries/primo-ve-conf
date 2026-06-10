@@ -1,4 +1,4 @@
-{"beaconO22":"1179",
+{"beaconO22":"2142",
   "primo-view" : {
     "available-tabs" : [ "LibraryCatalog", "CentralIndex", "consortia" ],
     "institution" : {
@@ -1668,7 +1668,7 @@
     "display_register_button_by_restricted_user_groups" : false,
     "primo_loan_list_sorting" : "descending",
     "export_all_for_user_email_only" : false,
-    "specto_max_file_size_for_display" : "2000000000"
+    "specto_max_file_size_for_display" : "200000000000"
   },
   "mapping-tables" : {
     "Citation Linker Definitions" : [ {

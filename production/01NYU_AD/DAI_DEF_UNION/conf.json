@@ -1,4 +1,4 @@
-{"beaconO22":"1859",
+{"beaconO22":"1006",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -983,7 +983,7 @@
     "display_register_button_by_restricted_user_groups" : false,
     "primo_loan_list_sorting" : "descending",
     "export_all_for_user_email_only" : false,
-    "specto_max_file_size_for_display" : "2000000000"
+    "specto_max_file_size_for_display" : "200000000000"
   },
   "mapping-tables" : {
     "Citation Linker Definitions" : [ {
@@ -2436,14 +2436,6 @@
       "source5" : "No"
     }, {
       "target" : "Yes",
-      "source1" : "both",
-      "source2" : "comment",
-      "source3" : "delivery",
-      "source4" : "15",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
       "source1" : "fulnet",
       "source2" : "preferredLocalPickupLocation",
       "source3" : "delivery",
@@ -2456,6 +2448,14 @@
       "source2" : "notNeedAfter",
       "source3" : "delivery",
       "source4" : "14",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "comment",
+      "source3" : "delivery",
+      "source4" : "15",
       "source5" : "No",
       "source6" : " "
     }, {
