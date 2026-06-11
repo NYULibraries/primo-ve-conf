@@ -6069,9 +6069,9 @@
       "type" : {
         "_string" : "language"
       },
-      "defaultOption" : "mixt1427",
-      "displayOptions" : [ "mixt1427", "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
-      "options" : [ "mixt1427", "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
+      "defaultOption" : "any",
+      "displayOptions" : [ "any", "mixt1427", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
+      "options" : [ "any", "mixt1427", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
     },
     "1511266235UI" : {
       "indexFields" : [ "contains", "exact", "begins_with", "equals" ],
@@ -6087,9 +6087,9 @@
       "type" : {
         "_string" : "language"
       },
-      "defaultOption" : "mixt1427",
-      "displayOptions" : [ "mixt1427", "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
-      "options" : [ "mixt1427", "any", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
+      "defaultOption" : "any",
+      "displayOptions" : [ "any", "mixt1427", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ],
+      "options" : [ "any", "mixt1427", "ara", "cze", "chi", "dan", "dut", "eng", "fre", "ger", "gre", "heb", "ita", "jpn", "kor", "lat", "nor", "por", "rus", "spa", "swe", "tur" ]
     },
     "freeText" : {
       "indexFields" : [ "any" ],
