@@ -1528,7 +1528,7 @@
     "allow_self_registration" : false,
     "self_registration_types" : "BOTH",
     "hide_rapido_expand_link_map" : {
-      "Everything" : true,
+      "Everything" : false,
       "CentralIndex" : false,
       "CourseReserves" : false,
       "Research" : false,

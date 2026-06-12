@@ -4075,7 +4075,7 @@
       "target" : "series",
       "source1" : "series",
       "source2" : "exact",
-      "source3" : "L"
+      "source3" : "ANY"
     }, {
       "target" : "ispartof",
       "source1" : "title",

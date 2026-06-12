@@ -1,4 +1,4 @@
-{"beaconO22":"3",
+{"beaconO22":"2199",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -3986,7 +3986,7 @@
       "target" : "series",
       "source1" : "series",
       "source2" : "exact",
-      "source3" : "L"
+      "source3" : "ANY"
     }, {
       "target" : "ispartof",
       "source1" : "title",
