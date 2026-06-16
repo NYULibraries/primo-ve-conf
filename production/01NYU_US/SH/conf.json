@@ -1,4 +1,4 @@
-{"beaconO22":"0",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -1274,11 +1274,6 @@
     }, {
       "target" : "No",
       "source1" : "default",
-      "source2" : "stateProvince",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
       "source2" : "addressLine3",
       "source5" : "false"
     }, {
@@ -1290,6 +1285,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "city",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
+      "source2" : "stateProvince",
       "source5" : "false"
     }, {
       "target" : "No",
@@ -1877,10 +1877,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_US:DAI_DEF_UNION",
-      "source2" : "nde_display_fields_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_US:DAI_DEF_UNION",
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "true",
@@ -1890,6 +1886,10 @@
       "target" : "true",
       "source1" : "01NYU_US:DAI_DEF_UNION",
       "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:DAI_DEF_UNION",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_US:DAI_DEF_UNION",
@@ -1960,6 +1960,38 @@
       "source2" : "export_all_records"
     }, {
       "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "enable_similar_image_browse"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_US:SH",
       "source2" : "nde_display_snippet"
     }, {
@@ -1983,10 +2015,6 @@
       "source1" : "01NYU_US:SH",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_US:SH_DEV",
-      "source2" : "nde_display_all_requests_in_expand_mode"
-    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_share_actions_table_is_customized"
@@ -1999,16 +2027,20 @@
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_show_times_cited"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_display_all_requests_in_expand_mode"
+    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_US:SH_DEV",
-      "source2" : "export_all_records"
-    }, {
       "target" : "false",
       "source1" : "01NYU_US:SH",
+      "source2" : "export_all_records"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
       "source2" : "export_all_records"
     } ],
     "Resource Sharing Request Parameters" : [ {
