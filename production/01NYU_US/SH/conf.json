@@ -1,4 +1,4 @@
-{"beaconO22":"0",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -74,11 +74,11 @@
       "mayAlsoBeHeldByEnabled" : true
     },
     "auto-complete-enabled-map" : {
-      "CI_NYUSH" : true,
-      "CI_articles" : true,
-      "CI_NYUSH_NYU_CONSORTIA" : true,
+      "CI_NYUSH" : false,
+      "CI_articles" : false,
+      "CI_NYUSH_NYU_CONSORTIA" : false,
       "jsearch_scope" : false,
-      "NYUSH" : true
+      "NYUSH" : false
     },
     "scopes" : [ {
       "scope-id" : "CI_NYUSH",
@@ -859,7 +859,7 @@
     "Session Timeout" : "30",
     "Auto_Complete_Server_URL" : "https://primo-instant-na.hosted.exlibrisgroup.com",
     "FE UI - Scrolling Threshold" : "10",
-    "Auto_Complete_Feature_Enabled" : "true",
+    "Auto_Complete_Feature_Enabled" : "false",
     "Use local fields 30-39 as lateral links" : "Y",
     "manualAlternativeEmailRS" : false,
     "ndenumberOfEmailSignedInUserAllowToSend" : 10,
@@ -1989,6 +1989,34 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
+      "source2" : "enable_similar_image_browse"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH",
       "source2" : "enable_similar_image_browse"
     }, {
       "target" : "true",
