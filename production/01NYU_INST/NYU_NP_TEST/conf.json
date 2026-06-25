@@ -1,4 +1,4 @@
-{"beaconO22":"884",
+{"beaconO22":"1028",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -2661,27 +2661,6 @@
       "source4" : "20",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "pagesToPhotocopy",
-      "source3" : "article",
-      "source4" : "21",
-      "source5" : "Yes"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "startPage",
-      "source3" : "article",
-      "source4" : "22",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "endPage",
-      "source3" : "article",
-      "source4" : "23",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "fulnet",
       "source2" : "allowOtherLibrary",
@@ -2708,9 +2687,30 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "additionalAuthor",
+      "source2" : "authorInitials",
       "source3" : "article",
-      "source4" : "5",
+      "source4" : "4",
+      "source5" : "No"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "pagesToPhotocopy",
+      "source3" : "article",
+      "source4" : "21",
+      "source5" : "Yes"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "startPage",
+      "source3" : "article",
+      "source4" : "22",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "endPage",
+      "source3" : "article",
+      "source4" : "23",
       "source5" : "No"
     }, {
       "target" : "Yes",
@@ -2730,9 +2730,9 @@
     }, {
       "target" : "No",
       "source1" : "both",
-      "source2" : "authorInitials",
+      "source2" : "additionalAuthor",
       "source3" : "article",
-      "source4" : "4",
+      "source4" : "5",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2896,26 +2896,26 @@
       "source5" : "No",
       "source6" : " "
     }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredPickupLocation",
+      "source3" : "delivery",
+      "source4" : "11",
+      "source5" : "No",
+      "source6" : " "
+    }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "title",
-      "source3" : "book",
-      "source4" : "2",
-      "source5" : "Yes"
+      "source2" : "formDescription",
+      "source3" : "owner",
+      "source4" : "1",
+      "source5" : "No"
     }, {
       "target" : "No",
       "source1" : "fulnet",
       "source2" : "preferredPickupInstitution",
       "source3" : "delivery",
       "source4" : "10",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredPickupLocation",
-      "source3" : "delivery",
-      "source4" : "11",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2949,10 +2949,10 @@
     }, {
       "target" : "Yes",
       "source1" : "both",
-      "source2" : "formDescription",
-      "source3" : "owner",
-      "source4" : "1",
-      "source5" : "No"
+      "source2" : "title",
+      "source3" : "book",
+      "source4" : "2",
+      "source5" : "Yes"
     }, {
       "target" : "Yes",
       "source1" : "both",
