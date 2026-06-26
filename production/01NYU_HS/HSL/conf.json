@@ -1880,10 +1880,6 @@
       "source1" : "01NYU_HS:HSL",
       "source2" : "nde_full_record_services_table_is_customized"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_HS:HSL_TEST_EXCLUDE_HOLLIS_LOC",
-      "source2" : "enable_qr"
-    }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_EXCLUDE_HOLLIS_LOC",
       "source2" : "focus_on_search_input"
@@ -1895,6 +1891,10 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_EXCLUDE_HOLLIS_LOC",
       "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_TEST_EXCLUDE_HOLLIS_LOC",
+      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_EXCLUDE_HOLLIS_LOC",
@@ -1950,10 +1950,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
-      "source2" : "enable_barcode_search"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
@@ -1971,6 +1967,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
       "source2" : "enable_saveEshelf_message"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_MIGRATION",
@@ -1998,10 +1998,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL",
-      "source2" : "use_classic_email_template"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL",
       "source2" : "focus_on_search_input"
     }, {
       "target" : "false",
@@ -2011,6 +2007,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
       "source2" : "enable_qr"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "use_classic_email_template"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL",
@@ -2038,10 +2038,6 @@
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_NYUBANNER",
-      "source2" : "enable_resource_type_filter_bar"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_NYUBANNER",
       "source2" : "use_classic_email_template"
     }, {
       "target" : "true",
@@ -2051,6 +2047,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_NYUBANNER",
       "source2" : "enable_barcode_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_NYUBANNER",
+      "source2" : "enable_resource_type_filter_bar"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_NYUBANNER",
@@ -2140,10 +2140,6 @@
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "enable_similar_image_browse"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_HS:HSL_TEST_FACETS",
-      "source2" : "nde_display_snippet"
-    }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_FACETS",
       "source2" : "allow_direct_login_from_other_institutions"
@@ -2155,6 +2151,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_FACETS",
       "source2" : "nde_display_summary_field"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_TEST_FACETS",
+      "source2" : "nde_display_snippet"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_FACETS",
@@ -2308,10 +2308,6 @@
       "source1" : "01NYU_HS:HSL_TEST_FACETS",
       "source2" : "use_normalized_cdi_subjects"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_TEST_BANNER",
-      "source2" : "nde_display_fields_table_is_customized"
-    }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "export_all_records"
@@ -2323,6 +2319,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
       "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_TEST_BANNER",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_BANNER",
@@ -2428,18 +2428,6 @@
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "enableDidYouMean"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_DEV_CSS",
-      "source2" : "nde_display_fields_table_is_customized"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_HS:HSL",
-      "source2" : "enableDidYouMean"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_HS:HSL_DEV",
-      "source2" : "enableDidYouMean"
-    }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "export_all_records"
@@ -2451,6 +2439,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_DEV_CSS",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_DEV_CSS",
@@ -2492,10 +2484,6 @@
       "source1" : "01NYU_HS:HSL_DEV_CSS",
       "source2" : "enable_natural_language_search"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL_FAVORITES",
-      "source2" : "nde_display_fields_table_is_customized"
-    }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "export_all_records"
@@ -2507,6 +2495,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "nde_display_snippet"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL_FAVORITES",
+      "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_FAVORITES",
@@ -2551,6 +2543,14 @@
       "target" : "false",
       "source1" : "01NYU_HS:HSL_FAVORITES",
       "source2" : "allow_direct_login_from_other_institutions"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_DEV",
+      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_FAVORITES",
@@ -2661,14 +2661,6 @@
       "source2" : "nde_display_all_requests_in_expand_mode"
     }, {
       "target" : "true",
-      "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
-      "source2" : "enable_qr"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_HS:HSL",
-      "source2" : "use_normalized_cdi_subjects"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_FACETS",
       "source2" : "enableDidYouMean"
     }, {
@@ -2683,6 +2675,10 @@
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
       "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
+      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
@@ -2702,6 +2698,10 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_HS:HSL_TEST_HOLLIS_LINKS",
+      "source2" : "use_normalized_cdi_subjects"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_HS:HSL",
       "source2" : "use_normalized_cdi_subjects"
     }, {
       "target" : "false",
