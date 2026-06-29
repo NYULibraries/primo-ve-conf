@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"0",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -1774,10 +1774,6 @@
       "source1" : "01NYU_AD:AD",
       "source2" : "focus_on_search_input"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_AD:AD",
-      "source2" : "enable_saveEshelf_message"
-    }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_recent_scopes"
@@ -1792,11 +1788,11 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD",
-      "source2" : "enable_barcode_search"
+      "source2" : "enable_saveEshelf_message"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:DAI_DEF_UNION",
-      "source2" : "nde_export_actions_table_is_customized"
+      "target" : "true",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "enable_barcode_search"
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD",
@@ -1833,6 +1829,10 @@
       "target" : "false",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
       "source2" : "nde_share_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:DAI_DEF_UNION",
+      "source2" : "nde_export_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
@@ -1891,10 +1891,6 @@
       "source2" : "export_all_records"
     }, {
       "target" : "true",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "enable_qr"
-    }, {
-      "target" : "true",
       "source1" : "01NYU_AD:AD",
       "source2" : "nde_display_summary_field"
     }, {
@@ -1921,6 +1917,10 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "enable_recent_scopes"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_qr"
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
@@ -1966,10 +1966,6 @@
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "nde_actions_table_is_customized"
     }, {
-      "target" : "true",
-      "source1" : "01NYU_AD:AD_DEV",
-      "source2" : "nde_display_snippet"
-    }, {
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "export_all_records"
@@ -1990,9 +1986,9 @@
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "nde_export_actions_table_is_customized"
     }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:AD",
-      "source2" : "nde_show_times_cited"
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "nde_display_snippet"
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD",
@@ -2005,6 +2001,10 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD",
+      "source2" : "nde_show_times_cited"
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD",
