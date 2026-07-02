@@ -1,4 +1,4 @@
-{"beaconO22":"1469",
+{"beaconO22":"1366",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1802,6 +1802,10 @@
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_highlight_the_record_you_came_from"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:DAI_DEF_UNION",
+      "source2" : "nde_share_actions_table_is_customized"
+    }, {
       "target" : "true",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
       "source2" : "nde_display_snippet"
@@ -1813,10 +1817,6 @@
       "target" : "false",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
       "source2" : "nde_actions_table_is_customized"
-    }, {
-      "target" : "false",
-      "source1" : "01NYU_AD:DAI_DEF_UNION",
-      "source2" : "nde_share_actions_table_is_customized"
     }, {
       "target" : "false",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
@@ -2436,6 +2436,14 @@
       "source5" : "No"
     }, {
       "target" : "Yes",
+      "source1" : "both",
+      "source2" : "comment",
+      "source3" : "delivery",
+      "source4" : "15",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
       "source1" : "fulnet",
       "source2" : "preferredLocalPickupLocation",
       "source3" : "delivery",
@@ -2448,14 +2456,6 @@
       "source2" : "notNeedAfter",
       "source3" : "delivery",
       "source4" : "14",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "comment",
-      "source3" : "delivery",
-      "source4" : "15",
       "source5" : "No",
       "source6" : " "
     }, {
