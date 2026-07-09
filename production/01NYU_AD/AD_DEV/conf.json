@@ -1,4 +1,4 @@
-{"beaconO22":"1375",
+{"beaconO22":"1395",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -429,6 +429,9 @@
           "items" : "description",
           "displayInViewer" : true
         }, {
+          "items" : "lds73",
+          "displayInViewer" : true
+        }, {
           "items" : "contents",
           "displayInViewer" : true
         }, {
@@ -590,6 +593,9 @@
           "displayInViewer" : true
         }, {
           "items" : "description",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds73",
           "displayInViewer" : true
         }, {
           "items" : "contents",

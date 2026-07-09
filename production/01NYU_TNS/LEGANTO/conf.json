@@ -1,4 +1,4 @@
-{"beaconO22":"1140",
+{"beaconO22":"873",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -83,8 +83,8 @@
     },
     "scopes" : [ {
       "scope-id" : "MyInst_and_CI",
-      "locations" : "primo_central_multiple_fe,Local",
-      "types" : "adaptor,local",
+      "locations" : "Local,primo_central_multiple_fe",
+      "types" : "local,adaptor",
       "tab" : "Everything",
       "tab-id-for-scope-matching" : "Everything",
       "contains-central-index-scope" : true
@@ -3134,6 +3134,10 @@
       "source2" : "nde_display_fields_table_is_customized"
     }, {
       "target" : "true",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "open_filter_panel_by_default"
+    }, {
+      "target" : "true",
       "source1" : "01NYU_TNS:LEGANTO",
       "source2" : "enable_qr"
     }, {
@@ -3616,6 +3620,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:TNS_TEST",
       "source2" : "nde_full_record_services_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "IncludeElectronicAndDigitalResources"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS_TEST",

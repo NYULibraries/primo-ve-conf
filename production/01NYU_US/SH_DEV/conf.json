@@ -1,4 +1,4 @@
-{"beaconO22":"1261",
+{"beaconO22":"1276",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -426,6 +426,9 @@
           "items" : "description",
           "displayInViewer" : true
         }, {
+          "items" : "lds73",
+          "displayInViewer" : true
+        }, {
           "items" : "contents",
           "displayInViewer" : true
         }, {
@@ -581,6 +584,9 @@
           "displayInViewer" : true
         }, {
           "items" : "description",
+          "displayInViewer" : true
+        }, {
+          "items" : "lds73",
           "displayInViewer" : true
         }, {
           "items" : "contents",
@@ -1275,6 +1281,11 @@
     }, {
       "target" : "No",
       "source1" : "default",
+      "source2" : "stateProvince",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
       "source2" : "addressLine3",
       "source5" : "false"
     }, {
@@ -1286,11 +1297,6 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "city",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
-      "source2" : "stateProvince",
       "source5" : "false"
     }, {
       "target" : "No",
@@ -2019,6 +2025,10 @@
       "target" : "true",
       "source1" : "01NYU_US:SH",
       "source2" : "enable_similar_image_browse"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH",
+      "source2" : "IncludeElectronicAndDigitalResources"
     }, {
       "target" : "true",
       "source1" : "01NYU_US:SH",

@@ -1,4 +1,4 @@
-{"beaconO22":"1247",
+{"beaconO22":"1047",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2016,6 +2016,10 @@
       "target" : "true",
       "source1" : "01NYU_US:SH",
       "source2" : "enable_similar_image_browse"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH",
+      "source2" : "IncludeElectronicAndDigitalResources"
     }, {
       "target" : "true",
       "source1" : "01NYU_US:SH",
