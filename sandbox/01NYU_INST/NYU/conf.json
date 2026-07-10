@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot" ],
     "institution" : {
@@ -461,6 +461,9 @@
           "items" : "description",
           "displayInViewer" : true
         }, {
+          "items" : "lds73",
+          "displayInViewer" : true
+        }, {
           "items" : "language",
           "displayInViewer" : true
         }, {
@@ -507,9 +510,6 @@
           "displayInViewer" : true
         }, {
           "items" : "lds63",
-          "displayInViewer" : true
-        }, {
-          "items" : "lds73",
           "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
@@ -627,6 +627,9 @@
           "items" : "description",
           "displayInViewer" : true
         }, {
+          "items" : "lds73",
+          "displayInViewer" : true
+        }, {
           "items" : "language",
           "displayInViewer" : true
         }, {
@@ -673,9 +676,6 @@
           "displayInViewer" : true
         }, {
           "items" : "lds63",
-          "displayInViewer" : true
-        }, {
-          "items" : "lds73",
           "displayInViewer" : true
         } ],
         "authorityitemview" : [ {
@@ -4075,7 +4075,7 @@
     }, {
       "target" : "series",
       "source1" : "series",
-      "source2" : "exact",
+      "source2" : "contains",
       "source3" : "ANY"
     }, {
       "target" : "ispartof",

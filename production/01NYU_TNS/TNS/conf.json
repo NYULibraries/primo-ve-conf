@@ -1,4 +1,4 @@
-{"beaconO22":"0",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -2900,6 +2900,10 @@
       "target" : "false",
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_use_custom_landing_page_configuration"
     }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",

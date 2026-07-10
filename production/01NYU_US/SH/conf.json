@@ -1968,10 +1968,6 @@
     }, {
       "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
-      "source2" : "nde_enable_places_widget"
-    }, {
-      "target" : "true",
-      "source1" : "01NYU_US:SH_DEV",
       "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
@@ -1981,6 +1977,10 @@
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "nde_enable_places_widget"
     }, {
       "target" : "false",
       "source1" : "01NYU_US:SH_DEV",

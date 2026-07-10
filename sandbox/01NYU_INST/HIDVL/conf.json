@@ -1,4 +1,4 @@
-{"beaconO22":"1",
+{"beaconO22":"1844",
   "primo-view" : {
     "available-tabs" : [ "HIDVL" ],
     "institution" : {
@@ -3826,7 +3826,7 @@
     }, {
       "target" : "series",
       "source1" : "series",
-      "source2" : "exact",
+      "source2" : "contains",
       "source3" : "ANY"
     }, {
       "target" : "ispartof",

@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1862",
   "primo-view" : {
     "available-tabs" : [ "default" ],
     "institution" : {
@@ -3842,7 +3842,7 @@
     }, {
       "target" : "series",
       "source1" : "series",
-      "source2" : "exact",
+      "source2" : "contains",
       "source3" : "ANY"
     }, {
       "target" : "ispartof",

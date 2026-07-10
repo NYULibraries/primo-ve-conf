@@ -1,4 +1,4 @@
-{"beaconO22":"764",
+{"beaconO22":"1130",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -2260,6 +2260,10 @@
       "source1" : "01NYU_TNS:NDEAJ",
       "source2" : "UseRedirectFromViewSavedSearches"
     }, {
+      "target" : "false",
+      "source1" : "01NYU_TNS:TNSNDE",
+      "source2" : "nde_use_custom_landing_page_configuration"
+    }, {
       "target" : "true",
       "source1" : "01NYU_TNS:TNS",
       "source2" : "enable_resource_type_filter_bar"
@@ -2809,6 +2813,13 @@
       "source4" : "19",
       "source5" : "No"
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "publisher",
+      "source3" : "book",
+      "source4" : "11",
+      "source5" : "No"
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "seriesTitleNumber",
@@ -2829,13 +2840,6 @@
       "source3" : "article",
       "source4" : "22",
       "source5" : "Yes"
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "publisher",
-      "source3" : "book",
-      "source4" : "11",
-      "source5" : "No"
     }, {
       "target" : "Yes",
       "source1" : "both",
