@@ -1,4 +1,4 @@
-{"beaconO22":"1627",
+{"beaconO22":"1720",
   "primo-view" : {
     "available-tabs" : [ "TNS_Local_Catalog_NDE", "TNS_Everything_NDE", "TNS_Special_Collections_NDE" ],
     "institution" : {
@@ -71,7 +71,7 @@
       "displayVoiceSearch" : true,
       "displayLibraryNameLocationFacet" : false,
       "virtualBrowseType" : "bib",
-      "editMyLibraryCard" : false,
+      "editMyLibraryCard" : true,
       "mayAlsoBeHeldByEnabled" : false
     },
     "auto-complete-enabled-map" : {
@@ -1548,7 +1548,7 @@
     "booking_request_minutes_policy" : "30",
     "booking_hour_format" : "24hours",
     "exhibitions_creator" : false,
-    "display_sms_wanted" : false,
+    "display_sms_wanted" : true,
     "auto_switch_quicklinks" : true,
     "request_default_format" : "PHYSICAL",
     "request_it_enabled" : false,
@@ -5707,14 +5707,14 @@
       "source2" : "SENT"
     } ],
     "Citation styles" : [ {
-      "target" : "modern-language-association-7th-edition",
-      "source1" : "1"
+      "target" : "chicago-notes-bibliography-16th-edition",
+      "source1" : "3"
     }, {
       "target" : "apa",
       "source1" : "2"
     }, {
       "target" : "modern-language-association",
-      "source1" : "4"
+      "source1" : "1"
     }, {
       "target" : "harvard-kings-college-london",
       "source1" : "5"

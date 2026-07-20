@@ -1,4 +1,4 @@
-{"beaconO22":"952",
+{"beaconO22":"0",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CentralIndex", "CourseReserves" ],
     "institution" : {
@@ -1604,7 +1604,7 @@
     "booking_request_minutes_policy" : "30",
     "booking_hour_format" : "24hours",
     "exhibitions_creator" : false,
-    "display_sms_wanted" : false,
+    "display_sms_wanted" : true,
     "auto_switch_quicklinks" : true,
     "request_default_format" : "PHYSICAL",
     "request_it_enabled" : false,
@@ -5797,14 +5797,14 @@
       "source2" : "SENT"
     } ],
     "Citation styles" : [ {
-      "target" : "modern-language-association-7th-edition",
-      "source1" : "1"
+      "target" : "chicago-notes-bibliography-16th-edition",
+      "source1" : "3"
     }, {
       "target" : "apa",
       "source1" : "2"
     }, {
       "target" : "modern-language-association",
-      "source1" : "4"
+      "source1" : "1"
     }, {
       "target" : "harvard-kings-college-london",
       "source1" : "5"
