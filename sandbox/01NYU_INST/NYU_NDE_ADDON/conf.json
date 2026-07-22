@@ -5966,7 +5966,7 @@
       }
     },
     "LibKey" : {
-      "url" : "https://d2tg293dhrg55m.cloudfront.net/primo-nde/primo-nde-discovery-service-adapter/",
+      "url" : "https://discovery-adapters.thirdiron.com/primo-nde/production/",
       "properties" : {
         "articleAcceptedManuscriptArticleLinkViaUnpaywallEnabled" : "true",
         "printRecordsIntegrationEnabled" : "true",

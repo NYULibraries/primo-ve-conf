@@ -1,4 +1,4 @@
-{"beaconO22":"799",
+{"beaconO22":"1382",
   "primo-view" : {
     "available-tabs" : [ "CI_R", "SpecColl", "CourseReserves" ],
     "institution" : {
@@ -5716,7 +5716,7 @@
       "source2" : "SENT"
     } ],
     "Citation styles" : [ {
-      "target" : "chicago-notes-bibliography-16th-edition",
+      "target" : "chicago-notes-bibliography",
       "source1" : "3"
     }, {
       "target" : "apa",

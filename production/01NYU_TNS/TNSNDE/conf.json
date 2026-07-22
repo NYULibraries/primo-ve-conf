@@ -1,4 +1,4 @@
-{"beaconO22":"1924",
+{"beaconO22":"1133",
   "primo-view" : {
     "available-tabs" : [ "TNS_Local_Catalog_NDE", "TNS_Everything_NDE", "TNS_Special_Collections_NDE" ],
     "institution" : {
@@ -455,10 +455,6 @@
     "MainMenuTileInterface" : {
       "01NYU_TNS:TNSNDE.MainMenuTileInterface" : {
         "mainview" : [ {
-          "url" : "researchAssistant",
-          "label" : "researchAssistant",
-          "target" : "_self"
-        }, {
           "url" : "/nde/home?vid=01NYU_TNS:TNSNDE",
           "label" : "LibrarySearch",
           "target" : "_self"
@@ -481,6 +477,10 @@
         }, {
           "url" : "bsearch",
           "label" : "BrowseSearch",
+          "target" : "_self"
+        }, {
+          "url" : "researchAssistant",
+          "label" : "researchAssistant",
           "target" : "_self"
         } ],
         "id" : "01NYU_TNS:TNSNDE.MainMenuTileInterface"
@@ -1177,7 +1177,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,links,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1211,7 +1211,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,links,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1239,7 +1239,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,links,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1273,7 +1273,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,links,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1301,7 +1301,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,links,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1329,7 +1329,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,links,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1357,7 +1357,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,links,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -1391,7 +1391,7 @@
         "frbrdisplay" : 1,
         "frbrsortby" : "date_d",
         "tabsorder" : {
-          "items" : "getit_link1,Digital versions,requests,details,explore,links,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
+          "items" : "getit_link1,Digital versions,requests,details,explore,,moreFromTheSame,mayAlsoBeFoundAt,browseshelf,Related Items,Book Reviews,links,tags,esploroUsage,searchWithinJournal,Similar Images,citations"
         },
         "getall" : false,
         "showsnipifnotfound" : true,
@@ -5345,38 +5345,38 @@
       "source2" : "5",
       "source3" : "true"
     }, {
-      "target" : "prima.services.links",
-      "source1" : "links",
-      "source2" : "6",
-      "source3" : "false"
-    }, {
       "target" : "prima.services.citation_trail_and_times_cited",
       "source1" : "citationTrailAndTimesCited",
-      "source2" : "7",
+      "source2" : "6",
       "source3" : "false"
     }, {
       "target" : "prima.services.more.from.the.same",
       "source1" : "moreFromTheSame",
-      "source2" : "8",
+      "source2" : "7",
       "source3" : "false"
     }, {
       "target" : "prima.services.mayAlsoBeFoundAt",
       "source1" : "mayAlsoBeFoundAt",
-      "source2" : "9",
+      "source2" : "8",
       "source3" : "false"
     }, {
       "target" : "prima.services.browseshelf",
       "source1" : "browseshelf",
-      "source2" : "10",
+      "source2" : "9",
       "source3" : "false"
     }, {
       "target" : "prima.services.book.chapters",
       "source1" : "Related Items",
-      "source2" : "11",
+      "source2" : "10",
       "source3" : "false"
     }, {
       "target" : "prima.services.book.reviews",
       "source1" : "Book Reviews",
+      "source2" : "11",
+      "source3" : "false"
+    }, {
+      "target" : "prima.services.links",
+      "source1" : "links",
       "source2" : "12",
       "source3" : "false"
     }, {
@@ -5707,7 +5707,7 @@
       "source2" : "SENT"
     } ],
     "Citation styles" : [ {
-      "target" : "chicago-notes-bibliography-16th-edition",
+      "target" : "chicago-notes-bibliography",
       "source1" : "3"
     }, {
       "target" : "apa",

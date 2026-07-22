@@ -1,4 +1,4 @@
-{"beaconO22":"1062",
+{"beaconO22":"1302",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research", "NYUDiscoveryNetwork" ],
     "institution" : {
@@ -6833,7 +6833,7 @@
       "source2" : "SENT"
     } ],
     "Citation styles" : [ {
-      "target" : "chicago-notes-bibliography-16th-edition",
+      "target" : "chicago-notes-bibliography",
       "source1" : "3"
     }, {
       "target" : "apa",
