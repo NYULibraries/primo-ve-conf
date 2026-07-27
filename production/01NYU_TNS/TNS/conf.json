@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -4261,7 +4261,7 @@
     } ],
     "Holdings Display In Locations List" : [ {
       "target" : "holdings_fields_display_in_locations_list_view",
-      "source2" : "false"
+      "source2" : "true"
     } ],
     "Nde otb Actions List" : [ {
       "target" : "default",

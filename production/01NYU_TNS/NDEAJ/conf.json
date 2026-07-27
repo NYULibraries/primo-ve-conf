@@ -1,4 +1,4 @@
-{"beaconO22":"1185",
+{"beaconO22":"786",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CentralIndex", "CourseReserves" ],
     "institution" : {
@@ -4259,7 +4259,7 @@
     } ],
     "Holdings Display In Locations List" : [ {
       "target" : "holdings_fields_display_in_locations_list_view",
-      "source2" : "false"
+      "source2" : "true"
     } ],
     "Nde otb Actions List" : [ {
       "target" : "default",

@@ -1,4 +1,4 @@
-{"beaconO22":"1362",
+{"beaconO22":"1595",
   "primo-view" : {
     "available-tabs" : [ "TNS_Local_Catalog_NDE", "TNS_Everything_NDE", "TNS_Special_Collections_NDE" ],
     "institution" : {
@@ -4185,7 +4185,7 @@
     } ],
     "Holdings Display In Locations List" : [ {
       "target" : "holdings_fields_display_in_locations_list_view",
-      "source2" : "false"
+      "source2" : "true"
     } ],
     "Nde otb Actions List" : [ {
       "target" : "default",

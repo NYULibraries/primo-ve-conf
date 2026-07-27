@@ -1,4 +1,4 @@
-{"beaconO22":"1031",
+{"beaconO22":"1111",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -3643,7 +3643,7 @@
     } ],
     "Holdings Display In Locations List" : [ {
       "target" : "holdings_fields_display_in_locations_list_view",
-      "source2" : "false"
+      "source2" : "true"
     } ],
     "Nde otb Actions List" : [ {
       "target" : "default",
