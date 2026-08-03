@@ -81,4 +81,20 @@ var app = angular.module('viewCustom', ['angularLoad']);
                      
   });
   
+
+  // Hide the "Additional services" tab inside alma-htgi-tabs
+  var observer = new MutationObserver(function() {
+    var host = document.querySelector('alma-htgi-tabs');
+    if (!host) return;
+    var root = host.shadowRoot || host;
+    var divs = root.querySelectorAll('div');
+    divs.forEach(function(div) {
+      if (div.innerText == 'Additional services') {
+        div.innerText = '';
+        observer.disconnect();
+      }
+    });
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+
 })();

@@ -936,3 +936,13 @@ prm-report-problem .report-container .report-problem-btn prm-icon md-icon path, 
   display:none;
 }
 
+/* Hide the login prompt within the "how to get it" section of the full view page */
+alma-htgi-tabs > prm-alert-bar {
+  display: none; 
+}
+
+alma-htgi-tabs div.md-list-item-text.layout-wrap.flex.layout-row {
+  padding-top: 2em;
+  font-weight:bold;
+  font-size:1.1em;
+}
