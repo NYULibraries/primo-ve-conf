@@ -1,4 +1,4 @@
-{"beaconO22":"0",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -1773,6 +1773,30 @@
     } ],
     "View Properties" : [ {
       "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enable_similar_image_browse"
+    }, {
+      "target" : "false",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
       "source2" : "use_normalized_cdi_subjects"
     }, {
@@ -1823,6 +1847,10 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD",
       "source2" : "enable_highlight_the_record_you_came_from"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "enableDidYouMean"
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:DAI_DEF_UNION",
@@ -1995,6 +2023,10 @@
       "target" : "false",
       "source1" : "01NYU_AD:AD_DEV",
       "source2" : "nde_export_actions_table_is_customized"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_AD:AD_DEV",
+      "source2" : "IncludeElectronicAndDigitalResources"
     }, {
       "target" : "true",
       "source1" : "01NYU_AD:AD_DEV",
@@ -2458,6 +2490,14 @@
       "source5" : "No"
     }, {
       "target" : "Yes",
+      "source1" : "both",
+      "source2" : "comment",
+      "source3" : "delivery",
+      "source4" : "15",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "Yes",
       "source1" : "fulnet",
       "source2" : "preferredLocalPickupLocation",
       "source3" : "delivery",
@@ -2470,14 +2510,6 @@
       "source2" : "notNeedAfter",
       "source3" : "delivery",
       "source4" : "14",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "comment",
-      "source3" : "delivery",
-      "source4" : "15",
       "source5" : "No",
       "source6" : " "
     }, {

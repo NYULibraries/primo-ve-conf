@@ -1,4 +1,4 @@
-{"beaconO22":"1016",
+{"beaconO22":"1209",
   "primo-view" : {
     "available-tabs" : [ "default_slot" ],
     "institution" : {
@@ -1284,11 +1284,6 @@
     }, {
       "target" : "No",
       "source1" : "default",
-      "source2" : "stateProvince",
-      "source5" : "false"
-    }, {
-      "target" : "No",
-      "source1" : "default",
       "source2" : "addressLine3",
       "source5" : "false"
     }, {
@@ -1300,6 +1295,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "city",
+      "source5" : "false"
+    }, {
+      "target" : "No",
+      "source1" : "default",
+      "source2" : "stateProvince",
       "source5" : "false"
     }, {
       "target" : "No",
@@ -2084,6 +2084,10 @@
       "target" : "true",
       "source1" : "01NYU_US:SH_DEV",
       "source2" : "export_all_records"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_US:SH_DEV",
+      "source2" : "IncludeElectronicAndDigitalResources"
     } ],
     "Resource Sharing Request Parameters" : [ {
       "target" : "No",
@@ -5040,7 +5044,7 @@
     "viewCss" : "custom/01NYU_US-SH_DEV/css/custom1.css",
     "viewJs" : "custom/01NYU_US-SH_DEV/js/custom.js",
     "favIcon" : "custom/01NYU_US-SH_DEV/img/favicon.ico",
-    "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_US-SH_DEV.png",
+    "libraryLogo" : "custom/thumbnails/thumbnail_01NYU_US-SH_DEV.svg",
     "libraryLogoClickableURL" : "https://library.shanghai.nyu.edu/",
     "resourceIcons" : { },
     "additionalLocationIcons" : { },

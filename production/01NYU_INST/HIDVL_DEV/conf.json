@@ -1,4 +1,4 @@
-{"beaconO22":"1091",
+{"beaconO22":"974",
   "primo-view" : {
     "available-tabs" : [ "default" ],
     "institution" : {
@@ -1693,6 +1693,10 @@
       "source1" : "01NYU_INST:HIDVL_DEV",
       "source2" : "nde_show_times_cited"
     }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "enable_similar_image_browse"
+    }, {
       "target" : "false",
       "source1" : "01NYU_INST:NYU_DEV",
       "source2" : "nde_share_actions_table_is_customized"
@@ -2048,6 +2052,34 @@
       "target" : "true",
       "source1" : "01NYU_INST:NYU_AI",
       "source2" : "enableDidYouMean"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "IncludeElectronicAndDigitalResources"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU_DEV",
+      "source2" : "UseRedirectFromViewSavedSearches"
     }, {
       "target" : "true",
       "source1" : "01NYU_INST:NYU_DEV",
@@ -2499,27 +2531,6 @@
       "source4" : "20",
       "source5" : "No"
     }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "pagesToPhotocopy",
-      "source3" : "article",
-      "source4" : "21",
-      "source5" : "Yes"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "startPage",
-      "source3" : "article",
-      "source4" : "22",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "endPage",
-      "source3" : "article",
-      "source4" : "23",
-      "source5" : "No"
-    }, {
       "target" : "No",
       "source1" : "fulnet",
       "source2" : "allowOtherLibrary",
@@ -2544,6 +2555,34 @@
       "source5" : "No",
       "source6" : " "
     }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "authorInitials",
+      "source3" : "article",
+      "source4" : "4",
+      "source5" : "No"
+    }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "pagesToPhotocopy",
+      "source3" : "article",
+      "source4" : "21",
+      "source5" : "Yes"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "startPage",
+      "source3" : "article",
+      "source4" : "22",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "endPage",
+      "source3" : "article",
+      "source4" : "23",
+      "source5" : "No"
+    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "comment",
@@ -2557,13 +2596,6 @@
       "source2" : "articleAuthor",
       "source3" : "article",
       "source4" : "3",
-      "source5" : "No"
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "authorInitials",
-      "source3" : "article",
-      "source4" : "4",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -2678,6 +2710,14 @@
       "source4" : "1",
       "source5" : "No"
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "line1",
+      "source3" : "delivery",
+      "source4" : "4",
+      "source5" : "No",
+      "source6" : " "
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "format",
@@ -2699,14 +2739,6 @@
       "source2" : "alternativeLocationAddress",
       "source3" : "delivery",
       "source4" : "3",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "line1",
-      "source3" : "delivery",
-      "source4" : "4",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2742,6 +2774,21 @@
       "source5" : "No",
       "source6" : " "
     }, {
+      "target" : "Yes",
+      "source1" : "both",
+      "source2" : "formDescription",
+      "source3" : "owner",
+      "source4" : "1",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "fulnet",
+      "source2" : "preferredPickupInstitution",
+      "source3" : "delivery",
+      "source4" : "10",
+      "source5" : "No",
+      "source6" : " "
+    }, {
       "target" : "No",
       "source1" : "both",
       "source2" : "findBookItemsDescriptions",
@@ -2767,13 +2814,6 @@
       "source1" : "both",
       "source2" : "citationType",
       "source3" : "type",
-      "source4" : "1",
-      "source5" : "No"
-    }, {
-      "target" : "Yes",
-      "source1" : "both",
-      "source2" : "formDescription",
-      "source3" : "owner",
       "source4" : "1",
       "source5" : "No"
     }, {
@@ -2828,6 +2868,14 @@
     }, {
       "target" : "No",
       "source1" : "both",
+      "source2" : "language",
+      "source3" : "delivery",
+      "source4" : "19",
+      "source5" : "No",
+      "source6" : " "
+    }, {
+      "target" : "No",
+      "source1" : "both",
       "source2" : "maximumFee",
       "source3" : "delivery",
       "source4" : "16",
@@ -2847,14 +2895,6 @@
       "source2" : "copyrights",
       "source3" : "delivery",
       "source4" : "18",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "language",
-      "source3" : "delivery",
-      "source4" : "19",
       "source5" : "No",
       "source6" : " "
     }, {
@@ -2887,14 +2927,6 @@
       "source2" : "email",
       "source3" : "delivery",
       "source4" : "9",
-      "source5" : "No",
-      "source6" : " "
-    }, {
-      "target" : "No",
-      "source1" : "fulnet",
-      "source2" : "preferredPickupInstitution",
-      "source3" : "delivery",
-      "source4" : "10",
       "source5" : "No",
       "source6" : " "
     } ],

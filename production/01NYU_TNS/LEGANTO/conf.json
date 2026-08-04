@@ -1,4 +1,4 @@
-{"beaconO22":"884",
+{"beaconO22":"852",
   "primo-view" : {
     "available-tabs" : [ "Everything", "LibraryCatalog", "CentralIndex", "Research" ],
     "institution" : {
@@ -2132,7 +2132,7 @@
     "rapido_SA_enabled" : false,
     "use_participating_items_for_non_rapido_requests" : false,
     "rapido_lender_supply_directly_to_patron" : false,
-    "activeAccessModelEnabled" : false,
+    "activeAccessModelEnabled" : true,
     "number_of_representations" : "5",
     "use_facet_in_creator_hyperlink" : true,
     "tmp_enable_results_per_page" : true,
@@ -3284,7 +3284,7 @@
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "enable_similar_image_browse"
     }, {
-      "target" : "false",
+      "target" : "true",
       "source1" : "01NYU_TNS:TNSNDE",
       "source2" : "UseRedirectFromViewSavedSearches"
     }, {
@@ -6997,6 +6997,6 @@
   "discovery_with_external_no_login" : false,
   "limited_patrons_in_alma_starter" : false,
   "IsViewNdeEnabled" : false,
-  "enable_mixpanel" : false,
+  "enable_mixpanel" : true,
   "useNewSuggester" : true
 }
