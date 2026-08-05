@@ -1,4 +1,4 @@
-{"beaconO22":"1750",
+{"beaconO22":"1100",
   "primo-view" : {
     "available-tabs" : [ "Unified_Slot", "CentralIndex", "WorldCat" ],
     "institution" : {
@@ -2087,11 +2087,6 @@
       "source2" : "notNeedAfter",
       "source5" : "false"
     }, {
-      "target" : "Yes",
-      "source1" : "default",
-      "source2" : "chapterArticleTitle",
-      "source5" : "false"
-    }, {
       "target" : "No",
       "source1" : "default",
       "source2" : "termsOfUse",
@@ -2105,6 +2100,11 @@
       "target" : "No",
       "source1" : "default",
       "source2" : "calculateQueueButton",
+      "source5" : "false"
+    }, {
+      "target" : "Yes",
+      "source1" : "default",
+      "source2" : "chapterArticleTitle",
       "source5" : "false"
     }, {
       "target" : "Yes",
@@ -2658,6 +2658,38 @@
       "source1" : "citeproc_engine"
     } ],
     "View Properties" : [ {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "IncludeElectronicAndDigitalResources"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_similar_image_browse"
+    }, {
       "target" : "true",
       "source1" : "01NYU_INST:HIDVL_DEV",
       "source2" : "export_all_records"

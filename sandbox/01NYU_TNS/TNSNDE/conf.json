@@ -1,4 +1,4 @@
-{"beaconO22":"2",
+{"beaconO22":"1",
   "primo-view" : {
     "available-tabs" : [ "Everything", "CourseReserves", "SpecColl" ],
     "institution" : {
@@ -59,7 +59,7 @@
       "collectionDiscoveryEnabled" : true,
       "displayNewspapersLink" : true,
       "displayFeaturedNewspapers" : true,
-      "refEntryActive" : true,
+      "refEntryActive" : false,
       "relatedItemsActive" : true,
       "legantoURLTemplate" : "",
       "multilingualConfigurationEnabled" : false,

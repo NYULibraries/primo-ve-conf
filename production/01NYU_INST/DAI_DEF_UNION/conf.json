@@ -1,4 +1,4 @@
-{"beaconO22":"873",
+{"beaconO22":"1341",
   "primo-view" : {
     "available-tabs" : [ "DiscoveryNetwork_UCV" ],
     "institution" : {
@@ -1764,6 +1764,38 @@
       "source1" : "citeproc_engine"
     } ],
     "View Properties" : [ {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enableDidYouMean"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "IncludeElectronicAndDigitalResources"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "nde_rapido_requests_on_top_mode"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "nde_enable_places_widget"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_ai_insights_links"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_natural_language_search"
+    }, {
+      "target" : "false",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "UseRedirectFromViewSavedSearches"
+    }, {
+      "target" : "true",
+      "source1" : "01NYU_INST:NYU",
+      "source2" : "enable_similar_image_browse"
+    }, {
       "target" : "true",
       "source1" : "01NYU_INST:HIDVL_DEV",
       "source2" : "export_all_records"
