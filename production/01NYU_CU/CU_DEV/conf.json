@@ -1,4 +1,4 @@
-{"beaconO22":"1215",
+{"beaconO22":"1558",
   "primo-view" : {
     "available-tabs" : [ "CentralIndex", "NYUDiscoveryNetwork", "CourseReserves" ],
     "institution" : {
@@ -3209,13 +3209,6 @@
       "source4" : "19",
       "source5" : "No"
     }, {
-      "target" : "No",
-      "source1" : "both",
-      "source2" : "authorInitials",
-      "source3" : "article",
-      "source4" : "4",
-      "source5" : "No"
-    }, {
       "target" : "Yes",
       "source1" : "both",
       "source2" : "articleTitle",
@@ -3235,6 +3228,13 @@
       "source2" : "articleAuthor",
       "source3" : "article",
       "source4" : "3",
+      "source5" : "No"
+    }, {
+      "target" : "No",
+      "source1" : "both",
+      "source2" : "authorInitials",
+      "source3" : "article",
+      "source4" : "4",
       "source5" : "No"
     }, {
       "target" : "No",
@@ -4056,14 +4056,14 @@
       "source2" : "exact",
       "source3" : "ANY"
     }, {
-      "target" : "lds99",
-      "source1" : "any",
-      "source2" : "exact",
-      "source3" : "ANY"
-    }, {
       "target" : "addtitle",
       "source1" : "any",
       "source2" : "contains",
+      "source3" : "ANY"
+    }, {
+      "target" : "lds99",
+      "source1" : "any",
+      "source2" : "exact",
       "source3" : "ANY"
     } ],
     "Authority Search Operators" : [ {
